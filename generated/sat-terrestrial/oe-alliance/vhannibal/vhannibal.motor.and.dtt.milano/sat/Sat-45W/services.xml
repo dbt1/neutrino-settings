@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0c4e0000:0002:0001" name="Sat-45W" namespace="0x0c4e0000" position="-45">
+      <transponder key="0c4e0000:0002:0001" frequency="11605000" symbol_rate="989000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0014" sid="20" name="IS8-18S" type="1" provider="Harmonic" onid="1" tsid="2" namespace="0x0c4e0000" />
+        <service id="0x0015" sid="21" name="IS8-19S" type="1" provider="Harmonic" onid="1" tsid="2" namespace="0x0c4e0000" />
+        <service id="0x0016" sid="22" name="IS8-20S" type="1" provider="Harmonic" onid="1" tsid="2" namespace="0x0c4e0000" />
+        <service id="0x0011" sid="17" name="IS8-3S" type="1" provider="Harmonic" onid="1" tsid="2" namespace="0x0c4e0000" />
+        <service id="0x0012" sid="18" name="IS8-4S" type="1" provider="Harmonic" onid="1" tsid="2" namespace="0x0c4e0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0c4e2d76:0000:0000" name="Sat-45W" namespace="0x0c4e2d76" position="-45">
+      <transponder key="0c4e2d76:0000:0000" frequency="11638000" symbol_rate="5632000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="feeds" type="1" provider="" onid="0" tsid="0" namespace="0x0c4e2d76" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>

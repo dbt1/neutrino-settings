@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0d7a30da:0000:0000" name="Sat-15W" namespace="0x0d7a30da" position="-15">
+      <transponder key="0d7a30da:0000:0000" frequency="12506000" symbol_rate="3198000" polarization="H" fec="5" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="MSNBC feed" type="1" provider="" onid="0" tsid="0" namespace="0x0d7a30da" />
+      </transponder>
+    </satellite>
+    <satellite key="0d7a30e9:0000:0000" name="Sat-15W" namespace="0x0d7a30e9" position="-15">
+      <transponder key="0d7a30e9:0000:0000" frequency="12521000" symbol_rate="3198000" polarization="H" fec="5" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="DAD-5 Fiber TX-12" type="1" provider="NBC SATOPS" onid="0" tsid="0" namespace="0x0d7a30e9" />
+      </transponder>
+    </satellite>
+    <satellite key="0d7a3141:0001:0000" name="Sat-15W" namespace="0x0d7a3141" position="-15">
+      <transponder key="0d7a3141:0001:0000" frequency="12609000" symbol_rate="7552000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x00b5" sid="181" name="Espn 901" type="1" provider="ESPN" onid="0" tsid="1" namespace="0x0d7a3141" />
+        <service id="0x00b6" sid="182" name="Espn 902" type="1" provider="ESPN" onid="0" tsid="1" namespace="0x0d7a3141" />
+      </transponder>
+    </satellite>
+    <satellite key="0d7aacf2:0001:0001" name="Sat-15W" namespace="0x0d7aacf2" position="-15">
+      <transponder key="0d7aacf2:0001:0001" frequency="11506000" symbol_rate="2894000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0014" sid="20" name="EXRN1" type="2" provider="International Datacasting" onid="1" tsid="1" namespace="0x0d7aacf2" radio="1" />
+        <service id="0x0015" sid="21" name="EXRN2" type="2" provider="International Datacasting" onid="1" tsid="1" namespace="0x0d7aacf2" radio="1" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>

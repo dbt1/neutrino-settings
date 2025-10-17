@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0cb70000:0001:04d2" name="Sat-34.5W" namespace="0x0cb70000" position="-34.5">
+      <transponder key="0cb70000:0001:04d2" frequency="11558000" symbol_rate="14325000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x0005" sid="5" name="Canal de las Estrellas" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+        <service id="0x0001" sid="1" name="Clasico TV" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+        <service id="0x0004" sid="4" name="De Pelicula" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+        <service id="0x0002" sid="2" name="Ritmoson" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+        <service id="0x0003" sid="3" name="Telehit" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+        <service id="0x0006" sid="6" name="Telenovelas" type="1" provider="TELEVISA" onid="1234" tsid="1" namespace="0x0cb70000" />
+      </transponder>
+    </satellite>
+    <satellite key="0cb70000:1000:2000" name="Sat-34.5W" namespace="0x0cb70000" position="-34.5">
+      <transponder key="0cb70000:1000:2000" frequency="11543000" symbol_rate="1500000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="CHERIFLA TV" type="1" provider="Harmonic" onid="8192" tsid="4096" namespace="0x0cb70000" />
+      </transponder>
+    </satellite>
+    <satellite key="0cb72ccc:0202:0000" name="Sat-34.5W" namespace="0x0cb72ccc" position="-34.5">
+      <transponder key="0cb72ccc:0202:0000" frequency="11468000" symbol_rate="14974000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="11468H SID 0x01" type="100" provider="DVB-S QPSK 11468H 325.5Â°E" onid="0" tsid="514" namespace="0x0cb72ccc" />
+      </transponder>
+    </satellite>
+    <satellite key="0cb7ad05:0001:0000" name="Sat-34.5W" namespace="0x0cb7ad05" position="-34.5">
+      <transponder key="0cb7ad05:0001:0000" frequency="11525000" symbol_rate="12333000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0008" sid="8" name="ADVANCE TV" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0003" sid="3" name="BALANZA-TV" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0006" sid="6" name="CHERIFLA_TV" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0004" sid="4" name="NIETA TV" type="22" provider="SMTD_MALI" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0001" sid="1" name="ORTM 1" type="22" provider="SMTD-DTH" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0002" sid="2" name="ORTM 2" type="22" provider="SMTD-DTH" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0007" sid="7" name="Service 11-11" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x000a" sid="10" name="Service 11-12 (SD)" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x000b" sid="11" name="Service 11-13 (SD)" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0009" sid="9" name="Service 11-17" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x000c" sid="12" name="Service 11-19 (SD)" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x0005" sid="5" name="TM1" type="22" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" />
+        <service id="0x000f" sid="15" name="CHAINE 2" type="2" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" radio="1" />
+        <service id="0x000e" sid="14" name="RADIO_BKU" type="2" provider="SMTD" onid="0" tsid="1" namespace="0x0cb7ad05" radio="1" />
+        <service id="0x000d" sid="13" name="Service Radio 4" type="2" provider="radio" onid="0" tsid="1" namespace="0x0cb7ad05" radio="1" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>

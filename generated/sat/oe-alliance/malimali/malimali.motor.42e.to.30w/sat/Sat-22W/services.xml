@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0d340000:0325:0007" name="Sat-22W" namespace="0x0d340000" position="-22">
+      <transponder key="0d340000:0325:0007" frequency="11671000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x035a" sid="858" name="Canal+ Cinéma HD" type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x0359" sid="857" name="Canal+ HD" type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x213a" sid="8506" name="Canal+ Sport" type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x035b" sid="859" name="Canal+ Sport HD" type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x085a" sid="2138" name="CANAL+." type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x085b" sid="2139" name="CANAL+.." type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+        <service id="0x213c" sid="8508" name="NOUVEAU SAT" type="25" provider="CanalSat" onid="7" tsid="805" namespace="0x0d340000" />
+      </transponder>
+    </satellite>
+    <satellite key="0d342b78:0001:0001" name="Sat-22W" namespace="0x0d342b78" position="-22">
+      <transponder key="0d342b78:0001:0001" frequency="11128000" symbol_rate="17250000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Reuters World News Service" type="25" provider="Reuters" onid="1" tsid="1" namespace="0x0d342b78" />
+      </transponder>
+    </satellite>
+    <satellite key="0d342d2b:012d:0001" name="Sat-22W" namespace="0x0d342d2b" position="-22">
+      <transponder key="0d342d2b:012d:0001" frequency="11563000" symbol_rate="6110000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x00c9" sid="201" name="CNN Newsource feed" type="1" provider="Feed" onid="1" tsid="301" namespace="0x0d342d2b" />
+      </transponder>
+    </satellite>
+    <satellite key="0d343182:0001:ffff" name="Sat-22W" namespace="0x0d343182" position="-22">
+      <transponder key="0d343182:0001:ffff" frequency="12674000" symbol_rate="20255000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Algerie 3" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+        <service id="0x0002" sid="2" name="Canal Algérie" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+        <service id="0x0004" sid="4" name="ENTV" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+        <service id="0x0003" sid="3" name="TV 6" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+        <service id="0x001a" sid="26" name="TV Coran" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+        <service id="0x001b" sid="27" name="TV Tamazight" type="1" provider="TDA" onid="65535" tsid="1" namespace="0x0d343182" />
+      </transponder>
+    </satellite>
+    <satellite key="0d3431ad:0001:ffff" name="Sat-22W" namespace="0x0d3431ad" position="-22">
+      <transponder key="0d3431ad:0001:ffff" frequency="12717000" symbol_rate="1820000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Al Nabaa" type="25" provider="Unnamed" onid="65535" tsid="1" namespace="0x0d3431ad" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>

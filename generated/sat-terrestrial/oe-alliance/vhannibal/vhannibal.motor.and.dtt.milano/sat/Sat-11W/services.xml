@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0da20000:0001:000a" name="Sat-11W" namespace="0x0da20000" position="-11">
+      <transponder key="0da20000:0001:000a" frequency="11600000" symbol_rate="3600000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Service 1" type="1" provider="Globecast" onid="10" tsid="1" namespace="0x0da20000" />
+      </transponder>
+    </satellite>
+    <satellite key="0da22d32:0000:0000" name="Sat-11W" namespace="0x0da22d32" position="-11">
+      <transponder key="0da22d32:0000:0000" frequency="11570000" symbol_rate="2500000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="RAI" type="1" provider="" onid="0" tsid="0" namespace="0x0da22d32" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>
