@@ -1,0 +1,737 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0dde0000:0001:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0001:20fa" frequency="12733000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x0041" sid="65" name="France 2" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x006e" sid="110" name="France 3" type="1" provider="GR1" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0044" sid="68" name="France 4" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x006a" sid="106" name="franceinfo:" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0001:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0001:217c" frequency="11179000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x03eb" sid="1003" name="Rai 1 HD" type="25" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03ef" sid="1007" name="Rai 4" type="22" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03ec" sid="1004" name="Rai Gulp" type="22" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03ea" sid="1002" name="Rai Movie" type="22" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03ee" sid="1006" name="Rai Premium" type="22" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03e9" sid="1001" name="Rai Sport + HD" type="25" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+        <service id="0x03ed" sid="1005" name="Rai YoYo" type="22" provider="Rai" onid="8572" tsid="1" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0001:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0001:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3" type="1" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="1" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0001:0c6c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0001:0c6c" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Veneto" type="1" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="3180" tsid="1" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0002:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0002:20fa" frequency="12648000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x00cb" sid="203" name="BFM TV" type="25" provider="NTN" onid="8442" tsid="2" namespace="0x0dde0000" />
+        <service id="0x00c9" sid="201" name="C8" type="25" provider="NTN" onid="8442" tsid="2" namespace="0x0dde0000" />
+        <service id="0x00cc" sid="204" name="CNEWS" type="25" provider="NTN" onid="8442" tsid="2" namespace="0x0dde0000" />
+        <service id="0x00cd" sid="205" name="CSTAR" type="25" provider="NTN" onid="8442" tsid="2" namespace="0x0dde0000" />
+        <service id="0x00ce" sid="206" name="Gulli" type="25" provider="NTN" onid="8442" tsid="2" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0002:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0002:217c" frequency="11179000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x041c" sid="1052" name="Rai 2 HD" type="25" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x041b" sid="1051" name="Rai 3 HD" type="25" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x01a5" sid="421" name="Rai 5" type="22" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x041e" sid="1054" name="Rai Scuola" type="22" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x041d" sid="1053" name="Rai Sport" type="22" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x041f" sid="1055" name="Rai Storia" type="22" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+        <service id="0x01a6" sid="422" name="RTV San Marino" type="22" provider="Rai" onid="8572" tsid="2" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0003:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0003:20fa" frequency="12648000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x012d" sid="301" name="CANAL+" type="25" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x030a" sid="778" name="CANAL+" type="25" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x012e" sid="302" name="CANAL+ CINEMA" type="25" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x012f" sid="303" name="CANAL+ SPORT" type="25" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x0086" sid="134" name="LCI" type="22" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x0087" sid="135" name="PARIS PREMIERE" type="22" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+        <service id="0x0082" sid="130" name="PLANETE+" type="25" provider="CNH" onid="8442" tsid="3" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0004:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0004:20fa" frequency="12733000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x01a0" sid="416" name="6ter" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+        <service id="0x00c5" sid="197" name="Arte" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+        <service id="0x01a1" sid="417" name="Arte.Tv" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+        <service id="0x019f" sid="415" name="France 5" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+        <service id="0x00bf" sid="191" name="M6" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+        <service id="0x00c0" sid="192" name="W9" type="25" provider="Multi4" onid="8442" tsid="4" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0006:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0006:20fa" frequency="12733000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x0105" sid="261" name="LCP" type="25" provider="SMR6" onid="8442" tsid="6" namespace="0x0dde0000" />
+        <service id="0x025a" sid="602" name="NRJ12" type="25" provider="SMR6" onid="8442" tsid="6" namespace="0x0dde0000" />
+        <service id="0x0103" sid="259" name="TF1" type="25" provider="SMR6" onid="8442" tsid="6" namespace="0x0dde0000" />
+        <service id="0x0104" sid="260" name="TFX" type="25" provider="SMR6" onid="8442" tsid="6" namespace="0x0dde0000" />
+        <service id="0x025e" sid="606" name="TMC" type="25" provider="SMR6" onid="8442" tsid="6" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0008:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0008:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Lombardia" type="1" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="8" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0009:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0009:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Piemonte" type="1" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="9" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:000a:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:000a:20fa" frequency="12648000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x0a03" sid="2563" name="Chérie 25" type="25" provider="MHD7" onid="8442" tsid="10" namespace="0x0dde0000" />
+        <service id="0x0a02" sid="2562" name="L'Equipe" type="25" provider="MHD7" onid="8442" tsid="10" namespace="0x0dde0000" />
+        <service id="0x0a04" sid="2564" name="RMC Découverte" type="25" provider="MHD7" onid="8442" tsid="10" namespace="0x0dde0000" />
+        <service id="0x0a05" sid="2565" name="RMC STORY" type="25" provider="MHD7" onid="8442" tsid="10" namespace="0x0dde0000" />
+        <service id="0x0a01" sid="2561" name="TF1 Séries Films" type="25" provider="MHD7" onid="8442" tsid="10" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:000d:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:000d:013e" frequency="11179000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Campania" type="1" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="13" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0071:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0071:217c" frequency="11013000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x044d" sid="1101" name="Rai 1" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x044e" sid="1102" name="Rai 2" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01c8" sid="456" name="Rai 3" type="0" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01cb" sid="459" name="Rai 3 TGR Emilia-Romagna" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045c" sid="1116" name="Rai 3 TGR Emilia-Romagna" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01c9" sid="457" name="Rai 3 TGR Lombardia" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045a" sid="1114" name="Rai 3 TGR Lombardia" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01ca" sid="458" name="Rai 3 TGR Piemonte" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045b" sid="1115" name="Rai 3 TGR Piemonte" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x044f" sid="1103" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:007b:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:007b:217c" frequency="11013000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x047f" sid="1151" name="Rai 1" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x01e0" sid="480" name="Rai 2" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x01e8" sid="488" name="Rai 3" type="0" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x048a" sid="1162" name="Rai 3 TGR Alto Adige" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x048d" sid="1165" name="Rai 3 TGR Alto Adige" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x01e9" sid="489" name="Rai 3 TGR Südtirol" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x048c" sid="1164" name="Rai 3 TGR Südtirol" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x048b" sid="1163" name="Rai 3 TGR Trentino" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x048e" sid="1166" name="Rai 3 TGR Trentino" type="1" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+        <service id="0x01e1" sid="481" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="123" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:00ad:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:00ad:217c" frequency="11179000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x00f3" sid="243" name="Rai 1" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x057a" sid="1402" name="Rai 2" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x00f6" sid="246" name="Rai 3" type="0" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x00f8" sid="248" name="Rai 3 Bis" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x024b" sid="587" name="Rai 3 Bis" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x00f7" sid="247" name="Rai 3 TGR FVG" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x024a" sid="586" name="Rai 3 TGR FVG" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x00f9" sid="249" name="Rai 3 TGR Valle D'Aosta" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x024c" sid="588" name="Rai 3 TGR Valle D'Aosta" type="1" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+        <service id="0x057b" sid="1403" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="173" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:00b7:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:00b7:217c" frequency="11013000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x05ab" sid="1451" name="Rai 1" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05ac" sid="1452" name="Rai 2" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b4" sid="1460" name="Rai 3" type="0" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b5" sid="1461" name="Rai 3 TGR Liguria" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b8" sid="1464" name="Rai 3 TGR Liguria" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b6" sid="1462" name="Rai 3 TGR Sardegna" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b9" sid="1465" name="Rai 3 TGR Sardegna" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05b7" sid="1463" name="Rai 3 TGR Toscana" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05ba" sid="1466" name="Rai 3 TGR Toscana" type="1" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+        <service id="0x05ad" sid="1453" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="183" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:0107:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:0107:217c" frequency="12669000" symbol_rate="35500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0bba" sid="3002" name="Arte Italia 124" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bbb" sid="3003" name="Arte Italia 125" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02fb" sid="763" name="Caccia e Pesca" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x008d" sid="141" name="DAZN Channel - Premi Info" type="25" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bb9" sid="3001" name="Italia 121" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bbc" sid="3004" name="Italia 126" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bbd" sid="3005" name="Italia 127" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bbf" sid="3007" name="Italia 134" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0bbe" sid="3006" name="Italia 135" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c1f" sid="3103" name="Italia 136" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c22" sid="3106" name="Italia 143" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c21" sid="3105" name="Italia 148" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c20" sid="3104" name="Italia 154" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c1e" sid="3102" name="Italia 156" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c1d" sid="3101" name="Italia 161" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x0c23" sid="3107" name="Italia 164" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02c7" sid="711" name="LA7" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02d1" sid="721" name="LA7" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02ef" sid="751" name="LA7 HD" type="25" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x013e" sid="318" name="LA7 on demand" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02fa" sid="762" name="LA7 Servizi on demand" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x013d" sid="317" name="LA7 Test" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02f9" sid="761" name="LA7 TEST" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02fc" sid="764" name="LA7 TEST" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02fd" sid="765" name="LA7 TEST" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02c8" sid="712" name="LA7d" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02d2" sid="722" name="LA7d" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+        <service id="0x02f0" sid="752" name="LA7d HD" type="25" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:032a:0110" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:032a:0110" frequency="12585000" symbol_rate="35500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x07d9" sid="2009" name="SPORTITALIA HD" type="25" provider="" onid="272" tsid="810" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:03b6:0110" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:03b6:0110" frequency="12669000" symbol_rate="35500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x141a" sid="5146" name="Sky Sport" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x141b" sid="5147" name="Sky Sport" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x143b" sid="5179" name="Sky Sport 24" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x058b" sid="1419" name="Sky Sport Calcio" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x059f" sid="1439" name="Sky Sport Uno" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x143a" sid="5178" name="Sky Sport Uno HD" type="25" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+        <service id="0x143c" sid="5180" name="Sky Uno" type="1" provider="" onid="272" tsid="950" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:03e8:0001" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:03e8:0001" frequency="11454000" symbol_rate="543000" polarization="H" fec="1" system="0" modulation="0">
+        <service id="0x03e9" sid="1001" name="NOSTALGIE" type="2" provider="NGROUP" onid="1" tsid="1000" namespace="0x0dde0000" radio="1" />
+        <service id="0x03ea" sid="1002" name="NRJ" type="2" provider="NGROUP" onid="1" tsid="1000" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:2711:0090" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:2711:0090" frequency="11480000" symbol_rate="3215000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x042c" sid="1068" name="BFM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c1c" sid="3100" name="Europe1" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x05ee" sid="1518" name="FIP" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x05aa" sid="1450" name="France Culture" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x15e0" sid="5600" name="France Info" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x13ec" sid="5100" name="France Inter" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x14b4" sid="5300" name="France Musique" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x00ca" sid="202" name="FUN" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x16a8" sid="5800" name="Le Mouv'" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x17d4" sid="6100" name="MFM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0156" sid="342" name="Radio Classique" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0ce4" sid="3300" name="RFM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x03ec" sid="1004" name="RMC" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x044c" sid="1100" name="RTL" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x04b0" sid="1200" name="RTL2" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x01f4" sid="500" name="Sec TDF1" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0066" sid="102" name="Sec TDF2" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x02bc" sid="700" name="Sec TDF3" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x1bbc" sid="7100" name="Sud Radio" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0028" sid="40" name="TDF-RDS1" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x00c8" sid="200" name="TDF-RDS2" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x012c" sid="300" name="Tiers-RDS" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x00b4" sid="180" name="TWC-SIRC" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c80" sid="3200" name="Virgin" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:2904:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:2904:055f" frequency="11138000" symbol_rate="29950000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x02d8" sid="728" name="RT FRANCE" type="25" provider="EUTELSAT" onid="1375" tsid="10500" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:32d2:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:32d2:055f" frequency="11472000" symbol_rate="9900000" polarization="H" fec="8" system="0" modulation="0">
+        <service id="0x003c" sid="60" name="RCF" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x003e" sid="62" name="RCF Allier" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a1" sid="161" name="RCF Alpha Rennes" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a6" sid="166" name="RCF Anjou" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a0" sid="160" name="RCF Bordeaux" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a8" sid="168" name="RCF Coeur de Champagne" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00b4" sid="180" name="RCF Contribution" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00b1" sid="177" name="RCF Corrèze" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009f" sid="159" name="RCF Drôme-Ardèche" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009c" sid="156" name="RCF en Berry" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009d" sid="157" name="RCF en Bourgogne" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009e" sid="158" name="RCF Franche-Comté" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a5" sid="165" name="RCF Haute-Loire" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00ac" sid="172" name="RCF Haute-Normandie" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00ab" sid="171" name="RCF Haute-Savoie" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x003f" sid="63" name="RCF Hautes-Alpes" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a3" sid="163" name="RCF Isère" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00b2" sid="178" name="RCF Jerico-Moselle" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00b0" sid="176" name="RCF Limousin" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a4" sid="164" name="RCF Loir et Cher" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a9" sid="169" name="RCF Lyon" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009a" sid="154" name="RCF Orne" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x009b" sid="155" name="RCF Pays d'Aude" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x003d" sid="61" name="RCF Pays de l'Ain" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00af" sid="175" name="RCF Poitou" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a7" sid="167" name="RCF Reims-Ardennes" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00aa" sid="170" name="RCF Savoie" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00a2" sid="162" name="RCF Touraine" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00ad" sid="173" name="RCF Vaucluse" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00ae" sid="174" name="RCF Vendée" type="1" provider="" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00c4" sid="196" name="VEOA-B Occasion" type="1" provider="GLOBECAST" onid="1375" tsid="13010" namespace="0x0dde0000" />
+        <service id="0x00bf" sid="191" name="FIP Region" type="10" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0028" sid="40" name="France Bleu 107.1" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0029" sid="41" name="France Bleu Alsace" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002a" sid="42" name="France Bleu Armorique" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002b" sid="43" name="France Bleu Auxerre" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002c" sid="44" name="France Bleu Azur" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002d" sid="45" name="France Bleu Basse Normandie" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006a" sid="106" name="France Bleu Bearn" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006b" sid="107" name="France Bleu Belfort Montbeliard" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006c" sid="108" name="France Bleu Berry" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006d" sid="109" name="France Bleu Besancon" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006e" sid="110" name="France Bleu Bourgogne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x006f" sid="111" name="France Bleu Breizh Izel" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002e" sid="46" name="France Bleu Champagne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x002f" sid="47" name="France Bleu Cotentin" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0030" sid="48" name="France Bleu Creuse" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0031" sid="49" name="France Bleu Drome Ardeche" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004a" sid="74" name="France Bleu Frequenza Mora" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004b" sid="75" name="France Bleu Gard Lozere" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004c" sid="76" name="France Bleu Gascogne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004d" sid="77" name="France Bleu Gironde" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004e" sid="78" name="France Bleu Haute Normandie" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x004f" sid="79" name="France Bleu Herault" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007a" sid="122" name="France Bleu Isere" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007b" sid="123" name="France Bleu La Rochelle" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007c" sid="124" name="France Bleu Limousin" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007d" sid="125" name="France Bleu Loire Ocean" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007e" sid="126" name="France Bleu Lorraine Nord" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x007f" sid="127" name="France Bleu Maine" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0032" sid="50" name="France Bleu Mayenne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0033" sid="51" name="France Bleu Natio" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0034" sid="52" name="France Bleu Nord" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0035" sid="53" name="France Bleu Orleans" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0036" sid="54" name="France Bleu Pays Basque" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0037" sid="55" name="France Bleu Pays d Auvergne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0038" sid="56" name="France Bleu Pays de Savoie" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x0039" sid="57" name="France Bleu Perigord" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x003a" sid="58" name="France Bleu Picardie" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x003b" sid="59" name="France Bleu Poitou" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008a" sid="138" name="France Bleu Provence" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008b" sid="139" name="France Bleu Roussillon" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008c" sid="140" name="France Bleu Saint Etienne" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008d" sid="141" name="France Bleu Sud Lorraine" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008e" sid="142" name="France Bleu Toulouse" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x008f" sid="143" name="France Bleu Touraine" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x005a" sid="90" name="France Bleu Vaucluse" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x00c2" sid="194" name="Radio Esperance" type="2" provider="TDF" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x00c1" sid="193" name="RF Contrib" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4000:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Liguria" type="1" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="16384" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4800:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Emilia Romagna" type="1" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="18432" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4e84:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4e84:055f" frequency="11471000" symbol_rate="29950000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0bc4" sid="3012" name="BFM TV" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc5" sid="3013" name="C8" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc8" sid="3016" name="CANAL SAV" type="22" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bbd" sid="3005" name="CHERIE 25" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc3" sid="3011" name="CNEWS" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc6" sid="3014" name="CSTAR" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc7" sid="3015" name="GULLI" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bb9" sid="3001" name="L'EQUIPE" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bbc" sid="3004" name="RMC DECOUVERTE" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bbb" sid="3003" name="RMC STORY" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bb8" sid="3000" name="TF1 SERIES FILMS" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0c03" sid="3075" name="CHERIE FM" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c04" sid="3076" name="EUROPE 1" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bfb" sid="3067" name="FIP" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bcc" sid="3020" name="FRANCE BLEU 107.1" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bcd" sid="3021" name="FRANCE BLEU ALSACE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bce" sid="3022" name="FRANCE BLEU ARMORIQUE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bcf" sid="3023" name="FRANCE BLEU AUXERRE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd0" sid="3024" name="FRANCE BLEU AZUR" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd1" sid="3025" name="FRANCE BLEU BASSE NORMANDIE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd2" sid="3026" name="FRANCE BLEU BEARN" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd3" sid="3027" name="FRANCE BLEU BELFORT MONTBELIARD" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd4" sid="3028" name="FRANCE BLEU BERRY" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd5" sid="3029" name="FRANCE BLEU BESANCON" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd6" sid="3030" name="FRANCE BLEU BOURGOGNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd7" sid="3031" name="FRANCE BLEU BREIZH IZEL" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd8" sid="3032" name="FRANCE BLEU CHAMPAGNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bd9" sid="3033" name="FRANCE BLEU COTENTIN" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bda" sid="3034" name="FRANCE BLEU CREUSE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bdb" sid="3035" name="FRANCE BLEU DROME ARDECHE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bdc" sid="3036" name="FRANCE BLEU FREQUENZA MORA" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bdd" sid="3037" name="FRANCE BLEU GARD LOZERE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bde" sid="3038" name="FRANCE BLEU GASCOGNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bdf" sid="3039" name="FRANCE BLEU GIRONDE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be0" sid="3040" name="FRANCE BLEU HAUTE NORMANDIE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be1" sid="3041" name="FRANCE BLEU HERAULT" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be2" sid="3042" name="FRANCE BLEU ISERE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be3" sid="3043" name="FRANCE BLEU LA ROCHELLE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be4" sid="3044" name="FRANCE BLEU LIMOUSIN" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be5" sid="3045" name="FRANCE BLEU LOIRE OCEAN" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be6" sid="3046" name="FRANCE BLEU LORRAINE NORD" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be7" sid="3047" name="FRANCE BLEU MAINE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be8" sid="3048" name="FRANCE BLEU MAYENNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0be9" sid="3049" name="FRANCE BLEU NORD" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bea" sid="3050" name="FRANCE BLEU ORLEANS" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0beb" sid="3051" name="FRANCE BLEU PAYS BASQUE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bec" sid="3052" name="FRANCE BLEU PAYS D'AUVERGNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bed" sid="3053" name="FRANCE BLEU PAYS DE SAVOIE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bee" sid="3054" name="FRANCE BLEU PERIGORD" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bef" sid="3055" name="FRANCE BLEU PICARDIE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf0" sid="3056" name="FRANCE BLEU POITOU" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf1" sid="3057" name="FRANCE BLEU PROVENCE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf2" sid="3058" name="FRANCE BLEU ROUSSILLON" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf3" sid="3059" name="FRANCE BLEU SAINT ETIENNE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf4" sid="3060" name="FRANCE BLEU SUD LORRAINE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf5" sid="3061" name="FRANCE BLEU TOULOUSE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf6" sid="3062" name="FRANCE BLEU TOURAINE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf7" sid="3063" name="FRANCE BLEU VAUCLUSE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf9" sid="3065" name="FRANCE CULTURE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bfc" sid="3068" name="FRANCE INFO" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bf8" sid="3064" name="FRANCE INTER" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bfa" sid="3066" name="FRANCE MUSIQUE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0bfd" sid="3069" name="LE MOUV" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c00" sid="3072" name="NOSTALGIE" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c08" sid="3080" name="NOVA" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c01" sid="3073" name="NRJ" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c07" sid="3079" name="RADIO AFRICA N01" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c06" sid="3078" name="RFM" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c02" sid="3074" name="RIRE ET CHANSONS" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+        <service id="0x0c05" sid="3077" name="VIRGIN RADIO" type="2" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4ee8:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4ee8:055f" frequency="11512000" symbol_rate="29950000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x00cb" sid="203" name="AB 1" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d4" sid="212" name="ACTION" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d0" sid="208" name="ANIMAUX" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00cc" sid="204" name="AUTOMOTO" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d3" sid="211" name="CHASSE ET PECHE" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d7" sid="215" name="CRIME DISTRICT" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d9" sid="217" name="DORCEL TV" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00dc" sid="220" name="EQUIDIA" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00cd" sid="205" name="GOLF CHANNEL" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00ca" sid="202" name="MANGAS" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00c9" sid="201" name="RTL9" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d1" sid="209" name="SCIENCE ET VIE" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00db" sid="219" name="TEVA" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d2" sid="210" name="TOUTE L'HISTOIRE" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00cf" sid="207" name="TREK" type="25" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d6" sid="214" name="TV BREIZH" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00ce" sid="206" name="USHUAIA" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+        <service id="0x00d8" sid="216" name="XXL" type="22" provider="EUTELSAT" onid="1375" tsid="20200" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4f4c:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4f4c:055f" frequency="11554000" symbol_rate="29950000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0054" sid="84" name="CANAL+" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x012d" sid="301" name="FRANCE 2" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x012e" sid="302" name="FRANCE 3" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x012f" sid="303" name="FRANCE 4" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x0053" sid="83" name="FRANCEINFO:" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x008e" sid="142" name="FRANSAT INFO" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x008b" sid="139" name="FRANSAT ULTRA HD DEMO" type="31" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+        <service id="0x0055" sid="85" name="LCI" type="25" provider="EUTELSAT" onid="1375" tsid="20300" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:4fb0:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:4fb0:055f" frequency="11096000" symbol_rate="29950000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x01a6" sid="422" name="6TER" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x00c2" sid="194" name="ARTE" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a3" sid="419" name="FRANCE 5" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01ab" sid="427" name="KTO" type="22" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a9" sid="425" name="LCP" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x00c1" sid="193" name="M6" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x0191" sid="401" name="NOUVELLE AQUITAINE" type="1" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a1" sid="417" name="NRJ12" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x00bf" sid="191" name="TF1" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a8" sid="424" name="TFX" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a7" sid="423" name="TMC" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01aa" sid="426" name="VIAVOSGES" type="22" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+        <service id="0x01a5" sid="421" name="W9" type="25" provider="EUTELSAT" onid="1375" tsid="20400" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:5000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:5000:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Toscana" type="1" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="20480" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:5014:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:5014:055f" frequency="11054000" symbol_rate="29950000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x01f6" sid="502" name="ETB1" type="22" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x01f7" sid="503" name="ETB3" type="22" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03e9" sid="1001" name="FRANCE 3 AMIENS" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03f0" sid="1008" name="FRANCE 3 LILLE" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03f5" sid="1013" name="FRANCE 3 NANCY" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03f7" sid="1015" name="FRANCE 3 NICE" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03fa" sid="1018" name="FRANCE 3 POITIERS" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03fb" sid="1019" name="FRANCE 3 REIMS" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03fe" sid="1022" name="FRANCE 3 STRASBOURG" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x03ff" sid="1023" name="FRANCE 3 TOULOUSE" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+        <service id="0x0190" sid="400" name="FRANCE 3 VIA STELLA" type="1" provider="EUTELSAT" onid="1375" tsid="20500" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:5078:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:5078:055f" frequency="10972000" symbol_rate="29950000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x03eb" sid="1003" name="FRANCE 3 BORDEAUX" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03ed" sid="1005" name="FRANCE 3 CLERMONT-FERRAND" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03ef" sid="1007" name="FRANCE 3 GRENOBLE" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03f1" sid="1009" name="FRANCE 3 LIMOGES" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03f2" sid="1010" name="FRANCE 3 LYON" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03f3" sid="1011" name="FRANCE 3 MARSEILLE" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03f4" sid="1012" name="FRANCE 3 MONTPELLIER" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03f6" sid="1014" name="FRANCE 3 NANTES" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x03fc" sid="1020" name="FRANCE 3 RENNES" type="1" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+        <service id="0x0067" sid="103" name="TV5 MONDE FBS" type="25" provider="EUTELSAT" onid="1375" tsid="20600" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:5140:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:5140:055f" frequency="11679000" symbol_rate="29950000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0090" sid="144" name="ARTE.TV" type="25" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x0003" sid="3" name="FRANCE 3" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03ea" sid="1002" name="FRANCE 3 BESANCON" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03ec" sid="1004" name="FRANCE 3 CAEN" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03ee" sid="1006" name="FRANCE 3 DIJON" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03f8" sid="1016" name="FRANCE 3 ORLEANS" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03f9" sid="1017" name="FRANCE 3 PARIS" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x03fd" sid="1021" name="FRANCE 3 ROUEN" type="1" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x008e" sid="142" name="GUIDE DES PROGRAMMES" type="25" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x008d" sid="141" name="OPSIS TV - DOCS TV" type="25" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x008c" sid="140" name="RMC SPORT 1 UHD" type="31" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x0091" sid="145" name="RT FRANCE" type="25" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+        <service id="0x008f" sid="143" name="SALTO" type="25" provider="EUTELSAT" onid="1375" tsid="20800" namespace="0x0dde0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:5800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:5800:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Umbria" type="1" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="22528" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:6000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:6000:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Marche" type="1" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="24576" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:6800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:6800:013e" frequency="11637000" symbol_rate="30000000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Lazio" type="1" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d54" sid="3412" name="Rete Oro" type="22" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="26624" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:7000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:7000:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Abruzzo" type="1" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="28672" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:7800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:7800:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Molise" type="1" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="30720" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:8800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:8800:013e" frequency="11016000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Puglia" type="1" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="34816" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:9000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:9000:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Basilicata" type="1" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="36864" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:9000:0c6c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:9000:0c6c" frequency="11016000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Basilicata" type="1" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="3180" tsid="36864" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:9800:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:9800:013e" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Calabria" type="1" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="38912" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:a000:013e" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:a000:013e" frequency="11016000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Sicilia" type="1" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="318" tsid="40960" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde0000:ae60:0c6c" name="Sat-5W" namespace="0x0dde0000" position="-5">
+      <transponder key="0dde0000:ae60:0c6c" frequency="11676000" symbol_rate="35300000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0d49" sid="3401" name="Rai 1" type="1" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" />
+        <service id="0x0d4a" sid="3402" name="Rai 2" type="1" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" />
+        <service id="0x0d4b" sid="3403" name="Rai 3 TGR Veneto" type="1" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" />
+        <service id="0x0d53" sid="3411" name="Rai News 24" type="1" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" />
+        <service id="0x0d52" sid="3410" name="Test HEVC main10" type="31" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" />
+        <service id="0x0d4c" sid="3404" name="Rai Radio1" type="2" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4d" sid="3405" name="Rai Radio2" type="2" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" radio="1" />
+        <service id="0x0d4e" sid="3406" name="Rai Radio3" type="2" provider="Rai" onid="3180" tsid="44640" namespace="0x0dde0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde2cc0:0000:0000" name="Sat-5W" namespace="0x0dde2cc0" position="-5">
+      <transponder key="0dde2cc0:0000:0000" frequency="11456000" symbol_rate="2400000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x07d2" sid="2002" name="NOST IDF" type="2" provider="TWC" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
+        <service id="0x07d1" sid="2001" name="NRJ IDF" type="2" provider="TWC" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
+        <service id="0x03e9" sid="1001" name="SKYROCK-SAT" type="2" provider="SKYROCK" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde2cc5:0000:0000" name="Sat-5W" namespace="0x0dde2cc5" position="-5">
+      <transponder key="0dde2cc5:0000:0000" frequency="11461000" symbol_rate="5780000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x000c" sid="12" name="CHERIE FM" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x001e" sid="30" name="DAB_M1_M2" type="2" provider="towerCast_G" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x000e" sid="14" name="NOSTALGIE" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x000a" sid="10" name="NOSTALGIE IDF" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x000b" sid="11" name="NRJ" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x000f" sid="15" name="NRJ IDF" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x000d" sid="13" name="RIRE ET CHANSONS" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+        <service id="0x03e9" sid="1001" name="SKYROCK-SAT" type="2" provider="SKYROCK" onid="0" tsid="0" namespace="0x0dde2cc5" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dde2cc9:0001:0001" name="Sat-5W" namespace="0x0dde2cc9" position="-5">
+      <transponder key="0dde2cc9:0001:0001" frequency="11465000" symbol_rate="667000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x03e8" sid="1000" name="ALOUETTE" type="2" provider="" onid="1" tsid="1" namespace="0x0dde2cc9" radio="1" />
+        <service id="0x056c" sid="1388" name="ALOUETTE - DAB" type="2" provider="" onid="1" tsid="1" namespace="0x0dde2cc9" radio="1" />
+        <service id="0x0fa0" sid="4000" name="GRAFFIC" type="2" provider="" onid="1" tsid="1" namespace="0x0dde2cc9" radio="1" />
+        <service id="0x07d0" sid="2000" name="MAGIC LIMOGES" type="2" provider="" onid="1" tsid="1" namespace="0x0dde2cc9" radio="1" />
+        <service id="0x0bb8" sid="3000" name="TEMPO" type="2" provider="" onid="1" tsid="1" namespace="0x0dde2cc9" radio="1" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>

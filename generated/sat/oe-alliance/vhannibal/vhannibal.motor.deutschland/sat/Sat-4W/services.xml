@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapit api="4">
+  <satellites>
+    <satellite key="0de82bc6:0001:ffff" name="Sat-4W" namespace="0x0de82bc6" position="-4">
+      <transponder key="0de82bc6:0001:ffff" frequency="11206000" symbol_rate="3333000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Romania TV" type="1" provider="Romania TV" onid="65535" tsid="1" namespace="0x0de82bc6" />
+      </transponder>
+    </satellite>
+    <satellite key="0de82c28:0001:0001" name="Sat-4W" namespace="0x0de82c28" position="-4">
+      <transponder key="0de82c28:0001:0001" frequency="11304000" symbol_rate="8888000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0009" sid="9" name="DaVinci" type="25" provider="GlobeCast / AH / HDT" onid="1" tsid="1" namespace="0x0de82c28" />
+        <service id="0x0002" sid="2" name="hirTV" type="1" provider="hirTV / AH / HDT" onid="1" tsid="1" namespace="0x0de82c28" />
+        <service id="0x000a" sid="10" name="hirFM" type="2" provider="hirFM / AH / HDT" onid="1" tsid="1" namespace="0x0de82c28" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0de82c56:0066:ff22" name="Sat-4W" namespace="0x0de82c56" position="-4">
+      <transponder key="0de82c56:0066:ff22" frequency="11350000" symbol_rate="17333000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Tippmix élő 1" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0002" sid="2" name="Tippmix élő 2" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0003" sid="3" name="Tippmix élő 3" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0004" sid="4" name="Tippmix élő 4" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0005" sid="5" name="Tippmix élő 5" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0006" sid="6" name="Tippmix élő 6" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+        <service id="0x0007" sid="7" name="Tippmix élő 7" type="25" provider="HDT" onid="65314" tsid="102" namespace="0x0de82c56" />
+      </transponder>
+    </satellite>
+  </satellites>
+</zapit>
