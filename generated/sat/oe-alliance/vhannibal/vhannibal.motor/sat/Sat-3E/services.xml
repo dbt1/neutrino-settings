@@ -4,6 +4,7 @@
     <satellite key="001e0000:0101:0627" name="Sat-3E" namespace="0x001e0000" position="3">
       <transponder key="001e0000:0101:0627" frequency="11305000" symbol_rate="10000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0148" sid="328" name="AFRIQUEMEDIA1" type="1" provider="TV PLUS" onid="1575" tsid="257" namespace="0x001e0000" />
+        <service id="0x080d" sid="2061" name="CAM10_TELEVISION" type="1" provider="TV PLUS" onid="1575" tsid="257" namespace="0x001e0000" />
         <service id="0x080c" sid="2060" name="INFO LEBRE" type="1" provider="TV PLUS" onid="1575" tsid="257" namespace="0x001e0000" />
         <service id="0x080b" sid="2059" name="SUD FM TV" type="1" provider="TV PLUS" onid="1575" tsid="257" namespace="0x001e0000" />
         <service id="0x080a" sid="2058" name="Radio SIRIRI" type="2" provider="TV PLUS" onid="1575" tsid="257" namespace="0x001e0000" radio="1" />
@@ -15,11 +16,9 @@
         <service id="0x0001" sid="1" name="M24 MAROC" type="1" provider="Harmonic" onid="8192" tsid="4096" namespace="0x001e0000" />
       </transponder>
     </satellite>
-    <satellite key="001e2a76:0008:0000" name="Sat-3E" namespace="0x001e2a76" position="3">
-      <transponder key="001e2a76:0008:0000" frequency="10870000" symbol_rate="5000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x000a" sid="10" name="ForYou Tv" type="1" provider="" onid="0" tsid="8" namespace="0x001e2a76" />
-        <service id="0x001e" sid="30" name="Revealing Jesus Tv" type="1" provider="" onid="0" tsid="8" namespace="0x001e2a76" />
-        <service id="0x0003" sid="3" name="Sun+ Tv" type="1" provider="" onid="0" tsid="8" namespace="0x001e2a76" />
+    <satellite key="001e2a76:0001:0001" name="Sat-3E" namespace="0x001e2a76" position="3">
+      <transponder key="001e2a76:0001:0001" frequency="10870000" symbol_rate="5000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0011" sid="17" name="CAM 10 TV" type="1" provider="FFmpeg" onid="1" tsid="1" namespace="0x001e2a76" />
       </transponder>
     </satellite>
     <satellite key="001e2d88:0001:0001" name="Sat-3E" namespace="0x001e2d88" position="3">

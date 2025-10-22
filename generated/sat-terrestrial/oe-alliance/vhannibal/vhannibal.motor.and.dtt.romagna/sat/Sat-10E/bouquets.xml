@@ -39,8 +39,10 @@
     <channel service_ref="1:0:22:08aa:0001:0010:00640000:0:0:0:" name="8728 Quadrille Data" service_name="8728 Quadrille Data" provider="BFBS" sid="2218" onid="16" tsid="1" />
     <channel service_ref="1:0:12:03e8:0001:0010:00640000:0:0:0:" name="99(DATA)" service_name="99(DATA)" provider="BFBS" sid="1000" onid="16" tsid="1" />
     <channel service_ref="1:0:25:9c44:7850:010e:00640000:0:0:0:" name="AFP2 EU" service_name="AFP2 EU" provider="EBU" sid="40004" onid="270" tsid="30800" />
+    <channel service_ref="1:0:25:0001:0000:0000:00642c15:0:0:0:" name="BAYG-FEED 7" service_name="BAYG-FEED 7" provider="Bahrain TV" sid="1" onid="0" tsid="0" />
+    <channel service_ref="1:0:1:0001:0001:ffff:00642c1d:0:0:0:" name="BAYG-FEED-3-M" service_name="BAYG-FEED-3-M" provider="Service Provider" sid="1" onid="65535" tsid="1" />
+    <channel service_ref="1:0:1:0002:0001:ffff:00642c1d:0:0:0:" name="BAYG-FEED-4-M" service_name="BAYG-FEED-4-M" provider="Service Provider" sid="2" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:9c41:7850:010e:00640000:0:0:0:" name="IPE" service_name="IPE" provider="MAINDATA" sid="40001" onid="270" tsid="30800" />
-    <channel service_ref="1:0:1:0001:1000:2000:00640000:0:0:0:" name="ortc" service_name="ortc" provider="Harmonic" sid="1" onid="8192" tsid="4096" />
     <channel service_ref="1:0:12:213c:0001:0010:00640000:0:0:0:" name="Program 8" service_name="Program 8" provider="BFBS" sid="8508" onid="16" tsid="1" />
     <channel service_ref="1:0:12:21fd:0001:0010:00640000:0:0:0:" name="Salisbury EDI B" service_name="Salisbury EDI B" provider="BFBS" sid="8701" onid="16" tsid="1" />
     <channel service_ref="1:0:1:045f:0001:0001:0064b1c0:0:0:0:" name="ZAP VIVA INTERNACIONAL" service_name="ZAP VIVA INTERNACIONAL" provider="ZAP VIVA - PROD" sid="1119" onid="1" tsid="1" />
@@ -58,12 +60,16 @@
   </bouquet>
   <bouquet name="ARD/ZDF" category="tv">
     <channel service_ref="1:0:12:035a:0001:0010:00640000:0:0:0:" name="2 Brize Norton" service_name="2 Brize Norton" provider="BFBS" sid="858" onid="16" tsid="1" />
+    <channel service_ref="1:0:25:0001:0000:0000:00642c15:0:0:0:" name="BAYG-FEED 7" service_name="BAYG-FEED 7" provider="Bahrain TV" sid="1" onid="0" tsid="0" />
   </bouquet>
   <bouquet name="BBC" category="tv">
     <channel service_ref="1:0:22:1f41:0001:0010:00640000:0:0:0:" name="01 BBC One" service_name="01 BBC One" provider="BFBS" sid="8001" onid="16" tsid="1" />
     <channel service_ref="1:0:22:1f42:0001:0010:00640000:0:0:0:" name="02 BBC Two" service_name="02 BBC Two" provider="BFBS" sid="8002" onid="16" tsid="1" />
     <channel service_ref="1:0:22:1f4b:0001:0010:00640000:0:0:0:" name="08 BBC One Delay" service_name="08 BBC One Delay" provider="BFBS" sid="8011" onid="16" tsid="1" />
     <channel service_ref="1:0:22:1f4c:0001:0010:00640000:0:0:0:" name="09 BBC Two Delay" service_name="09 BBC Two Delay" provider="BFBS" sid="8012" onid="16" tsid="1" />
+  </bouquet>
+  <bouquet name="RAI" category="tv">
+    <channel service_ref="1:0:25:0001:0000:0000:00642c15:0:0:0:" name="BAYG-FEED 7" service_name="BAYG-FEED 7" provider="Bahrain TV" sid="1" onid="0" tsid="0" />
   </bouquet>
   <bouquet name="Switzerland" category="tv">
     <channel service_ref="1:0:22:1f43:0001:0010:00640000:0:0:0:" name="03 ITV" service_name="03 ITV" provider="BFBS" sid="8003" onid="16" tsid="1" />
@@ -80,6 +86,7 @@
     <channel service_ref="1:0:22:1f52:0001:0010:00640000:0:0:0:" name="15 Kantipur TV" service_name="15 Kantipur TV" provider="BFBS" sid="8018" onid="16" tsid="1" />
     <channel service_ref="1:0:12:035b:0001:0010:00640000:0:0:0:" name="3 Bulford" service_name="3 Bulford" provider="BFBS" sid="859" onid="16" tsid="1" />
     <channel service_ref="1:0:12:085b:0001:0010:00640000:0:0:0:" name="5 Colchester" service_name="5 Colchester" provider="BFBS" sid="2139" onid="16" tsid="1" />
+    <channel service_ref="1:0:1:0001:0001:ffff:00642c1d:0:0:0:" name="BAYG-FEED-3-M" service_name="BAYG-FEED-3-M" provider="Service Provider" sid="1" onid="65535" tsid="1" />
   </bouquet>
   <bouquet name="Others" category="tv">
     <channel service_ref="1:0:22:1f49:0001:0010:00640000:0:0:0:" name="04 Channel 4" service_name="04 Channel 4" provider="BFBS" sid="8009" onid="16" tsid="1" />
@@ -97,8 +104,8 @@
     <channel service_ref="1:0:22:08aa:0001:0010:00640000:0:0:0:" name="8728 Quadrille Data" service_name="8728 Quadrille Data" provider="BFBS" sid="2218" onid="16" tsid="1" />
     <channel service_ref="1:0:12:03e8:0001:0010:00640000:0:0:0:" name="99(DATA)" service_name="99(DATA)" provider="BFBS" sid="1000" onid="16" tsid="1" />
     <channel service_ref="1:0:25:9c44:7850:010e:00640000:0:0:0:" name="AFP2 EU" service_name="AFP2 EU" provider="EBU" sid="40004" onid="270" tsid="30800" />
+    <channel service_ref="1:0:1:0002:0001:ffff:00642c1d:0:0:0:" name="BAYG-FEED-4-M" service_name="BAYG-FEED-4-M" provider="Service Provider" sid="2" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:9c41:7850:010e:00640000:0:0:0:" name="IPE" service_name="IPE" provider="MAINDATA" sid="40001" onid="270" tsid="30800" />
-    <channel service_ref="1:0:1:0001:1000:2000:00640000:0:0:0:" name="ortc" service_name="ortc" provider="Harmonic" sid="1" onid="8192" tsid="4096" />
     <channel service_ref="1:0:12:213c:0001:0010:00640000:0:0:0:" name="Program 8" service_name="Program 8" provider="BFBS" sid="8508" onid="16" tsid="1" />
     <channel service_ref="1:0:12:21fd:0001:0010:00640000:0:0:0:" name="Salisbury EDI B" service_name="Salisbury EDI B" provider="BFBS" sid="8701" onid="16" tsid="1" />
   </bouquet>
