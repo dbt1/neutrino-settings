@@ -18,9 +18,9 @@
       <transponder key="01860000:0001:212c" frequency="12241000" symbol_rate="13381000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0006" sid="6" name="BBC World" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
         <service id="0x0003" sid="3" name="ERT 1." type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
-        <service id="0x0001" sid="1" name="ERT 2 HD" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
         <service id="0x0002" sid="2" name="ERT 3 HD" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
         <service id="0x0007" sid="7" name="ERT News" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
+        <service id="0x0001" sid="1" name="ERT2 SPORT HD" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
         <service id="0x0004" sid="4" name="RIK" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
         <service id="0x0005" sid="5" name="TV5 Europe" type="1" provider="ERT" onid="8492" tsid="1" namespace="0x01860000" />
       </transponder>
@@ -649,14 +649,14 @@
         <service id="0x02c5" sid="709" name="Trinitas TV HD" type="25" provider="" onid="167" tsid="5228" namespace="0x01860000" />
       </transponder>
     </satellite>
-    <satellite key="01862cf7:0001:ffff" name="Sat-39E" namespace="0x01862cf7" position="39">
-      <transponder key="01862cf7:0001:ffff" frequency="11511000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01862cf7" />
+    <satellite key="01862cd0:0000:0001" name="Sat-39E" namespace="0x01862cd0" position="39">
+      <transponder key="01862cd0:0000:0001" frequency="11472000" symbol_rate="2000000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Alsumaria TV" type="25" provider="Alsumaria TV" onid="1" tsid="0" namespace="0x01862cd0" />
       </transponder>
     </satellite>
-    <satellite key="01862cfa:0000:0001" name="Sat-39E" namespace="0x01862cfa" position="39">
-      <transponder key="01862cfa:0000:0001" frequency="11514000" symbol_rate="2141000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Alsumaria TV" type="25" provider="Alsumaria TV" onid="1" tsid="0" namespace="0x01862cfa" />
+    <satellite key="01862cf6:0001:ffff" name="Sat-39E" namespace="0x01862cf6" position="39">
+      <transponder key="01862cf6:0001:ffff" frequency="11510000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01862cf6" />
       </transponder>
     </satellite>
     <satellite key="01862cfc:0000:0000" name="Sat-39E" namespace="0x01862cfc" position="39">
@@ -720,15 +720,6 @@
     <satellite key="0186acf1:0000:0000" name="Sat-39E" namespace="0x0186acf1" position="39">
       <transponder key="0186acf1:0000:0000" frequency="11505000" symbol_rate="3500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0a93" sid="2707" name="Alfa Fann" type="1" provider="" onid="0" tsid="0" namespace="0x0186acf1" />
-      </transponder>
-    </satellite>
-    <satellite key="0186b09c:0000:0000" name="Sat-39E" namespace="0x0186b09c" position="39">
-      <transponder key="0186b09c:0000:0000" frequency="12444000" symbol_rate="28333000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x002d" sid="45" name="LiveSports Channel" type="1" provider="" onid="0" tsid="0" namespace="0x0186b09c" />
-        <service id="0x002c" sid="44" name="Racing Channel" type="1" provider="" onid="0" tsid="0" namespace="0x0186b09c" />
-        <service id="0x0029" sid="41" name="Virtual Games1" type="1" provider="" onid="0" tsid="0" namespace="0x0186b09c" />
-        <service id="0x002a" sid="42" name="Virtual Games2" type="1" provider="" onid="0" tsid="0" namespace="0x0186b09c" />
-        <service id="0x006a" sid="106" name="Virtual Games3" type="1" provider="" onid="0" tsid="0" namespace="0x0186b09c" />
       </transponder>
     </satellite>
   </satellites>

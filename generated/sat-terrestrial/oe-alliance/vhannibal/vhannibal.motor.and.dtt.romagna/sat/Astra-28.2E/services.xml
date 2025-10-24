@@ -74,9 +74,9 @@
     </satellite>
     <satellite key="011a0000:07e1:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e1:0002" frequency="12032000" symbol_rate="29500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0xcd0e" sid="52494" name="52494" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
-        <service id="0xcd0f" sid="52495" name="52495" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xccb5" sid="52405" name="Animal Plnt+1" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
+        <service id="0xcd0e" sid="52494" name="Boomerang" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
+        <service id="0xcd0f" sid="52495" name="Boomerang+1" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xcd0b" sid="52491" name="Cartoon Netwrk" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xcd0c" sid="52492" name="Cartoonito" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xcd0d" sid="52493" name="CN+1" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
@@ -171,7 +171,6 @@
     </satellite>
     <satellite key="011a0000:07e7:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e7:0002" frequency="12148000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x18a2" sid="6306" name="6306" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ced" sid="7405" name="7405" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x160d" sid="5645" name="BabyTV" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c22" sid="7202" name="Challenge" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -198,6 +197,7 @@
         <service id="0x057f" sid="1407" name="SkyDocumntrs" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x075d" sid="1885" name="SkyShowcase+1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x051b" sid="1307" name="SkySp F1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x18a2" sid="6306" name="SkySp F1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x0f13" sid="3859" name="SkySp+" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x16cf" sid="5839" name="SkySp+" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ad8" sid="6872" name="Together" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -556,6 +556,8 @@
     </satellite>
     <satellite key="011a0000:082f:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:082f:0002" frequency="11553000" symbol_rate="23000000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0xd743" sid="55107" name="55107" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd748" sid="55112" name="55112" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd766" sid="55142" name="CHSTV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd791" sid="55185" name="Deen TV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd754" sid="55124" name="Gems TV HD" type="25" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
@@ -738,8 +740,6 @@
     </satellite>
     <satellite key="011a0000:083b:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:083b:0002" frequency="11264000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x1c30" sid="7216" name="Boomerang" type="1" provider="BSkyB" onid="2" tsid="2107" namespace="0x011a0000" />
-        <service id="0x1c31" sid="7217" name="Boomerang+1" type="1" provider="BSkyB" onid="2" tsid="2107" namespace="0x011a0000" />
         <service id="0x1c33" sid="7219" name="Channel 4+1" type="1" provider="BSkyB" onid="2" tsid="2107" namespace="0x011a0000" />
         <service id="0x1c34" sid="7220" name="E4" type="1" provider="BSkyB" onid="2" tsid="2107" namespace="0x011a0000" />
         <service id="0x1c37" sid="7223" name="E4 Extra" type="1" provider="BSkyB" onid="2" tsid="2107" namespace="0x011a0000" />

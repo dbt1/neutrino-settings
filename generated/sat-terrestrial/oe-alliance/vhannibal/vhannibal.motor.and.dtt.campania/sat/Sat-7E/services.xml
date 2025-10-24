@@ -1,11 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit api="4">
   <satellites>
-    <satellite key="00460000:00a0:00eb" name="Sat-7E" namespace="0x00460000" position="7">
-      <transponder key="00460000:00a0:00eb" frequency="10988000" symbol_rate="8022000" polarization="H" fec="0" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ROU 038 M09 MAIN" type="1" provider="Eurovision" onid="235" tsid="160" namespace="0x00460000" />
-      </transponder>
-    </satellite>
     <satellite key="00460000:0a12:007e" name="Sat-7E" namespace="0x00460000" position="7">
       <transponder key="00460000:0a12:007e" frequency="10722000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x36b1" sid="14001" name="IRANEFARDA" type="1" provider="ABS" onid="126" tsid="2578" namespace="0x00460000" />
@@ -27,14 +22,13 @@
       <transponder key="00460000:4e20:0064" frequency="10721000" symbol_rate="22000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x232a" sid="9002" name="Kanal Yek HD" type="1" provider="" onid="100" tsid="20000" namespace="0x00460000" />
         <service id="0x091a" sid="2330" name="Kanal Yek SD" type="1" provider="" onid="100" tsid="20000" namespace="0x00460000" />
-        <service id="0x1cbb" sid="7355" name="Manoto SD" type="1" provider="Manoto" onid="100" tsid="20000" namespace="0x00460000" />
         <service id="0x232e" sid="9006" name="PARS TV" type="1" provider="" onid="100" tsid="20000" namespace="0x00460000" />
       </transponder>
     </satellite>
     <satellite key="00460000:765c:007e" name="Sat-7E" namespace="0x00460000" position="7">
       <transponder key="00460000:765c:007e" frequency="11304000" symbol_rate="29700000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x020b" sid="523" name="ATRINA TV" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
-        <service id="0x01fe" sid="510" name="AVA Max1 HD" type="1" provider="GMN" onid="126" tsid="30300" namespace="0x00460000" />
+        <service id="0x01fe" sid="510" name="AVA Max1 HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00cf" sid="207" name="FX HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00c8" sid="200" name="Home+ HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x020c" sid="524" name="Iran International" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
@@ -45,41 +39,26 @@
         <service id="0x00cb" sid="203" name="Persiana HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00d1" sid="209" name="Persiana Plus One" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x020a" sid="522" name="Persiana Travel" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
-        <service id="0x00ca" sid="202" name="Radio Javan HD" type="1" provider="GMN" onid="126" tsid="30300" namespace="0x00460000" />
+        <service id="0x00ca" sid="202" name="Radio Javan HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00cc" sid="204" name="Simaye Azadi HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
       </transponder>
     </satellite>
     <satellite key="00460000:9fc4:007e" name="Sat-7E" namespace="0x00460000" position="7">
       <transponder key="00460000:9fc4:007e" frequency="11387000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x012f" sid="303" name="4U TV HD" type="1" provider="GMN" onid="126" tsid="40900" namespace="0x00460000" />
-        <service id="0x0134" sid="308" name="ITN HD" type="1" provider="GMN" onid="126" tsid="40900" namespace="0x00460000" />
-        <service id="0x0132" sid="306" name="Kanal Jadid HD" type="1" provider="GMN" onid="126" tsid="40900" namespace="0x00460000" />
+        <service id="0x012f" sid="303" name="4U TV HD" type="1" provider="" onid="126" tsid="40900" namespace="0x00460000" />
+        <service id="0x0134" sid="308" name="ITN HD" type="1" provider="" onid="126" tsid="40900" namespace="0x00460000" />
+        <service id="0x0132" sid="306" name="Kanal Jadid HD" type="1" provider="" onid="126" tsid="40900" namespace="0x00460000" />
         <service id="0x076d" sid="1901" name="MBC Persia HD" type="25" provider="MBC" onid="126" tsid="40900" namespace="0x00460000" />
       </transponder>
     </satellite>
-    <satellite key="00462ada:0001:ff00" name="Sat-7E" namespace="0x00462ada" position="7">
-      <transponder key="00462ada:0001:ff00" frequency="10970000" symbol_rate="8022000" polarization="H" fec="0" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="CZE-012 - 1" type="31" provider="" onid="65280" tsid="1" namespace="0x00462ada" />
-      </transponder>
-    </satellite>
-    <satellite key="00462af6:0000:0000" name="Sat-7E" namespace="0x00462af6" position="7">
-      <transponder key="00462af6:0000:0000" frequency="10998000" symbol_rate="9875000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="EST-004 M22 Main" type="25" provider="WorldFeed OU" onid="0" tsid="0" namespace="0x00462af6" />
-      </transponder>
-    </satellite>
-    <satellite key="00462b25:0000:0000" name="Sat-7E" namespace="0x00462b25" position="7">
-      <transponder key="00462b25:0000:0000" frequency="11045000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11045H SID 0x01" type="1" provider="DVB-S2 8PSK 11045H 7.0Â°E" onid="0" tsid="0" namespace="0x00462b25" />
+    <satellite key="00462b25:0000:0001" name="Sat-7E" namespace="0x00462b25" position="7">
+      <transponder key="00462b25:0000:0001" frequency="11045000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="ZZGVA1 ENC1" type="25" provider="EBU Eurovision" onid="1" tsid="0" namespace="0x00462b25" />
       </transponder>
     </satellite>
     <satellite key="00462b2f:0000:0000" name="Sat-7E" namespace="0x00462b2f" position="7">
       <transponder key="00462b2f:0000:0000" frequency="11055000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="ZZGVA1 ENC3" type="25" provider="EBU Eurovision" onid="0" tsid="0" namespace="0x00462b2f" />
-      </transponder>
-    </satellite>
-    <satellite key="00462bb7:0001:ffff" name="Sat-7E" namespace="0x00462bb7" position="7">
-      <transponder key="00462bb7:0001:ffff" frequency="11191000" symbol_rate="7200000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="TBS ADHOC ENC 1" type="1" provider="Telstra Broadcast Services" onid="65535" tsid="1" namespace="0x00462bb7" />
       </transponder>
     </satellite>
     <satellite key="00462bfe:0000:0000" name="Sat-7E" namespace="0x00462bfe" position="7">
@@ -114,16 +93,6 @@
         <service id="0x0005" sid="5" name="NHL Service-5" type="1" provider="Telstra" onid="65535" tsid="1" namespace="0x0046aa0a" />
       </transponder>
     </satellite>
-    <satellite key="0046ab2d:0000:0001" name="Sat-7E" namespace="0x0046ab2d" position="7">
-      <transponder key="0046ab2d:0000:0001" frequency="11053000" symbol_rate="8022000" polarization="V" fec="0" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="BUL006 UEL M11 Main" type="31" provider="TV1" onid="1" tsid="0" namespace="0x0046ab2d" />
-      </transponder>
-    </satellite>
-    <satellite key="0046ab9d:0001:ffff" name="Sat-7E" namespace="0x0046ab9d" position="7">
-      <transponder key="0046ab9d:0001:ffff" frequency="11165000" symbol_rate="7500000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ENC1 S9 MPEG4 HD" type="1" provider="EITOWERS" onid="65535" tsid="1" namespace="0x0046ab9d" />
-      </transponder>
-    </satellite>
     <satellite key="0046ad28:0001:ffff" name="Sat-7E" namespace="0x0046ad28" position="7">
       <transponder key="0046ad28:0001:ffff" frequency="11560000" symbol_rate="3600000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="E302 FEED 1" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x0046ad28" />
@@ -152,11 +121,6 @@
     <satellite key="0046ada9:0001:0001" name="Sat-7E" namespace="0x0046ada9" position="7">
       <transponder key="0046ada9:0001:0001" frequency="11689000" symbol_rate="5040000" polarization="V" fec="8" system="0" modulation="0">
         <service id="0x0001" sid="1" name="AVA" type="1" provider="none" onid="1" tsid="1" namespace="0x0046ada9" />
-      </transponder>
-    </satellite>
-    <satellite key="0046adaf:1000:0000" name="Sat-7E" namespace="0x0046adaf" position="7">
-      <transponder key="0046adaf:1000:0000" frequency="11695000" symbol_rate="3333000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11695V SID 0x01" type="1" provider="DVB-S2 8PSK 11695V 7.0Â°E" onid="0" tsid="4096" namespace="0x0046adaf" />
       </transponder>
     </satellite>
     <satellite key="0046adb1:0001:0001" name="Sat-7E" namespace="0x0046adb1" position="7">
