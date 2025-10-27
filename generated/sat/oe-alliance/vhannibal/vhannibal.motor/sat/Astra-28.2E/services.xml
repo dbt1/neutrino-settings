@@ -32,7 +32,6 @@
         <service id="0x1ffb" sid="8187" name="Dummy Eire Service" type="130" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x1f51" sid="8017" name="Dummy My Sky Service" type="130" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x076e" sid="1902" name="Sky Max" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x1cec" sid="7404" name="Sky News" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x075c" sid="1884" name="Sky Showcase" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x14a1" sid="5281" name="Sky Showcase" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x0f08" sid="3848" name="SkySp F'ball" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
@@ -45,7 +44,6 @@
         <service id="0x052e" sid="1326" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x0fff" sid="4095" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x189f" sid="6303" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x138f" sid="5007" name="Chl Line-up" type="2" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" radio="1" />
         <service id="0x050e" sid="1294" name="SNR IRN" type="2" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" radio="1" />
       </transponder>
     </satellite>
@@ -171,7 +169,7 @@
     </satellite>
     <satellite key="011a0000:07e7:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e7:0002" frequency="12148000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x1ced" sid="7405" name="7405" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x1cec" sid="7404" name="7405" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x160d" sid="5645" name="BabyTV" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c22" sid="7202" name="Challenge" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x152c" sid="5420" name="Christmas24" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -189,6 +187,7 @@
         <service id="0x17a8" sid="6056" name="Sky Crime" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x144a" sid="5194" name="Sky Nature" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c41" sid="7233" name="Sky Nature" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x1ced" sid="7405" name="Sky News" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ab1" sid="6833" name="Sky Replay" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ab3" sid="6835" name="Sky Replay" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x062d" sid="1581" name="Sky Sci-Fi" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -203,6 +202,7 @@
         <service id="0x1ad8" sid="6872" name="Together" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x13a1" sid="5025" name="Virgin One+1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1aa1" sid="6817" name="Virgin Three" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x138f" sid="5007" name="Chl Line-up" type="2" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" radio="1" />
         <service id="0x148e" sid="5262" name="RTÉ 2FM" type="2" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" radio="1" />
         <service id="0x05d2" sid="1490" name="RTÉ Lyric fm" type="2" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" radio="1" />
         <service id="0x148f" sid="5263" name="RTÉ R na G" type="2" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" radio="1" />
@@ -315,15 +315,15 @@
     <satellite key="011a0000:07ee:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07ee:0002" frequency="12285000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x06f8" sid="1784" name="Halloween HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06f6" sid="1782" name="HarryPotterHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x072d" sid="1837" name="kungfupandaHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x177e" sid="6014" name="Sky Action HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0eeb" sid="3819" name="Sky Comedy HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee8" sid="3816" name="Sky Drama HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x06f6" sid="1782" name="Sky Family HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee7" sid="3815" name="Sky Greats HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x06ff" sid="1791" name="Sky Hits HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee9" sid="3817" name="Sky Sci-Fi HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06ff" sid="1791" name="Sky Spooky HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x17ae" sid="6062" name="Sky Thriller HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x072d" sid="1837" name="SkyAnimationHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x06f9" sid="1785" name="SkyPremiereHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
       </transponder>
     </satellite>

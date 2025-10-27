@@ -476,9 +476,9 @@
         <service id="0x0001" sid="1" name="11171H" type="1" provider="" onid="133" tsid="9" namespace="0x00c00000" />
       </transponder>
     </satellite>
-    <satellite key="0082abb9:0015:ffff" name="0082abb9:0015:ffff" namespace="0x0082abb9" position="13">
-      <transponder key="0082abb9:0015:ffff" frequency="11193000" symbol_rate="14400000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11193V" type="25" provider="" onid="65535" tsid="21" namespace="0x0082abb9" />
+    <satellite key="0082abb9:0017:ffff" name="0082abb9:0017:ffff" namespace="0x0082abb9" position="13">
+      <transponder key="0082abb9:0017:ffff" frequency="11193000" symbol_rate="14400000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x00c5" sid="197" name="11193V" type="25" provider="Globecast" onid="65535" tsid="23" namespace="0x0082abb9" />
       </transponder>
     </satellite>
     <satellite key="0082abc0:0000:0000" name="0082abc0:0000:0000" namespace="0x0082abc0" position="13">
@@ -491,9 +491,9 @@
         <service id="0x0001" sid="1" name="11317V" type="1" provider="" onid="318" tsid="601" namespace="0x00820000" />
       </transponder>
     </satellite>
-    <satellite key="00820000:0321:013e" name="00820000:0321:013e" namespace="0x00820000" position="13">
-      <transponder key="00820000:0321:013e" frequency="11355000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11355V" type="1" provider="" onid="318" tsid="801" namespace="0x00820000" />
+    <satellite key="0082ac5b:0c07:0000" name="0082ac5b:0c07:0000" namespace="0x0082ac5b" position="13">
+      <transponder key="0082ac5b:0c07:0000" frequency="11355000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x00c8" sid="200" name="11355V SID 0xc8" type="100" provider="DVB-S2 8PSK 11355V 13.0Â°E" onid="0" tsid="3079" namespace="0x0082ac5b" />
       </transponder>
     </satellite>
     <satellite key="00822d54:0000:0000" name="00822d54:0000:0000" namespace="0x00822d54" position="13">
@@ -828,7 +828,7 @@
     <satellite key="00c00000:045b:0001" name="00c00000:045b:0001" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:045b:0001" frequency="12663000" symbol_rate="22000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x0d0a" sid="3338" name="4MEDIATHEK" type="22" provider="MIT-xperts GmbH" onid="1" tsid="1115" namespace="0x00c00000" />
-        <service id="0x332f" sid="13103" name="DOKUSAT SD" type="22" provider="Bayerische Medien Technik GmbH" onid="1" tsid="1115" namespace="0x00c00000" />
+        <service id="0x332f" sid="13103" name="DOKUSAT SD" type="22" provider="" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d1b" sid="3355" name="EWTN katholisches TV HD" type="25" provider="EWTN" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d08" sid="3336" name="Genius TV" type="22" provider="TV2000plus" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d0b" sid="3339" name="L-TV" type="22" provider="" onid="1" tsid="1115" namespace="0x00c00000" />
@@ -1416,15 +1416,15 @@
         <service id="0x0227" sid="551" name="Canale Italia 83" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
         <service id="0x0228" sid="552" name="Canale Italia 84" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
         <service id="0x052d" sid="1325" name="KBS WORLD" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
-        <service id="0x132a" sid="4906" name="RIKSat" type="1" provider="" onid="318" tsid="13300" namespace="0x00820000" />
-        <service id="0x132e" sid="4910" name="Sender New Jerusalem" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
+        <service id="0x132a" sid="4906" name="RIKSat" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
+        <service id="0x132e" sid="4910" name="Sender Neu Jerusalem" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
         <service id="0x0238" sid="568" name="Solo Calcio" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
         <service id="0x0236" sid="566" name="Telecupole" type="1" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" />
         <service id="0x135e" sid="4958" name="Radio Cusano Campus" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
         <service id="0x135b" sid="4955" name="Radio Gamma Stereo" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
         <service id="0x135d" sid="4957" name="Radio Margherita" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
         <service id="0x135a" sid="4954" name="Radio Supersound" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
-        <service id="0x135c" sid="4956" name="RIK 3" type="10" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
+        <service id="0x135c" sid="4956" name="RIK 3" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00820000:2328:013e" name="00820000:2328:013e" namespace="0x00820000" position="13">
@@ -1847,7 +1847,7 @@
     <satellite key="00c00000:044d:0001" name="00c00000:044d:0001" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:044d:0001" frequency="11836000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x6dce" sid="28110" name="Astra Demo" type="1" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
-        <service id="0x6dca" sid="28106" name="DOKUSAT" type="22" provider="Bayerische Medien Technik GmbH" onid="1" tsid="1101" namespace="0x00c00000" />
+        <service id="0x6dca" sid="28106" name="DOKUSAT" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcf" sid="28111" name="Genius Exklusiv" type="22" provider="TV.2000plus" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dd1" sid="28113" name="Genius Family" type="22" provider="TV.2000plus" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcb" sid="28107" name="volksmusik.tv" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
@@ -1975,7 +1975,7 @@
         <service id="0x11fc" sid="4604" name="Museum 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fd" sid="4605" name="MyZen 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fe" sid="4606" name="Simay Azadi HD" type="1" provider="GLOBECAST" onid="318" tsid="11100" namespace="0x00820000" />
-        <service id="0x11fb" sid="4603" name="TRAVELXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
+        <service id="0x11fb" sid="4603" name="TravelXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:3d54:013e" name="00820000:3d54:013e" namespace="0x00820000" position="13">
@@ -2038,6 +2038,7 @@
         <service id="0x0093" sid="147" name="France 24 HD (en Francais)" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
         <service id="0x0094" sid="148" name="France 24 HD (in English)" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
         <service id="0x031e" sid="798" name="Qatar TV HD" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x0095" sid="149" name="Test EZTV" type="1" provider="" onid="318" tsid="15300" namespace="0x00820000" />
         <service id="0x031f" sid="799" name="TRT Arabi HD" type="1" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
         <service id="0x008f" sid="143" name="TRT World HD" type="1" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
       </transponder>
@@ -2068,7 +2069,6 @@
         <service id="0x00fd" sid="253" name="MTV Music" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c3d" sid="11325" name="News HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x024e" sid="590" name="Nick Jr" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
-        <service id="0x38c4" sid="14532" name="Nickelodeon +1" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c4d" sid="11341" name="Primafila HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2b42" sid="11074" name="Sky Arte" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2b43" sid="11075" name="Sky Arte" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
@@ -2078,6 +2078,7 @@
         <service id="0x2c77" sid="11383" name="Sky Sport HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c2f" sid="11311" name="Sky Sport Info" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x37ba" sid="14266" name="Sky Uno +1" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
+        <service id="0x38c4" sid="14532" name="Spongebob Channel" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c52" sid="11346" name="Sport HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x059a" sid="1434" name="VALUE 24 TV" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
       </transponder>
@@ -2098,6 +2099,12 @@
         <service id="0x099c" sid="2460" name="TF1" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x099b" sid="2459" name="USHUAIA TV" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x099a" sid="2458" name="W9" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
+      </transponder>
+    </satellite>
+    <satellite key="00820000:03e8:0001" name="00820000:03e8:0001" namespace="0x00820000" position="13">
+      <transponder key="00820000:03e8:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x03e8" sid="1000" name="Basic-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1000" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1000" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:040e:0001" name="00c00000:040e:0001" namespace="0x00c00000" position="19.2">
@@ -2345,6 +2352,7 @@
         <service id="0x043f" sid="1087" name="Salvation TV MENA" type="1" provider="ViewMedia" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x108e" sid="4238" name="SAT.TV - Hot Bird" type="25" provider="" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x421c" sid="16924" name="UATV" type="22" provider="COSMONOVA LLC" onid="318" tsid="12100" namespace="0x00820000" />
+        <service id="0x108a" sid="4234" name="Value 24" type="1" provider="M-Three Satcom" onid="318" tsid="12100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2648:00d5" name="00820000:2648:00d5" namespace="0x00820000" position="13">
@@ -2375,7 +2383,7 @@
         <service id="0x38c5" sid="14533" name="Comedy +1" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc4" sid="12228" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc5" sid="12229" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x106c" sid="4204" name="Ghostbusters Collection" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
+        <service id="0x106c" sid="4204" name="Halloween Collection" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0def" sid="3567" name="History +1" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0fd9" sid="4057" name="History +1" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2db3" sid="11699" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
@@ -3055,16 +3063,10 @@
         <service id="0x28e5" sid="10469" name="YOU FM" type="10" provider="ARD HR" onid="1" tsid="1061" namespace="0x00c00000" radio="1" />
       </transponder>
     </satellite>
-    <satellite key="00820000:03e9:0001" name="00820000:03e9:0001" namespace="0x00820000" position="13">
-      <transponder key="00820000:03e9:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="HVS-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1001" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1001" namespace="0x00820000" />
-      </transponder>
-    </satellite>
-    <satellite key="00820000:03ea:0001" name="00820000:03ea:0001" namespace="0x00820000" position="13">
-      <transponder key="00820000:03ea:0001" frequency="11470000" symbol_rate="33000000" polarization="V" fec="0" system="0" modulation="0">
-        <service id="0x03ea" sid="1002" name="HVS-2 Bck" type="12" provider="Telespazio" onid="1" tsid="1002" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1002" namespace="0x00820000" />
+    <satellite key="00820000:07d6:0002" name="00820000:07d6:0002" namespace="0x00820000" position="13">
+      <transponder key="00820000:07d6:0002" frequency="11470000" symbol_rate="33000000" polarization="V" fec="0" system="0" modulation="0">
+        <service id="0x07d2" sid="2002" name="HVS-2 Pri (SGP6)" type="12" provider="MyServiceProvider" onid="2" tsid="2006" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="2006" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:07d3:0002" name="00820000:07d3:0002" namespace="0x00820000" position="13">
