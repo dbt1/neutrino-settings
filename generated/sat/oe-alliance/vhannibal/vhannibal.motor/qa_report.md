@@ -2,7 +2,7 @@
 
 - Source ID: `unknown`
 - Services total: 12651
-- Distribution: SAT=12651, CABLE=0, TERRESTRIAL=0, RADIO=1988
+- Distribution: SAT=12651, CABLE=0, TERRESTRIAL=0, RADIO=1987
 - Bouquets: 47
 - Last seen: unknown
 - Stale: unknown
