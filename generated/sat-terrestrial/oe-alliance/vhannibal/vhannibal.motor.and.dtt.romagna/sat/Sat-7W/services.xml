@@ -150,6 +150,7 @@
         <service id="0x02bf" sid="703" name="AL NAHRAIN TV" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02de" sid="734" name="Almasalah" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02d1" sid="721" name="ARZKR!" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
+        <service id="0x02bc" sid="700" name="Beity TV" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02bd" sid="701" name="Cima" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02e2" sid="738" name="Iraq Now" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02c9" sid="713" name="Jordan" type="1" provider="ART" onid="2048" tsid="7" namespace="0x0dca0000" />
@@ -555,9 +556,7 @@
         <service id="0x104b" sid="4171" name="Jordan Amen" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x101f" sid="4127" name="JORDAN SAMA" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x100c" sid="4108" name="KSA1727" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x101c" sid="4124" name="Kunuz Al-Jannah" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03ee" sid="1006" name="Makkah TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0xa0f0" sid="41200" name="MBCam alshifaa" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x106b" sid="4203" name="Oyoun AlWatan" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03fa" sid="1018" name="TUNISIA SHOP" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x0190" sid="400" name="VOA 24" type="2" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" radio="1" />
@@ -732,7 +731,6 @@
     </satellite>
     <satellite key="0dca0000:07f8:00e0" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:07f8:00e0" frequency="11804000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="Nilesat Promo HD" type="25" provider="Nilesat" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03eb" sid="1003" name="Sky News Arabia" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03ea" sid="1002" name="Sky News Arabia HD" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03ec" sid="1004" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
@@ -898,6 +896,7 @@
     <satellite key="0dca0000:9e34:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:9e34:077e" frequency="11296000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x01f6" sid="502" name="A Wealth of Entertainment" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
+        <service id="0x00c8" sid="200" name="Ayozat TV" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fa" sid="506" name="Bare Knuckle Fighting" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fe" sid="510" name="Baywatch" type="1" provider="" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01f9" sid="505" name="Cricket Gold" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
@@ -906,6 +905,7 @@
         <service id="0x01f7" sid="503" name="Outdoor Channel" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fd" sid="509" name="Sports First" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01f4" sid="500" name="Wedo TV" type="1" provider="" onid="1918" tsid="40500" namespace="0x0dca0000" />
+        <service id="0x01ff" sid="511" name="WildTV" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fb" sid="507" name="World Fishing Network" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01f8" sid="504" name="World Poker Tour" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
       </transponder>
@@ -936,6 +936,7 @@
     <satellite key="0dca0000:a21c:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:a21c:077e" frequency="11488000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x05df" sid="1503" name="BERBERE TV" type="1" provider="" onid="1918" tsid="41500" namespace="0x0dca0000" />
+        <service id="0x05e0" sid="1504" name="Chebab TV" type="1" provider="" onid="1918" tsid="41500" namespace="0x0dca0000" />
         <service id="0x027c" sid="636" name="Eutelsat Data 1" type="1" provider="Eutelsat" onid="1918" tsid="41500" namespace="0x0dca0000" />
       </transponder>
     </satellite>

@@ -12,6 +12,7 @@
         <service id="0x1f51" sid="8017" name="07 BFBS Extra 2" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f4b" sid="8011" name="08 BBC One Delay" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f4c" sid="8012" name="09 BBC Two Delay" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x0359" sid="857" name="1 Aldershot" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f4d" sid="8013" name="10 ITV Delay" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f4f" sid="8015" name="11" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f50" sid="8016" name="12" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
@@ -22,8 +23,17 @@
         <service id="0x1f48" sid="8008" name="17 Sky News" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f45" sid="8005" name="18 Sky Sports" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f46" sid="8006" name="19 TNT Sports" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x035a" sid="858" name="2 Brize Norton" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f47" sid="8007" name="20 BFBS Sport" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x035b" sid="859" name="3 Bulford" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x085a" sid="2138" name="4 Catterick" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x085b" sid="2139" name="5 Colchester" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x213a" sid="8506" name="6 Blandford" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x213b" sid="8507" name="7 Holywood" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x08aa" sid="2218" name="8728 Quadrille Data" type="22" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x03e8" sid="1000" name="99(DATA)" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x213c" sid="8508" name="Program 8" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
+        <service id="0x21fd" sid="8701" name="Salisbury EDI B" type="12" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" />
         <service id="0x1f5f" sid="8031" name="51 BFBS Radio" type="2" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" radio="1" />
         <service id="0x1f58" sid="8024" name="52 BFBS Radio 2" type="2" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" radio="1" />
         <service id="0x1f5b" sid="8027" name="53 BFBS UK National" type="2" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" radio="1" />
@@ -56,15 +66,21 @@
         <service id="0x1f72" sid="8050" name="95" type="2" provider="BFBS" onid="16" tsid="1" namespace="0x00640000" radio="1" />
       </transponder>
     </satellite>
-    <satellite key="00640000:1000:2000" name="Sat-10E" namespace="0x00640000" position="10">
-      <transponder key="00640000:1000:2000" frequency="12642000" symbol_rate="2061000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ortc" type="1" provider="Harmonic" onid="8192" tsid="4096" namespace="0x00640000" />
-      </transponder>
-    </satellite>
     <satellite key="00640000:7850:010e" name="Sat-10E" namespace="0x00640000" position="10">
       <transponder key="00640000:7850:010e" frequency="10771000" symbol_rate="22963000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x9c44" sid="40004" name="AFP2 EU" type="25" provider="EBU" onid="270" tsid="30800" namespace="0x00640000" />
         <service id="0x9c41" sid="40001" name="IPE" type="1" provider="MAINDATA" onid="270" tsid="30800" namespace="0x00640000" />
+      </transponder>
+    </satellite>
+    <satellite key="00642c15:0000:0000" name="Sat-10E" namespace="0x00642c15" position="10">
+      <transponder key="00642c15:0000:0000" frequency="11285000" symbol_rate="3214000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="BAYG-FEED 7" type="25" provider="Bahrain TV" onid="0" tsid="0" namespace="0x00642c15" />
+      </transponder>
+    </satellite>
+    <satellite key="00642c1d:0001:ffff" name="Sat-10E" namespace="0x00642c1d" position="10">
+      <transponder key="00642c1d:0001:ffff" frequency="11293000" symbol_rate="10000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="BAYG-FEED-3-M" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x00642c1d" />
+        <service id="0x0002" sid="2" name="BAYG-FEED-4-M" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x00642c1d" />
       </transponder>
     </satellite>
     <satellite key="0064abf2:0441:0000" name="Sat-10E" namespace="0x0064abf2" position="10">

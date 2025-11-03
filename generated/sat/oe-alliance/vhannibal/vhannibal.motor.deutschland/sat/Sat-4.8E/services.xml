@@ -27,18 +27,18 @@
         <service id="0x0028" sid="40" name="MTN INFO" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0029" sid="41" name="MTN SE HD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x00c8" sid="200" name="MTN SE HD2" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x00a1" sid="161" name="NATGEO" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x00a1" sid="161" name="NATGEO" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x004a" sid="74" name="PRIME FAVORITE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002e" sid="46" name="RTL" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x002d" sid="45" name="SKY NEWS" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x006c" sid="108" name="SKY SPORT NEWS" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006d" sid="109" name="SPORT24" type="1" provider="MTNTTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006f" sid="111" name="SPORT24 EXTRA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0031" sid="49" name="TFC" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007e" sid="126" name="TRAVEL" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0030" sid="48" name="TVASIA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x004c" sid="76" name="TVE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x002d" sid="45" name="V3" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x006c" sid="108" name="V4" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
       </transponder>
     </satellite>
     <satellite key="00300000:0006:0056" name="Sat-4.8E" namespace="0x00300000" position="4.8">
@@ -87,7 +87,7 @@
         <service id="0x17e8" sid="6120" name="2+2" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17f7" sid="6135" name="24 Kanal" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17fd" sid="6141" name="Animal Planet" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
-        <service id="0x182e" sid="6190" name="ATR T" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
+        <service id="0x070e" sid="1806" name="Army TV" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17e2" sid="6114" name="Bigudi" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x072b" sid="1835" name="Blue Hustler" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17f5" sid="6133" name="BOLT" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
@@ -126,7 +126,6 @@
         <service id="0x1a22" sid="6690" name="/////PRYAMIY" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x1a18" sid="6680" name="1+1 Ukraine" type="1" provider="1plus1 Media" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x19d2" sid="6610" name="2+2" type="1" provider="1plus1 Media" onid="85" tsid="16" namespace="0x00300000" />
-        <service id="0x1a13" sid="6675" name="Army TV" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x19fa" sid="6650" name="ICTV 2 SD" type="1" provider="SLM" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x19f5" sid="6645" name="NADIYA" type="22" provider="Hope Media Group" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x1a09" sid="6665" name="ROZPAKUY" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
@@ -147,12 +146,10 @@
     </satellite>
     <satellite key="00300000:0011:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:0011:0055" frequency="12284000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x1b03" sid="6915" name="NADIYA" type="22" provider="" onid="85" tsid="17" namespace="0x00300000" />
         <service id="0x1afe" sid="6910" name="ROZPAKUY" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
         <service id="0x1b1c" sid="6940" name="SONATA TV" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
         <service id="0x1b3f" sid="6975" name="WE-UKRAINE+" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
         <service id="0x1af6" sid="6902" name="Emmanuel" type="2" provider="Svitle Radio" onid="85" tsid="17" namespace="0x00300000" radio="1" />
-        <service id="0x1afc" sid="6908" name="Golos Kyiva" type="2" provider="" onid="85" tsid="17" namespace="0x00300000" radio="1" />
         <service id="0x1af8" sid="6904" name="radio nv" type="2" provider="TRK ERA" onid="85" tsid="17" namespace="0x00300000" radio="1" />
       </transponder>
     </satellite>
@@ -208,18 +205,11 @@
     </satellite>
     <satellite key="00300000:0065:0001" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:0065:0001" frequency="12418000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x026c" sid="620" name="CoralTV1" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x026f" sid="623" name="CoralTV2" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
         <service id="0x000a" sid="10" name="CTV1" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
         <service id="0x000b" sid="11" name="CTV2" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x000f" sid="15" name="LADBROKES SIS LES2 - CISCO 1" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
         <service id="0x000d" sid="13" name="LTV1" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
         <service id="0x000e" sid="14" name="LTV2" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x02b0" sid="688" name="LTV2" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x005d" sid="93" name="NEW BOYLES SPORTS - CISCO 1" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x005a" sid="90" name="SIS EUROPE - CISCO 2" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x02b4" sid="692" name="SIS Spanish" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
-        <service id="0x002e" sid="46" name="SIS VISION BTC AUDIO (Ch11)" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
+        <service id="0x000f" sid="15" name="LTV3" type="1" provider="" onid="1" tsid="101" namespace="0x00300000" />
       </transponder>
     </satellite>
     <satellite key="00300000:00c9:0001" name="Sat-4.8E" namespace="0x00300000" position="4.8">
@@ -232,9 +222,6 @@
         <service id="0x0007" sid="7" name="SIS ONE" type="1" provider="SIS Limited" onid="1" tsid="201" namespace="0x00300000" />
         <service id="0x005f" sid="95" name="SIS Spanish" type="1" provider="SIS Limited" onid="1" tsid="201" namespace="0x00300000" />
         <service id="0x0008" sid="8" name="SIS TWO" type="1" provider="SIS Limited" onid="1" tsid="201" namespace="0x00300000" />
-        <service id="0x00be" sid="190" name="SIS Two" type="1" provider="NEPC" onid="1" tsid="201" namespace="0x00300000" />
-        <service id="0x00fa" sid="250" name="SISTwo BarOne" type="1" provider="SIS" onid="1" tsid="201" namespace="0x00300000" />
-        <service id="0x003a" sid="58" name="SISTwo BTC" type="1" provider="SIS" onid="1" tsid="201" namespace="0x00300000" />
         <service id="0x0005" sid="5" name="WHTV1" type="1" provider="SIS Limited" onid="1" tsid="201" namespace="0x00300000" />
         <service id="0x0006" sid="6" name="WHTV2" type="1" provider="SIS Limited" onid="1" tsid="201" namespace="0x00300000" />
       </transponder>
@@ -291,7 +278,6 @@
         <service id="0x1d65" sid="7525" name="Test2" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x1d6f" sid="7535" name="Test3" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x19b4" sid="6580" name="TVIY SERIAL" type="25" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
-        <service id="0x1dab" sid="7595" name="Golos Kyiva" type="2" provider="" onid="85" tsid="4219" namespace="0x00300000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00302eb6:0000:0000" name="Sat-4.8E" namespace="0x00302eb6" position="4.8">
@@ -311,7 +297,6 @@
         <service id="0x0b22" sid="2850" name="Kanal 2" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
         <service id="0x28cd" sid="10445" name="LRT Plius" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
         <service id="0x28aa" sid="10410" name="MTV 00s" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
-        <service id="0x28c8" sid="10440" name="NBA TV" type="25" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
         <service id="0x288c" sid="10380" name="Nick JR" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
         <service id="0x0b47" sid="2887" name="Nickelodeon" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />
         <service id="0x0b4b" sid="2891" name="Nicktoons" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x00302eb6" />

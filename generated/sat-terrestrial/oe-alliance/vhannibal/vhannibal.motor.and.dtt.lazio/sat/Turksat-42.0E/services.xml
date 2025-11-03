@@ -726,6 +726,7 @@
         <service id="0xc813" sid="51219" name="RADYO SPOR" type="2" provider="TURKSAT" onid="1070" tsid="41902" namespace="0x01a40000" radio="1" />
         <service id="0xc81a" sid="51226" name="RD 2000 FM" type="2" provider="TURKSAT" onid="1070" tsid="41902" namespace="0x01a40000" radio="1" />
         <service id="0xc810" sid="51216" name="RISALET RADYO" type="2" provider="TURKSAT" onid="1070" tsid="41902" namespace="0x01a40000" radio="1" />
+        <service id="0xc81c" sid="51228" name="SAHIL GUVENLIK RADYO" type="2" provider="TURKSAT" onid="1070" tsid="41902" namespace="0x01a40000" radio="1" />
         <service id="0xc81b" sid="51227" name="TGRT FM" type="2" provider="TURKSAT" onid="1070" tsid="41902" namespace="0x01a40000" radio="1" />
       </transponder>
     </satellite>
@@ -767,9 +768,11 @@
         <service id="0xc3b5" sid="50101" name="BRT 3" type="1" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" />
         <service id="0xc3be" sid="50110" name="GONCA TV" type="1" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" />
         <service id="0xc3b4" sid="50100" name="HALK TV" type="1" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" />
+        <service id="0xc3c2" sid="50114" name="TELE SAHEL" type="1" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" />
         <service id="0xc3c0" sid="50112" name="YILDIZ EN" type="1" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" />
         <service id="0xc3c7" sid="50119" name="BAYRAK FM" type="2" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" radio="1" />
         <service id="0xc3c6" sid="50118" name="BRT RADYO" type="2" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" radio="1" />
+        <service id="0xc3c5" sid="50117" name="VOIX DU SAHEL" type="2" provider="TURKSAT" onid="1070" tsid="42101" namespace="0x01a40000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="01a40000:a4d9:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">
@@ -777,9 +780,11 @@
         <service id="0xc41e" sid="50206" name="AYAZ TV" type="1" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
         <service id="0xc41c" sid="50204" name="DIYANET TV" type="1" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
         <service id="0xc41a" sid="50202" name="KABLO INFO HD" type="25" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
+        <service id="0xc426" sid="50214" name="TELE SAHEL" type="1" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
         <service id="0xc41d" sid="50205" name="TRT AVAZ" type="25" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
         <service id="0xc419" sid="50201" name="TURKSAT TANITIM" type="1" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" />
         <service id="0xc427" sid="50215" name="POLIS RADYOSU" type="2" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" radio="1" />
+        <service id="0xc429" sid="50217" name="VOIX DU SAHEL" type="2" provider="TURKSAT" onid="1070" tsid="42201" namespace="0x01a40000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="01a40000:a8c3:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">
@@ -976,6 +981,11 @@
         <service id="0x439d" sid="17309" name="STS INTERNATIONAL" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
         <service id="0x43a0" sid="17312" name="TNT INT" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
         <service id="0x43a1" sid="17313" name="TNT MUSIC" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
+      </transponder>
+    </satellite>
+    <satellite key="01a42ccf:0028:0001" name="Turksat-42.0E" namespace="0x01a42ccf" position="42">
+      <transponder key="01a42ccf:0028:0001" frequency="11471000" symbol_rate="1500000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x0008" sid="8" name="NAVO" type="1" provider="RRTM" onid="1" tsid="40" namespace="0x01a42ccf" />
       </transponder>
     </satellite>
     <satellite key="01a42f62:0001:0000" name="Turksat-42.0E" namespace="0x01a42f62" position="42">
