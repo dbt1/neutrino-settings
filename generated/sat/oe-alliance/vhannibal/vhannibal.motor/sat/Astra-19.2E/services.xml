@@ -135,7 +135,7 @@
         <service id="0x007f" sid="127" name="13th Street" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
         <service id="0x001b" sid="27" name="Nicktoons" type="22" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
         <service id="0x006e" sid="110" name="Sky Atlantic" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
-        <service id="0x006f" sid="111" name="Sky Cinema Highlights" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
+        <service id="0x006f" sid="111" name="Sky Cinema Harry Potter" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
         <service id="0x002e" sid="46" name="Sky Documentaries" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
         <service id="0x005f" sid="95" name="Sky Sport Austria 2" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
         <service id="0x005a" sid="90" name="Sky Sport Golf" type="25" provider="SKY" onid="133" tsid="13" namespace="0x00c00000" />
@@ -649,14 +649,14 @@
     </satellite>
     <satellite key="00c00000:0413:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0413:0001" frequency="11112000" symbol_rate="22000000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x30d4" sid="12500" name="." type="25" provider="ProSiebenSat.1" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30d5" sid="12501" name="." type="25" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30d7" sid="12503" name="." type="25" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30de" sid="12510" name="." type="31" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
+        <service id="0x30e8" sid="12520" name="." type="25" provider="ProSiebenSat.1" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30d6" sid="12502" name="Eurosport 1 HD" type="25" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30ea" sid="12522" name="Eurosport 1 HD Austria" type="25" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
         <service id="0x30f2" sid="12530" name="K-TV HD" type="25" provider="SES ASTRA" onid="1" tsid="1043" namespace="0x00c00000" />
-        <service id="0x30d4" sid="12500" name="SAT.1 Gold HD" type="25" provider="ProSiebenSat.1" onid="1" tsid="1043" namespace="0x00c00000" />
-        <service id="0x30e8" sid="12520" name="SAT.1 Gold HD Austria" type="25" provider="ProSiebenSat.1" onid="1" tsid="1043" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:0414:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -1275,7 +1275,7 @@
         <service id="0x6dce" sid="28110" name="Astra Demo" type="1" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dca" sid="28106" name="DOKUSAT" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcf" sid="28111" name="Genius Exklusiv" type="22" provider="TV.2000plus" onid="1" tsid="1101" namespace="0x00c00000" />
-        <service id="0x6dd1" sid="28113" name="Genius Family" type="22" provider="TV.2000plus" onid="1" tsid="1101" namespace="0x00c00000" />
+        <service id="0x6dd1" sid="28113" name="Genius Family" type="22" provider="WISI" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcb" sid="28107" name="volksmusik.tv" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcc" sid="28108" name="Zwei Music Television" type="1" provider="FOLX.TV" onid="1" tsid="1101" namespace="0x00c00000" />
       </transponder>
@@ -1470,22 +1470,22 @@
     </satellite>
     <satellite key="00c02b85:0000:0000" name="Astra-19.2E" namespace="0x00c02b85" position="19.2">
       <transponder key="00c02b85:0000:0000" frequency="11141000" symbol_rate="23500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11141H." type="1" provider="" onid="0" tsid="0" namespace="0x00c02b85" />
+        <service id="0x0001" sid="1" name="11141H" type="1" provider="" onid="0" tsid="0" namespace="0x00c02b85" />
       </transponder>
     </satellite>
     <satellite key="00c0adae:0001:0001" name="Astra-19.2E" namespace="0x00c0adae" position="19.2">
       <transponder key="00c0adae:0001:0001" frequency="11694000" symbol_rate="940000" polarization="V" fec="1" system="0" modulation="0">
-        <service id="0x03e8" sid="1000" name="DLF USI1" type="2" provider="MB Satellite" onid="1" tsid="1" namespace="0x00c0adae" radio="1" />
-        <service id="0x07d0" sid="2000" name="DLFK USI1" type="2" provider="MB Satellite" onid="1" tsid="1" namespace="0x00c0adae" radio="1" />
+        <service id="0x03e8" sid="1000" name="DLF USI2" type="2" provider="MB Satellite" onid="1" tsid="1" namespace="0x00c0adae" radio="1" />
+        <service id="0x07d0" sid="2000" name="DLFK USI2" type="2" provider="MB Satellite" onid="1" tsid="1" namespace="0x00c0adae" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00c0ae29:0000:0001" name="Astra-19.2E" namespace="0x00c0ae29" position="19.2">
       <transponder key="00c0ae29:0000:0001" frequency="11817000" symbol_rate="31428000" polarization="V" fec="8" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Astra 1 Service 1" type="25" provider="MX1" onid="1" tsid="0" namespace="0x00c0ae29" />
-        <service id="0x0002" sid="2" name="Astra 1 Service 2" type="25" provider="MX1" onid="1" tsid="0" namespace="0x00c0ae29" />
+        <service id="0x0001" sid="1" name="Astra 1 Service 1" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
+        <service id="0x0002" sid="2" name="Astra 1 Service 2" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
         <service id="0x0003" sid="3" name="Astra 1 Service 3" type="25" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
         <service id="0x0004" sid="4" name="Astra 1 Service 4" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
-        <service id="0x0005" sid="5" name="Astra 1 Service 5" type="25" provider="MX1" onid="1" tsid="0" namespace="0x00c0ae29" />
+        <service id="0x0005" sid="5" name="Astra 1 Service 5" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
       </transponder>
     </satellite>
     <satellite key="00c0afd6:0000:ffff" name="Astra-19.2E" namespace="0x00c0afd6" position="19.2">
