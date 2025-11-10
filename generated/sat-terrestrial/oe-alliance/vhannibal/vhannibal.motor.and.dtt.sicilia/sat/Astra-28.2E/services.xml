@@ -168,6 +168,8 @@
     </satellite>
     <satellite key="011a0000:07e7:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e7:0002" frequency="12148000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x13e3" sid="5091" name="5091" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x151a" sid="5402" name="5402" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x160d" sid="5645" name="BabyTV" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c22" sid="7202" name="Challenge" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x152c" sid="5420" name="Christmas24" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -310,17 +312,17 @@
     </satellite>
     <satellite key="011a0000:07ee:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07ee:0002" frequency="12285000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x06f8" sid="1784" name="Halloween HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x06f6" sid="1782" name="HarryPotterHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x177e" sid="6014" name="Sky Action HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x0eeb" sid="3819" name="Sky Comedy HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06ff" sid="1791" name="BlockbustersHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x0eeb" sid="3819" name="PitchPerfectHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee8" sid="3816" name="Sky Drama HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06f6" sid="1782" name="Sky Family HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee7" sid="3815" name="Sky Greats HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x0ee9" sid="3817" name="Sky Sci-Fi HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
-        <service id="0x06ff" sid="1791" name="Sky Spooky HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x0ee9" sid="3817" name="Sky ScFi/HorHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x17ae" sid="6062" name="Sky Thriller HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x072d" sid="1837" name="SkyAnimationHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06f8" sid="1784" name="SkyChristmasHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x06f9" sid="1785" name="SkyPremiereHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x177e" sid="6014" name="TransformersHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:07f0:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
@@ -467,20 +469,19 @@
     </satellite>
     <satellite key="011a0000:0811:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:0811:0002" frequency="11082000" symbol_rate="23000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0xc4d4" sid="50388" name="50388" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
-        <service id="0xc4dc" sid="50396" name="50396" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
-        <service id="0xc4dd" sid="50397" name="50397" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
+        <service id="0xc4d4" sid="50388" name="AAJ TAK" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4d5" sid="50389" name="ARY Digital" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4ae" sid="50350" name="BLAZE" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4b0" sid="50352" name="Clubland TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
+        <service id="0xc4dd" sid="50397" name="Court TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4c9" sid="50377" name="Crime+Inv" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4cc" sid="50380" name="Crime+Inv+1" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4d0" sid="50384" name="Faith UK" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
-        <service id="0xc4ab" sid="50347" name="Gems TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4db" sid="50395" name="GEO News" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4da" sid="50394" name="GEO TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4d9" sid="50393" name="JewelleryMaker" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4d7" sid="50391" name="New Vision TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
+        <service id="0xc4dc" sid="50396" name="Noor TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc491" sid="50321" name="NOW 70s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc482" sid="50306" name="NOW 80s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4b5" sid="50357" name="NOW 90s &amp; 00s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
@@ -519,17 +520,17 @@
         <service id="0xc781" sid="51073" name="MTV" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc785" sid="51077" name="MTV" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc784" sid="51076" name="MTV 80s" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
-        <service id="0xc783" sid="51075" name="MTV 90s" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc786" sid="51078" name="MTV HD" type="25" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc797" sid="51095" name="MTV MUSIC" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
+        <service id="0xc783" sid="51075" name="MTV XMAS" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc792" sid="51090" name="Nick Jr+1" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc789" sid="51081" name="Nick Jr." type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc790" sid="51088" name="Nick Jr." type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc782" sid="51074" name="Nick Jr. HD" type="25" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
-        <service id="0xc794" sid="51092" name="Nick Jr. Too" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc793" sid="51091" name="Nickelodeon" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
         <service id="0xc78d" sid="51085" name="Nickelodeon+1" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
-        <service id="0xc78a" sid="51082" name="NickSpongeBob" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
+        <service id="0xc794" sid="51092" name="NickJrPeppa" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
+        <service id="0xc78a" sid="51082" name="Nicktoons" type="1" provider="BSkyB" onid="2" tsid="2069" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:082b:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
@@ -555,10 +556,8 @@
     </satellite>
     <satellite key="011a0000:082f:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:082f:0002" frequency="11553000" symbol_rate="23000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0xd73d" sid="55101" name="55101" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
-        <service id="0xd73f" sid="55103" name="55103" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
-        <service id="0xd743" sid="55107" name="55107" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
-        <service id="0xd748" sid="55112" name="55112" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd749" sid="55113" name="55113" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd74a" sid="55114" name="55114" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd766" sid="55142" name="CHSTV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd791" sid="55185" name="Deen TV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd754" sid="55124" name="Gems TV HD" type="25" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
@@ -568,9 +567,12 @@
         <service id="0xd76a" sid="55146" name="HUM Masala" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd752" sid="55122" name="MATV National" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd74c" sid="55116" name="NDTV World" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
-        <service id="0xd745" sid="55109" name="Noor TV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd742" sid="55106" name="NTD" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd750" sid="55120" name="SonLife" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd73f" sid="55103" name="SONY MAX 2" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd743" sid="55107" name="SONY SAB" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd73d" sid="55101" name="SONY TV" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
+        <service id="0xd748" sid="55112" name="TV Warehouse" type="1" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" />
         <service id="0xd794" sid="55188" name="BFBS Radio" type="2" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" radio="1" />
         <service id="0x09fe" sid="2558" name="Capital" type="2" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" radio="1" />
         <service id="0x254d" sid="9549" name="Capital XTRA" type="2" provider="BSkyB" onid="2" tsid="2095" namespace="0x011a0000" radio="1" />
@@ -591,18 +593,12 @@
     </satellite>
     <satellite key="011a0000:0830:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:0830:0002" frequency="11568000" symbol_rate="22000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0xd395" sid="54165" name="AAJ TAK" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd360" sid="54112" name="Best Direct" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
-        <service id="0xd37c" sid="54140" name="Court TV" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd39a" sid="54170" name="Faith World TV" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd39f" sid="54175" name="High Street TV 1" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd39c" sid="54172" name="SONY MAX" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
-        <service id="0xd368" sid="54120" name="SONY MAX 2" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
-        <service id="0xd35b" sid="54107" name="SONY SAB" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
-        <service id="0xd355" sid="54101" name="SONY TV" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd381" sid="54145" name="Takbeer TV" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
         <service id="0xd387" sid="54151" name="That's Oldies" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
-        <service id="0xd3a4" sid="54180" name="TV Warehouse" type="1" provider="BSkyB" onid="2" tsid="2096" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:0831:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
@@ -654,7 +650,6 @@
         <service id="0x1bc3" sid="7107" name="COLORS HD" type="25" provider="BSkyB" onid="2" tsid="2101" namespace="0x011a0000" />
         <service id="0x1bbc" sid="7100" name="PCNE Chinese HD" type="25" provider="BSkyB" onid="2" tsid="2101" namespace="0x011a0000" />
         <service id="0x1bc2" sid="7106" name="TRT World HD" type="25" provider="BSkyB" onid="2" tsid="2101" namespace="0x011a0000" />
-        <service id="0x1bbd" sid="7101" name="WION HD" type="25" provider="BSkyB" onid="2" tsid="2101" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:0836:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
@@ -771,16 +766,16 @@
         <service id="0x015a" sid="346" name="5STAR" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
         <service id="0x083a" sid="2106" name="5STAR+1" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
         <service id="0x0159" sid="345" name="5USA+1" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
-        <service id="0x083e" sid="2110" name="Nick Jr. Too" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
         <service id="0x083f" sid="2111" name="Nickelodeon" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
-        <service id="0x015c" sid="348" name="NickSpongeBob" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
+        <service id="0x083e" sid="2110" name="NickJrPeppa" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
+        <service id="0x015c" sid="348" name="Nicktoons" type="1" provider="BSkyB" onid="2" tsid="2109" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:083e:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:083e:0002" frequency="11307000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0xd070" sid="53360" name="53360" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
         <service id="0xd094" sid="53396" name="53396" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
-        <service id="0xd095" sid="53397" name="53397" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
+        <service id="0xd095" sid="53397" name="Court TV" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
         <service id="0xd04d" sid="53325" name="G! cristmas+1" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
         <service id="0xd03e" sid="53310" name="GREAT! action" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
         <service id="0xd048" sid="53320" name="GREAT! cristmas" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />

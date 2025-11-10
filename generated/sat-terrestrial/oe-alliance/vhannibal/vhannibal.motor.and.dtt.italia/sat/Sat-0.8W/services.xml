@@ -4,6 +4,7 @@
     <satellite key="0e080000:0001:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:0001:0046" frequency="11247000" symbol_rate="24500000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x1c12" sid="7186" name="MTV Urheilu 2 HD" type="25" provider="Telenor" onid="70" tsid="1" namespace="0x0e080000" />
+        <service id="0x1b59" sid="7001" name="Rikstoto Direkte HD" type="25" provider="Telenor" onid="70" tsid="1" namespace="0x0e080000" />
         <service id="0x1d1f" sid="7455" name="TV12 HD" type="25" provider="Telenor" onid="70" tsid="1" namespace="0x0e080000" />
         <service id="0x10cf" sid="4303" name="TV12 Text hörselskadade" type="25" provider="Telenor" onid="70" tsid="1" namespace="0x0e080000" />
         <service id="0x1b88" sid="7048" name="TV4 Fakta" type="22" provider="Telenor" onid="70" tsid="1" namespace="0x0e080000" />
@@ -80,6 +81,7 @@
         <service id="0x1da9" sid="7593" name="Viaplay 1 Urheilu HD" type="25" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" />
         <service id="0x1da8" sid="7592" name="Viaplay 2 Urheilu HD" type="25" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" />
         <service id="0x1d77" sid="7543" name="Viaplay 3 Urheilu HD" type="25" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" />
+        <service id="0x1da1" sid="7585" name="Viaplay TV HD" type="25" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" />
         <service id="0x06ca" sid="1738" name="Bandit Classics" type="10" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" radio="1" />
         <service id="0x06d2" sid="1746" name="Bandit Rock" type="10" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" radio="1" />
         <service id="0x06cc" sid="1740" name="Classic" type="10" provider="Telenor" onid="70" tsid="3" namespace="0x0e080000" radio="1" />
@@ -137,7 +139,7 @@
         <service id="0x0a64" sid="2660" name="HBO HU" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0a14" sid="2580" name="ID Investigation Discovery" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x026a" sid="618" name="M1" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
-        <service id="0x0a8c" sid="2700" name="M2/Petőfi TV" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
+        <service id="0x0a8c" sid="2700" name="M2/Petofi TV" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x056e" sid="1390" name="Minimax" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0b77" sid="2935" name="Spektrum Home" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0a32" sid="2610" name="SPORT 1" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
@@ -182,7 +184,6 @@
         <service id="0x1c96" sid="7318" name="DR2 HD" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
         <service id="0x43a6" sid="17318" name="DR2 HD" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
         <service id="0x1c55" sid="7253" name="DW English" type="22" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
-        <service id="0x42bc" sid="17084" name="Kuukauden kanava" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
         <service id="0x1c7d" sid="7293" name="National Geographic HD (D)" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
         <service id="0x1c80" sid="7296" name="National Geographic HD (N)" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
         <service id="0x1c82" sid="7298" name="National Geographic HD (S/F)" type="25" provider="Telenor" onid="70" tsid="10" namespace="0x0e080000" />
@@ -577,6 +578,7 @@
         <service id="0x1d45" sid="7493" name="BBC Nordic HD" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
         <service id="0x1d47" sid="7495" name="BBC Nordic HD (N)" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
         <service id="0x1d5a" sid="7514" name="BBC Nordic HD (S)" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
+        <service id="0x42bc" sid="17084" name="Kuukauden kanava" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
         <service id="0x1d3a" sid="7482" name="SkyShowtime 1 HD" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
         <service id="0x1d43" sid="7491" name="SkyShowtime 2 HD" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
         <service id="0x1d53" sid="7507" name="Viasat Explore HD" type="25" provider="Telenor" onid="70" tsid="72" namespace="0x0e080000" />
@@ -594,6 +596,9 @@
     <satellite key="0e080000:004f:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004f:0046" frequency="12437000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0xfeb0" sid="65200" name="12437H SID 0xfeb0" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfeb1" sid="65201" name="12437H SID 0xfeb1" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfffe" sid="65534" name="12437H SID 0xfffe" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xffff" sid="65535" name="12437H SID 0xffff" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0x32d4" sid="13012" name="Test 13012" type="22" provider="Telenor" onid="70" tsid="79" namespace="0x0e080000" />
       </transponder>
     </satellite>
@@ -1094,7 +1099,7 @@
         <service id="0x1b71" sid="7025" name="MEN.TV" type="22" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
         <service id="0x1b6e" sid="7022" name="Nova Action HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
         <service id="0x1b70" sid="7024" name="Nova Fun HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
-        <service id="0x1b6f" sid="7023" name="Nova Gold HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
+        <service id="0x1b6f" sid="7023" name="Nova Krimi HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
         <service id="0x1b63" sid="7011" name="Nova Sport 5 CZ HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
         <service id="0x1b73" sid="7027" name="Prima LOVE SK" type="22" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
         <service id="0x1b6d" sid="7021" name="Spektrum HD" type="25" provider="Slovak Telekom" onid="187" tsid="2807" namespace="0x0e080000" />
