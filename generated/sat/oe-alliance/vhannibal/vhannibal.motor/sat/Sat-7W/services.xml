@@ -166,7 +166,6 @@
     <satellite key="0dca0000:0008:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0008:0800" frequency="11958000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x012b" sid="299" name="AL HAQEQA AL DAWLIAH" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
-        <service id="0x02a0" sid="672" name="ALHAQIQA" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x0098" sid="152" name="ALISTIQAMA TV" type="1" provider="" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x009f" sid="159" name="Almamlaka TV" type="1" provider="none" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x029d" sid="669" name="ALRAHMAN" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
@@ -201,7 +200,6 @@
         <service id="0x01c3" sid="451" name="Egyptian TV HD" type="25" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
         <service id="0x01c9" sid="457" name="ELMEHWAR" type="1" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
         <service id="0x01c4" sid="452" name="MBC Masr 2" type="1" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
-        <service id="0x044e" sid="1102" name="MBN Alhurra HD" type="25" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
         <service id="0x01c2" sid="450" name="Modern Mti" type="25" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
         <service id="0x044f" sid="1103" name="Palestine" type="1" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
         <service id="0x045a" sid="1114" name="Sada El Balad" type="1" provider="NILESAT" onid="2048" tsid="11" namespace="0x0dca0000" />
@@ -262,7 +260,6 @@
       <transponder key="0dca0000:0010:006e" frequency="11258000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x00bf" sid="191" name="AJMAN HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01c9" sid="457" name="Al Quran" type="25" provider="KSCG" onid="110" tsid="16" namespace="0x0dca0000" />
-        <service id="0x01b9" sid="441" name="Alhurra HD" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01cd" sid="461" name="ALKOFIYA HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x00c3" sid="195" name="Alrabaa SD Radio" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01cb" sid="459" name="ALSHABAB" type="25" provider="PlayBox Neo Suite" onid="110" tsid="16" namespace="0x0dca0000" />
@@ -544,7 +541,6 @@
         <service id="0x01a4" sid="420" name="AL HAQEQA AL DAWLIAH" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03f3" sid="1011" name="AL-adhamiya Iraq" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x042c" sid="1068" name="Al-Etejah TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x01aa" sid="426" name="ALHAQIQA" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x002b" sid="43" name="alnassr 24 tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x0192" sid="402" name="ALRAHMAN" type="1" provider="" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03f9" sid="1017" name="Alruqia Tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
@@ -730,8 +726,9 @@
     </satellite>
     <satellite key="0dca0000:07f8:00e0" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:07f8:00e0" frequency="11804000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x03eb" sid="1003" name="Sky News Arabia" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ea" sid="1002" name="Sky News Arabia HD" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
+        <service id="0x03e9" sid="1001" name="Nilesat Promo" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
+        <service id="0x03ea" sid="1002" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
+        <service id="0x03eb" sid="1003" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03ec" sid="1004" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03ed" sid="1005" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
         <service id="0x03ee" sid="1006" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
@@ -990,7 +987,7 @@
         <service id="0x000f" sid="15" name="Alatawla Hekayat" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000c" sid="12" name="Alatwla Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001d" sid="29" name="Alkalema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
-        <service id="0x000a" sid="10" name="Almagd TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x000a" sid="10" name="Almagad TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000d" sid="13" name="Almasirah HD" type="25" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0008" sid="8" name="ALMAYADEEN PLUS" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0014" sid="20" name="Alsay3da" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
