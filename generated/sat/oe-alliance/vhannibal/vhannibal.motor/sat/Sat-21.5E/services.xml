@@ -17,6 +17,11 @@
         <service id="0x0002" sid="2" name="MBC Test2" type="1" provider="MBC" onid="2048" tsid="69" namespace="0x00d70000" />
       </transponder>
     </satellite>
+    <satellite key="00d72cf3:0001:fffe" name="Sat-21.5E" namespace="0x00d72cf3" position="21.5">
+      <transponder key="00d72cf3:0001:fffe" frequency="11507000" symbol_rate="1100000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x0002" sid="2" name="lad" type="1" provider="A1 M" onid="65534" tsid="1" namespace="0x00d72cf3" />
+      </transponder>
+    </satellite>
     <satellite key="00d72d00:0001:ffff" name="Sat-21.5E" namespace="0x00d72d00" position="21.5">
       <transponder key="00d72d00:0001:ffff" frequency="11520000" symbol_rate="2856000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Service-1" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x00d72d00" />

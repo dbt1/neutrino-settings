@@ -23,7 +23,7 @@
     <channel service_ref="1:0:1:0001:206c:013e:00820000:0:0:0:" name="12360H" service_name="12360H" provider="" sid="1" onid="318" tsid="8300" />
     <channel service_ref="1:0:1:0001:0072:0061:00820000:0:0:0:" name="12437H." service_name="12437H." provider="" sid="1" onid="97" tsid="114" />
     <channel service_ref="1:0:1:0001:0001:ffff:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="65535" tsid="1" />
-    <channel service_ref="1:0:1:0001:0001:ffff:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65535" tsid="1" />
+    <channel service_ref="1:0:25:0001:0005:ffff:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65535" tsid="5" />
     <channel service_ref="1:0:1:13b5:2710:00d5:00820000:0:0:0:" name="12713V SID 0x13b5" service_name="12713V SID 0x13b5" provider="DVB-S2 8PSK 12713V 13.0Â°E" sid="5045" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
     <channel service_ref="1:0:1:3e44:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15940" onid="318" tsid="12000" />
@@ -118,7 +118,6 @@
     <channel service_ref="1:0:22:006f:251c:00d5:00820000:0:0:0:" name="Balkanika" service_name="Balkanika" provider="VIVACOM" sid="111" onid="213" tsid="9500" />
     <channel service_ref="1:0:25:2c32:19c8:fbff:00820000:0:0:0:" name="Bambini HD" service_name="Bambini HD" provider="SkyItalia" sid="11314" onid="64511" tsid="6600" />
     <channel service_ref="1:0:1:02c4:14b4:013e:00820000:0:0:0:" name="Bare Knuckles Fighting Championship" service_name="Bare Knuckles Fighting Championship" provider="MuxIP" sid="708" onid="318" tsid="5300" />
-    <channel service_ref="1:0:12:03e8:03e8:0001:00820000:0:0:0:" name="Basic-1 Bck" service_name="Basic-1 Bck" provider="Telespazio" sid="1000" onid="1" tsid="1000" />
     <channel service_ref="1:0:25:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="" sid="503" onid="318" tsid="900" />
     <channel service_ref="1:0:25:332e:1388:013e:00820000:0:0:0:" name="BBC Arabic HD" service_name="BBC Arabic HD" provider="Globecast" sid="13102" onid="318" tsid="5000" />
     <channel service_ref="1:0:1:07d6:22c4:013e:00820000:0:0:0:" name="BBC Brit" service_name="BBC Brit" provider="GLOBECAST" sid="2006" onid="318" tsid="8900" />
@@ -273,6 +272,7 @@
     <channel service_ref="1:0:1:0008:2580:00d5:00820000:0:0:0:" name="CITY TV" service_name="CITY TV" provider="VIVACOM" sid="8" onid="213" tsid="9600" />
     <channel service_ref="1:0:1:0101:19c8:fbff:00820000:0:0:0:" name="Class CNBC" service_name="Class CNBC" provider="SkyItalia" sid="257" onid="64511" tsid="6600" />
     <channel service_ref="1:0:22:422d:2f44:013e:00820000:0:0:0:" name="Class TV Moda" service_name="Class TV Moda" provider="M-Three Satcom" sid="16941" onid="318" tsid="12100" />
+    <channel service_ref="1:0:1:052e:33f4:013e:00820000:0:0:0:" name="CNBC HD" service_name="CNBC HD" provider="Telespazio" sid="1326" onid="318" tsid="13300" />
     <channel service_ref="1:0:25:1c4d:1a2c:fbff:00820000:0:0:0:" name="CNBC HD" service_name="CNBC HD" provider="SkyItalia" sid="7245" onid="64511" tsid="6700" />
     <channel service_ref="1:0:1:013c:3e1c:013f:00820000:0:0:0:" name="CNEWS" service_name="CNEWS" provider="Eutelsat" sid="316" onid="319" tsid="15900" />
     <channel service_ref="1:0:1:020c:2e7c:013f:00820000:0:0:0:" name="CNEWS" service_name="CNEWS" provider="Eutelsat" sid="524" onid="319" tsid="11900" />
@@ -519,8 +519,9 @@
     <channel service_ref="1:0:25:113f:2af8:013e:00820000:0:0:0:" name="Hustler HD" service_name="Hustler HD" provider="CANAL+" sid="4415" onid="318" tsid="11000" />
     <channel service_ref="1:0:25:047c:2af8:013e:00820000:0:0:0:" name="Hustler HD Nova" service_name="Hustler HD Nova" provider="CANAL+" sid="1148" onid="318" tsid="11000" />
     <channel service_ref="1:0:25:047b:2af8:013e:00820000:0:0:0:" name="Hustler HD SBB" service_name="Hustler HD SBB" provider="CANAL+" sid="1147" onid="318" tsid="11000" />
-    <channel service_ref="1:0:12:03ea:03ea:0001:00820000:0:0:0:" name="HVS-2 Bck" service_name="HVS-2 Bck" provider="Telespazio" sid="1002" onid="1" tsid="1002" />
-    <channel service_ref="1:0:12:03eb:03eb:0001:00820000:0:0:0:" name="HVS-3 Bck" service_name="HVS-3 Bck" provider="Telespazio" sid="1003" onid="1" tsid="1003" />
+    <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
+    <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
+    <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Bck" service_name="HVS-3 DN2 Bck" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:22:002f:251c:00d5:00820000:0:0:0:" name="ID" service_name="ID" provider="VIVACOM" sid="47" onid="213" tsid="9500" />
     <channel service_ref="1:0:25:3b69:012c:013e:00820000:0:0:0:" name="ID Poland HD" service_name="ID Poland HD" provider="Warner Bros. Discovery" sid="15209" onid="318" tsid="300" />
     <channel service_ref="1:0:1:019d:1518:013e:00820000:0:0:0:" name="IDJ Kids HD" service_name="IDJ Kids HD" provider="NOVA" sid="413" onid="318" tsid="5400" />
@@ -663,6 +664,7 @@
     <channel service_ref="1:0:25:13ad:2710:00d5:00820000:0:0:0:" name="MAX Sport 2 HD" service_name="MAX Sport 2 HD" provider="VIVACOM" sid="5037" onid="213" tsid="10000" />
     <channel service_ref="1:0:25:008b:2648:00d5:00820000:0:0:0:" name="MAX Sport 3 HD" service_name="MAX Sport 3 HD" provider="VIVACOM" sid="139" onid="213" tsid="9800" />
     <channel service_ref="1:0:25:138a:2710:00d5:00820000:0:0:0:" name="MAX Sport 4 HD" service_name="MAX Sport 4 HD" provider="VIVACOM" sid="5002" onid="213" tsid="10000" />
+    <channel service_ref="1:0:1:01f9:0384:013e:00820000:0:0:0:" name="MC EU" service_name="MC EU" provider="Itep Pictures" sid="505" onid="318" tsid="900" />
     <channel service_ref="1:0:1:0e88:3200:013e:00820000:0:0:0:" name="MC EU" service_name="MC EU" provider="MB Satellite" sid="3720" onid="318" tsid="12800" />
     <channel service_ref="1:0:1:232c:2328:013e:00820000:0:0:0:" name="Med Music" service_name="Med Music" provider="STN" sid="9004" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:425e:3db8:013e:00820000:0:0:0:" name="Med TV" service_name="Med TV" provider="Telespazio" sid="16990" onid="318" tsid="15800" />
@@ -1010,9 +1012,9 @@
     <channel service_ref="1:0:1:2b3b:2260:fbff:00820000:0:0:0:" name="SDMS Service2" service_name="SDMS Service2" provider="SkyItalia" sid="11067" onid="64511" tsid="8800" />
     <channel service_ref="1:0:25:0d50:1450:013e:00820000:0:0:0:" name="Senato" service_name="Senato" provider="Rai" sid="3408" onid="318" tsid="5200" />
     <channel service_ref="1:0:1:132e:33f4:013e:00820000:0:0:0:" name="Sender Neu Jerusalem" service_name="Sender Neu Jerusalem" provider="Telespazio" sid="4910" onid="318" tsid="13300" />
-    <channel service_ref="1:0:1:008c:03e8:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1000" />
-    <channel service_ref="1:0:1:008c:03ea:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1002" />
-    <channel service_ref="1:0:1:008c:03eb:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1003" />
+    <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
+    <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
+    <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:22:13af:2710:00d5:00820000:0:0:0:" name="Show Max" service_name="Show Max" provider="VIVACOM" sid="5039" onid="213" tsid="10000" />
     <channel service_ref="1:0:22:138d:2710:00d5:00820000:0:0:0:" name="Show Turk" service_name="Show Turk" provider="VIVACOM" sid="5005" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:039c:2328:013e:00820000:0:0:0:" name="Silk Way" service_name="Silk Way" provider="STN" sid="924" onid="318" tsid="9000" />
@@ -1182,7 +1184,7 @@
     <channel service_ref="1:0:1:00c2:1518:013e:00820000:0:0:0:" name="Travel Channel HD" service_name="Travel Channel HD" provider="NOVA" sid="194" onid="318" tsid="5400" />
     <channel service_ref="1:0:25:3dd8:0640:013e:00820000:0:0:0:" name="Travel Channel HD" service_name="Travel Channel HD" provider="TVN WBD" sid="15832" onid="318" tsid="1600" />
     <channel service_ref="1:0:22:139e:2710:00d5:00820000:0:0:0:" name="Travel TV" service_name="Travel TV" provider="VIVACOM" sid="5022" onid="213" tsid="10000" />
-    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TravelXP 4K" service_name="TravelXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
+    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TRAVELXP 4K" service_name="TRAVELXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
     <channel service_ref="1:0:1:01ca:26ac:013f:00820000:0:0:0:" name="TREK" service_name="TREK" provider="AB Sat" sid="458" onid="319" tsid="9900" />
     <channel service_ref="1:0:1:05b2:170c:013f:00820000:0:0:0:" name="TREK" service_name="TREK" provider="AB Sat" sid="1458" onid="319" tsid="5900" />
     <channel service_ref="1:0:1:421a:3db8:013e:00820000:0:0:0:" name="TRM h24" service_name="TRM h24" provider="Telespazio" sid="16922" onid="318" tsid="15800" />
@@ -1190,7 +1192,7 @@
     <channel service_ref="1:0:1:008f:3bc4:013e:00820000:0:0:0:" name="TRT World HD" service_name="TRT World HD" provider="Globecast" sid="143" onid="318" tsid="15300" />
     <channel service_ref="1:0:1:1ca6:1ce8:0071:00820000:0:0:0:" name="Trójka - PR" service_name="Trójka - PR" provider="Cyfrowy Polsat S.A." sid="7334" onid="113" tsid="7400" />
     <channel service_ref="1:0:25:3dd7:0640:013e:00820000:0:0:0:" name="TTV HD" service_name="TTV HD" provider="TVN WBD" sid="15831" onid="318" tsid="1600" />
-    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisia Nationale" service_name="Tunisia Nationale" provider="" sid="7202" onid="318" tsid="7200" />
+    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisie Nationale" service_name="Tunisie Nationale" provider="" sid="7202" onid="318" tsid="7200" />
     <channel service_ref="1:0:25:3b6b:012c:013e:00820000:0:0:0:" name="Turbo Xtra Poland HD" service_name="Turbo Xtra Poland HD" provider="Warner Bros. Discovery" sid="15211" onid="318" tsid="300" />
     <channel service_ref="1:0:22:056d:2710:00d5:00820000:0:0:0:" name="TV 1" service_name="TV 1" provider="VIVACOM" sid="1389" onid="213" tsid="10000" />
     <channel service_ref="1:0:22:13aa:2710:00d5:00820000:0:0:0:" name="TV 5 Monde" service_name="TV 5 Monde" provider="VIVACOM" sid="5034" onid="213" tsid="10000" />
@@ -2374,7 +2376,7 @@
     <channel service_ref="1:0:1:0001:206c:013e:00820000:0:0:0:" name="12360H" service_name="12360H" provider="" sid="1" onid="318" tsid="8300" />
     <channel service_ref="1:0:1:0001:0072:0061:00820000:0:0:0:" name="12437H." service_name="12437H." provider="" sid="1" onid="97" tsid="114" />
     <channel service_ref="1:0:1:0001:0001:ffff:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="65535" tsid="1" />
-    <channel service_ref="1:0:1:0001:0001:ffff:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65535" tsid="1" />
+    <channel service_ref="1:0:25:0001:0005:ffff:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65535" tsid="5" />
     <channel service_ref="1:0:1:13b5:2710:00d5:00820000:0:0:0:" name="12713V SID 0x13b5" service_name="12713V SID 0x13b5" provider="DVB-S2 8PSK 12713V 13.0Â°E" sid="5045" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
     <channel service_ref="1:0:1:3e44:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15940" onid="318" tsid="12000" />
@@ -2382,12 +2384,11 @@
     <channel service_ref="1:0:1:02c2:1b58:013e:00820000:0:0:0:" name="Al Jazeera Mubasher" service_name="Al Jazeera Mubasher" provider="Telespazio" sid="706" onid="318" tsid="7000" />
     <channel service_ref="1:0:1:0212:33f4:013e:00820000:0:0:0:" name="Al Karma TV-ME" service_name="Al Karma TV-ME" provider="Telespazio" sid="530" onid="318" tsid="13300" />
     <channel service_ref="1:0:1:0235:33f4:013e:00820000:0:0:0:" name="Arte Investimenti" service_name="Arte Investimenti" provider="Telespazio" sid="565" onid="318" tsid="13300" />
-    <channel service_ref="1:0:12:03e8:03e8:0001:00820000:0:0:0:" name="Basic-1 Bck" service_name="Basic-1 Bck" provider="Telespazio" sid="1000" onid="1" tsid="1000" />
+    <channel service_ref="1:0:1:052e:33f4:013e:00820000:0:0:0:" name="CNBC HD" service_name="CNBC HD" provider="Telespazio" sid="1326" onid="318" tsid="13300" />
     <channel service_ref="1:0:1:00b7:1c84:013e:00820000:0:0:0:" name="EPT3 HD" service_name="EPT3 HD" provider="NOVA" sid="183" onid="318" tsid="7300" />
     <channel service_ref="1:0:1:0445:3db8:013e:00820000:0:0:0:" name="EQUtv" service_name="EQUtv" provider="Telespazio" sid="1093" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:134b:33f4:013e:00820000:0:0:0:" name="HADI TV 3" service_name="HADI TV 3" provider="Telespazio" sid="4939" onid="318" tsid="13300" />
-    <channel service_ref="1:0:12:03ea:03ea:0001:00820000:0:0:0:" name="HVS-2 Bck" service_name="HVS-2 Bck" provider="Telespazio" sid="1002" onid="1" tsid="1002" />
-    <channel service_ref="1:0:12:03eb:03eb:0001:00820000:0:0:0:" name="HVS-3 Bck" service_name="HVS-3 Bck" provider="Telespazio" sid="1003" onid="1" tsid="1003" />
+    <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Bck" service_name="HVS-3 DN2 Bck" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:25:0028:3264:013e:00820000:0:0:0:" name="Kabelio 3+" service_name="Kabelio 3+" provider="KABELIO.CH" sid="40" onid="318" tsid="12900" />
     <channel service_ref="1:0:25:00e6:2c24:013e:00820000:0:0:0:" name="Kabelio 5 UK" service_name="Kabelio 5 UK" provider="KABELIO.CH" sid="230" onid="318" tsid="11300" />
     <channel service_ref="1:0:25:002a:3264:013e:00820000:0:0:0:" name="Kabelio 5+" service_name="Kabelio 5+" provider="KABELIO.CH" sid="42" onid="318" tsid="12900" />
@@ -2747,7 +2748,7 @@
     <channel service_ref="1:0:31:0d4f:1450:013e:00820000:0:0:0:" name="Rai 4K" service_name="Rai 4K" provider="Rai" sid="3407" onid="318" tsid="5200" />
     <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K test" service_name="RDS Social TV 4K test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
     <channel service_ref="1:0:31:2d6c:1900:fbff:00820000:0:0:0:" name="Sky Sport 4k" service_name="Sky Sport 4k" provider="SkyItalia" sid="11628" onid="64511" tsid="6400" />
-    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TravelXP 4K" service_name="TravelXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
+    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TRAVELXP 4K" service_name="TRAVELXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
   </bouquet>
   <bouquet name="Resolution - HD" category="tv">
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
@@ -2846,6 +2847,7 @@
     <channel service_ref="1:0:1:3a9f:0514:013e:00820000:0:0:0:" name="Cinemax HD" service_name="Cinemax HD" provider="CANAL+" sid="15007" onid="318" tsid="1300" />
     <channel service_ref="1:0:1:3ad1:0514:013e:00820000:0:0:0:" name="Cinemax HD" service_name="Cinemax HD" provider="CANAL+" sid="15057" onid="318" tsid="1300" />
     <channel service_ref="1:0:1:3aef:0514:013e:00820000:0:0:0:" name="Cinemax HD" service_name="Cinemax HD" provider="CANAL+" sid="15087" onid="318" tsid="1300" />
+    <channel service_ref="1:0:1:052e:33f4:013e:00820000:0:0:0:" name="CNBC HD" service_name="CNBC HD" provider="Telespazio" sid="1326" onid="318" tsid="13300" />
     <channel service_ref="1:0:25:1c4d:1a2c:fbff:00820000:0:0:0:" name="CNBC HD" service_name="CNBC HD" provider="SkyItalia" sid="7245" onid="64511" tsid="6700" />
     <channel service_ref="1:0:25:3b6d:012c:013e:00820000:0:0:0:" name="CNNI EMEA HD" service_name="CNNI EMEA HD" provider="Warner Bros. Discovery" sid="15213" onid="318" tsid="300" />
     <channel service_ref="1:0:1:000c:1964:013e:00820000:0:0:0:" name="Comedy Central HD" service_name="Comedy Central HD" provider="Cyfrowy Polsat S.A." sid="12" onid="318" tsid="6500" />
@@ -3360,7 +3362,7 @@
     <channel service_ref="1:0:32:08b5:01f4:00fc:00820000:0:0:0:" name="Love Nature 4K" service_name="Love Nature 4K" provider="iKOMG" sid="2229" onid="252" tsid="500" />
     <channel service_ref="1:0:1:11fc:2b5c:013e:00820000:0:0:0:" name="Museum 4K" service_name="Museum 4K" provider="" sid="4604" onid="318" tsid="11100" />
     <channel service_ref="1:0:1:11fd:2b5c:013e:00820000:0:0:0:" name="MyZen 4K" service_name="MyZen 4K" provider="" sid="4605" onid="318" tsid="11100" />
-    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TravelXP 4K" service_name="TravelXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
+    <channel service_ref="1:0:31:11fb:2b5c:013e:00820000:0:0:0:" name="TRAVELXP 4K" service_name="TRAVELXP 4K" provider="TravelXP" sid="4603" onid="318" tsid="11100" />
   </bouquet>
   <bouquet name="Others" category="tv">
     <channel service_ref="1:0:1:0063:157c:013e:00820000:0:0:0:" name="" service_name="" provider="" sid="99" onid="318" tsid="5500" />
@@ -3449,6 +3451,8 @@
     <channel service_ref="1:0:1:290f:1edc:0071:00820000:0:0:0:" name="HBO HD" service_name="HBO HD" provider="" sid="10511" onid="113" tsid="7900" />
     <channel service_ref="1:0:25:10eb:03e8:013e:00820000:0:0:0:" name="HGTV HD" service_name="HGTV HD" provider="TVN WBD" sid="4331" onid="318" tsid="1000" />
     <channel service_ref="1:0:22:10df:03e8:013e:00820000:0:0:0:" name="Historia Poland" service_name="Historia Poland" provider="Discovery" sid="4319" onid="318" tsid="1000" />
+    <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
+    <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
     <channel service_ref="1:0:1:008c:0c07:0001:00820000:0:0:0:" name="INT_OS_PLATFORM" service_name="INT_OS_PLATFORM" provider="Eutelsat" sid="140" onid="1" tsid="3079" />
     <channel service_ref="1:0:1:089b:01f4:00fc:00820000:0:0:0:" name="Iran E Aryee" service_name="Iran E Aryee" provider="iKOMG" sid="2203" onid="252" tsid="500" />
     <channel service_ref="1:0:1:1c8b:332c:013e:00820000:0:0:0:" name="Iran International" service_name="Iran International" provider="Volant Media" sid="7307" onid="318" tsid="13100" />
@@ -3490,6 +3494,7 @@
     <channel service_ref="1:0:1:00d1:2e7c:013f:00820000:0:0:0:" name="LCP" service_name="LCP" provider="Eutelsat" sid="209" onid="319" tsid="11900" />
     <channel service_ref="1:0:25:05de:20d0:013e:00820000:0:0:0:" name="legacy-pr" service_name="legacy-pr" provider="" sid="1502" onid="318" tsid="8400" />
     <channel service_ref="1:0:25:018a:2134:013e:00820000:0:0:0:" name="Libya ALWatnieh" service_name="Libya ALWatnieh" provider="Etisalat" sid="394" onid="318" tsid="8500" />
+    <channel service_ref="1:0:1:01f9:0384:013e:00820000:0:0:0:" name="MC EU" service_name="MC EU" provider="Itep Pictures" sid="505" onid="318" tsid="900" />
     <channel service_ref="1:0:25:08a6:01f4:00fc:00820000:0:0:0:" name="Medya Haber" service_name="Medya Haber" provider="iKOMG" sid="2214" onid="252" tsid="500" />
     <channel service_ref="1:0:25:3dd4:0640:013e:00820000:0:0:0:" name="Metro HD" service_name="Metro HD" provider="TVN WBD" sid="15828" onid="318" tsid="1600" />
     <channel service_ref="1:0:25:10e1:03e8:013e:00820000:0:0:0:" name="MotorTrend HD" service_name="MotorTrend HD" provider="TVN WBD" sid="4321" onid="318" tsid="1000" />
@@ -3524,9 +3529,9 @@
     <channel service_ref="1:0:25:04b2:23f0:013e:00820000:0:0:0:" name="Saudi Ch for Sunnah HD" service_name="Saudi Ch for Sunnah HD" provider="" sid="1202" onid="318" tsid="9200" />
     <channel service_ref="1:0:25:04b5:23f0:013e:00820000:0:0:0:" name="SAUDI TV HD" service_name="SAUDI TV HD" provider="" sid="1205" onid="318" tsid="9200" />
     <channel service_ref="1:0:25:04b1:23f0:013e:00820000:0:0:0:" name="SBC HD" service_name="SBC HD" provider="" sid="1201" onid="318" tsid="9200" />
-    <channel service_ref="1:0:1:008c:03e8:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1000" />
-    <channel service_ref="1:0:1:008c:03ea:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1002" />
-    <channel service_ref="1:0:1:008c:03eb:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1003" />
+    <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
+    <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
+    <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:039c:2328:013e:00820000:0:0:0:" name="Silk Way" service_name="Silk Way" provider="STN" sid="924" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:39d9:1fa4:013e:00820000:0:0:0:" name="Sonlife" service_name="Sonlife" provider="ARQIVA LTD" sid="14809" onid="318" tsid="8100" />
     <channel service_ref="1:0:1:028f:2454:013e:00820000:0:0:0:" name="SRS - TV" service_name="SRS - TV" provider="" sid="655" onid="318" tsid="9300" />
@@ -3545,7 +3550,7 @@
     <channel service_ref="1:0:1:051e:2e7c:013f:00820000:0:0:0:" name="TMC" service_name="TMC" provider="Eutelsat" sid="1310" onid="319" tsid="11900" />
     <channel service_ref="1:0:25:3dd8:0640:013e:00820000:0:0:0:" name="Travel Channel HD" service_name="Travel Channel HD" provider="TVN WBD" sid="15832" onid="318" tsid="1600" />
     <channel service_ref="1:0:25:3dd7:0640:013e:00820000:0:0:0:" name="TTV HD" service_name="TTV HD" provider="TVN WBD" sid="15831" onid="318" tsid="1600" />
-    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisia Nationale" service_name="Tunisia Nationale" provider="" sid="7202" onid="318" tsid="7200" />
+    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisie Nationale" service_name="Tunisie Nationale" provider="" sid="7202" onid="318" tsid="7200" />
     <channel service_ref="1:0:25:005b:1770:00be:00820000:0:0:0:" name="TV2000" service_name="TV2000" provider="TV2000" sid="91" onid="190" tsid="6000" />
     <channel service_ref="1:0:22:006e:2fa8:013e:00820000:0:0:0:" name="TV8" service_name="TV8" provider="Svoboda Satellite" sid="110" onid="318" tsid="12200" />
     <channel service_ref="1:0:25:3dd2:0640:013e:00820000:0:0:0:" name="TVN 24 HD" service_name="TVN 24 HD" provider="TVN WBD" sid="15826" onid="318" tsid="1600" />

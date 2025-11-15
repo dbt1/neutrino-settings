@@ -26,23 +26,15 @@
     <satellite key="011a0000:07dc:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07dc:0002" frequency="11934000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0xbf68" sid="49000" name="(sub b +1000)" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x0fff" sid="4095" name="4095" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0xb798" sid="47000" name="___4109" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0xbb80" sid="48000" name="___4110" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x1ffb" sid="8187" name="Dummy Eire Service" type="130" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x1f51" sid="8017" name="Dummy My Sky Service" type="130" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x076e" sid="1902" name="Sky Max" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x075c" sid="1884" name="Sky Showcase" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x14a1" sid="5281" name="Sky Showcase" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x0f08" sid="3848" name="SkySp F'ball" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x1e9e" sid="7838" name="SkySp F'ball" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x01b9" sid="441" name="SkySp Golf" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x14ca" sid="5322" name="SkySp Golf" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x151c" sid="5404" name="SkySp Golf" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x0ffd" sid="4093" name="SkySp Mix" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x1bb3" sid="7091" name="SkySp Mix" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x052e" sid="1326" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
-        <service id="0x189f" sid="6303" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" />
         <service id="0x050e" sid="1294" name="SNR IRN" type="2" provider="BSkyB" onid="2" tsid="2012" namespace="0x011a0000" radio="1" />
       </transponder>
     </satellite>
@@ -91,6 +83,7 @@
     </satellite>
     <satellite key="011a0000:07e4:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e4:0002" frequency="12090000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
+        <service id="0x149c" sid="5276" name="5276" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x183b" sid="6203" name="Challenge" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x041e" sid="1054" name="ETFG" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x16ae" sid="5806" name="Nat Geo" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
@@ -109,6 +102,7 @@
         <service id="0x1ddd" sid="7645" name="SkyNewsArabia" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x053e" sid="1342" name="SkySp Cricket" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x14b6" sid="5302" name="SkySp Cricket" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
+        <service id="0x0f08" sid="3848" name="SkySp F'ball" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x1ea0" sid="7840" name="SkySp F'ball" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x14cc" sid="5324" name="SkySp Golf" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x01af" sid="431" name="SkySp News" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
@@ -117,6 +111,7 @@
         <service id="0x18aa" sid="6314" name="SkySp News" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x119f" sid="4511" name="SkySp NFL" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x18bd" sid="6333" name="SkySp NFL" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
+        <service id="0x0fff" sid="4095" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x1c90" sid="7312" name="SkySp PL" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x14f3" sid="5363" name="SkySp Tennis" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
         <service id="0x188d" sid="6285" name="SkySp Tennis" type="1" provider="BSkyB" onid="2" tsid="2020" namespace="0x011a0000" />
@@ -168,8 +163,6 @@
     </satellite>
     <satellite key="011a0000:07e7:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e7:0002" frequency="12148000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x13e3" sid="5091" name="5091" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
-        <service id="0x151a" sid="5402" name="5402" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x160d" sid="5645" name="BabyTV" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c22" sid="7202" name="Challenge" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x152c" sid="5420" name="Christmas24" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -185,6 +178,7 @@
         <service id="0x1a60" sid="6752" name="Sky Arts" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x059f" sid="1439" name="Sky Comedy" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x17a8" sid="6056" name="Sky Crime" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x151a" sid="5402" name="Sky Max" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x144a" sid="5194" name="Sky Nature" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1c41" sid="7233" name="Sky Nature" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ced" sid="7405" name="Sky News" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -195,6 +189,8 @@
         <service id="0x075d" sid="1885" name="SkyShowcase+1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x051b" sid="1307" name="SkySp F1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x18a2" sid="6306" name="SkySp F1" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x0ffd" sid="4093" name="SkySp Mix" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
+        <service id="0x13e3" sid="5091" name="SkySp Mix" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x0f13" sid="3859" name="SkySp+" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x16cf" sid="5839" name="SkySp+" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
         <service id="0x1ad8" sid="6872" name="Together" type="1" provider="BSkyB" onid="2" tsid="2023" namespace="0x011a0000" />
@@ -224,9 +220,10 @@
     </satellite>
     <satellite key="011a0000:07e9:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e9:0002" frequency="12188000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x143f" sid="5183" name="5183" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
+        <service id="0x05ee" sid="1518" name="5400" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
         <service id="0x1f52" sid="8018" name="BT PPV 1 ROI VCID" type="130" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
         <service id="0x1f50" sid="8016" name="BT PPV 2 ROI VCID" type="130" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
+        <service id="0x143f" sid="5183" name="Disney Jr HD" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
         <service id="0x1abd" sid="6845" name="LFCTV HD" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
         <service id="0x05f4" sid="1524" name="Premier 1 HD" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
         <service id="0x180a" sid="6154" name="Premier 1 HD" type="25" provider="BSkyB" onid="2" tsid="2025" namespace="0x011a0000" />
@@ -485,8 +482,8 @@
         <service id="0xc491" sid="50321" name="NOW 70s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc482" sid="50306" name="NOW 80s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4b5" sid="50357" name="NOW 90s &amp; 00s" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
-        <service id="0xc4b0" sid="50352" name="NOW Christmas" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4b3" sid="50355" name="NOW ROCK" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
+        <service id="0xc4b0" sid="50352" name="NOW XMAS" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc4bd" sid="50365" name="QTV Religious" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc497" sid="50327" name="Rewind TV" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
         <service id="0xc49f" sid="50335" name="Sikh Channel" type="1" provider="BSkyB" onid="2" tsid="2065" namespace="0x011a0000" />
