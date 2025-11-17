@@ -361,8 +361,7 @@
       <transponder key="0e080000:0022:0046" frequency="11389000" symbol_rate="24500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x1e6c" sid="7788" name="Bedehuskanalen" type="25" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
         <service id="0x1d7a" sid="7546" name="Kanal 10 Norge HD" type="25" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
-        <service id="0x1c63" sid="7267" name="Kanal 10 Sverige" type="22" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
-        <service id="0x32c8" sid="13000" name="Kanal 10 Sverige HD" type="25" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
+        <service id="0x1c63" sid="7267" name="Kanal 10 Sverige HD" type="25" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
         <service id="0x1c6a" sid="7274" name="Rikstoto Direkte HD" type="25" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
         <service id="0x002e" sid="46" name="Sverigekanalen" type="22" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
         <service id="0x1e64" sid="7780" name="Vision Sverige" type="22" provider="Telenor" onid="70" tsid="34" namespace="0x0e080000" />
@@ -595,10 +594,8 @@
     </satellite>
     <satellite key="0e080000:004f:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004f:0046" frequency="12437000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0xfeb0" sid="65200" name="12437H SID 0xfeb0" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xfeb1" sid="65201" name="12437H SID 0xfeb1" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xfffe" sid="65534" name="12437H SID 0xfffe" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xffff" sid="65535" name="12437H SID 0xffff" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xeb28" sid="60200" name="12437H SID 0xeb28" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xeb29" sid="60201" name="12437H SID 0xeb29" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0x32d4" sid="13012" name="Test 13012" type="22" provider="Telenor" onid="70" tsid="79" namespace="0x0e080000" />
       </transponder>
     </satellite>
@@ -642,13 +639,13 @@
         <service id="0x75bd" sid="30141" name="Film Cafe" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x75bc" sid="30140" name="Film+" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x75be" sid="30142" name="Film+." type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
-        <service id="0x75ba" sid="30138" name="FilmBox Family" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
+        <service id="0x75ba" sid="30138" name="Filmbox Family" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x0574" sid="1396" name="Guide" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x1dac" sid="7596" name="HirTV" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x759e" sid="30110" name="History Romania" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x75b7" sid="30135" name="History Romania." type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
+        <service id="0x75b5" sid="30133" name="JimJam" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x1dad" sid="7597" name="JimJam HU" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
-        <service id="0x75b5" sid="30133" name="JimJam HU." type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x75a2" sid="30114" name="Kanal D2" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x75b8" sid="30136" name="Kanal D2." type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
         <service id="0x1daf" sid="7599" name="M1" type="1" provider="M7" onid="1536" tsid="701" namespace="0x0e080000" />
@@ -730,17 +727,17 @@
     </satellite>
     <satellite key="0e080000:02c1:0600" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:02c1:0600" frequency="12034000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x773b" sid="30523" name="FilmBox Extra HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
+        <service id="0x773b" sid="30523" name="Filmbox Extra HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x772b" sid="30507" name="FilmBox Premium" type="22" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e38" sid="7736" name="HBO HD RO" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e36" sid="7734" name="Love Nature HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e3c" sid="7740" name="Love Nature HD (PS)" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
-        <service id="0x1e2e" sid="7726" name="M2 HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x773d" sid="30525" name="M2 HD (SVT)" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
+        <service id="0x1e2e" sid="7726" name="M2/Petofi TV HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x773a" sid="30522" name="M5 HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e3d" sid="7741" name="Nat Geo Wild HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e2d" sid="7725" name="Nat Geo Wild Romania HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
-        <service id="0x1e37" sid="7735" name="RTL HAROM HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
+        <service id="0x1e37" sid="7735" name="RTL Harom HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e30" sid="7728" name="RTL HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e35" sid="7733" name="RTL KETTO HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
         <service id="0x1e2f" sid="7727" name="Sport 1 HD" type="25" provider="M7" onid="1536" tsid="705" namespace="0x0e080000" />
@@ -818,17 +815,17 @@
       <transponder key="0e080000:02c5:0600" frequency="12265000" symbol_rate="28000000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x78d5" sid="30933" name="Arena 4" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78d7" sid="30935" name="Arena 4." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
+        <service id="0x78d4" sid="30932" name="AXN" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78cd" sid="30925" name="AXN CE" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
-        <service id="0x78d4" sid="30932" name="AXN CE." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78c3" sid="30915" name="Blue Hustler" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78c2" sid="30914" name="Cinemax2" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78dd" sid="30941" name="Cool" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78de" sid="30942" name="Cool (SVT)" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78c4" sid="30916" name="Duna TV" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
+        <service id="0x78d2" sid="30930" name="Filmbox" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78bf" sid="30911" name="FilmBox Basic" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
-        <service id="0x78d2" sid="30930" name="Filmbox Basic." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78c8" sid="30920" name="Hustler" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
-        <service id="0x78d1" sid="30929" name="Hustler." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
+        <service id="0x78d1" sid="30929" name="Hustler TV" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78b6" sid="30902" name="Moziklub" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78d8" sid="30936" name="Moziklub." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78bc" sid="30908" name="National Geographic RO" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
@@ -836,7 +833,7 @@
         <service id="0x78c0" sid="30912" name="Prime" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78ce" sid="30926" name="Prime." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78bd" sid="30909" name="Private TV" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
-        <service id="0x78d0" sid="30928" name="Private TV." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
+        <service id="0x78d0" sid="30928" name="Private TV" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78be" sid="30910" name="PRO TV" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78b5" sid="30901" name="Sorozatklub" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78d6" sid="30934" name="Sorozatklub.." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
@@ -856,9 +853,9 @@
     </satellite>
     <satellite key="0e080000:02c7:0600" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:02c7:0600" frequency="11919000" symbol_rate="28000000" polarization="V" fec="5" system="0" modulation="0">
+        <service id="0x1f3c" sid="7996" name="AMC" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f2f" sid="7983" name="AMC CE" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f2d" sid="7981" name="AMC HU" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
-        <service id="0x1f3c" sid="7996" name="AMC HU." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f34" sid="7988" name="AXN Black" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x79a5" sid="31141" name="AXN Black." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x798f" sid="31119" name="AXN CZ" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
@@ -873,15 +870,15 @@
         <service id="0x1f37" sid="7991" name="Disney ROM" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x798b" sid="31115" name="Disney ROM" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x798a" sid="31114" name="Dizi Channel" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
-        <service id="0x79a6" sid="31142" name="Duna World / M4 Sport+" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x79a9" sid="31145" name="Duna World / M4 Sport+ SVT" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x79a8" sid="31144" name="Duna World / M4 Sport+." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
-        <service id="0x79a7" sid="31143" name="FilmBox Stars INT" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
+        <service id="0x79a6" sid="31142" name="Duna World/M4 Sport+" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
+        <service id="0x79a7" sid="31143" name="Filmbox Stars" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x798c" sid="31116" name="M5" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x79a1" sid="31137" name="M5 (SVT)" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x799e" sid="31134" name="M5." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f2c" sid="7980" name="Nat Geo" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
-        <service id="0x1f3d" sid="7997" name="Nat Geo." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
+        <service id="0x1f3d" sid="7997" name="National Geographic" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x798d" sid="31117" name="TV2 Comedy" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f38" sid="7992" name="TV2 Comedy." type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
         <service id="0x1f3e" sid="7998" name="TV2 Kids" type="1" provider="M7" onid="1536" tsid="711" namespace="0x0e080000" />
@@ -926,7 +923,7 @@
         <service id="0x79f2" sid="31218" name="RTL HAROM (SVT)" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
         <service id="0x79f9" sid="31225" name="RTL HAROM." type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
         <service id="0x79ec" sid="31212" name="RTL KETTO" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
-        <service id="0x79f6" sid="31222" name="RTL KETTO." type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
+        <service id="0x79f6" sid="31222" name="RTL Ketto" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
         <service id="0x79ee" sid="31214" name="Sorozat+" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
         <service id="0x79f4" sid="31220" name="Sorozat+ (SVT)" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
         <service id="0x79eb" sid="31211" name="Spektrum Home" type="1" provider="M7" onid="1536" tsid="712" namespace="0x0e080000" />
@@ -944,7 +941,7 @@
         <service id="0x7a48" sid="31304" name="CS Film/CS Horror" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a57" sid="31319" name="Direct One HD" type="25" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a58" sid="31320" name="Docubox" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
-        <service id="0x7a59" sid="31321" name="Eroxxx" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
+        <service id="0x7a59" sid="31321" name="EroXXX" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a5a" sid="31322" name="FightBox" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a4f" sid="31311" name="Film+ HD" type="25" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a55" sid="31317" name="Filmbox Stars CZ" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
@@ -954,7 +951,7 @@
         <service id="0x7a47" sid="31303" name="LALA TV" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a49" sid="31305" name="Markiza INT" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a61" sid="31329" name="Mezzo" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
-        <service id="0x7a63" sid="31331" name="Nat Geo HD HU" type="25" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
+        <service id="0x7a63" sid="31331" name="Nat Geo HD" type="25" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a4b" sid="31307" name="Prima Cool" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a4c" sid="31308" name="Prima Love" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />
         <service id="0x7a52" sid="31314" name="Senzi" type="22" provider="M7" onid="1536" tsid="715" namespace="0x0e080000" />

@@ -3,10 +3,10 @@
   <satellites>
     <satellite key="0dde0000:0001:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
       <transponder key="0dde0000:0001:20fa" frequency="12732000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
-        <service id="0x0041" sid="65" name="France 2" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0041" sid="65" name="France 2" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
         <service id="0x006e" sid="110" name="France 3" type="1" provider="GR1" onid="8442" tsid="1" namespace="0x0dde0000" />
-        <service id="0x0044" sid="68" name="France 4" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
-        <service id="0x006a" sid="106" name="franceinfo:" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0044" sid="68" name="France 4" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x006a" sid="106" name="franceinfo:" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
       </transponder>
     </satellite>
     <satellite key="0dde0000:0001:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
@@ -108,12 +108,12 @@
         <service id="0x044d" sid="1101" name="Rai 1 HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
         <service id="0x044e" sid="1102" name="Rai 2 HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
         <service id="0x01c8" sid="456" name="Rai 3 HD" type="0" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x01cb" sid="459" name="Rai 3 TGR Emilia-Romagna" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x045c" sid="1116" name="Rai 3 TGR Emilia-Romagna" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x01c9" sid="457" name="Rai 3 TGR Lombardia HD" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x045a" sid="1114" name="Rai 3 TGR Lombardia HD" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x01ca" sid="458" name="Rai 3 TGR Piemonte HD" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
-        <service id="0x045b" sid="1115" name="Rai 3 TGR Piemonte HD" type="1" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01cb" sid="459" name="Rai 3 TGR Emilia-Romagna" type="22" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045c" sid="1116" name="Rai 3 TGR Emilia-Romagna" type="22" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01c9" sid="457" name="Rai 3 TGR Lombardia HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045a" sid="1114" name="Rai 3 TGR Lombardia HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x01ca" sid="458" name="Rai 3 TGR Piemonte HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
+        <service id="0x045b" sid="1115" name="Rai 3 TGR Piemonte HD" type="25" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
         <service id="0x044f" sid="1103" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
         <service id="0x045e" sid="1118" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="113" namespace="0x0dde0000" />
       </transponder>
@@ -268,11 +268,6 @@
         <service id="0x028c" sid="652" name="Rai News 24" type="22" provider="Rai" onid="8572" tsid="213" namespace="0x0dde0000" />
       </transponder>
     </satellite>
-    <satellite key="0dde0000:00fa:00c8" name="Sat-5W" namespace="0x0dde0000" position="-5">
-      <transponder key="0dde0000:00fa:00c8" frequency="12564000" symbol_rate="35300000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="DAB Naz" type="2" provider="Rai" onid="200" tsid="250" namespace="0x0dde0000" radio="1" />
-      </transponder>
-    </satellite>
     <satellite key="0dde0000:0107:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
       <transponder key="0dde0000:0107:217c" frequency="12585000" symbol_rate="35500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x0bba" sid="3002" name="ARTE ITALIA 124" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x0dde0000" />
@@ -418,6 +413,7 @@
         <service id="0x00c2" sid="194" name="Radio Esperance" type="2" provider="TDF" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
         <service id="0x00c0" sid="192" name="RDS TDF" type="2" provider="TDF-TdR_RMV" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
         <service id="0x00c1" sid="193" name="RF Contrib" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x00bf" sid="191" name="Tiers-RDS" type="2" provider="TDF" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dde0000:4e84:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">

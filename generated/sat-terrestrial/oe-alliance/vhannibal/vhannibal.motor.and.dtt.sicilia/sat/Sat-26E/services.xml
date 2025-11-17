@@ -188,7 +188,6 @@
         <service id="0x00fa" sid="250" name="Al Arabiya" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x00ff" sid="255" name="Al Arabiya Business" type="1" provider="" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x00fd" sid="253" name="Al Mashhad" type="25" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
-        <service id="0x024f" sid="591" name="Alhurra HD" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x00fb" sid="251" name="ERI TV" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x023a" sid="570" name="Makkah TV" type="1" provider="" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x0066" sid="102" name="SSad TV" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
@@ -198,13 +197,10 @@
         <service id="0x00e7" sid="231" name="Test-5" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x01fe" sid="510" name="Test-6" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x00e6" sid="230" name="Test-7" type="1" provider="JMC" onid="702" tsid="502" namespace="0x01040000" />
-        <service id="0x00d7" sid="215" name="VOA Iraq1" type="1" provider="" onid="702" tsid="502" namespace="0x01040000" />
         <service id="0x019a" sid="410" name="ERI R1" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
         <service id="0x019b" sid="411" name="ERI R2" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
         <service id="0x019c" sid="412" name="ERI R3" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
         <service id="0x019d" sid="413" name="ERI R4" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
-        <service id="0x00d8" sid="216" name="Radio Sawa VOA Sudan" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
-        <service id="0x00db" sid="219" name="VOA Libya" type="2" provider="JMC" onid="702" tsid="502" namespace="0x01040000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="01040000:01f7:02be" name="Sat-26E" namespace="0x01040000" position="26">
@@ -275,9 +271,9 @@
         <service id="0x001f" sid="31" name="France 24 (en français)" type="1" provider="France Médias Monde" onid="702" tsid="509" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="France 24 (in arabic)" type="1" provider="France Médias Monde" onid="702" tsid="509" namespace="0x01040000" />
         <service id="0x0018" sid="24" name="RTI 1" type="22" provider="" onid="702" tsid="509" namespace="0x01040000" />
-        <service id="0x000d" sid="13" name="Sky News Arabia" type="1" provider="Suresh" onid="702" tsid="509" namespace="0x01040000" />
+        <service id="0x000d" sid="13" name="Sky News Arabia" type="22" provider="Suresh" onid="702" tsid="509" namespace="0x01040000" />
         <service id="0x001a" sid="26" name="Sky News Arabia HD" type="25" provider="Harris" onid="702" tsid="509" namespace="0x01040000" />
-        <service id="0x0011" sid="17" name="Sky News Arabia Radio" type="1" provider="Suresh" onid="702" tsid="509" namespace="0x01040000" />
+        <service id="0x0011" sid="17" name="Sky News Arabia Radio" type="22" provider="Suresh" onid="702" tsid="509" namespace="0x01040000" />
         <service id="0x002a" sid="42" name="WRN (Sawt Al Alam)" type="1" provider="GLOBECAST" onid="702" tsid="509" namespace="0x01040000" />
         <service id="0x002f" sid="47" name="BBC Horn of Africa" type="2" provider="" onid="702" tsid="509" namespace="0x01040000" radio="1" />
         <service id="0x002e" sid="46" name="BBC World Service English Middle East" type="2" provider="BBC World Service" onid="702" tsid="509" namespace="0x01040000" radio="1" />
@@ -589,19 +585,18 @@
     </satellite>
     <satellite key="01040000:1137:21ac" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:1137:21ac" frequency="12643000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x000e" sid="14" name="Attessia TV" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x000f" sid="15" name="Jawhara FM-TV" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x000d" sid="13" name="Radio Visuel Nat TN" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x000c" sid="12" name="Telvza TV" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x044c" sid="1100" name="Tunisia 1 HD" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x04b0" sid="1200" name="Tunisia 2 HD" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x000a" sid="10" name="Tunisia Educ 1" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x000b" sid="11" name="Tunisna" type="1" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" />
-        <service id="0x0ce4" sid="3300" name="Panorama" type="2" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
-        <service id="0x00e3" sid="227" name="R-Tunisie Culture" type="2" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
-        <service id="0x00e2" sid="226" name="R-Tunisie Internationale" type="2" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
-        <service id="0x00e4" sid="228" name="R-Tunisie Nationale" type="2" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
-        <service id="0x00e0" sid="224" name="Radio Jeune" type="2" provider="ONT" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
+        <service id="0x000e" sid="14" name="Attessia TV" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x000f" sid="15" name="Jawhara FM-TV" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x000d" sid="13" name="Radio Visuel Nat TN" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x044c" sid="1100" name="Tunisia 1 HD" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x04b0" sid="1200" name="Tunisia 2 HD" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x000a" sid="10" name="Tunisia Educ 1" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x000b" sid="11" name="Tunisna" type="1" provider="" onid="8620" tsid="4407" namespace="0x01040000" />
+        <service id="0x0ce4" sid="3300" name="Panorama" type="2" provider="" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
+        <service id="0x001b" sid="27" name="R-Tunisie Culture" type="2" provider="" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
+        <service id="0x001a" sid="26" name="R-Tunisie Internationale" type="2" provider="" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
+        <service id="0x001c" sid="28" name="R-Tunisie Nationale" type="2" provider="" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
+        <service id="0x000c" sid="12" name="Radio Jeune" type="2" provider="" onid="8620" tsid="4407" namespace="0x01040000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="01040000:13f7:02be" name="Sat-26E" namespace="0x01040000" position="26">
@@ -636,11 +631,11 @@
         <service id="0x001b" sid="27" name="AP TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001a" sid="26" name="Chairman TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002e" sid="46" name="Champion TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x0013" sid="19" name="Dove TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="ED TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="G-Eye TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x000c" sid="12" name="Newday TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x000c" sid="12" name="Newday TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001d" sid="29" name="North East TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002b" sid="43" name="Northern Gold TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000f" sid="15" name="OFF TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
@@ -666,14 +661,6 @@
         <service id="0x012e" sid="302" name="MBC2 HD" type="25" provider="MBC" onid="702" tsid="6136" namespace="0x01040000" />
         <service id="0x0057" sid="87" name="MBC3 HD" type="25" provider="MBC" onid="702" tsid="6136" namespace="0x01040000" />
         <service id="0x012f" sid="303" name="MBC4 HD" type="25" provider="MBC" onid="702" tsid="6136" namespace="0x01040000" />
-      </transponder>
-    </satellite>
-    <satellite key="01040000:17f9:02be" name="Sat-26E" namespace="0x01040000" position="26">
-      <transponder key="01040000:17f9:02be" frequency="12418000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="SSC 1 HD" type="25" provider="" onid="702" tsid="6137" namespace="0x01040000" />
-        <service id="0x0006" sid="6" name="SSC 2 HD" type="25" provider="" onid="702" tsid="6137" namespace="0x01040000" />
-        <service id="0x000a" sid="10" name="SSC Extra HD" type="25" provider="" onid="702" tsid="6137" namespace="0x01040000" />
-        <service id="0x0008" sid="8" name="SSC3 HD" type="25" provider="" onid="702" tsid="6137" namespace="0x01040000" />
       </transponder>
     </satellite>
     <satellite key="01040000:1bc0:02be" name="Sat-26E" namespace="0x01040000" position="26">
@@ -744,28 +731,29 @@
         <service id="0x08d7" sid="2263" name="beIN SPORTS EN 1" type="25" provider="beIN SPORTS" onid="224" tsid="8080" namespace="0x01040000" />
         <service id="0x08d8" sid="2264" name="beIN SPORTS FR 2" type="25" provider="beIN SPORTS" onid="224" tsid="8080" namespace="0x01040000" />
         <service id="0x08d9" sid="2265" name="beIN SPORTS MAX 2" type="25" provider="beIN SPORTS" onid="224" tsid="8080" namespace="0x01040000" />
+        <service id="0x08db" sid="2267" name="beIN SPORTS NBA" type="25" provider="beIN SPORTS" onid="224" tsid="8080" namespace="0x01040000" />
         <service id="0x08dc" sid="2268" name="beIN SPORTS XTRA 7" type="25" provider="beIN Sports" onid="224" tsid="8080" namespace="0x01040000" />
       </transponder>
     </satellite>
     <satellite key="01040000:2025:02be" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:2025:02be" frequency="12265000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x02f1" sid="753" name="AB TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02ef" sid="751" name="Adinra TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02e1" sid="737" name="AGBEVE TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02d3" sid="723" name="ALTAR TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02ef" sid="751" name="Adinra TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02e1" sid="737" name="AGBEVE TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02d3" sid="723" name="ALTAR TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c1" sid="705" name="Call TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02cd" sid="717" name="Cape TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="Henmax" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02cb" sid="715" name="KK TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c6" sid="710" name="Marego TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f3" sid="755" name="Metro TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e2" sid="738" name="NHYIRA BAPTIST TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02de" sid="734" name="Nobyah TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02de" sid="734" name="Nobyah TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f4" sid="756" name="Original TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02ce" sid="718" name="Spring TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02eb" sid="747" name="Star" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02ce" sid="718" name="Spring TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02cf" sid="719" name="Twifoman TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c2" sid="706" name="Vic TV" type="1" provider="Henmax" onid="702" tsid="8229" namespace="0x01040000" />
       </transponder>
     </satellite>
@@ -904,11 +892,6 @@
         <service id="0x173e" sid="5950" name="Alwaqie TV" type="1" provider="" onid="1" tsid="4" namespace="0x0104abde" />
         <service id="0x000a" sid="10" name="Oman TV" type="1" provider="" onid="1" tsid="4" namespace="0x0104abde" />
         <service id="0x0001" sid="1" name="SSBC" type="1" provider="" onid="1" tsid="4" namespace="0x0104abde" />
-      </transponder>
-    </satellite>
-    <satellite key="0104ad81:0001:0001" name="Sat-26E" namespace="0x0104ad81" position="26">
-      <transponder key="0104ad81:0001:0001" frequency="11649000" symbol_rate="1346000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Service 01" type="1" provider="Net 1" onid="1" tsid="1" namespace="0x0104ad81" />
       </transponder>
     </satellite>
     <satellite key="0104ad8d:1000:2000" name="Sat-26E" namespace="0x0104ad8d" position="26">

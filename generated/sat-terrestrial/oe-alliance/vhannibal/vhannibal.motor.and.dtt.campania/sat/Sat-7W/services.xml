@@ -51,7 +51,7 @@
     <satellite key="0dca0000:0003:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0003:0800" frequency="11996000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0058" sid="88" name="Moonbug Kids" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
-        <service id="0x0055" sid="85" name="OSNtv Crime - Mux C" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
+        <service id="0x0055" sid="85" name="OSNtv Crime" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x012e" sid="302" name="OSNtv Movies Action" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x012d" sid="301" name="OSNtv Movies Premiere" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x012f" sid="303" name="OSNtv News" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
@@ -150,7 +150,7 @@
         <service id="0x02bf" sid="703" name="AL NAHRAIN TV" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02de" sid="734" name="Almasalah" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02d1" sid="721" name="ARZKR!" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
-        <service id="0x02bc" sid="700" name="Beity TV" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
+        <service id="0x02bc" sid="700" name="Beity TV" type="1" provider="Nilesat" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02bd" sid="701" name="Cima" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02e2" sid="738" name="Iraq Now" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02c9" sid="713" name="Jordan" type="1" provider="ART" onid="2048" tsid="7" namespace="0x0dca0000" />
@@ -166,7 +166,6 @@
     <satellite key="0dca0000:0008:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0008:0800" frequency="11958000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x012b" sid="299" name="AL HAQEQA AL DAWLIAH" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
-        <service id="0x02a0" sid="672" name="ALHAQIQA" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x0098" sid="152" name="ALISTIQAMA TV" type="1" provider="" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x009f" sid="159" name="Almamlaka TV" type="1" provider="none" onid="2048" tsid="8" namespace="0x0dca0000" />
         <service id="0x029d" sid="669" name="ALRAHMAN" type="1" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" />
@@ -193,6 +192,17 @@
         <service id="0x015d" sid="349" name="Rotana Radio Jordan" type="2" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" radio="1" />
         <service id="0x015c" sid="348" name="Rotana Tarab Jordan" type="2" provider="Harmonic" onid="2048" tsid="8" namespace="0x0dca0000" radio="1" />
         <service id="0x032c" sid="812" name="Sawt Al-alam" type="2" provider="JMC" onid="2048" tsid="8" namespace="0x0dca0000" radio="1" />
+        <service id="0x00a6" sid="166" name="Tafilah Radio" type="2" provider="" onid="2048" tsid="8" namespace="0x0dca0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dca0000:000a:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
+      <transponder key="0dca0000:000a:0800" frequency="11804000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x03e9" sid="1001" name="Test" type="25" provider="Nilesat" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ea" sid="1002" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03eb" sid="1003" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ec" sid="1004" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ed" sid="1005" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ee" sid="1006" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:000b:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -261,7 +271,6 @@
     <satellite key="0dca0000:0010:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0010:006e" frequency="11258000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x00bf" sid="191" name="AJMAN HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
-        <service id="0x00c1" sid="193" name="Al Araby 2 HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01c9" sid="457" name="Al Quran" type="25" provider="KSCG" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01b9" sid="441" name="Alhurra HD" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01cd" sid="461" name="ALKOFIYA HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
@@ -359,8 +368,8 @@
         <service id="0x1f55" sid="8021" name="Nawader TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f5f" sid="8031" name="Palestine Today" type="25" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f46" sid="8006" name="TRT KURDI" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
-        <service id="0x1f47" sid="8007" name="Tunisia Nat1 HD" type="25" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
-        <service id="0x1f6c" sid="8044" name="Tunisia Nat2 HD" type="25" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
+        <service id="0x1f47" sid="8007" name="Tunisia Nat1 HD" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
+        <service id="0x1f6c" sid="8044" name="Tunisia Nat2 HD" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:0014:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -370,7 +379,7 @@
         <service id="0x002c" sid="44" name="AL AYAM HD" type="25" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
         <service id="0x0004" sid="4" name="Al Ghadeer" type="1" provider="Eutelsat" onid="110" tsid="20" namespace="0x0dca0000" />
         <service id="0x001f" sid="31" name="Al Rabiaa TV" type="25" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
-        <service id="0x000f" sid="15" name="AL SHARQIYA NEWS HD" type="1" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
+        <service id="0x000f" sid="15" name="AL SHARQIYA NEWS HD" type="25" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
         <service id="0x000c" sid="12" name="ALNOJABA TV" type="1" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
         <service id="0x0019" sid="25" name="Iraq Al Hadath HD" type="25" provider="" onid="110" tsid="20" namespace="0x0dca0000" />
         <service id="0x0012" sid="18" name="RUDAW TV" type="25" provider="iKO Media Group" onid="110" tsid="20" namespace="0x0dca0000" />
@@ -445,13 +454,13 @@
     </satellite>
     <satellite key="0dca0000:0017:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0017:006e" frequency="11392000" symbol_rate="27500000" polarization="V" fec="5" system="0" modulation="0">
-        <service id="0x1b66" sid="7014" name="Al Basrah 365" type="25" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5e" sid="7006" name="Al Hayat" type="1" provider="IKO Media Group" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5b" sid="7003" name="AL MAYADEEN TV" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b64" sid="7012" name="Aliman TV" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5a" sid="7002" name="Alkarma Discipleship" type="1" provider="iKO Media Group" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b60" sid="7008" name="BELQEES" type="1" provider="Service Provider" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b62" sid="7010" name="MTA3" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
+        <service id="0x1b66" sid="7014" name="SABA WORLD PROMO" type="25" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b61" sid="7009" name="SBN Global" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b71" sid="7025" name="TRT Arabi" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5c" sid="7004" name="WION HD" type="1" provider="ZEE NETWORK" onid="110" tsid="23" namespace="0x0dca0000" />
@@ -543,23 +552,17 @@
     <satellite key="0dca0000:0029:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0029:0800" frequency="12399000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0x01a4" sid="420" name="AL HAQEQA AL DAWLIAH" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x03f3" sid="1011" name="AL-adhamiya Iraq" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x042c" sid="1068" name="Al-Etejah TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x01aa" sid="426" name="ALHAQIQA" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x002b" sid="43" name="alnassr 24 tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x0192" sid="402" name="ALRAHMAN" type="1" provider="" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03f9" sid="1017" name="Alruqia Tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03ed" sid="1005" name="Altaghier HD" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0xb84a" sid="47178" name="El Adjwaa TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x01a1" sid="417" name="Ennahar rokia" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0xa0ec" sid="41196" name="Hadramout TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x104b" sid="4171" name="Jordan Amen" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x101f" sid="4127" name="JORDAN SAMA" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x100c" sid="4108" name="KSA1727" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03ee" sid="1006" name="Makkah TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x106b" sid="4203" name="Oyoun AlWatan" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03fa" sid="1018" name="TUNISIA SHOP" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x0190" sid="400" name="VOA 24" type="2" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:002d:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -569,7 +572,6 @@
         <service id="0x04ae" sid="1198" name="CNN HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119e" sid="4510" name="Fatafeat" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119f" sid="4511" name="OSN" type="1" provider="Harmonic" onid="2048" tsid="45" namespace="0x0dca0000" />
-        <service id="0x11a0" sid="4512" name="OSN Test" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119c" sid="4508" name="OSNtv Comedy" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119a" sid="4506" name="OSNtv Kids" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x04ab" sid="1195" name="OSNtv Mezze" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
@@ -727,20 +729,6 @@
         <service id="0x00c1" sid="193" name="Radio Samar Sudan" type="2" provider="Eutelsat" onid="2048" tsid="800" namespace="0x0dca0000" radio="1" />
         <service id="0x00c6" sid="198" name="RDK" type="2" provider="Eutelsat" onid="2048" tsid="800" namespace="0x0dca0000" radio="1" />
         <service id="0x00c3" sid="195" name="TWR Arabic إذاعة حول العالم" type="2" provider="Eutelsat" onid="2048" tsid="800" namespace="0x0dca0000" radio="1" />
-      </transponder>
-    </satellite>
-    <satellite key="0dca0000:07f8:00e0" name="Sat-7W" namespace="0x0dca0000" position="-7">
-      <transponder key="0dca0000:07f8:00e0" frequency="11804000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="Nilesat Promo HD" type="25" provider="Nilesat" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03eb" sid="1003" name="Sky News Arabia" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ea" sid="1002" name="Sky News Arabia HD" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ec" sid="1004" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ed" sid="1005" name="Test" type="25" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ee" sid="1006" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03ef" sid="1007" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03f0" sid="1008" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03f1" sid="1009" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
-        <service id="0x03f2" sid="1010" name="Test" type="1" provider="NILESAT" onid="224" tsid="2040" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:0c21:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -906,7 +894,7 @@
         <service id="0x01f7" sid="503" name="Outdoor Channel" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fd" sid="509" name="Sports First" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01f4" sid="500" name="Wedo TV" type="1" provider="" onid="1918" tsid="40500" namespace="0x0dca0000" />
-        <service id="0x01ff" sid="511" name="WildTV" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
+        <service id="0x01ff" sid="511" name="Wild TV" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01fb" sid="507" name="World Fishing Network" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
         <service id="0x01f8" sid="504" name="World Poker Tour" type="1" provider="MuxIP" onid="1918" tsid="40500" namespace="0x0dca0000" />
       </transponder>
@@ -984,6 +972,7 @@
     <satellite key="0dca2a3f:0001:ffff" name="Sat-7W" namespace="0x0dca2a3f" position="-7">
       <transponder key="0dca2a3f:0001:ffff" frequency="10815000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x0010" sid="16" name="5G Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x000e" sid="14" name="A EXPRESS" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0004" sid="4" name="AGHAPY TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001b" sid="27" name="Al Karma Family" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0006" sid="6" name="Al Quds Al Yawm" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
@@ -996,12 +985,12 @@
         <service id="0x0008" sid="8" name="ALMAYADEEN PLUS" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0014" sid="20" name="Alsay3da" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0009" sid="9" name="El Khoulasa Cinema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
-        <service id="0x002e" sid="46" name="Elwaha" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x002e" sid="46" name="EL WAHA DRAMA" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000b" sid="11" name="Libya al Ahrar HD" type="25" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
-        <service id="0x0012" sid="18" name="MESAT2" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001a" sid="26" name="Mosar3a 1" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0018" sid="24" name="Noursat" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0003" sid="3" name="Reef Alyemen" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x0012" sid="18" name="TCTT" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001f" sid="31" name="The Grace TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0005" sid="5" name="Top Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0007" sid="7" name="TOP Zaman" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
@@ -1010,7 +999,6 @@
     <satellite key="0dca2cb9:0002:ffff" name="Sat-7W" namespace="0x0dca2cb9" position="-7">
       <transponder key="0dca2cb9:0002:ffff" frequency="11449000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x002b" sid="43" name="Al Qamar HD" type="1" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
-        <service id="0x004a" sid="74" name="ALASSEMA TV" type="22" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x002a" sid="42" name="ARTA Radio" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x002e" sid="46" name="Daystar" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006e" sid="110" name="GB News" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
@@ -1059,6 +1047,7 @@
         <service id="0x15e3" sid="5603" name="KSA SPORTS 1 HD" type="1" provider="SPORT" onid="0" tsid="0" namespace="0x0dca2ffc" />
         <service id="0x15e4" sid="5604" name="KSA SPORTS 2 HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />
         <service id="0x15e5" sid="5605" name="KSA SPORTS 3 HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />
+        <service id="0x15e7" sid="5607" name="KSA SPORTS 4 HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />
         <service id="0x15e1" sid="5601" name="Saudi CH For Quran HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />
         <service id="0x15e2" sid="5602" name="Saudi CH For Sunnah HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />
         <service id="0x0a29" sid="2601" name="Saudi TV HD" type="1" provider="SBC" onid="0" tsid="0" namespace="0x0dca2ffc" />

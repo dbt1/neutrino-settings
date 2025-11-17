@@ -136,7 +136,6 @@
         <service id="0x02bc" sid="700" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x02bd" sid="701" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06ac" sid="1708" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
-        <service id="0x06b3" sid="1715" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06b4" sid="1716" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06b6" sid="1718" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06b9" sid="1721" name="" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
@@ -149,6 +148,7 @@
         <service id="0x06aa" sid="1706" name="DREAM TÜRK" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06a8" sid="1704" name="EUROSPORT 1" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06a9" sid="1705" name="EUROSPORT 2" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
+        <service id="0x06b3" sid="1715" name="HISTORY CHANNEL HD" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x00b7" sid="183" name="iCNNTURKHDTrigger" type="130" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x0b08" sid="2824" name="iDISCOVERYTrigger" type="130" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x00b0" sid="176" name="iKANALDHDTrigger" type="130" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
@@ -457,10 +457,12 @@
       <transponder key="01a40000:7dc9:042e" frequency="11053000" symbol_rate="8000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x2bc1" sid="11201" name="BLOOMBERG HT" type="1" provider="BLOOMBERG HT" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc0" sid="11200" name="HABERTURK" type="1" provider="HABERTURK" onid="1070" tsid="32201" namespace="0x01a40000" />
-        <service id="0x2bc6" sid="11206" name="SHOW TURK HD" type="1" provider="SHOW TURK HD" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc7" sid="11207" name="HT SPOR HD" type="25" provider="HT SPOR HD" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc6" sid="11206" name="SHOW TURK HD" type="25" provider="SHOW TURK HD" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc5" sid="11205" name="BLOOMBERGHT INTERCOM" type="2" provider="BLOOMBERGHT INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
+        <service id="0x2bc3" sid="11203" name="BLOOMBERGHT RD" type="2" provider="BLOOMBERGHT RD" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
+        <service id="0x2bc4" sid="11204" name="HABERTURK INTERCOM" type="2" provider="HABERTURK INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
         <service id="0x2bc2" sid="11202" name="HABERTURK RADYO" type="2" provider="HABERTURK RADYO" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
-        <service id="0x2bc3" sid="11203" name="INTERCOM" type="2" provider="INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
-        <service id="0x2bc4" sid="11204" name="INTERCOM HT" type="2" provider="INTERCOM HT" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="01a40000:9ca5:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">

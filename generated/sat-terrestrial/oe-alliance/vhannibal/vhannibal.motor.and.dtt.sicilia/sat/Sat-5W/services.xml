@@ -3,10 +3,10 @@
   <satellites>
     <satellite key="0dde0000:0001:20fa" name="Sat-5W" namespace="0x0dde0000" position="-5">
       <transponder key="0dde0000:0001:20fa" frequency="12732000" symbol_rate="29500000" polarization="V" fec="6" system="0" modulation="0">
-        <service id="0x0041" sid="65" name="France 2" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0041" sid="65" name="France 2" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
         <service id="0x006e" sid="110" name="France 3" type="1" provider="GR1" onid="8442" tsid="1" namespace="0x0dde0000" />
-        <service id="0x0044" sid="68" name="France 4" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
-        <service id="0x006a" sid="106" name="franceinfo:" type="1" provider="GR1 A" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x0044" sid="68" name="France 4" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
+        <service id="0x006a" sid="106" name="franceinfo:" type="1" provider="GR1 B" onid="8442" tsid="1" namespace="0x0dde0000" />
       </transponder>
     </satellite>
     <satellite key="0dde0000:0001:217c" name="Sat-5W" namespace="0x0dde0000" position="-5">
@@ -413,6 +413,7 @@
         <service id="0x00c2" sid="194" name="Radio Esperance" type="2" provider="TDF" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
         <service id="0x00c0" sid="192" name="RDS TDF" type="2" provider="TDF-TdR_RMV" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
         <service id="0x00c1" sid="193" name="RF Contrib" type="2" provider="Radio France" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
+        <service id="0x00bf" sid="191" name="Tiers-RDS" type="2" provider="TDF" onid="1375" tsid="13010" namespace="0x0dde0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dde0000:4e84:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">

@@ -16,9 +16,14 @@
         <service id="0x0001" sid="1" name="M24 MAROC" type="1" provider="Harmonic" onid="8192" tsid="4096" namespace="0x001e0000" />
       </transponder>
     </satellite>
-    <satellite key="001e2a76:0001:0001" name="Sat-3E" namespace="0x001e2a76" position="3">
-      <transponder key="001e2a76:0001:0001" frequency="10870000" symbol_rate="5000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0011" sid="17" name="CAM 10 TV" type="1" provider="FFmpeg" onid="1" tsid="1" namespace="0x001e2a76" />
+    <satellite key="001e2ca6:0001:0001" name="Sat-3E" namespace="0x001e2ca6" position="3">
+      <transponder key="001e2ca6:0001:0001" frequency="11430000" symbol_rate="18326000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x001e" sid="30" name="AFRIQUEMEDIA1" type="1" provider="DiviCom Customer" onid="1" tsid="1" namespace="0x001e2ca6" />
+        <service id="0x002c" sid="44" name="CAM10_TELEVISION" type="1" provider="DTV" onid="1" tsid="1" namespace="0x001e2ca6" />
+        <service id="0x0013" sid="19" name="Canal 2 International HD" type="1" provider="BIS-AFRICA" onid="1" tsid="1" namespace="0x001e2ca6" />
+        <service id="0x001d" sid="29" name="France 24 (Fr)" type="1" provider="FTA BIS-AFRICA" onid="1" tsid="1" namespace="0x001e2ca6" />
+        <service id="0x0004" sid="4" name="Le Messager Tv" type="0" provider="rascom" onid="1" tsid="1" namespace="0x001e2ca6" />
+        <service id="0x0011" sid="17" name="Radio Kalangou" type="2" provider="Euplink" onid="1" tsid="1" namespace="0x001e2ca6" radio="1" />
       </transponder>
     </satellite>
     <satellite key="001e2d88:0001:0001" name="Sat-3E" namespace="0x001e2d88" position="3">
