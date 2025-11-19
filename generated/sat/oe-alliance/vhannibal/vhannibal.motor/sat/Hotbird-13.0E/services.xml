@@ -100,12 +100,13 @@
     <satellite key="00820000:0384:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:0384:013e" frequency="11373000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x01fb" sid="507" name="Al Mayadeen HD" type="25" provider="" onid="318" tsid="900" namespace="0x00820000" />
-        <service id="0x01f7" sid="503" name="Bayyinat TV" type="1" provider="Encoder device" onid="318" tsid="900" namespace="0x00820000" />
+        <service id="0x01f7" sid="503" name="Bayyinat TV" type="25" provider="" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x01f5" sid="501" name="Iran International HD" type="1" provider="Volant Media" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x01fc" sid="508" name="Kurdistan 24 HD" type="1" provider="" onid="318" tsid="900" namespace="0x00820000" />
+        <service id="0x01f9" sid="505" name="MC EU" type="1" provider="Itep Pictures" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00d7" sid="215" name="NHK WORLD-JAPAN" type="25" provider="" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x01fe" sid="510" name="Parole di Vita" type="1" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
-        <service id="0x00ce" sid="206" name="People TV" type="1" provider="PEOPLETV-RETE7" onid="318" tsid="900" namespace="0x00820000" />
+        <service id="0x00ce" sid="206" name="People TV" type="1" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00cc" sid="204" name="RADIO ZETA HD" type="25" provider="M-Three satcom" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00cb" sid="203" name="RADIOFRECCIA HD" type="25" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00c9" sid="201" name="RADIONORBA TV" type="1" provider="Telenorba" onid="318" tsid="900" namespace="0x00820000" />
@@ -669,8 +670,8 @@
         <service id="0x2db7" sid="11703" name="Mosaico Cinema" type="130" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
         <service id="0x2dc9" sid="11721" name="Mosaico Cinema" type="1" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
         <service id="0x110d" sid="4365" name="TV2000 HD" type="25" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x2b7b" sid="11131" name="InBlu" type="2" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
-        <service id="0x2ba6" sid="11174" name="INBLU2000" type="2" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
+        <service id="0x2b7b" sid="11131" name="12054H SID 0x2b7b" type="2" provider="DVB-S2 QPSK 12054H 13.0Â°E" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
+        <service id="0x2ba6" sid="11174" name="12054H SID 0x2ba6" type="2" provider="DVB-S2 QPSK 12054H 13.0Â°E" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
         <service id="0x110e" sid="4366" name="Radio Vaticana Europa" type="2" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
@@ -745,7 +746,7 @@
         <service id="0x1c71" sid="7281" name="Simaye Azadi SD" type="1" provider="M-Three Satcom" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x29cd" sid="10701" name="TELE CONGO" type="1" provider="GLOBECAST" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x1c73" sid="7283" name="TG NORBA 24" type="1" provider="Telenorba" onid="318" tsid="7200" namespace="0x00820000" />
-        <service id="0x1c22" sid="7202" name="Tunisia Nationale" type="1" provider="" onid="318" tsid="7200" namespace="0x00820000" />
+        <service id="0x1c22" sid="7202" name="Tunisie Nationale" type="1" provider="" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x0e44" sid="3652" name="CAPITAL" type="2" provider="M-Three Satcom" onid="318" tsid="7200" namespace="0x00820000" radio="1" />
         <service id="0x0e43" sid="3651" name="DEEJAY" type="2" provider="Elemedia" onid="318" tsid="7200" namespace="0x00820000" radio="1" />
         <service id="0x0e31" sid="3633" name="Giornale Radio" type="2" provider="M-Three Satcom" onid="318" tsid="7200" namespace="0x00820000" radio="1" />
@@ -1264,7 +1265,6 @@
     </satellite>
     <satellite key="00820000:2710:00d5" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:2710:00d5" frequency="12713000" symbol_rate="30000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x13b5" sid="5045" name="12713V SID 0x13b5" type="1" provider="DVB-S2 8PSK 12713V 13.0Â°E" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x13a6" sid="5030" name="Antena 3" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x138c" sid="5004" name="BeIN Movies Turk" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x139c" sid="5020" name="BG Music Channel" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
@@ -1300,6 +1300,7 @@
         <service id="0x056d" sid="1389" name="TV 1" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x13aa" sid="5034" name="TV 5 Monde" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x138f" sid="5007" name="VIVACOM Arena HD" type="25" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
+        <service id="0x13b5" sid="5045" name="VTK" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x13a3" sid="5027" name="WNESS TV" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x023f" sid="575" name="XY Plus" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
         <service id="0x13b1" sid="5041" name="Yaban TV" type="22" provider="VIVACOM" onid="213" tsid="10000" namespace="0x00820000" />
@@ -1367,7 +1368,7 @@
         <service id="0x11fc" sid="4604" name="Museum 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fd" sid="4605" name="MyZen 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fe" sid="4606" name="Simay Azadi HD" type="1" provider="GLOBECAST" onid="318" tsid="11100" namespace="0x00820000" />
-        <service id="0x11fb" sid="4603" name="TravelXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
+        <service id="0x11fb" sid="4603" name="TRAVELXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2bc0:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1837,15 +1838,15 @@
         <service id="0x135c" sid="4956" name="RIK 3" type="2" provider="Telespazio" onid="318" tsid="13300" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
-    <satellite key="00820000:3bc4:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:3bc4:0001" frequency="11566000" symbol_rate="29900000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0092" sid="146" name="BAHRAIN TV" type="25" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x008d" sid="141" name="Euronews English HD" type="22" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x0093" sid="147" name="France 24 HD (en Francais)" type="25" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x0094" sid="148" name="France 24 HD (in English)" type="25" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x031e" sid="798" name="Qatar TV HD" type="25" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x031f" sid="799" name="TRT Arabi HD" type="1" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
-        <service id="0x008f" sid="143" name="TRT World HD" type="1" provider="Globecast" onid="1" tsid="15300" namespace="0x00820000" />
+    <satellite key="00820000:3bc4:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:3bc4:013e" frequency="11566000" symbol_rate="29900000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0092" sid="146" name="BAHRAIN TV" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x008d" sid="141" name="Euronews English HD" type="22" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x0093" sid="147" name="France 24 HD (en Francais)" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x0094" sid="148" name="France 24 HD (in English)" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x031e" sid="798" name="Qatar TV HD" type="25" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x031f" sid="799" name="TRT Arabi HD" type="1" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
+        <service id="0x008f" sid="143" name="TRT World HD" type="1" provider="Globecast" onid="318" tsid="15300" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:3c28:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1968,9 +1969,9 @@
         <service id="0x0001" sid="1" name="12595V" type="1" provider="" onid="65535" tsid="1" namespace="0x0082b133" />
       </transponder>
     </satellite>
-    <satellite key="0082b13b:0005:ffff" name="Hotbird-13.0E" namespace="0x0082b13b" position="13">
-      <transponder key="0082b13b:0005:ffff" frequency="12603000" symbol_rate="7198000" polarization="V" fec="0" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="12603V" type="25" provider="" onid="65535" tsid="5" namespace="0x0082b13b" />
+    <satellite key="0082b13b:0001:ffff" name="Hotbird-13.0E" namespace="0x0082b13b" position="13">
+      <transponder key="0082b13b:0001:ffff" frequency="12603000" symbol_rate="7198000" polarization="V" fec="0" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="E242 DC-INT-BOL" type="1" provider="Globecast" onid="65535" tsid="1" namespace="0x0082b13b" />
       </transponder>
     </satellite>
   </satellites>
