@@ -27,7 +27,7 @@
         <service id="0x0fa3" sid="4003" name="NOVA BH" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fb1" sid="4017" name="NTV Arena" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fa1" sid="4001" name="O Kanal" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
-        <service id="0x0fa5" sid="4005" name="O Music" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
+        <service id="0x0fa5" sid="4005" name="O Music" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fa6" sid="4006" name="OBN" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fb0" sid="4016" name="ProTV" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fae" sid="4014" name="RTV BPK" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
@@ -164,6 +164,11 @@
     <satellite key="00d7adb0:0001:ffff" name="Sat-21.5E" namespace="0x00d7adb0" position="21.5">
       <transponder key="00d7adb0:0001:ffff" frequency="11696000" symbol_rate="1481000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Service-H" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x00d7adb0" />
+      </transponder>
+    </satellite>
+    <satellite key="00d7b1a5:0065:ffff" name="Sat-21.5E" namespace="0x00d7b1a5" position="21.5">
+      <transponder key="00d7b1a5:0065:ffff" frequency="12709000" symbol_rate="3700000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0029" sid="41" name="Service-HD" type="1" provider="OmanTv" onid="65535" tsid="101" namespace="0x00d7b1a5" />
       </transponder>
     </satellite>
   </satellites>

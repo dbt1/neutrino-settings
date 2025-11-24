@@ -276,6 +276,7 @@
         <service id="0x01cd" sid="461" name="ALKOFIYA HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x00c3" sid="195" name="Alrabaa SD Radio" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01cb" sid="459" name="ALSHABAB" type="25" provider="PlayBox Neo Suite" onid="110" tsid="16" namespace="0x0dca0000" />
+        <service id="0x01ce" sid="462" name="Ana Sooria" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01cc" sid="460" name="Basma Radio" type="1" provider="BasmaRadio" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x00c0" sid="192" name="Dijlah TV HD" type="1" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
         <service id="0x01ae" sid="430" name="INEWS TV HD" type="25" provider="" onid="110" tsid="16" namespace="0x0dca0000" />
@@ -361,6 +362,7 @@
     <satellite key="0dca0000:0012:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0012:006e" frequency="10873000" symbol_rate="27500000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x1f41" sid="8001" name="AL RAHMA" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
+        <service id="0x1f54" sid="8020" name="Alamal TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f57" sid="8023" name="Almasrawya TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f4c" sid="8012" name="EL MAHROUSA TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f44" sid="8004" name="Elkholasa mosalsalat" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
@@ -463,7 +465,6 @@
         <service id="0x1b66" sid="7014" name="SABA WORLD PROMO" type="25" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b61" sid="7009" name="SBN Global" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b71" sid="7025" name="TRT Arabi" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
-        <service id="0x1b5c" sid="7004" name="WION HD" type="1" provider="ZEE NETWORK" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b58" sid="7000" name="YEMEN SHABAB" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b6c" sid="7020" name="AL BACHAEER RADIO" type="2" provider="" onid="110" tsid="23" namespace="0x0dca0000" radio="1" />
       </transponder>
@@ -971,7 +972,6 @@
     </satellite>
     <satellite key="0dca2a3f:0001:ffff" name="Sat-7W" namespace="0x0dca2a3f" position="-7">
       <transponder key="0dca2a3f:0001:ffff" frequency="10815000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
-        <service id="0x0010" sid="16" name="5G Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000e" sid="14" name="A EXPRESS" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0004" sid="4" name="AGHAPY TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001b" sid="27" name="Al Karma Family" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
@@ -979,6 +979,7 @@
         <service id="0x0002" sid="2" name="Alatawla Cinema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000f" sid="15" name="Alatawla Hekayat" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000c" sid="12" name="Alatwla Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x0010" sid="16" name="Alhwanem Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001d" sid="29" name="Alkalema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000a" sid="10" name="Almagd TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000d" sid="13" name="Almasirah HD" type="25" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
@@ -1003,7 +1004,6 @@
         <service id="0x002e" sid="46" name="Daystar" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006e" sid="110" name="GB News" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006b" sid="107" name="Kartoon channel" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
-        <service id="0x006c" sid="108" name="MAGHREB 24 TV" type="31" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006f" sid="111" name="Music India" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x0030" sid="48" name="Riyad Al Salihin" type="22" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x002f" sid="47" name="TVRI" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />

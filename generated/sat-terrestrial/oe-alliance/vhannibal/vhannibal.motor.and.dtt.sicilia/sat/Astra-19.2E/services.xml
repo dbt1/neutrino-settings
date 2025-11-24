@@ -200,7 +200,7 @@
         <service id="0x33af" sid="13231" name="Service 13231" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33b0" sid="13232" name="Service 13232" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33b1" sid="13233" name="Service 13233" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
-        <service id="0x33a6" sid="13222" name="StarParadies TV" type="1" provider="" onid="1" tsid="1003" namespace="0x00c00000" />
+        <service id="0x33a6" sid="13222" name="StarParadies.TV" type="1" provider="" onid="1" tsid="1003" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:03ec:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -754,8 +754,8 @@
         <service id="0x76a5" sid="30373" name="EUROSPORT 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769e" sid="30366" name="LA SEXTA" type="1" provider="Digital+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769a" sid="30362" name="LALIGA TV BAR 3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e10" sid="7696" name="M+ EN JUEGO" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769d" sid="30365" name="M+ LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e10" sid="7696" name="M+ ROMANCE" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769b" sid="30363" name="M+DEPORTES6" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769f" sid="30367" name="M+LCAMPEON3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x1e13" sid="7699" name="MEZZO" type="1" provider="MEZZO" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -986,6 +986,12 @@
     </satellite>
     <satellite key="00c00000:0434:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0434:0001" frequency="11934000" symbol_rate="29700000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x22d9" sid="8921" name="11934V SID 0x22d9" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22da" sid="8922" name="11934V SID 0x22da" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22db" sid="8923" name="11934V SID 0x22db" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22dc" sid="8924" name="11934V SID 0x22dc" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22dd" sid="8925" name="11934V SID 0x22dd" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22df" sid="8927" name="11934V SID 0x22df" type="1" provider="DVB-S2 8PSK 11934V 19.2Â°E" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22cd" sid="8909" name="CANAL+" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22ce" sid="8910" name="CANAL+DOCS" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22cb" sid="8907" name="CANAL+LIVE 4" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
@@ -1072,6 +1078,9 @@
     </satellite>
     <satellite key="00c00000:043c:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:043c:0001" frequency="12090000" symbol_rate="29700000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x24cc" sid="9420" name="12090V SID 0x24cc" type="1" provider="DVB-S2 8PSK 12090V 19.2Â°E" onid="1" tsid="1084" namespace="0x00c00000" />
+        <service id="0x24cd" sid="9421" name="12090V SID 0x24cd" type="1" provider="DVB-S2 8PSK 12090V 19.2Â°E" onid="1" tsid="1084" namespace="0x00c00000" />
+        <service id="0x24cf" sid="9423" name="12090V SID 0x24cf" type="1" provider="DVB-S2 8PSK 12090V 19.2Â°E" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24c4" sid="9412" name="CANAL+LIVE 3" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24c8" sid="9416" name="CANAL+SPORT360" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24be" sid="9406" name="EUROSPORT 2" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
@@ -1122,6 +1131,7 @@
     </satellite>
     <satellite key="00c00000:0442:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0442:0001" frequency="12207000" symbol_rate="29700000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x039a" sid="922" name="12207V SID 0x2338" type="1" provider="DVB-S2 8PSK 12207V 19.2Â°E" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x0397" sid="919" name="CANAL+BOX OFFICE UHD" type="31" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x0398" sid="920" name="CNEWS" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x091f" sid="2335" name="CSTAR" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />

@@ -61,8 +61,10 @@
       <transponder key="01860000:0002:0001" frequency="12194000" symbol_rate="30000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x0012" sid="18" name="24 Kitchen" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x000e" sid="14" name="7/8 TV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
-        <service id="0x001c" sid="28" name="action.box" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x0010" sid="16" name="Animal Planet" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
+        <service id="0x001c" sid="28" name="Arena Action" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
+        <service id="0x00e0" sid="224" name="Arena Comedy" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
+        <service id="0x00e1" sid="225" name="Arena Life" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00e4" sid="228" name="Balkanika" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x001a" sid="26" name="BBC Earth" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x005b" sid="91" name="BHTV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
@@ -70,8 +72,6 @@
         <service id="0x001d" sid="29" name="Bulgaria on Air" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00e9" sid="233" name="Cartoon Network" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00ea" sid="234" name="Cartoonito" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
-        <service id="0x00e1" sid="225" name="cine.box" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
-        <service id="0x00e0" sid="224" name="comedy.box" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x002c" sid="44" name="Dorcel TV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x001f" sid="31" name="Euronews Bulgaria" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00eb" sid="235" name="Evrokom" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
@@ -498,7 +498,7 @@
         <service id="0x064a" sid="1610" name="Kanali 7" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
         <service id="0x0134" sid="308" name="Living HD" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
         <service id="0x026a" sid="618" name="News 24" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
-        <service id="0x05e6" sid="1510" name="Report TV" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
+        <service id="0x05e6" sid="1510" name="Report TV" type="1" provider="Tring" onid="926" tsid="1010" namespace="0x01860000" />
         <service id="0x0d52" sid="3410" name="RTSH" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
         <service id="0x051e" sid="1310" name="RTV 21" type="1" provider="Tring" onid="926" tsid="1010" namespace="0x01860000" />
         <service id="0x07da" sid="2010" name="Series HD" type="1" provider="Tring TV" onid="926" tsid="1010" namespace="0x01860000" />
@@ -530,12 +530,13 @@
     </satellite>
     <satellite key="01860000:03fc:039e" name="Sat-39E" namespace="0x01860000" position="39">
       <transponder key="01860000:03fc:039e" frequency="10930000" symbol_rate="30000000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x189c" sid="6300" name="BB VIP KOSOVA 1" type="1" provider="ArtMotion" onid="926" tsid="1020" namespace="0x01860000" />
+        <service id="0x18ce" sid="6350" name="BB VIP KOSOVA 2" type="1" provider="ArtMotion" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0cbc" sid="3260" name="BBF" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0c26" sid="3110" name="Bizzare" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0db6" sid="3510" name="Bubble" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0c8a" sid="3210" name="Bunga Bunga" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0bf4" sid="3060" name="Click TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
-        <service id="0x0a32" sid="2610" name="Club TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x052c" sid="1324" name="CNA TV" type="1" provider="TRING TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0e4c" sid="3660" name="EuroNews AL" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x042c" sid="1068" name="IN TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
@@ -548,7 +549,6 @@
         <service id="0x125c" sid="4700" name="Mediaset Italia" type="1" provider="Mediaset" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x07a8" sid="1960" name="Muse" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0fa0" sid="4000" name="NTV Albania" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
-        <service id="0x11f8" sid="4600" name="Panorama TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x11c6" sid="4550" name="Premium Channel" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0d84" sid="3460" name="Rai 1" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x048a" sid="1162" name="Rai 2" type="1" provider="Mediaset" onid="926" tsid="1020" namespace="0x01860000" />
@@ -559,6 +559,7 @@
         <service id="0x046a" sid="1130" name="Rtsh Sport" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x02f0" sid="752" name="SPORT 6 HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x02f8" sid="760" name="SPORT 7 HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
+        <service id="0x0a32" sid="2610" name="Telegraf TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x09ce" sid="2510" name="Tring Family HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0a64" sid="2660" name="Tring History" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x06ae" sid="1710" name="Tring Original" type="1" provider="Tring" onid="926" tsid="1020" namespace="0x01860000" />
