@@ -289,8 +289,8 @@
         <service id="0x0052" sid="82" name="France 24 HD (in English)" type="25" provider="France Médias Monde" onid="702" tsid="510" namespace="0x01040000" />
         <service id="0x0058" sid="88" name="TEST-Coming soon" type="25" provider="OVERON" onid="702" tsid="510" namespace="0x01040000" />
         <service id="0x012c" sid="300" name="TIVI5MONDE HD" type="25" provider="GlobeCast" onid="702" tsid="510" namespace="0x01040000" />
-        <service id="0x0057" sid="87" name="TRT Arabi HD" type="1" provider="GLOBECAST" onid="702" tsid="510" namespace="0x01040000" />
-        <service id="0x0056" sid="86" name="TRT WORLD HD" type="1" provider="GLOBECAST" onid="702" tsid="510" namespace="0x01040000" />
+        <service id="0x0057" sid="87" name="TRT Arabi HD" type="1" provider="Globecast" onid="702" tsid="510" namespace="0x01040000" />
+        <service id="0x0056" sid="86" name="TRT WORLD HD" type="1" provider="Globecast" onid="702" tsid="510" namespace="0x01040000" />
         <service id="0x012d" sid="301" name="TV5MONDE MAGHREB ORIENT HD" type="1" provider="" onid="702" tsid="510" namespace="0x01040000" />
         <service id="0x008d" sid="141" name="MCD - Monte Carlo Doualiya" type="2" provider="Globecast" onid="702" tsid="510" namespace="0x01040000" radio="1" />
         <service id="0x008e" sid="142" name="RFI - Radio France Internationale" type="2" provider="Globecast" onid="702" tsid="510" namespace="0x01040000" radio="1" />
@@ -628,9 +628,10 @@
     <satellite key="01040000:146f:02be" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:146f:02be" frequency="12303000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x001f" sid="31" name="Al Karma ME1" type="1" provider="ViewMedia" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x001e" sid="30" name="Anidaso TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001b" sid="27" name="AP TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001a" sid="26" name="Chairman TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x002e" sid="46" name="Champion TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x002e" sid="46" name="Champion TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x0013" sid="19" name="Dove TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="ED TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
@@ -638,7 +639,7 @@
         <service id="0x000c" sid="12" name="Newday TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001d" sid="29" name="North East TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002b" sid="43" name="Northern Gold TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x000f" sid="15" name="OFF TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x000f" sid="15" name="OFF TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000d" sid="13" name="PEMSAN TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001c" sid="28" name="Rahma TV" type="1" provider="Custom" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002d" sid="45" name="Sagani TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
@@ -737,23 +738,20 @@
     </satellite>
     <satellite key="01040000:2025:02be" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:2025:02be" frequency="12265000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x02f1" sid="753" name="AB TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02ef" sid="751" name="Adinra TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e1" sid="737" name="AGBEVE TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d3" sid="723" name="ALTAR TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02c1" sid="705" name="Call TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02c1" sid="705" name="Call TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02cd" sid="717" name="Cape TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="Henmax" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02cb" sid="715" name="KK TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02c6" sid="710" name="Marego TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02c6" sid="710" name="Marego TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f3" sid="755" name="Metro TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02e2" sid="738" name="NHYIRA BAPTIST TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02e2" sid="738" name="NHYIRA BAPTIST TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02de" sid="734" name="Nobyah TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f4" sid="756" name="Original TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ce" sid="718" name="Spring TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02cf" sid="719" name="Twifoman TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c2" sid="706" name="Vic TV" type="1" provider="Henmax" onid="702" tsid="8229" namespace="0x01040000" />
       </transponder>
     </satellite>
@@ -842,6 +840,11 @@
     <satellite key="0104ab64:0001:ffff" name="Sat-26E" namespace="0x0104ab64" position="26">
       <transponder key="0104ab64:0001:ffff" frequency="11108000" symbol_rate="2500000" polarization="V" fec="7" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Alawla 1TV Iraq" type="1" provider="" onid="65535" tsid="1" namespace="0x0104ab64" />
+      </transponder>
+    </satellite>
+    <satellite key="0104ab67:0000:0000" name="Sat-26E" namespace="0x0104ab67" position="26">
+      <transponder key="0104ab67:0000:0000" frequency="11111000" symbol_rate="1614000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x1a0e" sid="6670" name="Alrai TV" type="1" provider="" onid="0" tsid="0" namespace="0x0104ab67" />
       </transponder>
     </satellite>
     <satellite key="0104ab69:0001:0000" name="Sat-26E" namespace="0x0104ab69" position="26">

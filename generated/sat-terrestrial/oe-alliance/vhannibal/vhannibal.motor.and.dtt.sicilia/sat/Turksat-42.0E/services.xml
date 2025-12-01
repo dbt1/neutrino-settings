@@ -457,6 +457,7 @@
       <transponder key="01a40000:7dc9:042e" frequency="11053000" symbol_rate="8000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x2bc1" sid="11201" name="BLOOMBERG HT" type="1" provider="BLOOMBERG HT" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc0" sid="11200" name="HABERTURK" type="1" provider="HABERTURK" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc7" sid="11207" name="HT SPOR HD" type="25" provider="HT SPOR HD" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc6" sid="11206" name="SHOW TURK HD" type="25" provider="SHOW TURK HD" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc5" sid="11205" name="BLOOMBERGHT INTERCOM" type="2" provider="BLOOMBERGHT INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
         <service id="0x2bc3" sid="11203" name="BLOOMBERGHT RD" type="2" provider="BLOOMBERGHT RD" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
@@ -818,6 +819,7 @@
         <service id="0xcbed" sid="52205" name="SZC" type="25" provider="TURKSAT" onid="1070" tsid="43301" namespace="0x01a40000" />
         <service id="0xcbf6" sid="52214" name="TEK RUMELI TV" type="1" provider="TURKSAT" onid="1070" tsid="43301" namespace="0x01a40000" />
         <service id="0xcbe8" sid="52200" name="TV 100 HD" type="25" provider="TURKSAT" onid="1070" tsid="43301" namespace="0x01a40000" />
+        <service id="0xcbf4" sid="52212" name="VAN TV" type="1" provider="TURKSAT" onid="1070" tsid="43301" namespace="0x01a40000" />
       </transponder>
     </satellite>
     <satellite key="01a40000:a929:002a" name="Turksat-42.0E" namespace="0x01a40000" position="42">
@@ -980,11 +982,6 @@
         <service id="0x439d" sid="17309" name="STS INTERNATIONAL" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
         <service id="0x43a0" sid="17312" name="TNT INT" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
         <service id="0x43a1" sid="17313" name="TNT MUSIC" type="1" provider="TURKSAT" onid="1070" tsid="60101" namespace="0x01a40000" />
-      </transponder>
-    </satellite>
-    <satellite key="01a42ccf:0028:0001" name="Turksat-42.0E" namespace="0x01a42ccf" position="42">
-      <transponder key="01a42ccf:0028:0001" frequency="11471000" symbol_rate="1500000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x0008" sid="8" name="NAVO" type="1" provider="RRTM" onid="1" tsid="40" namespace="0x01a42ccf" />
       </transponder>
     </satellite>
     <satellite key="01a42f62:0001:0000" name="Turksat-42.0E" namespace="0x01a42f62" position="42">

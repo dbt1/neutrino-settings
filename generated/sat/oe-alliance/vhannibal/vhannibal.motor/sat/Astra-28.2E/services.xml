@@ -298,7 +298,6 @@
     </satellite>
     <satellite key="011a0000:07ee:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07ee:0002" frequency="12285000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x06ff" sid="1791" name="EpicWorldsHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x177e" sid="6014" name="Sky Action HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0eeb" sid="3819" name="Sky Comedy HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0ee8" sid="3816" name="Sky Drama HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
@@ -309,6 +308,7 @@
         <service id="0x072d" sid="1837" name="SkyAnimationHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x06f8" sid="1784" name="SkyChristmasHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x06f9" sid="1785" name="SkyPremiereHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
+        <service id="0x06ff" sid="1791" name="Spider-Man HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
       </transponder>
     </satellite>
     <satellite key="011a0000:07f0:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
@@ -768,8 +768,21 @@
         <service id="0xd089" sid="53385" name="Tiny Pop+1" type="1" provider="BSkyB" onid="2" tsid="2110" namespace="0x011a0000" />
       </transponder>
     </satellite>
+    <satellite key="011a0000:083f:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
+      <transponder key="011a0000:083f:0002" frequency="11344000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x05b2" sid="1458" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x05b5" sid="1461" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x145c" sid="5212" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x146e" sid="5230" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x147c" sid="5244" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x148a" sid="5258" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x524e" sid="21070" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+        <service id="0x523a" sid="21050" name="ITV3 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a0000" />
+      </transponder>
+    </satellite>
     <satellite key="011a0000:0840:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:0840:0002" frequency="11344000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
+        <service id="0xd7d7" sid="55255" name="55255" type="1" provider="BSkyB" onid="2" tsid="2112" namespace="0x011a0000" />
         <service id="0xd7c8" sid="55240" name="Babenation" type="1" provider="BSkyB" onid="2" tsid="2112" namespace="0x011a0000" />
         <service id="0xd7d2" sid="55250" name="High Street TV 1" type="1" provider="BSkyB" onid="2" tsid="2112" namespace="0x011a0000" />
         <service id="0xd7e4" sid="55268" name="ITV1+1" type="1" provider="BSkyB" onid="2" tsid="2112" namespace="0x011a0000" />
@@ -837,18 +850,6 @@
     <satellite key="011a0000:090b:003b" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:090b:003b" frequency="11426000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x0b98" sid="2968" name="TRP 1" type="1" provider="" onid="59" tsid="2315" namespace="0x011a0000" />
-      </transponder>
-    </satellite>
-    <satellite key="011a2c50:083f:0002" name="Astra-28.2E" namespace="0x011a2c50" position="28.2">
-      <transponder key="011a2c50:083f:0002" frequency="11344000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x05b2" sid="1458" name="21000" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x05b5" sid="1461" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x145c" sid="5212" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x146e" sid="5230" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x147c" sid="5244" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x148a" sid="5258" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x524e" sid="21070" name="ITV1 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
-        <service id="0x523a" sid="21050" name="ITV3 HD" type="25" provider="BSkyB" onid="2" tsid="2111" namespace="0x011a2c50" />
       </transponder>
     </satellite>
   </satellites>
