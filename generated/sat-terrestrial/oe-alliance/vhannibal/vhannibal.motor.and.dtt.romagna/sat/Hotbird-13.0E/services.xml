@@ -140,7 +140,7 @@
       </transponder>
     </satellite>
     <satellite key="00820000:03ea:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03ea:0002" frequency="11470000" symbol_rate="33000000" polarization="V" fec="0" system="0" modulation="0">
+      <transponder key="00820000:03ea:0002" frequency="11470000" symbol_rate="33000000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x07d2" sid="2002" name="HVS-2 DN2 Pri (SGP6)" type="12" provider="MyServiceProvider" onid="2" tsid="1002" namespace="0x00820000" />
         <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="1002" namespace="0x00820000" />
       </transponder>
@@ -574,7 +574,6 @@
       <transponder key="00820000:189c:fbff" frequency="11977000" symbol_rate="29900000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x2c4f" sid="11343" name="Boomerang +1" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x37b2" sid="14258" name="Cartoon Network" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
-        <service id="0x0fbf" sid="4031" name="DeAKids +1" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x07d6" sid="2006" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x250f" sid="9487" name="Inter TV" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x0f79" sid="3961" name="Sky Adventure" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
@@ -583,10 +582,8 @@
         <service id="0x1e63" sid="7779" name="Sky Cinema Due +24" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x1c3f" sid="7231" name="Sky Cinema Romance" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x104a" sid="4170" name="Sky Classica" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
-        <service id="0x1fd1" sid="8145" name="Sky Primafila" type="130" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x1fd2" sid="8146" name="Sky Primafila" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x1fcd" sid="8141" name="Sky Primafila Active" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
-        <service id="0x1fd0" sid="8144" name="Sky Primafila Active" type="130" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x1c50" sid="7248" name="Sky Sport Max" type="25" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
         <service id="0x10e8" sid="4328" name="TG24PrimoPiano" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
       </transponder>
@@ -622,7 +619,6 @@
     <satellite key="00820000:19c8:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:19c8:fbff" frequency="12034000" symbol_rate="29900000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x2c32" sid="11314" name="Bambini HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
-        <service id="0x03ee" sid="1006" name="BIKE" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x3c07" sid="15367" name="Boomerang" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x3bf0" sid="15344" name="CACCIA e Pesca" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c5b" sid="11355" name="Cartoon Network +1" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
@@ -645,7 +641,6 @@
         <service id="0x00fd" sid="253" name="MTV Music" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c3d" sid="11325" name="News HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x024e" sid="590" name="Nick Jr" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
-        <service id="0x38c4" sid="14532" name="Nickelodeon +1" type="1" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2c4d" sid="11341" name="Primafila HD" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2b42" sid="11074" name="Sky Arte" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
         <service id="0x2b43" sid="11075" name="Sky Arte" type="25" provider="SkyItalia" onid="64511" tsid="6600" namespace="0x00820000" />
@@ -666,8 +661,6 @@
         <service id="0x2db7" sid="11703" name="Mosaico Cinema" type="130" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
         <service id="0x2dc9" sid="11721" name="Mosaico Cinema" type="1" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
         <service id="0x110d" sid="4365" name="TV2000 HD" type="25" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x2b7b" sid="11131" name="12054H SID 0x2b7b" type="2" provider="DVB-S2 QPSK 12054H 13.0Â°E" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
-        <service id="0x2ba6" sid="11174" name="12054H SID 0x2ba6" type="2" provider="DVB-S2 QPSK 12054H 13.0Â°E" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
         <service id="0x110e" sid="4366" name="Radio Vaticana Europa" type="2" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
@@ -904,15 +897,15 @@
     </satellite>
     <satellite key="00820000:1f40:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:1f40:013e" frequency="12303000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0dae" sid="3502" name="24H" type="25" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" />
+        <service id="0x0dae" sid="3502" name="24h" type="25" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" />
         <service id="0x030f" sid="783" name="Telesur HD" type="25" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" />
         <service id="0x0dad" sid="3501" name="TVE Internacional" type="25" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" />
-        <service id="0x0dfd" sid="3581" name="Radio 1" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
         <service id="0x0dff" sid="3583" name="Radio 3" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
         <service id="0x0e02" sid="3586" name="Radio 4" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
         <service id="0x0e00" sid="3584" name="Radio 5" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
         <service id="0x0dfe" sid="3582" name="Radio Clasica" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
         <service id="0x0e01" sid="3585" name="Radio Exterior" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
+        <service id="0x0dfd" sid="3581" name="RNE" type="2" provider="TSA" onid="318" tsid="8000" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00820000:1fa4:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -983,12 +976,12 @@
       <transponder key="00820000:2260:fbff" frequency="12466000" symbol_rate="29900000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x10fe" sid="4350" name="Caccia e PESCA" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x38c9" sid="14537" name="Cento x Cento" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x38c5" sid="14533" name="Comedy +1" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
+        <service id="0x106c" sid="4204" name="Cinema Christmas" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
+        <service id="0x0dfd" sid="3581" name="Disney Jr." type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc4" sid="12228" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc5" sid="12229" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2db3" sid="11699" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x1e53" sid="7763" name="MTV HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x0fc6" sid="4038" name="Nick Jr. +1" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2c38" sid="11320" name="Nickelodeon" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0d5d" sid="3421" name="Primafila 3" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0d5f" sid="3423" name="Primafila 4" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
@@ -1000,7 +993,6 @@
         <service id="0x2db1" sid="11697" name="Sky Documentaries" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2db2" sid="11698" name="Sky Documentaries" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x10e1" sid="4321" name="Sky Meteo24" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x106c" sid="4204" name="Steven Spielberg Collection" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:22c4:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1016,6 +1008,7 @@
         <service id="0x033e" sid="830" name="Equidia PRO 1 HD" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x033f" sid="831" name="Equidia PRO 2 HD" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x07e1" sid="2017" name="EURONEWS ITALIAN SD PAL 1.8" type="22" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
+        <service id="0x07de" sid="2014" name="Radio Vaticana Europa" type="1" provider="" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x07d4" sid="2004" name="Vatican Media Europa" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x015a" sid="346" name="Radio 2M" type="2" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" radio="1" />
       </transponder>
@@ -1087,18 +1080,16 @@
         <service id="0x03f3" sid="1011" name="Ird ALI" type="1" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x03f2" sid="1010" name="Ird HiSi" type="1" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x003a" sid="58" name="Kino Nova HD" type="25" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x002e" sid="46" name="MTV 00s" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x0033" sid="51" name="MTV 90s" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0032" sid="50" name="Nickelodeon" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x005c" sid="92" name="Nova News HD" type="25" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x008e" sid="142" name="Perets Int." type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x005f" sid="95" name="Super Toons" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0029" sid="41" name="Travel Channel" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x004e" sid="78" name="Viasat Explore/Fantazzy" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
+        <service id="0x004e" sid="78" name="Viasat Explore" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x004f" sid="79" name="Viasat History" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x007e" sid="126" name="Viasat Kino" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0030" sid="48" name="БНТ 2" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x002b" sid="43" name="БНТ1" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
+        <service id="0x002b" sid="43" name="БНТ1 HD" type="25" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x004a" sid="74" name="Диема HD" type="25" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x004b" sid="75" name="Диема Фемили HD" type="25" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0038" sid="56" name="Ловно-рибарски клуб" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
@@ -1183,6 +1174,7 @@
         <service id="0x0044" sid="68" name="E-Kids" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00e9" sid="233" name="Eurosport 1" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00d7" sid="215" name="Eurosport 2" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
+        <service id="0x00cd" sid="205" name="Fantazzy" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00d6" sid="214" name="Fashion TV" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00f5" sid="245" name="Fen TV" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00ca" sid="202" name="FilmBox Stars" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
@@ -1200,7 +1192,6 @@
         <service id="0x00e1" sid="225" name="Pickbox TV" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00e3" sid="227" name="Ribalka i Ohota" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x010f" sid="271" name="Rodina TV" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
-        <service id="0x00cd" sid="205" name="TEST 3" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x010a" sid="266" name="The Voice" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x007b" sid="123" name="TLC" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
         <service id="0x00db" sid="219" name="TV1000 RKG" type="22" provider="VIVACOM" onid="213" tsid="9700" namespace="0x00820000" />
@@ -1230,8 +1221,8 @@
         <service id="0x013b" sid="315" name="NG Wild HD" type="25" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
         <service id="0x008c" sid="140" name="RING HD" type="25" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
         <service id="0x00d5" sid="213" name="Russian Travel Guide Int" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
-        <service id="0x0057" sid="87" name="TEST 2" type="22" provider="Vivacom" onid="213" tsid="9800" namespace="0x00820000" />
-        <service id="0x0056" sid="86" name="TEST1" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
+        <service id="0x0056" sid="86" name="SkyShowtime 1" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
+        <service id="0x0057" sid="87" name="SkyShowtime 2" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
         <service id="0x0053" sid="83" name="Viasat True Crime" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
         <service id="0x008a" sid="138" name="БНТ 3" type="22" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
         <service id="0x013d" sid="317" name="Планета HD" type="25" provider="VIVACOM" onid="213" tsid="9800" namespace="0x00820000" />
@@ -1317,11 +1308,11 @@
         <service id="0x025b" sid="603" name="MyZen TV HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x025f" sid="607" name="National Geographic HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x025c" sid="604" name="NR1 HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
-        <service id="0x006b" sid="107" name="TEST SERVICE 11" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x006c" sid="108" name="TEST SERVICE 12" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x006a" sid="106" name="Viasat Explore HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x0068" sid="104" name="Viasat History HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
         <service id="0x0069" sid="105" name="Viasat Nature HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
+        <service id="0x006b" sid="107" name="Vivid Red HD" type="1" provider="NOVA" onid="318" tsid="10100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2af8:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1569,6 +1560,7 @@
         <service id="0x422b" sid="16939" name="Mezzo TV" type="1" provider="M7 Group" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x043f" sid="1087" name="Salvation TV MENA" type="1" provider="ViewMedia" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x108e" sid="4238" name="SAT.TV - Hot Bird" type="25" provider="" onid="318" tsid="12100" namespace="0x00820000" />
+        <service id="0x0441" sid="1089" name="Super!" type="22" provider="M-Three Satcom Srl" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x421c" sid="16924" name="UATV" type="22" provider="COSMONOVA LLC" onid="318" tsid="12100" namespace="0x00820000" />
       </transponder>
     </satellite>
@@ -1861,19 +1853,6 @@
     <satellite key="00820000:3d54:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:3d54:013e" frequency="11642000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x053b" sid="1339" name="Baby TV" type="1" provider="SES" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x020e" sid="526" name="DAYSTAR HD" type="25" provider="" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x021a" sid="538" name="GEB TV" type="1" provider="" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x00d4" sid="212" name="People TV" type="1" provider="M-Three Satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x00d3" sid="211" name="RADIO ZETA HD" type="25" provider="M-Three satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x051c" sid="1308" name="RADIOFRECCIA HD" type="25" provider="M-Three Satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x051f" sid="1311" name="RADIONORBA TV" type="1" provider="Telenorba" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x052b" sid="1323" name="RTL 102.5 CALIENTE" type="25" provider="M-Three satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x051b" sid="1307" name="RTL 102.5 HD" type="25" provider="M-Three Satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x020c" sid="524" name="SAT.TV - Hot Bird" type="25" provider="Eutelsat" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x051a" sid="1306" name="Simay Azadi HD" type="25" provider="M-Three Satcom" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x053a" sid="1338" name="Vilayet TV" type="1" provider="mws" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x021b" sid="539" name="wedotv Movies" type="25" provider="Amtecco" onid="318" tsid="15700" namespace="0x00820000" />
-        <service id="0x00d6" sid="214" name="RVS-Accendi la Speranza" type="2" provider="M-Three Satcom Srl" onid="318" tsid="15700" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00820000:3db8:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">

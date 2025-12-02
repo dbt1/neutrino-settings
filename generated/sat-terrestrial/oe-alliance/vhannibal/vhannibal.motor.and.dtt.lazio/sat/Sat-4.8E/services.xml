@@ -4,11 +4,7 @@
     <satellite key="00300000:0002:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:0002:0055" frequency="12380000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x050b" sid="1291" name="BELSAT TV HD" type="1" provider="SES ASTRA" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00f0" sid="240" name="Echo" type="1" provider="SES" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00fa" sid="250" name="SBN International" type="1" provider="SES" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00d2" sid="210" name="TBN Ukraine" type="1" provider="" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00dc" sid="220" name="TV Rain HD" type="1" provider="FFmpeg" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00e6" sid="230" name="European Radio for Belarus" type="2" provider="SES ASTRA" onid="85" tsid="2" namespace="0x00300000" radio="1" />
+        <service id="0x00fa" sid="250" name="SBN International" type="1" provider="" onid="85" tsid="2" namespace="0x00300000" />
         <service id="0x00ea" sid="234" name="Radio Marija Latvia" type="2" provider="SES ASTRA" onid="85" tsid="2" namespace="0x00300000" radio="1" />
       </transponder>
     </satellite>
@@ -16,7 +12,7 @@
       <transponder key="00300000:0004:0001" frequency="12226000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x004b" sid="75" name="BBC HD" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006a" sid="106" name="BBC WORLD NEWS" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x002c" sid="44" name="CNBC HD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x002c" sid="44" name="BLOOMBERG" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007c" sid="124" name="FOOD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002b" sid="43" name="FOX NEWS" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0035" sid="53" name="FRANCE24" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
@@ -28,17 +24,17 @@
         <service id="0x0029" sid="41" name="MTN SE HD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x00c8" sid="200" name="MTN SE HD2" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x00a1" sid="161" name="NATGEO" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x004a" sid="74" name="PRIME FAVORITE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x004a" sid="74" name="PRIME FAVORITE" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002e" sid="46" name="RTL" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006d" sid="109" name="SPORT24" type="1" provider="MTNTTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006f" sid="111" name="SPORT24 EXTRA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x007f" sid="127" name="TEMP 1" type="1" provider="MTNNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x0032" sid="50" name="TEMP 2" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0031" sid="49" name="TFC" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007e" sid="126" name="TRAVEL" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0030" sid="48" name="TVASIA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x004c" sid="76" name="TVE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x002d" sid="45" name="V3" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x006c" sid="108" name="V4" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
       </transponder>
     </satellite>
     <satellite key="00300000:0006:0056" name="Sat-4.8E" namespace="0x00300000" position="4.8">
@@ -88,6 +84,7 @@
         <service id="0x17f7" sid="6135" name="24 Kanal" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17fd" sid="6141" name="Animal Planet" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x070e" sid="1806" name="Army TV" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
+        <service id="0x182e" sid="6190" name="ATR T" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17e2" sid="6114" name="Bigudi" type="22" provider="1plus1 Media" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x072b" sid="1835" name="Blue Hustler" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
         <service id="0x17f5" sid="6133" name="BOLT" type="22" provider="VIASAT" onid="85" tsid="12" namespace="0x00300000" />
@@ -130,7 +127,6 @@
         <service id="0x19f5" sid="6645" name="NADIYA" type="22" provider="Hope Media Group" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x1a09" sid="6665" name="ROZPAKUY" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x1a0e" sid="6670" name="SONATA TV" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
-        <service id="0x19f0" sid="6640" name="SONCE (UA)" type="1" provider="SOLAR MEDIA" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x19e6" sid="6630" name="STB SD" type="1" provider="SLM" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x1a04" sid="6660" name="WE-UKRAINE+" type="1" provider="" onid="85" tsid="16" namespace="0x00300000" />
         <service id="0x19e1" sid="6625" name="ARMY FM" type="2" provider="" onid="85" tsid="16" namespace="0x00300000" radio="1" />
@@ -142,15 +138,6 @@
         <service id="0x1a27" sid="6695" name="Tysa FM" type="2" provider="Suspilne" onid="85" tsid="16" namespace="0x00300000" radio="1" />
         <service id="0x19c8" sid="6600" name="Ukrayinske Radio" type="2" provider="" onid="85" tsid="16" namespace="0x00300000" radio="1" />
         <service id="0x19d0" sid="6608" name="Voice" type="2" provider="Suspilne" onid="85" tsid="16" namespace="0x00300000" radio="1" />
-      </transponder>
-    </satellite>
-    <satellite key="00300000:0011:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
-      <transponder key="00300000:0011:0055" frequency="12284000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x1afe" sid="6910" name="ROZPAKUY" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
-        <service id="0x1b1c" sid="6940" name="SONATA TV" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
-        <service id="0x1b3f" sid="6975" name="WE-UKRAINE+" type="1" provider="" onid="85" tsid="17" namespace="0x00300000" />
-        <service id="0x1af6" sid="6902" name="Emmanuel" type="2" provider="Svitle Radio" onid="85" tsid="17" namespace="0x00300000" radio="1" />
-        <service id="0x1af8" sid="6904" name="radio nv" type="2" provider="TRK ERA" onid="85" tsid="17" namespace="0x00300000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00300000:0018:0044" name="Sat-4.8E" namespace="0x00300000" position="4.8">
@@ -181,15 +168,10 @@
         <service id="0x09cd" sid="2509" name="Viasat Nature" type="22" provider="VIASAT" onid="68" tsid="24" namespace="0x00300000" />
       </transponder>
     </satellite>
-    <satellite key="00300000:002b:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
-      <transponder key="00300000:002b:0055" frequency="11747000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x1de2" sid="7650" name="ERC" type="1" provider="" onid="85" tsid="43" namespace="0x00300000" />
-      </transponder>
-    </satellite>
     <satellite key="00300000:002e:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:002e:0055" frequency="12437000" symbol_rate="30000000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x1ee1" sid="7905" name="Channel 5 (Ukraine) HD" type="25" provider="" onid="85" tsid="46" namespace="0x00300000" />
-        <service id="0x1f36" sid="7990" name="English Club HD" type="25" provider="English Club" onid="85" tsid="46" namespace="0x00300000" />
+        <service id="0x1f36" sid="7990" name="English Club HD" type="25" provider="ECTV" onid="85" tsid="46" namespace="0x00300000" />
         <service id="0x1ef5" sid="7925" name="Enter Film HD" type="25" provider="" onid="85" tsid="46" namespace="0x00300000" />
         <service id="0x1f0e" sid="7950" name="ERC" type="1" provider="" onid="85" tsid="46" namespace="0x00300000" />
         <service id="0x1ee7" sid="7911" name="Inter HD" type="25" provider="" onid="85" tsid="46" namespace="0x00300000" />

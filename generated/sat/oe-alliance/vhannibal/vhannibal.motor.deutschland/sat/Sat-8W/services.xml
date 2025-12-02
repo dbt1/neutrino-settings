@@ -57,11 +57,11 @@
         <service id="0x1c87" sid="7303" name="Libya Almustaqbal" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c8f" sid="7311" name="LIBYA IFTA TV" type="22" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c92" sid="7314" name="Misk Syria" type="22" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
-        <service id="0x1c96" sid="7318" name="Nilesat Feed" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
-        <service id="0x1c8b" sid="7307" name="Sharm TV" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c90" sid="7312" name="TANASUH EDUCATION TV" type="22" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c8d" sid="7309" name="TANASUH TV" type="22" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
+        <service id="0x1c8b" sid="7307" name="Test" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c93" sid="7315" name="Test" type="1" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
+        <service id="0x1c96" sid="7318" name="Test" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c97" sid="7319" name="Test" type="25" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1c9a" sid="7322" name="Test" type="1" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" />
         <service id="0x1ca8" sid="7336" name="Al Basra" type="2" provider="Nilesat" onid="2048" tsid="73" namespace="0x0dc00000" radio="1" />
@@ -88,9 +88,9 @@
         <service id="0x1cf4" sid="7412" name="Learning passport SD1" type="1" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf5" sid="7413" name="Learning passport SD2" type="1" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf1" sid="7409" name="Madrastna 2" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
+        <service id="0x1cf7" sid="7415" name="Sky News Arabia" type="25" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf3" sid="7411" name="Sudan Basic Edu" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cee" sid="7406" name="TEBA" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
-        <service id="0x1cf7" sid="7415" name="Test" type="25" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1d2e" sid="7470" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
         <service id="0x1d2f" sid="7471" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
         <service id="0x1d30" sid="7472" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
@@ -99,9 +99,16 @@
     </satellite>
     <satellite key="0dc00000:004b:0800" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:004b:0800" frequency="12729000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x1d4d" sid="7501" name="Nilesat PROMO" type="25" provider="Gulfsat" onid="2048" tsid="75" namespace="0x0dc00000" />
-        <service id="0x1d4e" sid="7502" name="Test" type="25" provider="Gulfsat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d4d" sid="7501" name="Nilesat Promo" type="25" provider="Gulfsat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d4e" sid="7502" name="Test" type="1" provider="Gulfsat" onid="2048" tsid="75" namespace="0x0dc00000" />
         <service id="0x1d4f" sid="7503" name="Test" type="1" provider="Gulfsat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d50" sid="7504" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d51" sid="7505" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d52" sid="7506" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d53" sid="7507" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d54" sid="7508" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d55" sid="7509" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
+        <service id="0x1d56" sid="7510" name="Test" type="1" provider="Nilesat" onid="2048" tsid="75" namespace="0x0dc00000" />
       </transponder>
     </satellite>
     <satellite key="0dc00000:0064:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
@@ -127,9 +134,20 @@
         <service id="0x015a" sid="346" name="beIN SPORTS XTRA 3" type="25" provider="beIN SPORTS" onid="1918" tsid="200" namespace="0x0dc00000" />
       </transponder>
     </satellite>
+    <satellite key="0dc00000:012c:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
+      <transponder key="0dc00000:012c:077e" frequency="12604000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x017f" sid="383" name="beIN 4K" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089c" sid="2204" name="beIN SPORTS MAX 4" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089d" sid="2205" name="beIN SPORTS XTRA 6" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089a" sid="2202" name="beIN SPORTS XTRA 8" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089b" sid="2203" name="beIN SPORTS XTRA 9" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089e" sid="2206" name="spare" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x089f" sid="2207" name="spare" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+        <service id="0x08a0" sid="2208" name="spare" type="25" provider="beIN" onid="1918" tsid="300" namespace="0x0dc00000" />
+      </transponder>
+    </satellite>
     <satellite key="0dc00000:0190:5000" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:0190:5000" frequency="11564000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x178e" sid="6030" name="Ali Gate TV" type="22" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x182e" sid="6190" name="ALLIBIYA TV" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x18d8" sid="6360" name="Awdeh HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x17e8" sid="6120" name="Baghdad TV" type="22" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
@@ -139,7 +157,6 @@
         <service id="0x177a" sid="6010" name="Gali Kurdistan HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x02f8" sid="760" name="Huda TV" type="1" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x06f8" sid="1784" name="Kirkuk TV HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
-        <service id="0x189c" sid="6300" name="Libya Al Maydan TV" type="22" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x02dc" sid="732" name="Libya Government TV" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x18b0" sid="6320" name="MUSAWA HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x17b6" sid="6070" name="NEW LIBYA" type="22" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
@@ -147,7 +164,6 @@
         <service id="0x18a6" sid="6310" name="Palestine HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x18ba" sid="6330" name="Palestine Live HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x18c4" sid="6340" name="Palestine News HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
-        <service id="0x17d4" sid="6100" name="Test" type="22" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x187e" sid="6270" name="TRT World HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x18e2" sid="6370" name="Voice of Palestine HD" type="25" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" />
         <service id="0x17de" sid="6110" name="Radio WAL" type="10" provider="MY TV" onid="20480" tsid="400" namespace="0x0dc00000" radio="1" />
@@ -163,7 +179,6 @@
     <satellite key="0dc00000:01f4:5000" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:01f4:5000" frequency="10727000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x12ac" sid="4780" name="AL BAHRANY TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
-        <service id="0x12b6" sid="4790" name="Al Huriya Yamin TV" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x137e" sid="4990" name="Al Kout TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x06b8" sid="1720" name="AL MALAKOOT SATÃTHE KINGDOM SAT" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x054c" sid="1356" name="Al shirazioun" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
@@ -176,7 +191,6 @@
         <service id="0x127a" sid="4730" name="Asil TV" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x06c6" sid="1734" name="France 24 (in Arabic)" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x12f2" sid="4850" name="Kidsy" type="22" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
-        <service id="0x12fc" sid="4860" name="Libya G+" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x056c" sid="1388" name="MASSAYA TV" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x132e" sid="4910" name="Palestine" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x052c" sid="1324" name="Saout alaqila" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
@@ -213,10 +227,6 @@
         <service id="0x169e" sid="5790" name="Albaghdadiya" type="25" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
         <service id="0x146e" sid="5230" name="ALKARBALAEIA TV" type="25" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
         <service id="0x05b8" sid="1464" name="ALSHOOR TV" type="25" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
-        <service id="0x0278" sid="632" name="Dream Al Wan" type="1" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
-        <service id="0x148c" sid="5260" name="Dream Al Youm" type="1" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
-        <service id="0x05c6" sid="1478" name="Dream Cinema" type="1" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
-        <service id="0x157c" sid="5500" name="Dream Monawaet" type="1" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
         <service id="0x065e" sid="1630" name="Falastini.tv" type="1" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
         <service id="0x02b2" sid="690" name="Hala Arabia" type="25" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
         <service id="0x14c8" sid="5320" name="Libya G+" type="25" provider="MY TV" onid="20480" tsid="800" namespace="0x0dc00000" />
@@ -229,10 +239,9 @@
       <transponder key="0dc00000:0384:5000" frequency="12645000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x0ed8" sid="3800" name="AL ARABY TV HD" type="1" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0f0a" sid="3850" name="AL KERAZA TV" type="1" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
-        <service id="0x0d2a" sid="3370" name="Awdeh" type="1" provider="PALSAT" onid="20480" tsid="900" namespace="0x0dc00000" />
+        <service id="0x0d2a" sid="3370" name="Awdeh" type="1" provider="Palsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0f00" sid="3840" name="Elfadjer drama Dz" type="25" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0f32" sid="3890" name="Gulfsat" type="22" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
-        <service id="0x0f14" sid="3860" name="Libya Government TV" type="1" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0cf8" sid="3320" name="Maan TV" type="1" provider="Palsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0eec" sid="3820" name="Moga Cinema" type="1" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
         <service id="0x0f1e" sid="3870" name="Moga Comedy TV" type="1" provider="Gulfsat" onid="20480" tsid="900" namespace="0x0dc00000" />
@@ -274,8 +283,8 @@
     </satellite>
     <satellite key="0dc00000:7594:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:7594:077e" frequency="11054000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x044e" sid="1102" name="AL-AKHBAR" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
-        <service id="0x01c3" sid="451" name="Kuwait Sport Plus" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
+        <service id="0x044e" sid="1102" name="Al-AKHBAR" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
+        <service id="0x01c3" sid="451" name="Kuwait Sport plus" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x01c2" sid="450" name="Kuwait Sports" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x044d" sid="1101" name="Kuwait TV 1" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x044f" sid="1103" name="Kuwait TV 2" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
@@ -300,22 +309,22 @@
     </satellite>
     <satellite key="0dc00000:ffdc:0001" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:ffdc:0001" frequency="12687000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
-        <service id="0x05be" sid="1470" name="Al Shams" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x029c" sid="668" name="AlQanat 9" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x064a" sid="1610" name="AlShaoub TV" type="25" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x05c8" sid="1480" name="Alyaum TV" type="25" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
-        <service id="0x0118" sid="280" name="Anewz" type="1" provider="IKOMG" onid="1" tsid="65500" namespace="0x0dc00000" />
+        <service id="0x0118" sid="280" name="Anewz" type="25" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x02a0" sid="672" name="CTV EGYPT" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x00fe" sid="254" name="El Sharq TV" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x027c" sid="636" name="ERISAT" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
+        <service id="0x05d2" sid="1490" name="FR24" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x026e" sid="622" name="i24 News Arabic" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x05aa" sid="1450" name="Mekameleen TV" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
-        <service id="0x05a0" sid="1440" name="NHK World" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
-        <service id="0x05e6" sid="1510" name="NUCE TV" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
+        <service id="0x05a0" sid="1440" name="NHK World-Japan" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
+        <service id="0x05e6" sid="1510" name="Nu TV" type="25" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x067c" sid="1660" name="RUDAW" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
+        <service id="0x05be" sid="1470" name="Shams TV" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x025c" sid="604" name="WATAN TV" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
         <service id="0x05b4" sid="1460" name="Yemen Education" type="1" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" />
-        <service id="0x065e" sid="1630" name="Radio 21 September" type="2" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" radio="1" />
         <service id="0x02b2" sid="690" name="ROJAVA FM" type="2" provider="MENASAT" onid="1" tsid="65500" namespace="0x0dc00000" radio="1" />
       </transponder>
     </satellite>
