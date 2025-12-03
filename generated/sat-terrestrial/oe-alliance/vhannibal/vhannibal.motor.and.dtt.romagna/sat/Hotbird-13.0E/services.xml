@@ -117,6 +117,12 @@
         <service id="0x00cf" sid="207" name="RVS-Accendi la Speranza" type="2" provider="M-Three Satcom Srl" onid="318" tsid="900" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
+    <satellite key="00820000:03e8:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:03e8:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x03e8" sid="1000" name="Basic-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1000" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1000" namespace="0x00820000" />
+      </transponder>
+    </satellite>
     <satellite key="00820000:03e8:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:03e8:013e" frequency="11393000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x10e5" sid="4325" name="Cartoon Network Poland HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
@@ -131,12 +137,6 @@
         <service id="0x10e3" sid="4323" name="Nove HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
         <service id="0x10de" sid="4318" name="TLC HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
         <service id="0x10ea" sid="4330" name="TVN24 BiS HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
-      </transponder>
-    </satellite>
-    <satellite key="00820000:03e9:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03e9:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="HVS-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1001" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1001" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:03ea:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1008,9 +1008,9 @@
         <service id="0x033e" sid="830" name="Equidia PRO 1 HD" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x033f" sid="831" name="Equidia PRO 2 HD" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x07e1" sid="2017" name="EURONEWS ITALIAN SD PAL 1.8" type="22" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
-        <service id="0x07de" sid="2014" name="Radio Vaticana Europa" type="1" provider="" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x07d4" sid="2004" name="Vatican Media Europa" type="25" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" />
         <service id="0x015a" sid="346" name="Radio 2M" type="2" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" radio="1" />
+        <service id="0x07de" sid="2014" name="Radio Vaticana Europa" type="2" provider="GLOBECAST" onid="318" tsid="8900" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00820000:2328:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
