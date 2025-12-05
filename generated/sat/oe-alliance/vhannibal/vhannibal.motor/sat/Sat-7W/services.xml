@@ -360,6 +360,7 @@
     </satellite>
     <satellite key="0dca0000:0012:006e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0012:006e" frequency="10873000" symbol_rate="27500000" polarization="V" fec="5" system="0" modulation="0">
+        <service id="0x1f6d" sid="8045" name="Al Masar" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f41" sid="8001" name="AL RAHMA" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f54" sid="8020" name="Alamal TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f57" sid="8023" name="Almasrawya TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
@@ -457,6 +458,7 @@
       <transponder key="0dca0000:0017:006e" frequency="11392000" symbol_rate="27500000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x1b5e" sid="7006" name="Al Hayat" type="1" provider="IKO Media Group" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5b" sid="7003" name="AL MAYADEEN TV" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
+        <service id="0x1b72" sid="7026" name="Al Watan TV" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b64" sid="7012" name="Aliman TV" type="1" provider="" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b5a" sid="7002" name="Alkarma Discipleship" type="1" provider="iKO Media Group" onid="110" tsid="23" namespace="0x0dca0000" />
         <service id="0x1b60" sid="7008" name="BELQEES" type="1" provider="Service Provider" onid="110" tsid="23" namespace="0x0dca0000" />
@@ -999,6 +1001,7 @@
         <service id="0x002a" sid="42" name="ARTA Radio" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x002e" sid="46" name="Daystar" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006e" sid="110" name="GB News" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
+        <service id="0x0031" sid="49" name="Imam Ali TV" type="22" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006b" sid="107" name="Kartoon channel" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x006f" sid="111" name="Music India" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x0030" sid="48" name="Riyad Al Salihin" type="22" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
@@ -1061,11 +1064,6 @@
         <service id="0x0a45" sid="2629" name="Pishto" type="2" provider="SBA" onid="0" tsid="0" namespace="0x0dca2ffc" radio="1" />
         <service id="0x0a3d" sid="2621" name="SAUDI RADIO 1" type="2" provider="SBA" onid="0" tsid="0" namespace="0x0dca2ffc" radio="1" />
         <service id="0x0a3e" sid="2622" name="SAUDI RADIO 2" type="2" provider="SBA" onid="0" tsid="0" namespace="0x0dca2ffc" radio="1" />
-      </transponder>
-    </satellite>
-    <satellite key="0dca30a2:0000:0000" name="Sat-7W" namespace="0x0dca30a2" position="-7">
-      <transponder key="0dca30a2:0000:0000" frequency="12450000" symbol_rate="11000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Diver" type="1" provider="Rohde &amp; Schwarz" onid="0" tsid="0" namespace="0x0dca30a2" />
       </transponder>
     </satellite>
     <satellite key="0dcaaa52:0001:0001" name="Sat-7W" namespace="0x0dcaaa52" position="-7">

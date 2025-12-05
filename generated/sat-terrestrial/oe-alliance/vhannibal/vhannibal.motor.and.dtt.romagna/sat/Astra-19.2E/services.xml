@@ -98,7 +98,6 @@
     <satellite key="00c00000:000b:0085" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:000b:0085" frequency="12382000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x00c2" sid="194" name="Cartoon Network" type="22" provider="SKY" onid="133" tsid="11" namespace="0x00c00000" />
-        <service id="0x007d" sid="125" name="CNBC" type="25" provider="SKY" onid="133" tsid="11" namespace="0x00c00000" />
         <service id="0x0036" sid="54" name="DAZN 1" type="25" provider="SKY" onid="133" tsid="11" namespace="0x00c00000" />
         <service id="0x007a" sid="122" name="DAZN 2" type="25" provider="SKY" onid="133" tsid="11" namespace="0x00c00000" />
         <service id="0x002f" sid="47" name="HISTORY Channel" type="25" provider="SKY" onid="133" tsid="11" namespace="0x00c00000" />
@@ -195,12 +194,12 @@
         <service id="0x33a7" sid="13223" name="ATV2 HD" type="25" provider="ATV" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33a8" sid="13224" name="Bibel TV HD" type="25" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33ab" sid="13227" name="Hope TV" type="25" provider="-" onid="1" tsid="1003" namespace="0x00c00000" />
+        <service id="0x33a6" sid="13222" name="LILO.TV" type="1" provider="" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33ad" sid="13229" name="RTLup Austria" type="22" provider="RTL" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33aa" sid="13226" name="Service 13226" type="1" provider="-" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33af" sid="13231" name="Service 13231" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33b0" sid="13232" name="Service 13232" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33b1" sid="13233" name="Service 13233" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
-        <service id="0x33a6" sid="13222" name="StarParadies.TV" type="1" provider="" onid="1" tsid="1003" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:03ec:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -723,11 +722,11 @@
     </satellite>
     <satellite key="00c00000:041d:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:041d:0001" frequency="10773000" symbol_rate="22000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x149e" sid="5278" name="." type="22" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
+        <service id="0x149f" sid="5279" name="." type="22" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x527d" sid="21117" name="." type="25" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x526c" sid="21100" name="ANIXE HD" type="25" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
-        <service id="0x149f" sid="5279" name="Genius Plus" type="22" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x05d8" sid="1496" name="HSE HD" type="25" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
-        <service id="0x149e" sid="5278" name="Nicer Dicer TV" type="22" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x526f" sid="21103" name="QVC HD" type="25" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x149d" sid="5277" name="SES 75" type="22" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
         <service id="0x05db" sid="1499" name="ShopLC HD" type="25" provider="BetaDigital" onid="1" tsid="1053" namespace="0x00c00000" />
@@ -1442,6 +1441,11 @@
     <satellite key="00c00000:045d:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:045d:0001" frequency="12692000" symbol_rate="22000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x0001" sid="1" name="12692H" type="1" provider="" onid="1" tsid="1117" namespace="0x00c00000" />
+      </transponder>
+    </satellite>
+    <satellite key="00c00000:0460:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
+      <transponder key="00c00000:0460:0001" frequency="12728000" symbol_rate="23500000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x238a" sid="9098" name="12728V SID 0x238a" type="100" provider="DVB-S2 8PSK 12728V 19.2Â°E" onid="1" tsid="1120" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:04b1:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">

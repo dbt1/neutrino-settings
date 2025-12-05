@@ -128,7 +128,7 @@
         <service id="0x07e5" sid="2021" name="Maria Vision" type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
         <service id="0x012d" sid="301" name="Mini TV." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
         <service id="0x0027" sid="39" name="Nova24 TV." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
-        <service id="0x001a" sid="26" name="PickboxTV." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
+        <service id="0x001a" sid="26" name="Pickbox 1." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
         <service id="0x007b" sid="123" name="RTL HD." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
         <service id="0x007d" sid="125" name="RTL2." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
         <service id="0x01ae" sid="430" name="SPTV." type="22" provider="T-HT" onid="64" tsid="3" namespace="0x00a00000" />
@@ -980,6 +980,12 @@
         <service id="0x1f54" sid="8020" name="8020 Emaus" type="1" provider="" onid="1" tsid="1" namespace="0x00a0318a" />
         <service id="0x07d0" sid="2000" name="2000 ESKA SES" type="2" provider="" onid="1" tsid="1" namespace="0x00a0318a" radio="1" />
         <service id="0x0fa0" sid="4000" name="4000 PLUS SES" type="2" provider="" onid="1" tsid="1" namespace="0x00a0318a" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="00a03192:0001:0001" name="Eutelsat-16.0E" namespace="0x00a03192" position="16">
+      <transponder key="00a03192:0001:0001" frequency="12690000" symbol_rate="2962000" polarization="H" fec="1" system="0" modulation="0">
+        <service id="0x0002" sid="2" name="hirTV" type="1" provider="hirTV / AH / HDT" onid="1" tsid="1" namespace="0x00a03192" />
+        <service id="0x000a" sid="10" name="hirFM" type="2" provider="hirFM / AH / HDT" onid="1" tsid="1" namespace="0x00a03192" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00a03195:0001:0001" name="Eutelsat-16.0E" namespace="0x00a03195" position="16">
