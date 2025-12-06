@@ -428,7 +428,7 @@
         <service id="0x04ef" sid="1263" name="TV 2 / Bornholm" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ed" sid="1261" name="TV 2 / Fyn" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x125e" sid="4702" name="TV 2 / Midt-Vest" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
-        <service id="0x125d" sid="4701" name="TV 2 / Nord" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
+        <service id="0x125d" sid="4701" name="TV 2 / Nord (old)" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ec" sid="1260" name="TV 2 / Syd" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ee" sid="1262" name="TV 2 / Øst" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x125f" sid="4703" name="TV 2 / Østjylland" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
@@ -581,14 +581,14 @@
     <satellite key="0e080000:004b:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004b:0046" frequency="12399000" symbol_rate="30000000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x32d0" sid="13008" name="Test 13008" type="22" provider="Telenor" onid="70" tsid="75" namespace="0x0e080000" />
-        <service id="0x36ae" sid="13998" name="TEST 13998" type="25" provider="" onid="70" tsid="75" namespace="0x0e080000" />
-        <service id="0x36af" sid="13999" name="TEST 13999" type="1" provider="" onid="70" tsid="75" namespace="0x0e080000" />
+        <service id="0x32d6" sid="13014" name="Test 13014" type="25" provider="Telenor" onid="70" tsid="75" namespace="0x0e080000" />
       </transponder>
     </satellite>
     <satellite key="0e080000:004f:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004f:0046" frequency="12437000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0xeb28" sid="60200" name="12437H SID 0xeb28" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xeb29" sid="60201" name="12437H SID 0xeb29" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfeb0" sid="65200" name="12437H SID 0xfeb0" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfeb1" sid="65201" name="12437H SID 0xfeb1" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfeb2" sid="65202" name="12437H SID 0xfeb2" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0x32d4" sid="13012" name="Test 13012" type="22" provider="Telenor" onid="70" tsid="79" namespace="0x0e080000" />
       </transponder>
     </satellite>
@@ -611,12 +611,22 @@
     </satellite>
     <satellite key="0e080000:0054:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:0054:0046" frequency="12360000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0xff65" sid="65381" name="12360H SID 0xff65" type="1" provider="DVB-S2 8PSK 12360H 359.2Â°E" onid="70" tsid="84" namespace="0x0e080000" />
+        <service id="0xff66" sid="65382" name="12360H SID 0xff66" type="1" provider="DVB-S2 8PSK 12360H 359.2Â°E" onid="70" tsid="84" namespace="0x0e080000" />
+        <service id="0xff67" sid="65383" name="12360H SID 0xff67" type="1" provider="DVB-S2 8PSK 12360H 359.2Â°E" onid="70" tsid="84" namespace="0x0e080000" />
         <service id="0x32d1" sid="13009" name="Test 13009" type="22" provider="Telenor" onid="70" tsid="84" namespace="0x0e080000" />
       </transponder>
     </satellite>
     <satellite key="0e080000:0055:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:0055:0046" frequency="12322000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x32d5" sid="13013" name="TEST" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x32d5" sid="13013" name="Test 13013" type="31" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x1c76" sid="7286" name="Test 7286" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x1d23" sid="7459" name="Test 7459" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x091c" sid="2332" name="TS Sports 11" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x091d" sid="2333" name="TS Sports 12" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x091e" sid="2334" name="TS Sports 13" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x091f" sid="2335" name="TS Sports 14" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
+        <service id="0x0398" sid="920" name="TS Sports 15" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
       </transponder>
     </satellite>
     <satellite key="0e080000:02bd:0600" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
@@ -693,6 +703,7 @@
         <service id="0x76e3" sid="30435" name="RTL" type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
         <service id="0x76c5" sid="30405" name="RTL OTTHON" type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
         <service id="0x76e2" sid="30434" name="RTL OTTHON." type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
+        <service id="0x76e4" sid="30436" name="Test" type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
         <service id="0x76c2" sid="30402" name="TVR 1" type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
         <service id="0x76d3" sid="30419" name="TVR 3" type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
         <service id="0x76da" sid="30426" name="TVR 3." type="1" provider="M7" onid="1536" tsid="704" namespace="0x0e080000" />
@@ -816,7 +827,7 @@
         <service id="0x78d6" sid="30934" name="Sorozatklub.." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78bb" sid="30907" name="SuperTV2" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78db" sid="30939" name="SuperTV2 (SVT)" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
-        <service id="0x78cf" sid="30927" name="TLC." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
+        <service id="0x78cf" sid="30927" name="TLC" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78ba" sid="30906" name="TV2Klub" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78d9" sid="30937" name="TV2Klub (SVT)" type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
         <service id="0x78c7" sid="30919" name="TV2Klub." type="1" provider="M7" onid="1536" tsid="709" namespace="0x0e080000" />
@@ -1051,6 +1062,7 @@
         <service id="0x178c" sid="6028" name="Nova International" type="22" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
         <service id="0x06fa" sid="1786" name="Nova Lady" type="22" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
         <service id="0x06f6" sid="1782" name="Nova Sport 2 HD" type="25" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
+        <service id="0x06fe" sid="1790" name="Pilot" type="25" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
         <service id="0x06f7" sid="1783" name="Prima KRIMI SK" type="25" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
         <service id="0x177d" sid="6013" name="Prima Show" type="22" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />
         <service id="0x06f9" sid="1785" name="Prima SK" type="22" provider="Slovak Telekom" onid="187" tsid="2806" namespace="0x0e080000" />

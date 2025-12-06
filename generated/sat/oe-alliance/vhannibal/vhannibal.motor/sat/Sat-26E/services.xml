@@ -57,7 +57,6 @@
         <service id="0x0006" sid="6" name="Arriadia" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0005" sid="5" name="Athagaviya" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000c" sid="12" name="El Mahadra" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
-        <service id="0x000f" sid="15" name="El Medina" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0002" sid="2" name="El Mouritania" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0003" sid="3" name="El Mouritania 2" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0001" sid="1" name="El Mouritania HD" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
@@ -72,6 +71,7 @@
         <service id="0x001e" sid="30" name="Test TV 15" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0009" sid="9" name="Test TV 2" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="Test TV 5" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
+        <service id="0x000f" sid="15" name="Test TV 6" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="Test TV 7" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0004" sid="4" name="Test TV 9" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0035" sid="53" name="Radio Coran" type="2" provider="" onid="136" tsid="26" namespace="0x01040000" radio="1" />
@@ -634,12 +634,12 @@
         <service id="0x001a" sid="26" name="Chairman TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002e" sid="46" name="Champion TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x0013" sid="19" name="Dove TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x0013" sid="19" name="Dove TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="ED TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="G-Eye TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000c" sid="12" name="Newday TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001d" sid="29" name="North East TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x002b" sid="43" name="Northern Gold TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x002b" sid="43" name="Northern Gold TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000f" sid="15" name="OFF TV" type="1" provider="Quickstream" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000d" sid="13" name="PEMSAN TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001c" sid="28" name="Rahma TV" type="1" provider="Custom" onid="702" tsid="5231" namespace="0x01040000" />
@@ -746,8 +746,10 @@
         <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02de" sid="734" name="Islamic Library TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c6" sid="710" name="Marego TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f3" sid="755" name="Metro TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02e3" sid="739" name="NEESIM TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e2" sid="738" name="NHYIRA BAPTIST TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d0" sid="720" name="OFFTV PLUS" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f4" sid="756" name="Original TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />

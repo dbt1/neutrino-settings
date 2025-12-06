@@ -88,9 +88,9 @@
         <service id="0x1cf4" sid="7412" name="Learning passport SD1" type="1" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf5" sid="7413" name="Learning passport SD2" type="1" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf1" sid="7409" name="Madrastna 2" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
-        <service id="0x1cf7" sid="7415" name="Sky News Arabia" type="25" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cf3" sid="7411" name="Sudan Basic Edu" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1cee" sid="7406" name="TEBA" type="1" provider="" onid="2048" tsid="74" namespace="0x0dc00000" />
+        <service id="0x1cf7" sid="7415" name="Test" type="25" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" />
         <service id="0x1d2e" sid="7470" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
         <service id="0x1d2f" sid="7471" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
         <service id="0x1d30" sid="7472" name="Test" type="2" provider="Nilesat" onid="2048" tsid="74" namespace="0x0dc00000" radio="1" />
@@ -180,7 +180,7 @@
       <transponder key="0dc00000:01f4:5000" frequency="10727000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
         <service id="0x12ac" sid="4780" name="AL BAHRANY TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x137e" sid="4990" name="Al Kout TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
-        <service id="0x06b8" sid="1720" name="AL MALAKOOT SATÃTHE KINGDOM SAT" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
+        <service id="0x06b8" sid="1720" name="AL MALAKOOT SATÃTHE KINGDOM SAT" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x054c" sid="1356" name="Al shirazioun" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x134c" sid="4940" name="Al-askari TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x078c" sid="1932" name="Al-Awhad TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
@@ -330,15 +330,14 @@
     </satellite>
     <satellite key="0dc02b58:0008:ffff" name="Sat-8W" namespace="0x0dc02b58" position="-8">
       <transponder key="0dc02b58:0008:ffff" frequency="11096000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
+        <service id="0x001c" sid="28" name="Al Ons TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0004" sid="4" name="Al Sahat" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0006" sid="6" name="ALHAWYAH TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0002" sid="2" name="Alkarma ME 1" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000f" sid="15" name="ALLAHDAH TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000a" sid="10" name="Almasirah Mubashar" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000e" sid="14" name="ALMASIRAH TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
-        <service id="0x0008" sid="8" name="GFN Soccer" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0011" sid="17" name="Iraq Future" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
-        <service id="0x001c" sid="28" name="Libya WTV HD" type="25" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000b" sid="11" name="Logos TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0001" sid="1" name="Loveworld Arabic" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0005" sid="5" name="Mahdi has appeared TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
