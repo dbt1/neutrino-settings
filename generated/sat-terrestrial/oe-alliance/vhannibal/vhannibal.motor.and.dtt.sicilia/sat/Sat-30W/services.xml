@@ -29,7 +29,6 @@
     </satellite>
     <satellite key="0ce40000:0026:0036" name="Sat-30W" namespace="0x0ce40000" position="-30">
       <transponder key="0ce40000:0026:0036" frequency="12360000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x17cb" sid="6091" name="12360H SID 0x17cb" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x00ac" sid="172" name="12360H SID 0x370" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x00ad" sid="173" name="12360H SID 0x371" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x02bf" sid="703" name="AMC Crime" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
@@ -88,6 +87,7 @@
         <service id="0x0edb" sid="3803" name="Sport TV 6 HD" type="1" provider="Sport TV 6 HD" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x17b6" sid="6070" name="Sport TV 6 HD" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x0edf" sid="3807" name="Sport TV 7" type="1" provider="Sport TV 7" onid="54" tsid="38" namespace="0x0ce40000" />
+        <service id="0x17cb" sid="6091" name="Sport TV 7" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x014d" sid="333" name="TV Galicia" type="1" provider="TV Galicia" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x02bd" sid="701" name="TV Galicia" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x09da" sid="2522" name="TVE 24H" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
@@ -401,16 +401,6 @@
         <service id="0x27b1" sid="10161" name="ARAGON RADIO ZARAGOZA" type="2" provider="CARTV" onid="8916" tsid="1001" namespace="0x0ce40000" radio="1" />
       </transponder>
     </satellite>
-    <satellite key="0ce40000:3138:ff01" name="Sat-30W" namespace="0x0ce40000" position="-30">
-      <transponder key="0ce40000:3138:ff01" frequency="11422000" symbol_rate="30000000" polarization="H" fec="6" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Astro Show" type="22" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0002" sid="2" name="Tarot" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0005" sid="5" name="Tarotéame" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0004" sid="4" name="Test" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x000c" sid="12" name="Crak Radio" type="2" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" radio="1" />
-        <service id="0x0009" sid="9" name="Pepe Radio" type="2" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" radio="1" />
-      </transponder>
-    </satellite>
     <satellite key="0ce40000:ea74:0001" name="Sat-30W" namespace="0x0ce40000" position="-30">
       <transponder key="0ce40000:ea74:0001" frequency="11222000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0bd1" sid="3025" name="11222H SID 0xbd1" type="100" provider="DVB-S2 8PSK 11222H 330.0Â°E" onid="1" tsid="60020" namespace="0x0ce40000" />
@@ -627,6 +617,7 @@
     </satellite>
     <satellite key="0ce4ad7c:0065:0000" name="Sat-30W" namespace="0x0ce4ad7c" position="-30">
       <transponder key="0ce4ad7c:0065:0000" frequency="11644000" symbol_rate="4000000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x00c8" sid="200" name="11644V SID 0xc8" type="2" provider="DVB-S QPSK 11644V 330.0Â°E" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x000a" sid="10" name="Cadena 100" type="2" provider="Cadena 100" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x0013" sid="19" name="COPE" type="2" provider="COPE" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x001e" sid="30" name="COPE SAT 2" type="2" provider="COPE SAT 2" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />

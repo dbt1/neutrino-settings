@@ -168,6 +168,11 @@
         <service id="0x09cd" sid="2509" name="Viasat Nature" type="22" provider="VIASAT" onid="68" tsid="24" namespace="0x00300000" />
       </transponder>
     </satellite>
+    <satellite key="00300000:002b:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
+      <transponder key="00300000:002b:0055" frequency="11747000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x1de2" sid="7650" name="ERC" type="1" provider="" onid="85" tsid="43" namespace="0x00300000" />
+      </transponder>
+    </satellite>
     <satellite key="00300000:002e:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:002e:0055" frequency="12437000" symbol_rate="30000000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x1ee1" sid="7905" name="Channel 5 (Ukraine) HD" type="25" provider="" onid="85" tsid="46" namespace="0x00300000" />
@@ -260,6 +265,7 @@
         <service id="0x1d65" sid="7525" name="Test2" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x1d6f" sid="7535" name="Test3" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x19b4" sid="6580" name="TVIY SERIAL" type="25" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
+        <service id="0x1d97" sid="7575" name="WE-UKRAINE+" type="22" provider="Streamline Media" onid="85" tsid="4219" namespace="0x00300000" />
       </transponder>
     </satellite>
     <satellite key="00302eb6:0000:0000" name="Sat-4.8E" namespace="0x00302eb6" position="4.8">
