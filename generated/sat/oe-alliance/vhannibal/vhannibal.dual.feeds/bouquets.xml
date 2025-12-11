@@ -128,6 +128,7 @@
     <channel service_ref="1:0:1:0001:0000:0000:00c0b099:0:0:0:" name="12441V." service_name="12441V." provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:0001:0452:0001:00c00000:0:0:0:" name="12522V" service_name="12522V" provider="" sid="1" onid="1" tsid="1106" />
     <channel service_ref="1:0:1:0001:0001:ffff:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="65535" tsid="1" />
+    <channel service_ref="1:0:1:0001:0001:ff00:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65280" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:0082b140:0:0:0:" name="12608V" service_name="12608V" provider="" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:045d:0001:00c00000:0:0:0:" name="12692H" service_name="12692H" provider="" sid="1" onid="1" tsid="1117" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
@@ -199,9 +200,6 @@
     <channel service_ref="1:0:1:75b2:0422:0001:00c00000:0:0:0:" name="ALQUILER" service_name="ALQUILER" provider="DIGITAL+" sid="30130" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:768e:041e:0001:00c00000:0:0:0:" name="ALQUILER 1" service_name="ALQUILER 1" provider="TQ1" sid="30350" onid="1" tsid="1054" />
     <channel service_ref="1:0:25:1d70:0426:0001:00c00000:0:0:0:" name="ALQUILER HD" service_name="ALQUILER HD" provider="Movistar+" sid="7536" onid="1" tsid="1062" />
-    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="ALQUILER X" service_name="ALQUILER X" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="ALQUILER XX" service_name="ALQUILER XX" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1e0f:041e:0001:00c00000:0:0:0:" name="ALQUILER XY" service_name="ALQUILER XY" provider="TXY" sid="7695" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:0b7d:0458:0001:00c00000:0:0:0:" name="ALT_Crime Time" service_name="ALT_Crime Time" provider="SES" sid="2941" onid="1" tsid="1112" />
     <channel service_ref="1:0:1:293b:0458:0001:00c00000:0:0:0:" name="ALT_Deluxe Dance by Kontor" service_name="ALT_Deluxe Dance by Kontor" provider="SES" sid="10555" onid="1" tsid="1112" />
     <channel service_ref="1:0:1:293c:0458:0001:00c00000:0:0:0:" name="ALT_Deluxe Flashback" service_name="ALT_Deluxe Flashback" provider="SES" sid="10556" onid="1" tsid="1112" />
@@ -303,7 +301,7 @@
     <channel service_ref="1:0:1:1e98:0428:0001:00c00000:0:0:0:" name="BAR4HD" service_name="BAR4HD" provider="" sid="7832" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:02c4:14b4:013e:00820000:0:0:0:" name="Bare Knuckles Fighting Championship" service_name="Bare Knuckles Fighting Championship" provider="MuxIP" sid="708" onid="318" tsid="5300" />
     <channel service_ref="1:0:1:245f:0440:0001:00c00000:0:0:0:" name="BARKER COLLECTIVITES SD4" service_name="BARKER COLLECTIVITES SD4" provider="CSAT" sid="9311" onid="1" tsid="1088" />
-    <channel service_ref="1:0:1:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="Encoder device" sid="503" onid="318" tsid="900" />
+    <channel service_ref="1:0:25:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="" sid="503" onid="318" tsid="900" />
     <channel service_ref="1:0:25:332e:1388:013e:00820000:0:0:0:" name="BBC Arabic HD" service_name="BBC Arabic HD" provider="Globecast" sid="13102" onid="318" tsid="5000" />
     <channel service_ref="1:0:1:07d6:22c4:013e:00820000:0:0:0:" name="BBC Brit" service_name="BBC Brit" provider="GLOBECAST" sid="2006" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:07e0:22c4:013e:00820000:0:0:0:" name="BBC Brit" service_name="BBC Brit" provider="GLOBECAST" sid="2016" onid="318" tsid="8900" />
@@ -867,10 +865,9 @@
     <channel service_ref="1:0:25:258f:0448:0001:00c00000:0:0:0:" name="GAME ONE" service_name="GAME ONE" provider="CSAT" sid="9615" onid="1" tsid="1096" />
     <channel service_ref="1:0:1:002a:00c8:013e:00820000:0:0:0:" name="Gametoon" service_name="Gametoon" provider="ECLUTCH" sid="42" onid="318" tsid="200" />
     <channel service_ref="1:0:1:0c48:0459:0001:00c00000:0:0:0:" name="GayBoys LIVE" service_name="GayBoys LIVE" provider="MB Satellite" sid="3144" onid="1" tsid="1113" />
-    <channel service_ref="1:0:1:1d6b:0001:ff00:0082b13b:0:0:0:" name="GCUK Enc 1" service_name="GCUK Enc 1" provider="GlobeCast UK" sid="7531" onid="65280" tsid="1" />
     <channel service_ref="1:0:1:11ff:2b5c:013e:00820000:0:0:0:" name="GEB TV" service_name="GEB TV" provider="" sid="4607" onid="318" tsid="11100" />
-    <channel service_ref="1:0:22:6dcf:044d:0001:00c00000:0:0:0:" name="Genius Exklusiv" service_name="Genius Exklusiv" provider="WISI" sid="28111" onid="1" tsid="1101" />
-    <channel service_ref="1:0:22:6dd1:044d:0001:00c00000:0:0:0:" name="Genius Family" service_name="Genius Family" provider="WISI" sid="28113" onid="1" tsid="1101" />
+    <channel service_ref="1:0:22:6dcf:044d:0001:00c00000:0:0:0:" name="Genius Exklusiv" service_name="Genius Exklusiv" provider="TV.2000plus" sid="28111" onid="1" tsid="1101" />
+    <channel service_ref="1:0:22:6dd1:044d:0001:00c00000:0:0:0:" name="Genius Family" service_name="Genius Family" provider="TV.2000plus" sid="28113" onid="1" tsid="1101" />
     <channel service_ref="1:0:1:017d:0021:0085:00c00000:0:0:0:" name="Genius Trend" service_name="Genius Trend" provider="BetaDigital" sid="381" onid="133" tsid="33" />
     <channel service_ref="1:0:22:0d08:045b:0001:00c00000:0:0:0:" name="Genius TV" service_name="Genius TV" provider="TV2000plus" sid="3336" onid="1" tsid="1115" />
     <channel service_ref="1:0:130:0e55:16a8:fbff:00820000:0:0:0:" name="Gestione Collegam. Telefonico" service_name="Gestione Collegam. Telefonico" provider="SkyItalia" sid="3669" onid="64511" tsid="5800" />
@@ -944,9 +941,9 @@
     <channel service_ref="1:0:25:047b:2af8:013e:00820000:0:0:0:" name="Hustler HD SBB" service_name="Hustler HD SBB" provider="CANAL+" sid="1147" onid="318" tsid="11000" />
     <channel service_ref="1:0:22:100b:0451:0035:00c00000:0:0:0:" name="Hustler TV" service_name="Hustler TV" provider="M7 Group" sid="4107" onid="53" tsid="1105" />
     <channel service_ref="1:0:22:100d:0451:0035:00c00000:0:0:0:" name="Hustler TV CZ" service_name="Hustler TV CZ" provider="M7 Group" sid="4109" onid="53" tsid="1105" />
-    <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
+    <channel service_ref="1:0:12:03e9:03e9:0001:00820000:0:0:0:" name="HVS-1 Bck" service_name="HVS-1 Bck" provider="Telespazio" sid="1001" onid="1" tsid="1001" />
     <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
-    <channel service_ref="1:0:12:03eb:03eb:0001:00820000:0:0:0:" name="HVS-3 Bck" service_name="HVS-3 Bck" provider="Telespazio" sid="1003" onid="1" tsid="1003" />
+    <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Pri" service_name="HVS-3 DN2 Pri" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:6e45:0431:0001:00c00000:0:0:0:" name="Höhenrausch" service_name="Höhenrausch" provider="SES" sid="28229" onid="1" tsid="1073" />
     <channel service_ref="1:0:25:29d3:045c:0001:00c00000:0:0:0:" name="Höhenrausch HD" service_name="Höhenrausch HD" provider="SES" sid="10707" onid="1" tsid="1116" />
     <channel service_ref="1:0:1:746a:03f0:0001:00c00000:0:0:0:" name="IBERALIA TV" service_name="IBERALIA TV" provider="DIGITAL+" sid="29802" onid="1" tsid="1008" />
@@ -986,7 +983,7 @@
     <channel service_ref="1:0:25:004f:04b0:0110:00820000:0:0:0:" name="Italia1 HD" service_name="Italia1 HD" provider="Mediaset" sid="79" onid="272" tsid="1200" />
     <channel service_ref="1:0:1:1ca5:1ce8:0071:00820000:0:0:0:" name="Jedynka - PR" service_name="Jedynka - PR" provider="Cyfrowy Polsat S.A." sid="7333" onid="113" tsid="7400" />
     <channel service_ref="1:0:1:0e8d:3200:013e:00820000:0:0:0:" name="Jin TV" service_name="Jin TV" provider="MB Satellite" sid="3725" onid="318" tsid="12800" />
-    <channel service_ref="1:0:25:00bc:2134:013e:00820000:0:0:0:" name="JORDAN TV" service_name="JORDAN TV" provider="Etisalat" sid="188" onid="318" tsid="8500" />
+    <channel service_ref="1:0:1:00bc:2134:013e:00820000:0:0:0:" name="JORDAN TV" service_name="JORDAN TV" provider="Etisalat" sid="188" onid="318" tsid="8500" />
     <channel service_ref="1:0:22:00bf:000b:0085:00c00000:0:0:0:" name="Jukebox" service_name="Jukebox" provider="SKY" sid="191" onid="133" tsid="11" />
     <channel service_ref="1:0:1:6e43:0431:0001:00c00000:0:0:0:" name="Just Cooking" service_name="Just Cooking" provider="SES" sid="28227" onid="1" tsid="1073" />
     <channel service_ref="1:0:25:296d:045a:0001:00c00000:0:0:0:" name="Just Cooking HD" service_name="Just Cooking HD" provider="SES" sid="10605" onid="1" tsid="1114" />
@@ -1174,6 +1171,12 @@
     <channel service_ref="1:0:1:1e8c:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON11" service_name="M+LCAMPEON11" provider="Movistar+" sid="7820" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:1e8d:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON12" service_name="M+LCAMPEON12" provider="Movistar+" sid="7821" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:782b:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON13" service_name="M+LCAMPEON13" provider="Movistar+" sid="30763" onid="1" tsid="1064" />
+    <channel service_ref="1:0:1:1e76:0424:0001:00c00000:0:0:0:" name="M+LCAMPEON14" service_name="M+LCAMPEON14" provider="Digital+" sid="7798" onid="1" tsid="1060" />
+    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON15" service_name="M+LCAMPEON15" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:788c:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON16" service_name="M+LCAMPEON16" provider="" sid="30860" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:1ed6:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON17" service_name="M+LCAMPEON17" provider="" sid="7894" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:1ecc:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON18" service_name="M+LCAMPEON18" provider="" sid="7884" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON19" service_name="M+LCAMPEON19" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:749e:041c:0001:00c00000:0:0:0:" name="M+LCAMPEON2" service_name="M+LCAMPEON2" provider="Movistar+" sid="29854" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:77c3:040a:0001:00c00000:0:0:0:" name="M+LCAMPEON2" service_name="M+LCAMPEON2" provider="Movistar+" sid="30659" onid="1" tsid="1034" />
     <channel service_ref="1:0:25:749f:041c:0001:00c00000:0:0:0:" name="M+LCAMPEON3" service_name="M+LCAMPEON3" provider="Movistar+" sid="29855" onid="1" tsid="1052" />
@@ -1194,7 +1197,6 @@
     <channel service_ref="1:0:1:1bc3:17d4:013e:00820000:0:0:0:" name="M3_SID7107" service_name="M3_SID7107" provider="NOVA" sid="7107" onid="318" tsid="6100" />
     <channel service_ref="1:0:1:1bd1:17d4:013e:00820000:0:0:0:" name="M3_SID7121" service_name="M3_SID7121" provider="NOVA" sid="7121" onid="318" tsid="6100" />
     <channel service_ref="1:0:1:3c8f:1bbc:013e:00820000:0:0:0:" name="M4_SID15503" service_name="M4_SID15503" provider="NOVA" sid="15503" onid="318" tsid="7100" />
-    <channel service_ref="1:0:1:3c9e:1bbc:013e:00820000:0:0:0:" name="M4_SID15518" service_name="M4_SID15518" provider="NOVA" sid="15518" onid="318" tsid="7100" />
     <channel service_ref="1:0:1:0054:3e1c:013f:00820000:0:0:0:" name="M6" service_name="M6" provider="Eutelsat" sid="84" onid="319" tsid="15900" />
     <channel service_ref="1:0:25:03e7:0440:0001:00c00000:0:0:0:" name="M6" service_name="M6" provider="CSAT" sid="999" onid="1" tsid="1088" />
     <channel service_ref="1:0:1:051a:2e7c:013f:00820000:0:0:0:" name="M6" service_name="M6" provider="Eutelsat" sid="1306" onid="319" tsid="11900" />
@@ -1206,6 +1208,7 @@
     <channel service_ref="1:0:1:0b62:1edc:0071:00820000:0:0:0:" name="Mango" service_name="Mango" provider="Cyfrowy Polsat S.A." sid="2914" onid="113" tsid="7900" />
     <channel service_ref="1:0:1:424b:3db8:013e:00820000:0:0:0:" name="MARCOPOLO" service_name="MARCOPOLO" provider="Telespazio" sid="16971" onid="318" tsid="15800" />
     <channel service_ref="1:0:22:00f8:25e4:00d5:00820000:0:0:0:" name="Marquee TV" service_name="Marquee TV" provider="VIVACOM" sid="248" onid="213" tsid="9700" />
+    <channel service_ref="1:0:1:3c9e:1bbc:013e:00820000:0:0:0:" name="Marquee TV HD" service_name="Marquee TV HD" provider="NOVA" sid="15518" onid="318" tsid="7100" />
     <channel service_ref="1:0:25:13ac:2710:00d5:00820000:0:0:0:" name="MAX Sport 1 HD" service_name="MAX Sport 1 HD" provider="VIVACOM" sid="5036" onid="213" tsid="10000" />
     <channel service_ref="1:0:25:13ad:2710:00d5:00820000:0:0:0:" name="MAX Sport 2 HD" service_name="MAX Sport 2 HD" provider="VIVACOM" sid="5037" onid="213" tsid="10000" />
     <channel service_ref="1:0:25:008b:2648:00d5:00820000:0:0:0:" name="MAX Sport 3 HD" service_name="MAX Sport 3 HD" provider="VIVACOM" sid="139" onid="213" tsid="9800" />
@@ -1743,9 +1746,9 @@
     <channel service_ref="1:0:1:33af:03eb:0001:00c00000:0:0:0:" name="Service 13231" service_name="Service 13231" provider="ORS" sid="13231" onid="1" tsid="1003" />
     <channel service_ref="1:0:1:33b0:03eb:0001:00c00000:0:0:0:" name="Service 13232" service_name="Service 13232" provider="ORS" sid="13232" onid="1" tsid="1003" />
     <channel service_ref="1:0:1:33b1:03eb:0001:00c00000:0:0:0:" name="Service 13233" service_name="Service 13233" provider="ORS" sid="13233" onid="1" tsid="1003" />
-    <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
+    <channel service_ref="1:0:1:008c:03e9:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1001" />
     <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
-    <channel service_ref="1:0:1:008c:03eb:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1003" />
+    <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:25:0215:03ef:0001:00c00000:0:0:0:" name="ServusTV HD Oesterreich" service_name="ServusTV HD Oesterreich" provider="ServusTV" sid="533" onid="1" tsid="1007" />
     <channel service_ref="1:0:1:125c:03f7:0001:00c00000:0:0:0:" name="SES 01" service_name="SES 01" provider="BetaDigital" sid="4700" onid="1" tsid="1015" />
     <channel service_ref="1:0:1:125d:03f7:0001:00c00000:0:0:0:" name="SES 02" service_name="SES 02" provider="BetaDigital" sid="4701" onid="1" tsid="1015" />
@@ -1790,13 +1793,12 @@
     <channel service_ref="1:0:25:006b:000c:0085:00c00000:0:0:0:" name="Sky Cinema Classics" service_name="Sky Cinema Classics" provider="SKY" sid="107" onid="133" tsid="12" />
     <channel service_ref="1:0:25:2b16:1a90:fbff:00820000:0:0:0:" name="Sky Cinema Comedy" service_name="Sky Cinema Comedy" provider="SkyItalia" sid="11030" onid="64511" tsid="6800" />
     <channel service_ref="1:0:25:1e59:189c:fbff:00820000:0:0:0:" name="Sky Cinema Drama" service_name="Sky Cinema Drama" provider="SkyItalia" sid="7769" onid="64511" tsid="6300" />
-    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Due" service_name="Sky Cinema Due" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
-    <channel service_ref="1:0:25:1e63:189c:fbff:00820000:0:0:0:" name="Sky Cinema Due +24" service_name="Sky Cinema Due +24" provider="SkyItalia" sid="7779" onid="64511" tsid="6300" />
     <channel service_ref="1:0:25:008b:0002:0085:00c00000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SKY" sid="139" onid="133" tsid="2" />
     <channel service_ref="1:0:25:1c57:2198:fbff:00820000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SkyItalia" sid="7255" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:006f:000d:0085:00c00000:0:0:0:" name="Sky Cinema Highlights" service_name="Sky Cinema Highlights" provider="SKY" sid="111" onid="133" tsid="13" />
     <channel service_ref="1:0:25:0035:0006:0085:00c00000:0:0:0:" name="Sky Cinema Premiere" service_name="Sky Cinema Premiere" provider="SKY" sid="53" onid="133" tsid="6" />
     <channel service_ref="1:0:25:1c3f:189c:fbff:00820000:0:0:0:" name="Sky Cinema Romance" service_name="Sky Cinema Romance" provider="SkyItalia" sid="7231" onid="64511" tsid="6300" />
+    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Stories" service_name="Sky Cinema Stories" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:2b27:2198:fbff:00820000:0:0:0:" name="Sky Cinema Suspense" service_name="Sky Cinema Suspense" provider="SkyItalia" sid="11047" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:106a:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4202" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:106b:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4203" onid="64511" tsid="5600" />
@@ -1897,7 +1899,7 @@
     <channel service_ref="1:0:130:10ff:1644:fbff:00820000:0:0:0:" name="Sky TG24 Active" service_name="Sky TG24 Active" provider="SkyItalia" sid="4351" onid="64511" tsid="5700" />
     <channel service_ref="1:0:25:0dcc:16a8:fbff:00820000:0:0:0:" name="Sky TG24 HD" service_name="Sky TG24 HD" provider="SkyItalia" sid="3532" onid="64511" tsid="5800" />
     <channel service_ref="1:0:25:09c9:1838:fbff:00820000:0:0:0:" name="Sky Uno" service_name="Sky Uno" provider="SkyItalia" sid="2505" onid="64511" tsid="6200" />
-    <channel service_ref="1:0:25:37ba:19c8:fbff:00820000:0:0:0:" name="Sky Uno +1" service_name="Sky Uno +1" provider="SkyItalia" sid="14266" onid="64511" tsid="6600" />
+    <channel service_ref="1:0:25:0100:19c8:fbff:00820000:0:0:0:" name="Sky Uno +" service_name="Sky Uno +" provider="SkyItalia" sid="256" onid="64511" tsid="6600" />
     <channel service_ref="1:0:22:0056:2648:00d5:00820000:0:0:0:" name="SkyShowtime 1" service_name="SkyShowtime 1" provider="VIVACOM" sid="86" onid="213" tsid="9800" />
     <channel service_ref="1:0:1:3e27:2ee0:013e:00820000:0:0:0:" name="SkyShowtime 1" service_name="SkyShowtime 1" provider="Cyfrowy Polsat S.A." sid="15911" onid="318" tsid="12000" />
     <channel service_ref="1:0:22:0057:2648:00d5:00820000:0:0:0:" name="SkyShowtime 2" service_name="SkyShowtime 2" provider="VIVACOM" sid="87" onid="213" tsid="9800" />
@@ -1982,6 +1984,7 @@
     <channel service_ref="1:0:1:76cc:040e:0001:00c00000:0:0:0:" name="TELEDEPORTE" service_name="TELEDEPORTE" provider="TDEP" sid="30412" onid="1" tsid="1038" />
     <channel service_ref="1:0:1:313c:0459:0001:00c00000:0:0:0:" name="TELEGOLD SD" service_name="TELEGOLD SD" provider="MB Satellite" sid="12604" onid="1" tsid="1113" />
     <channel service_ref="1:0:1:08a0:01f4:00fc:00820000:0:0:0:" name="TELERADIOPACE TV" service_name="TELERADIOPACE TV" provider="iKOMG" sid="2208" onid="252" tsid="500" />
+    <channel service_ref="1:0:25:0020:1770:00be:00820000:0:0:0:" name="TELESARDEGNA" service_name="TELESARDEGNA" provider="" sid="32" onid="190" tsid="6000" />
     <channel service_ref="1:0:1:0c59:0459:0001:00c00000:0:0:0:" name="TeleSex TV" service_name="TeleSex TV" provider="MB Satellite" sid="3161" onid="1" tsid="1113" />
     <channel service_ref="1:0:25:18f9:03f4:0001:00c00000:0:0:0:" name="Telesur English" service_name="Telesur English" provider="TSA" sid="6393" onid="1" tsid="1012" />
     <channel service_ref="1:0:25:030f:1f40:013e:00820000:0:0:0:" name="Telesur HD" service_name="Telesur HD" provider="TSA" sid="783" onid="318" tsid="8000" />
@@ -1990,20 +1993,17 @@
     <channel service_ref="1:0:1:3a9b:0514:013e:00820000:0:0:0:" name="teleTOON+ HD" service_name="teleTOON+ HD" provider="CANAL+" sid="15003" onid="318" tsid="1300" />
     <channel service_ref="1:0:1:3acd:0514:013e:00820000:0:0:0:" name="teleTOON+ HD" service_name="teleTOON+ HD" provider="CANAL+" sid="15053" onid="318" tsid="1300" />
     <channel service_ref="1:0:1:3ad7:0514:013e:00820000:0:0:0:" name="teleTOON+ HD" service_name="teleTOON+ HD" provider="CANAL+" sid="15063" onid="318" tsid="1300" />
+    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="TEST 2 TXP 42" service_name="TEST 2 TXP 42" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:74a0:041c:0001:00c00000:0:0:0:" name="TEST DZ5." service_name="TEST DZ5." provider="BARNA" sid="29856" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:76a7:041e:0001:00c00000:0:0:0:" name="TEST F1" service_name="TEST F1" provider="CANAL+" sid="30375" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:1dac:0422:0001:00c00000:0:0:0:" name="TEST RA" service_name="TEST RA" provider="DIGITAL+" sid="7596" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:006c:2774:013e:00820000:0:0:0:" name="TEST SERVICE 12" service_name="TEST SERVICE 12" provider="NOVA" sid="108" onid="318" tsid="10100" />
     <channel service_ref="1:0:1:1d92:0412:0001:00c00000:0:0:0:" name="TEST TOROS" service_name="TEST TOROS" provider="Movistar+" sid="7570" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="TEST TXP44" service_name="TEST TXP44" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:1e76:0424:0001:00c00000:0:0:0:" name="TEST TXP60" service_name="TEST TXP60" provider="Digital+" sid="7798" onid="1" tsid="1060" />
+    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="TEST TXP 42" service_name="TEST TXP 42" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
+    <channel service_ref="1:0:1:1e0f:041e:0001:00c00000:0:0:0:" name="TEST TXP 54" service_name="TEST TXP 54" provider="TXY" sid="7695" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:1e93:0428:0001:00c00000:0:0:0:" name="TEST TXP64" service_name="TEST TXP64" provider="Movistar+" sid="7827" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:75dd:0422:0001:00c00000:0:0:0:" name="TEST TÉCNICO" service_name="TEST TÉCNICO" provider="DIGITAL+" sid="30173" onid="1" tsid="1058" />
     <channel service_ref="1:0:25:10ef:300c:013e:00820000:0:0:0:" name="Test17205" service_name="Test17205" provider="SRG SSR" sid="4335" onid="318" tsid="12300" />
-    <channel service_ref="1:0:1:1ed6:0414:0001:00c00000:0:0:0:" name="TEST2 TXP44" service_name="TEST2 TXP44" provider="" sid="7894" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:1ecc:0414:0001:00c00000:0:0:0:" name="TEST3 TXP44" service_name="TEST3 TXP44" provider="" sid="7884" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:788c:0414:0001:00c00000:0:0:0:" name="TEST4 TXP44" service_name="TEST4 TXP44" provider="" sid="30860" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="TEST5 TXP44" service_name="TEST5 TXP44" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
     <channel service_ref="1:0:1:75de:0422:0001:00c00000:0:0:0:" name="TEST_CSD1" service_name="TEST_CSD1" provider="DIGITAL+" sid="30174" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75df:0422:0001:00c00000:0:0:0:" name="TEST_CSD2" service_name="TEST_CSD2" provider="DIGITAL+" sid="30175" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75e0:0422:0001:00c00000:0:0:0:" name="TEST_CSD3" service_name="TEST_CSD3" provider="DIGITAL+" sid="30176" onid="1" tsid="1058" />
@@ -2022,7 +2022,6 @@
     <channel service_ref="1:0:25:07de:0430:0001:00c00000:0:0:0:" name="TFX" service_name="TFX" provider="CSAT" sid="2014" onid="1" tsid="1072" />
     <channel service_ref="1:0:130:10e9:1644:fbff:00820000:0:0:0:" name="TG 24 - Feed 2" service_name="TG 24 - Feed 2" provider="SkyItalia" sid="4329" onid="64511" tsid="5700" />
     <channel service_ref="1:0:130:10e7:1644:fbff:00820000:0:0:0:" name="TG 24 - Mosaico" service_name="TG 24 - Mosaico" provider="SkyItalia" sid="4327" onid="64511" tsid="5700" />
-    <channel service_ref="1:0:1:1c73:1c20:013e:00820000:0:0:0:" name="TG NORBA 24" service_name="TG NORBA 24" provider="Telenorba" sid="7283" onid="318" tsid="7200" />
     <channel service_ref="1:0:1:10e8:189c:fbff:00820000:0:0:0:" name="TG24PrimoPiano" service_name="TG24PrimoPiano" provider="SkyItalia" sid="4328" onid="64511" tsid="6300" />
     <channel service_ref="1:0:25:0032:04b0:0110:00820000:0:0:0:" name="TGCOM24 HD" service_name="TGCOM24 HD" provider="Mediaset" sid="50" onid="272" tsid="1200" />
     <channel service_ref="1:0:1:016a:1c84:013e:00820000:0:0:0:" name="The HISTORY Channel HD" service_name="The HISTORY Channel HD" provider="NOVA" sid="362" onid="318" tsid="7300" />
@@ -2067,7 +2066,7 @@
     <channel service_ref="1:0:1:1b06:03fe:0001:00c00000:0:0:0:" name="TRT WORLD HD" service_name="TRT WORLD HD" provider="GLOBECAST" sid="6918" onid="1" tsid="1022" />
     <channel service_ref="1:0:1:1ca6:1ce8:0071:00820000:0:0:0:" name="Trójka - PR" service_name="Trójka - PR" provider="Cyfrowy Polsat S.A." sid="7334" onid="113" tsid="7400" />
     <channel service_ref="1:0:25:3dd7:0640:013e:00820000:0:0:0:" name="TTV HD" service_name="TTV HD" provider="TVN WBD" sid="15831" onid="318" tsid="1600" />
-    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisia Nationale" service_name="Tunisia Nationale" provider="" sid="7202" onid="318" tsid="7200" />
+    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisie Nationale" service_name="Tunisie Nationale" provider="" sid="7202" onid="318" tsid="7200" />
     <channel service_ref="1:0:25:3b6b:012c:013e:00820000:0:0:0:" name="Turbo Xtra Poland HD" service_name="Turbo Xtra Poland HD" provider="Warner Bros. Discovery" sid="15211" onid="318" tsid="300" />
     <channel service_ref="1:0:22:056d:2710:00d5:00820000:0:0:0:" name="TV 1" service_name="TV 1" provider="VIVACOM" sid="1389" onid="213" tsid="10000" />
     <channel service_ref="1:0:22:13aa:2710:00d5:00820000:0:0:0:" name="TV 5 Monde" service_name="TV 5 Monde" provider="VIVACOM" sid="5034" onid="213" tsid="10000" />
@@ -2328,13 +2327,12 @@
     <channel service_ref="1:0:25:006b:000c:0085:00c00000:0:0:0:" name="Sky Cinema Classics" service_name="Sky Cinema Classics" provider="SKY" sid="107" onid="133" tsid="12" />
     <channel service_ref="1:0:25:2b16:1a90:fbff:00820000:0:0:0:" name="Sky Cinema Comedy" service_name="Sky Cinema Comedy" provider="SkyItalia" sid="11030" onid="64511" tsid="6800" />
     <channel service_ref="1:0:25:1e59:189c:fbff:00820000:0:0:0:" name="Sky Cinema Drama" service_name="Sky Cinema Drama" provider="SkyItalia" sid="7769" onid="64511" tsid="6300" />
-    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Due" service_name="Sky Cinema Due" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
-    <channel service_ref="1:0:25:1e63:189c:fbff:00820000:0:0:0:" name="Sky Cinema Due +24" service_name="Sky Cinema Due +24" provider="SkyItalia" sid="7779" onid="64511" tsid="6300" />
     <channel service_ref="1:0:25:008b:0002:0085:00c00000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SKY" sid="139" onid="133" tsid="2" />
     <channel service_ref="1:0:25:1c57:2198:fbff:00820000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SkyItalia" sid="7255" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:006f:000d:0085:00c00000:0:0:0:" name="Sky Cinema Highlights" service_name="Sky Cinema Highlights" provider="SKY" sid="111" onid="133" tsid="13" />
     <channel service_ref="1:0:25:0035:0006:0085:00c00000:0:0:0:" name="Sky Cinema Premiere" service_name="Sky Cinema Premiere" provider="SKY" sid="53" onid="133" tsid="6" />
     <channel service_ref="1:0:25:1c3f:189c:fbff:00820000:0:0:0:" name="Sky Cinema Romance" service_name="Sky Cinema Romance" provider="SkyItalia" sid="7231" onid="64511" tsid="6300" />
+    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Stories" service_name="Sky Cinema Stories" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:2b27:2198:fbff:00820000:0:0:0:" name="Sky Cinema Suspense" service_name="Sky Cinema Suspense" provider="SkyItalia" sid="11047" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:106a:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4202" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:106b:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4203" onid="64511" tsid="5600" />
@@ -2989,7 +2987,7 @@
     <channel service_ref="1:0:130:10ff:1644:fbff:00820000:0:0:0:" name="Sky TG24 Active" service_name="Sky TG24 Active" provider="SkyItalia" sid="4351" onid="64511" tsid="5700" />
     <channel service_ref="1:0:25:0dcc:16a8:fbff:00820000:0:0:0:" name="Sky TG24 HD" service_name="Sky TG24 HD" provider="SkyItalia" sid="3532" onid="64511" tsid="5800" />
     <channel service_ref="1:0:25:09c9:1838:fbff:00820000:0:0:0:" name="Sky Uno" service_name="Sky Uno" provider="SkyItalia" sid="2505" onid="64511" tsid="6200" />
-    <channel service_ref="1:0:25:37ba:19c8:fbff:00820000:0:0:0:" name="Sky Uno +1" service_name="Sky Uno +1" provider="SkyItalia" sid="14266" onid="64511" tsid="6600" />
+    <channel service_ref="1:0:25:0100:19c8:fbff:00820000:0:0:0:" name="Sky Uno +" service_name="Sky Uno +" provider="SkyItalia" sid="256" onid="64511" tsid="6600" />
     <channel service_ref="1:0:1:3e27:2ee0:013e:00820000:0:0:0:" name="SkyShowtime 1" service_name="SkyShowtime 1" provider="Cyfrowy Polsat S.A." sid="15911" onid="318" tsid="12000" />
     <channel service_ref="1:0:1:3e28:2ee0:013e:00820000:0:0:0:" name="SkyShowtime 2" service_name="SkyShowtime 2" provider="Cyfrowy Polsat S.A." sid="15912" onid="318" tsid="12000" />
     <channel service_ref="1:0:22:008c:0010:0085:00c00000:0:0:0:" name="STEST1" service_name="STEST1" provider="SKY" sid="140" onid="133" tsid="16" />
@@ -3165,6 +3163,7 @@
     <channel service_ref="1:0:22:0441:2f44:013e:00820000:0:0:0:" name="Super!" service_name="Super!" provider="M-Three Satcom Srl" sid="1089" onid="318" tsid="12100" />
     <channel service_ref="1:0:25:283f:03fb:0001:00c00000:0:0:0:" name="SWR BW HD" service_name="SWR BW HD" provider="ARD" sid="10303" onid="1" tsid="1019" />
     <channel service_ref="1:0:25:0b18:03fb:0001:00c00000:0:0:0:" name="SWR RP HD" service_name="SWR RP HD" provider="ARD" sid="2840" onid="1" tsid="1019" />
+    <channel service_ref="1:0:25:0020:1770:00be:00820000:0:0:0:" name="TELESARDEGNA" service_name="TELESARDEGNA" provider="" sid="32" onid="190" tsid="6000" />
     <channel service_ref="1:0:25:3b6b:012c:013e:00820000:0:0:0:" name="Turbo Xtra Poland HD" service_name="Turbo Xtra Poland HD" provider="Warner Bros. Discovery" sid="15211" onid="318" tsid="300" />
     <channel service_ref="1:0:1:01c8:26ac:013f:00820000:0:0:0:" name="TV Breizh" service_name="TV Breizh" provider="AB Sat" sid="456" onid="319" tsid="9900" />
     <channel service_ref="1:0:1:05b0:170c:013f:00820000:0:0:0:" name="TV BREIZH" service_name="TV BREIZH" provider="AB Sat" sid="1456" onid="319" tsid="5900" />
@@ -3752,6 +3751,7 @@
     <channel service_ref="1:0:1:0001:0072:0061:00820000:0:0:0:" name="12437H." service_name="12437H." provider="" sid="1" onid="97" tsid="114" />
     <channel service_ref="1:0:1:0001:0452:0001:00c00000:0:0:0:" name="12522V" service_name="12522V" provider="" sid="1" onid="1" tsid="1106" />
     <channel service_ref="1:0:1:0001:0001:ffff:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="65535" tsid="1" />
+    <channel service_ref="1:0:1:0001:0001:ff00:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="65280" tsid="1" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
     <channel service_ref="1:0:1:3e44:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15940" onid="318" tsid="12000" />
     <channel service_ref="1:0:25:04ec:03f7:0001:00c00000:0:0:0:" name="3+" service_name="3+" provider="BetaDigital" sid="1260" onid="1" tsid="1015" />
@@ -3790,7 +3790,8 @@
     <channel service_ref="1:0:1:24bd:043c:0001:00c00000:0:0:0:" name="F3 PROV ALPES" service_name="F3 PROV ALPES" provider="CSAT" sid="9405" onid="1" tsid="1084" />
     <channel service_ref="1:0:1:09a5:0440:0001:00c00000:0:0:0:" name="F3 RHONE ALPES" service_name="F3 RHONE ALPES" provider="CSAT" sid="2469" onid="1" tsid="1088" />
     <channel service_ref="1:0:1:134b:33f4:013e:00820000:0:0:0:" name="HADI TV 3" service_name="HADI TV 3" provider="Telespazio" sid="4939" onid="318" tsid="13300" />
-    <channel service_ref="1:0:12:03eb:03eb:0001:00820000:0:0:0:" name="HVS-3 Bck" service_name="HVS-3 Bck" provider="Telespazio" sid="1003" onid="1" tsid="1003" />
+    <channel service_ref="1:0:12:03e9:03e9:0001:00820000:0:0:0:" name="HVS-1 Bck" service_name="HVS-1 Bck" provider="Telespazio" sid="1001" onid="1" tsid="1001" />
+    <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Pri" service_name="HVS-3 DN2 Pri" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:25:0028:3264:013e:00820000:0:0:0:" name="Kabelio 3+" service_name="Kabelio 3+" provider="KABELIO.CH" sid="40" onid="318" tsid="12900" />
     <channel service_ref="1:0:25:00e6:2c24:013e:00820000:0:0:0:" name="Kabelio 5 UK" service_name="Kabelio 5 UK" provider="KABELIO.CH" sid="230" onid="318" tsid="11300" />
     <channel service_ref="1:0:25:002a:3264:013e:00820000:0:0:0:" name="Kabelio 5+" service_name="Kabelio 5+" provider="KABELIO.CH" sid="42" onid="318" tsid="12900" />
@@ -3812,6 +3813,7 @@
     <channel service_ref="1:0:1:77c2:040a:0001:00c00000:0:0:0:" name="M+DEPORTES3" service_name="M+DEPORTES3" provider="Digital +" sid="30658" onid="1" tsid="1034" />
     <channel service_ref="1:0:1:77c8:040a:0001:00c00000:0:0:0:" name="M+DEPORTES5" service_name="M+DEPORTES5" provider="Digital+" sid="30664" onid="1" tsid="1034" />
     <channel service_ref="1:0:1:782b:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON13" service_name="M+LCAMPEON13" provider="Movistar+" sid="30763" onid="1" tsid="1064" />
+    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON15" service_name="M+LCAMPEON15" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:749f:041c:0001:00c00000:0:0:0:" name="M+LCAMPEON3" service_name="M+LCAMPEON3" provider="Movistar+" sid="29855" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:769f:041e:0001:00c00000:0:0:0:" name="M+LCAMPEON3" service_name="M+LCAMPEON3" provider="Movistar+" sid="30367" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:77c4:040a:0001:00c00000:0:0:0:" name="M+LCAMPEON5" service_name="M+LCAMPEON5" provider="Movistar+" sid="30660" onid="1" tsid="1034" />
@@ -3821,7 +3823,6 @@
     <channel service_ref="1:0:1:1bc3:17d4:013e:00820000:0:0:0:" name="M3_SID7107" service_name="M3_SID7107" provider="NOVA" sid="7107" onid="318" tsid="6100" />
     <channel service_ref="1:0:1:1bd1:17d4:013e:00820000:0:0:0:" name="M3_SID7121" service_name="M3_SID7121" provider="NOVA" sid="7121" onid="318" tsid="6100" />
     <channel service_ref="1:0:1:3c8f:1bbc:013e:00820000:0:0:0:" name="M4_SID15503" service_name="M4_SID15503" provider="NOVA" sid="15503" onid="318" tsid="7100" />
-    <channel service_ref="1:0:1:3c9e:1bbc:013e:00820000:0:0:0:" name="M4_SID15518" service_name="M4_SID15518" provider="NOVA" sid="15518" onid="318" tsid="7100" />
     <channel service_ref="1:0:1:424b:3db8:013e:00820000:0:0:0:" name="MARCOPOLO" service_name="MARCOPOLO" provider="Telespazio" sid="16971" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:0c57:0459:0001:00c00000:0:0:0:" name="MBS - Test3" service_name="MBS - Test3" provider="MB Satellite" sid="3159" onid="1" tsid="1113" />
     <channel service_ref="1:0:1:425e:3db8:013e:00820000:0:0:0:" name="Med TV" service_name="Med TV" provider="Telespazio" sid="16990" onid="318" tsid="15800" />
@@ -3876,12 +3877,10 @@
     <channel service_ref="1:0:25:7a49:0410:0001:00c00000:0:0:0:" name="Telesur HD" service_name="Telesur HD" provider="TSA" sid="31305" onid="1" tsid="1040" />
     <channel service_ref="1:0:25:232d:0442:0001:00c00000:0:0:0:" name="TELETOON+" service_name="TELETOON+" provider="CSAT" sid="9005" onid="1" tsid="1090" />
     <channel service_ref="1:0:1:74a0:041c:0001:00c00000:0:0:0:" name="TEST DZ5." service_name="TEST DZ5." provider="BARNA" sid="29856" onid="1" tsid="1052" />
+    <channel service_ref="1:0:1:1e0f:041e:0001:00c00000:0:0:0:" name="TEST TXP 54" service_name="TEST TXP 54" provider="TXY" sid="7695" onid="1" tsid="1054" />
     <channel service_ref="1:0:25:10ef:300c:013e:00820000:0:0:0:" name="Test17205" service_name="Test17205" provider="SRG SSR" sid="4335" onid="318" tsid="12300" />
-    <channel service_ref="1:0:1:1ecc:0414:0001:00c00000:0:0:0:" name="TEST3 TXP44" service_name="TEST3 TXP44" provider="" sid="7884" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="TEST5 TXP44" service_name="TEST5 TXP44" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
     <channel service_ref="1:0:1:75e0:0422:0001:00c00000:0:0:0:" name="TEST_CSD3" service_name="TEST_CSD3" provider="DIGITAL+" sid="30176" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75e2:0422:0001:00c00000:0:0:0:" name="TEST_CSD5" service_name="TEST_CSD5" provider="DIGITAL+" sid="30178" onid="1" tsid="1058" />
-    <channel service_ref="1:0:1:1c73:1c20:013e:00820000:0:0:0:" name="TG NORBA 24" service_name="TG NORBA 24" provider="Telenorba" sid="7283" onid="318" tsid="7200" />
     <channel service_ref="1:0:1:421a:3db8:013e:00820000:0:0:0:" name="TRM h24" service_name="TRM h24" provider="Telespazio" sid="16922" onid="318" tsid="15800" />
     <channel service_ref="1:0:25:22c6:0434:0001:00c00000:0:0:0:" name="TV5 MONDE" service_name="TV5 MONDE" provider="CSAT" sid="8902" onid="1" tsid="1076" />
     <channel service_ref="1:0:1:1b03:03fe:0001:00c00000:0:0:0:" name="TV5 MONDE EUROPE HD" service_name="TV5 MONDE EUROPE HD" provider="GLOBECAST" sid="6915" onid="1" tsid="1022" />
@@ -3902,10 +3901,6 @@
     <channel service_ref="1:0:25:1d50:0420:0001:00c00000:0:0:0:" name="1ª FEDERACION HD" service_name="1ª FEDERACION HD" provider="Movistar+" sid="7504" onid="1" tsid="1056" />
     <channel service_ref="1:0:25:1d70:0426:0001:00c00000:0:0:0:" name="ALQUILER HD" service_name="ALQUILER HD" provider="Movistar+" sid="7536" onid="1" tsid="1062" />
     <channel service_ref="1:0:25:1d70:0426:0001:00c00000:0:0:0:" name="ALQUILER HD" service_name="ALQUILER HD" provider="Movistar+" sid="7536" onid="1" tsid="1062" />
-    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="ALQUILER X" service_name="ALQUILER X" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="ALQUILER X" service_name="ALQUILER X" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="ALQUILER XX" service_name="ALQUILER XX" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="ALQUILER XX" service_name="ALQUILER XX" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:75b0:0422:0001:00c00000:0:0:0:" name="Antig. ALQUILER G1" service_name="Antig. ALQUILER G1" provider="Movistar+" sid="30128" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75b0:0422:0001:00c00000:0:0:0:" name="Antig. ALQUILER G1" service_name="Antig. ALQUILER G1" provider="Movistar+" sid="30128" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:1d31:03f0:0001:00c00000:0:0:0:" name="ARAGON TV INT" service_name="ARAGON TV INT" provider="Movistar+" sid="7473" onid="1" tsid="1008" />
@@ -4040,6 +4035,9 @@
     <channel service_ref="1:0:1:1e8d:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON12" service_name="M+LCAMPEON12" provider="Movistar+" sid="7821" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:1e8d:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON12" service_name="M+LCAMPEON12" provider="Movistar+" sid="7821" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:782b:0428:0001:00c00000:0:0:0:" name="M+LCAMPEON13" service_name="M+LCAMPEON13" provider="Movistar+" sid="30763" onid="1" tsid="1064" />
+    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON15" service_name="M+LCAMPEON15" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON19" service_name="M+LCAMPEON19" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON19" service_name="M+LCAMPEON19" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:749e:041c:0001:00c00000:0:0:0:" name="M+LCAMPEON2" service_name="M+LCAMPEON2" provider="Movistar+" sid="29854" onid="1" tsid="1052" />
     <channel service_ref="1:0:25:749e:041c:0001:00c00000:0:0:0:" name="M+LCAMPEON2" service_name="M+LCAMPEON2" provider="Movistar+" sid="29854" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:77c3:040a:0001:00c00000:0:0:0:" name="M+LCAMPEON2" service_name="M+LCAMPEON2" provider="Movistar+" sid="30659" onid="1" tsid="1034" />
@@ -4066,13 +4064,14 @@
     <channel service_ref="1:0:25:749a:041c:0001:00c00000:0:0:0:" name="Movistar Plus+ HD" service_name="Movistar Plus+ HD" provider="Movistar+" sid="29850" onid="1" tsid="1052" />
     <channel service_ref="1:0:25:749a:041c:0001:00c00000:0:0:0:" name="Movistar Plus+ HD" service_name="Movistar Plus+ HD" provider="Movistar+" sid="29850" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:772e:0416:0001:00c00000:0:0:0:" name="NICKELODEON" service_name="NICKELODEON" provider="Movistar+" sid="30510" onid="1" tsid="1046" />
+    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="TEST 2 TXP 42" service_name="TEST 2 TXP 42" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
+    <channel service_ref="1:0:1:1d91:0412:0001:00c00000:0:0:0:" name="TEST 2 TXP 42" service_name="TEST 2 TXP 42" provider="Movistar+" sid="7569" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d92:0412:0001:00c00000:0:0:0:" name="TEST TOROS" service_name="TEST TOROS" provider="Movistar+" sid="7570" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d92:0412:0001:00c00000:0:0:0:" name="TEST TOROS" service_name="TEST TOROS" provider="Movistar+" sid="7570" onid="1" tsid="1042" />
-    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="TEST TXP44" service_name="TEST TXP44" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:1eca:0414:0001:00c00000:0:0:0:" name="TEST TXP44" service_name="TEST TXP44" provider="Movistar+" sid="7882" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="TEST TXP 42" service_name="TEST TXP 42" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
+    <channel service_ref="1:0:1:1d90:0412:0001:00c00000:0:0:0:" name="TEST TXP 42" service_name="TEST TXP 42" provider="Movistar+" sid="7568" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1e93:0428:0001:00c00000:0:0:0:" name="TEST TXP64" service_name="TEST TXP64" provider="Movistar+" sid="7827" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:1e93:0428:0001:00c00000:0:0:0:" name="TEST TXP64" service_name="TEST TXP64" provider="Movistar+" sid="7827" onid="1" tsid="1064" />
-    <channel service_ref="1:0:1:788d:0414:0001:00c00000:0:0:0:" name="TEST5 TXP44" service_name="TEST5 TXP44" provider="Movistar+" sid="30861" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:0dad:1f40:013e:00820000:0:0:0:" name="TVE Internacional" service_name="TVE Internacional" provider="TSA" sid="3501" onid="318" tsid="8000" />
     <channel service_ref="1:0:1:1da5:0412:0001:00c00000:0:0:0:" name="Vamos Bar HD" service_name="Vamos Bar HD" provider="" sid="7589" onid="1" tsid="1042" />
   </bouquet>
@@ -4690,6 +4689,7 @@
     <channel service_ref="1:0:25:78c0:03ec:0001:00c00000:0:0:0:" name="M+DEPORTESHD" service_name="M+DEPORTESHD" provider="Movistar+" sid="30912" onid="1" tsid="1004" />
     <channel service_ref="1:0:25:78be:03ec:0001:00c00000:0:0:0:" name="M+Documentales HD" service_name="M+Documentales HD" provider="PRISAT TV" sid="30910" onid="1" tsid="1004" />
     <channel service_ref="1:0:25:78b5:03ec:0001:00c00000:0:0:0:" name="M+ELLAS V HD" service_name="M+ELLAS V HD" provider="PRISA TV" sid="30901" onid="1" tsid="1004" />
+    <channel service_ref="1:0:1:3c9e:1bbc:013e:00820000:0:0:0:" name="Marquee TV HD" service_name="Marquee TV HD" provider="NOVA" sid="15518" onid="318" tsid="7100" />
     <channel service_ref="1:0:25:13ac:2710:00d5:00820000:0:0:0:" name="MAX Sport 1 HD" service_name="MAX Sport 1 HD" provider="VIVACOM" sid="5036" onid="213" tsid="10000" />
     <channel service_ref="1:0:25:13ad:2710:00d5:00820000:0:0:0:" name="MAX Sport 2 HD" service_name="MAX Sport 2 HD" provider="VIVACOM" sid="5037" onid="213" tsid="10000" />
     <channel service_ref="1:0:25:008b:2648:00d5:00820000:0:0:0:" name="MAX Sport 3 HD" service_name="MAX Sport 3 HD" provider="VIVACOM" sid="139" onid="213" tsid="9800" />
@@ -5215,7 +5215,6 @@
     <channel service_ref="1:0:1:025a:2774:013e:00820000:0:0:0:" name="FX HD" service_name="FX HD" provider="NOVA" sid="602" onid="318" tsid="10100" />
     <channel service_ref="1:0:1:0067:2774:013e:00820000:0:0:0:" name="FX Life HD" service_name="FX Life HD" provider="NOVA" sid="103" onid="318" tsid="10100" />
     <channel service_ref="1:0:1:0c48:0459:0001:00c00000:0:0:0:" name="GayBoys LIVE" service_name="GayBoys LIVE" provider="MB Satellite" sid="3144" onid="1" tsid="1113" />
-    <channel service_ref="1:0:1:1d6b:0001:ff00:0082b13b:0:0:0:" name="GCUK Enc 1" service_name="GCUK Enc 1" provider="GlobeCast UK" sid="7531" onid="65280" tsid="1" />
     <channel service_ref="1:0:1:017d:0021:0085:00c00000:0:0:0:" name="Genius Trend" service_name="Genius Trend" provider="BetaDigital" sid="381" onid="133" tsid="33" />
     <channel service_ref="1:0:1:75a9:0422:0001:00c00000:0:0:0:" name="GUÍA" service_name="GUÍA" provider="DIGITAL+" sid="30121" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:007d:0005:0085:00c00000:0:0:0:" name="Handystar TV" service_name="Handystar TV" provider="BetaDigital" sid="125" onid="133" tsid="5" />
@@ -5235,10 +5234,12 @@
     <channel service_ref="1:0:1:1d2f:03f0:0001:00c00000:0:0:0:" name="M+ Documentales" service_name="M+ Documentales" provider="DIGITAL+" sid="7471" onid="1" tsid="1008" />
     <channel service_ref="1:0:1:1d2c:03f0:0001:00c00000:0:0:0:" name="M+ Ellas V" service_name="M+ Ellas V" provider="DIGITAL+" sid="7468" onid="1" tsid="1008" />
     <channel service_ref="1:0:1:1e3b:0416:0001:00c00000:0:0:0:" name="M+DEPORTES2" service_name="M+DEPORTES2" provider="Digital+" sid="7739" onid="1" tsid="1046" />
+    <channel service_ref="1:0:1:1e76:0424:0001:00c00000:0:0:0:" name="M+LCAMPEON14" service_name="M+LCAMPEON14" provider="Digital+" sid="7798" onid="1" tsid="1060" />
     <channel service_ref="1:0:1:005b:157c:013e:00820000:0:0:0:" name="M1_TEST4" service_name="M1_TEST4" provider="NOVA" sid="91" onid="318" tsid="5500" />
     <channel service_ref="1:0:1:00b3:1c84:013e:00820000:0:0:0:" name="MAD T.V" service_name="MAD T.V" provider="NOVA" sid="179" onid="318" tsid="7300" />
     <channel service_ref="1:0:1:01ce:26ac:013f:00820000:0:0:0:" name="MANGAS" service_name="MANGAS" provider="AB Sat" sid="462" onid="319" tsid="9900" />
     <channel service_ref="1:0:1:05b6:170c:013f:00820000:0:0:0:" name="MANGAS" service_name="MANGAS" provider="AB Sat" sid="1462" onid="319" tsid="5900" />
+    <channel service_ref="1:0:1:3c9e:1bbc:013e:00820000:0:0:0:" name="Marquee TV HD" service_name="Marquee TV HD" provider="NOVA" sid="15518" onid="318" tsid="7100" />
     <channel service_ref="1:0:1:0c42:0459:0001:00c00000:0:0:0:" name="MBS - Test2" service_name="MBS - Test2" provider="MB Satellite" sid="3138" onid="1" tsid="1113" />
     <channel service_ref="1:0:1:0e88:3200:013e:00820000:0:0:0:" name="MC EU" service_name="MC EU" provider="MB Satellite" sid="3720" onid="318" tsid="12800" />
     <channel service_ref="1:0:1:013e:157c:013e:00820000:0:0:0:" name="MEGA HD" service_name="MEGA HD" provider="NOVA" sid="318" onid="318" tsid="5500" />
@@ -5298,7 +5299,6 @@
     <channel service_ref="1:0:1:1e74:0424:0001:00c00000:0:0:0:" name="SYFY" service_name="SYFY" provider="DIGITAL +" sid="7796" onid="1" tsid="1060" />
     <channel service_ref="1:0:1:1dac:0422:0001:00c00000:0:0:0:" name="TEST RA" service_name="TEST RA" provider="DIGITAL+" sid="7596" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:006c:2774:013e:00820000:0:0:0:" name="TEST SERVICE 12" service_name="TEST SERVICE 12" provider="NOVA" sid="108" onid="318" tsid="10100" />
-    <channel service_ref="1:0:1:1e76:0424:0001:00c00000:0:0:0:" name="TEST TXP60" service_name="TEST TXP60" provider="Digital+" sid="7798" onid="1" tsid="1060" />
     <channel service_ref="1:0:1:75dd:0422:0001:00c00000:0:0:0:" name="TEST TÉCNICO" service_name="TEST TÉCNICO" provider="DIGITAL+" sid="30173" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75de:0422:0001:00c00000:0:0:0:" name="TEST_CSD1" service_name="TEST_CSD1" provider="DIGITAL+" sid="30174" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75df:0422:0001:00c00000:0:0:0:" name="TEST_CSD2" service_name="TEST_CSD2" provider="DIGITAL+" sid="30175" onid="1" tsid="1058" />
@@ -5417,7 +5417,6 @@
     <channel service_ref="1:0:25:09d8:13ef:013e:00820000:0:0:0:" name="AL SHARJAH HD" service_name="AL SHARJAH HD" provider="DU" sid="2520" onid="318" tsid="5103" />
     <channel service_ref="1:0:25:09de:13ef:013e:00820000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="DU" sid="2526" onid="318" tsid="5103" />
     <channel service_ref="1:0:1:768e:041e:0001:00c00000:0:0:0:" name="ALQUILER 1" service_name="ALQUILER 1" provider="TQ1" sid="30350" onid="1" tsid="1054" />
-    <channel service_ref="1:0:1:1e0f:041e:0001:00c00000:0:0:0:" name="ALQUILER XY" service_name="ALQUILER XY" provider="TXY" sid="7695" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:0b7d:0458:0001:00c00000:0:0:0:" name="ALT_Crime Time" service_name="ALT_Crime Time" provider="SES" sid="2941" onid="1" tsid="1112" />
     <channel service_ref="1:0:1:293b:0458:0001:00c00000:0:0:0:" name="ALT_Deluxe Dance by Kontor" service_name="ALT_Deluxe Dance by Kontor" provider="SES" sid="10555" onid="1" tsid="1112" />
     <channel service_ref="1:0:1:293c:0458:0001:00c00000:0:0:0:" name="ALT_Deluxe Flashback" service_name="ALT_Deluxe Flashback" provider="SES" sid="10556" onid="1" tsid="1112" />
@@ -5465,7 +5464,7 @@
     <channel service_ref="1:0:1:1e98:0428:0001:00c00000:0:0:0:" name="BAR4HD" service_name="BAR4HD" provider="" sid="7832" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:02c4:14b4:013e:00820000:0:0:0:" name="Bare Knuckles Fighting Championship" service_name="Bare Knuckles Fighting Championship" provider="MuxIP" sid="708" onid="318" tsid="5300" />
     <channel service_ref="1:0:1:245f:0440:0001:00c00000:0:0:0:" name="BARKER COLLECTIVITES SD4" service_name="BARKER COLLECTIVITES SD4" provider="CSAT" sid="9311" onid="1" tsid="1088" />
-    <channel service_ref="1:0:1:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="Encoder device" sid="503" onid="318" tsid="900" />
+    <channel service_ref="1:0:25:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="" sid="503" onid="318" tsid="900" />
     <channel service_ref="1:0:31:2bcc:040c:0001:00c00000:0:0:0:" name="Be Mad" service_name="Be Mad" provider="SES" sid="11212" onid="1" tsid="1036" />
     <channel service_ref="1:0:22:006a:2fa8:013e:00820000:0:0:0:" name="Belarus Tomorrow" service_name="Belarus Tomorrow" provider="Svoboda Satellite" sid="106" onid="318" tsid="12200" />
     <channel service_ref="1:0:25:0a99:044c:0001:00c00000:0:0:0:" name="BFM BUSINESS" service_name="BFM BUSINESS" provider="CSAT" sid="2713" onid="1" tsid="1100" />
@@ -5546,8 +5545,8 @@
     <channel service_ref="1:0:25:258f:0448:0001:00c00000:0:0:0:" name="GAME ONE" service_name="GAME ONE" provider="CSAT" sid="9615" onid="1" tsid="1096" />
     <channel service_ref="1:0:1:002a:00c8:013e:00820000:0:0:0:" name="Gametoon" service_name="Gametoon" provider="ECLUTCH" sid="42" onid="318" tsid="200" />
     <channel service_ref="1:0:1:11ff:2b5c:013e:00820000:0:0:0:" name="GEB TV" service_name="GEB TV" provider="" sid="4607" onid="318" tsid="11100" />
-    <channel service_ref="1:0:22:6dcf:044d:0001:00c00000:0:0:0:" name="Genius Exklusiv" service_name="Genius Exklusiv" provider="WISI" sid="28111" onid="1" tsid="1101" />
-    <channel service_ref="1:0:22:6dd1:044d:0001:00c00000:0:0:0:" name="Genius Family" service_name="Genius Family" provider="WISI" sid="28113" onid="1" tsid="1101" />
+    <channel service_ref="1:0:22:6dcf:044d:0001:00c00000:0:0:0:" name="Genius Exklusiv" service_name="Genius Exklusiv" provider="TV.2000plus" sid="28111" onid="1" tsid="1101" />
+    <channel service_ref="1:0:22:6dd1:044d:0001:00c00000:0:0:0:" name="Genius Family" service_name="Genius Family" provider="TV.2000plus" sid="28113" onid="1" tsid="1101" />
     <channel service_ref="1:0:22:0d08:045b:0001:00c00000:0:0:0:" name="Genius TV" service_name="Genius TV" provider="TV2000plus" sid="3336" onid="1" tsid="1115" />
     <channel service_ref="1:0:1:0dad:0004:0085:00c00000:0:0:0:" name="GFD Service" service_name="GFD Service" provider="" sid="3501" onid="133" tsid="4" />
     <channel service_ref="1:0:25:10e2:03e8:013e:00820000:0:0:0:" name="Giallo HD" service_name="Giallo HD" provider="TVN WBD" sid="4322" onid="318" tsid="1000" />
@@ -5567,7 +5566,6 @@
     <channel service_ref="1:0:25:10eb:03e8:013e:00820000:0:0:0:" name="HGTV HD" service_name="HGTV HD" provider="TVN WBD" sid="4331" onid="318" tsid="1000" />
     <channel service_ref="1:0:25:428d:0446:0001:00c00000:0:0:0:" name="Histoire" service_name="Histoire" provider="" sid="17037" onid="1" tsid="1094" />
     <channel service_ref="1:0:22:10df:03e8:013e:00820000:0:0:0:" name="Historia Poland" service_name="Historia Poland" provider="Discovery" sid="4319" onid="318" tsid="1000" />
-    <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
     <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
     <channel service_ref="1:0:1:6e45:0431:0001:00c00000:0:0:0:" name="Höhenrausch" service_name="Höhenrausch" provider="SES" sid="28229" onid="1" tsid="1073" />
     <channel service_ref="1:0:25:29d3:045c:0001:00c00000:0:0:0:" name="Höhenrausch HD" service_name="Höhenrausch HD" provider="SES" sid="10707" onid="1" tsid="1116" />
@@ -5578,7 +5576,7 @@
     <channel service_ref="1:0:1:089b:01f4:00fc:00820000:0:0:0:" name="Iran E Aryee" service_name="Iran E Aryee" provider="iKOMG" sid="2203" onid="252" tsid="500" />
     <channel service_ref="1:0:1:1c8b:332c:013e:00820000:0:0:0:" name="Iran International" service_name="Iran International" provider="Volant Media" sid="7307" onid="318" tsid="13100" />
     <channel service_ref="1:0:1:01f5:0384:013e:00820000:0:0:0:" name="Iran International HD" service_name="Iran International HD" provider="Volant Media" sid="501" onid="318" tsid="900" />
-    <channel service_ref="1:0:25:00bc:2134:013e:00820000:0:0:0:" name="JORDAN TV" service_name="JORDAN TV" provider="Etisalat" sid="188" onid="318" tsid="8500" />
+    <channel service_ref="1:0:1:00bc:2134:013e:00820000:0:0:0:" name="JORDAN TV" service_name="JORDAN TV" provider="Etisalat" sid="188" onid="318" tsid="8500" />
     <channel service_ref="1:0:1:6e43:0431:0001:00c00000:0:0:0:" name="Just Cooking" service_name="Just Cooking" provider="SES" sid="28227" onid="1" tsid="1073" />
     <channel service_ref="1:0:25:296d:045a:0001:00c00000:0:0:0:" name="Just Cooking HD" service_name="Just Cooking HD" provider="SES" sid="10605" onid="1" tsid="1114" />
     <channel service_ref="1:0:1:6e44:0431:0001:00c00000:0:0:0:" name="Just Fishing" service_name="Just Fishing" provider="SES" sid="28228" onid="1" tsid="1073" />
@@ -5633,6 +5631,9 @@
     <channel service_ref="1:0:1:1ed4:0414:0001:00c00000:0:0:0:" name="M+ LALIGA 4" service_name="M+ LALIGA 4" provider="" sid="7892" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:78be:03ec:0001:00c00000:0:0:0:" name="M+Documentales HD" service_name="M+Documentales HD" provider="PRISAT TV" sid="30910" onid="1" tsid="1004" />
     <channel service_ref="1:0:25:78b5:03ec:0001:00c00000:0:0:0:" name="M+ELLAS V HD" service_name="M+ELLAS V HD" provider="PRISA TV" sid="30901" onid="1" tsid="1004" />
+    <channel service_ref="1:0:1:788c:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON16" service_name="M+LCAMPEON16" provider="" sid="30860" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:1ed6:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON17" service_name="M+LCAMPEON17" provider="" sid="7894" onid="1" tsid="1044" />
+    <channel service_ref="1:0:1:1ecc:0414:0001:00c00000:0:0:0:" name="M+LCAMPEON18" service_name="M+LCAMPEON18" provider="" sid="7884" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:0a9f:044c:0001:00c00000:0:0:0:" name="MAN X" service_name="MAN X" provider="CSAT" sid="2719" onid="1" tsid="1100" />
     <channel service_ref="1:0:1:01f9:0384:013e:00820000:0:0:0:" name="MC EU" service_name="MC EU" provider="Itep Pictures" sid="505" onid="318" tsid="900" />
     <channel service_ref="1:0:25:08a6:01f4:00fc:00820000:0:0:0:" name="Medya Haber" service_name="Medya Haber" provider="iKOMG" sid="2214" onid="252" tsid="500" />
@@ -5708,9 +5709,9 @@
     <channel service_ref="1:0:1:0daf:0004:0085:00c00000:0:0:0:" name="SDMS Service 2" service_name="SDMS Service 2" provider="" sid="3503" onid="133" tsid="4" />
     <channel service_ref="1:0:25:10bd:0446:0001:00c00000:0:0:0:" name="Seasons" service_name="Seasons" provider="" sid="4285" onid="1" tsid="1094" />
     <channel service_ref="1:0:1:7a4a:0410:0001:00c00000:0:0:0:" name="SENDER NEU JERUSALEM" service_name="SENDER NEU JERUSALEM" provider="" sid="31306" onid="1" tsid="1040" />
-    <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
+    <channel service_ref="1:0:1:008c:03e9:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1001" />
     <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
-    <channel service_ref="1:0:1:008c:03eb:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1003" />
+    <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:1ee7:0457:0001:00c00000:0:0:0:" name="SES-LCN2" service_name="SES-LCN2" provider="SES ASTRA" sid="7911" onid="1" tsid="1111" />
     <channel service_ref="1:0:1:039c:2328:013e:00820000:0:0:0:" name="Silk Way" service_name="Silk Way" provider="STN" sid="924" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:39d9:1fa4:013e:00820000:0:0:0:" name="Sonlife" service_name="Sonlife" provider="ARQIVA LTD" sid="14809" onid="318" tsid="8100" />
@@ -5729,8 +5730,6 @@
     <channel service_ref="1:0:22:233c:2328:013e:00820000:0:0:0:" name="TBN" service_name="TBN" provider="STN" sid="9020" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:1c8f:332c:013e:00820000:0:0:0:" name="TBN Russia" service_name="TBN Russia" provider="" sid="7311" onid="318" tsid="13100" />
     <channel service_ref="1:0:1:76c7:040e:0001:00c00000:0:0:0:" name="TCM" service_name="TCM" provider="TCM" sid="30407" onid="1" tsid="1038" />
-    <channel service_ref="1:0:1:1ed6:0414:0001:00c00000:0:0:0:" name="TEST2 TXP44" service_name="TEST2 TXP44" provider="" sid="7894" onid="1" tsid="1044" />
-    <channel service_ref="1:0:1:788c:0414:0001:00c00000:0:0:0:" name="TEST4 TXP44" service_name="TEST4 TXP44" provider="" sid="30860" onid="1" tsid="1044" />
     <channel service_ref="1:0:25:271a:044c:0001:00c00000:0:0:0:" name="TEVA" service_name="TEVA" provider="CSAT" sid="10010" onid="1" tsid="1100" />
     <channel service_ref="1:0:25:07f8:0449:0001:00c00000:0:0:0:" name="TLC HD" service_name="TLC HD" provider="" sid="2040" onid="1" tsid="1097" />
     <channel service_ref="1:0:25:10de:03e8:013e:00820000:0:0:0:" name="TLC HD" service_name="TLC HD" provider="TVN WBD" sid="4318" onid="318" tsid="1000" />
@@ -5742,7 +5741,7 @@
     <channel service_ref="1:0:25:3dd8:0640:013e:00820000:0:0:0:" name="Travel Channel HD" service_name="Travel Channel HD" provider="TVN WBD" sid="15832" onid="318" tsid="1600" />
     <channel service_ref="1:0:31:2c29:03f6:0001:00c00000:0:0:0:" name="TRECE" service_name="TRECE" provider="SES" sid="11305" onid="1" tsid="1014" />
     <channel service_ref="1:0:25:3dd7:0640:013e:00820000:0:0:0:" name="TTV HD" service_name="TTV HD" provider="TVN WBD" sid="15831" onid="318" tsid="1600" />
-    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisia Nationale" service_name="Tunisia Nationale" provider="" sid="7202" onid="318" tsid="7200" />
+    <channel service_ref="1:0:1:1c22:1c20:013e:00820000:0:0:0:" name="Tunisie Nationale" service_name="Tunisie Nationale" provider="" sid="7202" onid="318" tsid="7200" />
     <channel service_ref="1:0:22:01ba:03ee:0001:00c00000:0:0:0:" name="TV Trwam" service_name="TV Trwam" provider="SES ASTRA" sid="442" onid="1" tsid="1006" />
     <channel service_ref="1:0:25:16ac:03ff:0001:00c00000:0:0:0:" name="tv.ingolstadt HD" service_name="tv.ingolstadt HD" provider="MTI" sid="5804" onid="1" tsid="1023" />
     <channel service_ref="1:0:22:0d4b:03ed:0001:00c00000:0:0:0:" name="TV1 OOE NEU" service_name="TV1 OOE NEU" provider="ORS" sid="3403" onid="1" tsid="1005" />
@@ -5790,13 +5789,12 @@
     <channel service_ref="1:0:25:006b:000c:0085:00c00000:0:0:0:" name="Sky Cinema Classics" service_name="Sky Cinema Classics" provider="SKY" sid="107" onid="133" tsid="12" />
     <channel service_ref="1:0:25:2b16:1a90:fbff:00820000:0:0:0:" name="Sky Cinema Comedy" service_name="Sky Cinema Comedy" provider="SkyItalia" sid="11030" onid="64511" tsid="6800" />
     <channel service_ref="1:0:25:1e59:189c:fbff:00820000:0:0:0:" name="Sky Cinema Drama" service_name="Sky Cinema Drama" provider="SkyItalia" sid="7769" onid="64511" tsid="6300" />
-    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Due" service_name="Sky Cinema Due" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
-    <channel service_ref="1:0:25:1e63:189c:fbff:00820000:0:0:0:" name="Sky Cinema Due +24" service_name="Sky Cinema Due +24" provider="SkyItalia" sid="7779" onid="64511" tsid="6300" />
     <channel service_ref="1:0:25:008b:0002:0085:00c00000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SKY" sid="139" onid="133" tsid="2" />
     <channel service_ref="1:0:25:1c57:2198:fbff:00820000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SkyItalia" sid="7255" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:006f:000d:0085:00c00000:0:0:0:" name="Sky Cinema Highlights" service_name="Sky Cinema Highlights" provider="SKY" sid="111" onid="133" tsid="13" />
     <channel service_ref="1:0:25:0035:0006:0085:00c00000:0:0:0:" name="Sky Cinema Premiere" service_name="Sky Cinema Premiere" provider="SKY" sid="53" onid="133" tsid="6" />
     <channel service_ref="1:0:25:1c3f:189c:fbff:00820000:0:0:0:" name="Sky Cinema Romance" service_name="Sky Cinema Romance" provider="SkyItalia" sid="7231" onid="64511" tsid="6300" />
+    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Stories" service_name="Sky Cinema Stories" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:2b27:2198:fbff:00820000:0:0:0:" name="Sky Cinema Suspense" service_name="Sky Cinema Suspense" provider="SkyItalia" sid="11047" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:106a:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4202" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:106b:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4203" onid="64511" tsid="5600" />
@@ -6208,13 +6206,12 @@
     <channel service_ref="1:0:25:006b:000c:0085:00c00000:0:0:0:" name="Sky Cinema Classics" service_name="Sky Cinema Classics" provider="SKY" sid="107" onid="133" tsid="12" />
     <channel service_ref="1:0:25:2b16:1a90:fbff:00820000:0:0:0:" name="Sky Cinema Comedy" service_name="Sky Cinema Comedy" provider="SkyItalia" sid="11030" onid="64511" tsid="6800" />
     <channel service_ref="1:0:25:1e59:189c:fbff:00820000:0:0:0:" name="Sky Cinema Drama" service_name="Sky Cinema Drama" provider="SkyItalia" sid="7769" onid="64511" tsid="6300" />
-    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Due" service_name="Sky Cinema Due" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
-    <channel service_ref="1:0:25:1e63:189c:fbff:00820000:0:0:0:" name="Sky Cinema Due +24" service_name="Sky Cinema Due +24" provider="SkyItalia" sid="7779" onid="64511" tsid="6300" />
     <channel service_ref="1:0:25:008b:0002:0085:00c00000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SKY" sid="139" onid="133" tsid="2" />
     <channel service_ref="1:0:25:1c57:2198:fbff:00820000:0:0:0:" name="Sky Cinema Family" service_name="Sky Cinema Family" provider="SkyItalia" sid="7255" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:006f:000d:0085:00c00000:0:0:0:" name="Sky Cinema Highlights" service_name="Sky Cinema Highlights" provider="SKY" sid="111" onid="133" tsid="13" />
     <channel service_ref="1:0:25:0035:0006:0085:00c00000:0:0:0:" name="Sky Cinema Premiere" service_name="Sky Cinema Premiere" provider="SKY" sid="53" onid="133" tsid="6" />
     <channel service_ref="1:0:25:1c3f:189c:fbff:00820000:0:0:0:" name="Sky Cinema Romance" service_name="Sky Cinema Romance" provider="SkyItalia" sid="7231" onid="64511" tsid="6300" />
+    <channel service_ref="1:0:25:0dec:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Stories" service_name="Sky Cinema Stories" provider="SkyItalia" sid="3564" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:2b27:2198:fbff:00820000:0:0:0:" name="Sky Cinema Suspense" service_name="Sky Cinema Suspense" provider="SkyItalia" sid="11047" onid="64511" tsid="8600" />
     <channel service_ref="1:0:25:106a:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4202" onid="64511" tsid="5600" />
     <channel service_ref="1:0:25:106b:15e0:fbff:00820000:0:0:0:" name="Sky Cinema Uno" service_name="Sky Cinema Uno" provider="SkyItalia" sid="4203" onid="64511" tsid="5600" />
@@ -6313,7 +6310,7 @@
     <channel service_ref="1:0:130:10ff:1644:fbff:00820000:0:0:0:" name="Sky TG24 Active" service_name="Sky TG24 Active" provider="SkyItalia" sid="4351" onid="64511" tsid="5700" />
     <channel service_ref="1:0:25:0dcc:16a8:fbff:00820000:0:0:0:" name="Sky TG24 HD" service_name="Sky TG24 HD" provider="SkyItalia" sid="3532" onid="64511" tsid="5800" />
     <channel service_ref="1:0:25:09c9:1838:fbff:00820000:0:0:0:" name="Sky Uno" service_name="Sky Uno" provider="SkyItalia" sid="2505" onid="64511" tsid="6200" />
-    <channel service_ref="1:0:25:37ba:19c8:fbff:00820000:0:0:0:" name="Sky Uno +1" service_name="Sky Uno +1" provider="SkyItalia" sid="14266" onid="64511" tsid="6600" />
+    <channel service_ref="1:0:25:0100:19c8:fbff:00820000:0:0:0:" name="Sky Uno +" service_name="Sky Uno +" provider="SkyItalia" sid="256" onid="64511" tsid="6600" />
     <channel service_ref="1:0:25:2c52:19c8:fbff:00820000:0:0:0:" name="Sport HD" service_name="Sport HD" provider="SkyItalia" sid="11346" onid="64511" tsid="6600" />
     <channel service_ref="1:0:130:2ab7:1838:fbff:00820000:0:0:0:" name="Sports Active 3" service_name="Sports Active 3" provider="SkyItalia" sid="10935" onid="64511" tsid="6200" />
     <channel service_ref="1:0:22:008c:0010:0085:00c00000:0:0:0:" name="STEST1" service_name="STEST1" provider="SKY" sid="140" onid="133" tsid="16" />

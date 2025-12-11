@@ -73,6 +73,7 @@
     <channel service_ref="1:0:1:02c1:194e:194e:02080000:0:0:0:" name="IRAN INTERNATIONAL" service_name="IRAN INTERNATIONAL" provider="WNS" sid="705" onid="6478" tsid="6478" />
     <channel service_ref="1:0:1:000f:117e:117e:02080000:0:0:0:" name="Iran International HD" service_name="Iran International HD" provider="WNS" sid="15" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:0001:2506:2506:02080000:0:0:0:" name="Iran Nama HD" service_name="Iran Nama HD" provider="WNS" sid="1" onid="9478" tsid="9478" />
+    <channel service_ref="1:0:1:0005:0001:0000:0208ac9c:0:0:0:" name="Iran One News" service_name="Iran One News" provider="WNS" sid="5" onid="0" tsid="1" />
     <channel service_ref="1:0:1:0011:194e:194e:02080000:0:0:0:" name="Iran-e-Farda TV" service_name="Iran-e-Farda TV" provider="WNS" sid="17" onid="6478" tsid="6478" />
     <channel service_ref="1:0:1:000c:194e:194e:02080000:0:0:0:" name="ITN" service_name="ITN" provider="WNS" sid="12" onid="6478" tsid="6478" />
     <channel service_ref="1:0:1:0003:2506:2506:02080000:0:0:0:" name="ITN HD" service_name="ITN HD" provider="WNS" sid="3" onid="9478" tsid="9478" />
@@ -209,7 +210,6 @@
     <channel service_ref="1:0:1:00ce:0001:0000:0208afc2:0:0:0:" name="viju+ Premiere HD" service_name="viju+ Premiere HD" provider="AREF" sid="206" onid="0" tsid="1" />
     <channel service_ref="1:0:1:02e4:0003:0000:0208b05c:0:0:0:" name="viju+ Serial HD" service_name="viju+ Serial HD" provider="AREF" sid="740" onid="0" tsid="3" />
     <channel service_ref="1:0:1:020c:0001:0000:0208afc2:0:0:0:" name="viju+ Sport" service_name="viju+ Sport" provider="AREF" sid="524" onid="0" tsid="1" />
-    <channel service_ref="1:0:1:0005:0001:0000:0208ac9c:0:0:0:" name="WNS05" service_name="WNS05" provider="WNS" sid="5" onid="0" tsid="1" />
     <channel service_ref="1:0:1:0006:0001:0000:0208ac9c:0:0:0:" name="WNS06" service_name="WNS06" provider="WNS" sid="6" onid="0" tsid="1" />
     <channel service_ref="1:0:1:0007:0001:0000:0208ac9c:0:0:0:" name="WNS07" service_name="WNS07" provider="WNS" sid="7" onid="0" tsid="1" />
     <channel service_ref="1:0:1:0008:0001:0000:0208ac9c:0:0:0:" name="WNS08" service_name="WNS08" provider="WNS" sid="8" onid="0" tsid="1" />
@@ -295,7 +295,7 @@
     <channel service_ref="1:0:1:00c9:0001:0000:0208afc2:0:0:0:" name="ТВ-3 Int" service_name="ТВ-3 Int" provider="AREF" sid="201" onid="0" tsid="1" />
     <channel service_ref="1:0:1:01fa:0001:0000:0208afc2:0:0:0:" name="ТНТ" service_name="ТНТ" provider="AREF" sid="506" onid="0" tsid="1" />
     <channel service_ref="1:0:1:039e:0005:0000:02082a87:0:0:0:" name="ТНТ" service_name="ТНТ" provider="AREF" sid="926" onid="0" tsid="5" />
-    <channel service_ref="1:0:25:02de:0003:0000:0208b05c:0:0:0:" name="ТНТ Music HD" service_name="ТНТ Music HD" provider="AREF" sid="734" onid="0" tsid="3" />
+    <channel service_ref="1:0:25:02de:0003:0000:0208b05c:0:0:0:" name="ТНТ Music" service_name="ТНТ Music" provider="AREF" sid="734" onid="0" tsid="3" />
     <channel service_ref="1:0:1:01fb:0001:0000:0208afc2:0:0:0:" name="ТНТ4" service_name="ТНТ4" provider="AREF" sid="507" onid="0" tsid="1" />
     <channel service_ref="1:0:1:026f:0002:0000:0208b035:0:0:0:" name="ТОЧКА.РФ" service_name="ТОЧКА.РФ" provider="AREF" sid="623" onid="0" tsid="2" />
     <channel service_ref="1:0:1:032a:0004:0000:02082a5d:0:0:0:" name="Удар" service_name="Удар" provider="AREF" sid="810" onid="0" tsid="4" />
@@ -317,6 +317,7 @@
   </bouquet>
   <bouquet name="News" category="tv">
     <channel service_ref="1:0:1:03a3:0005:0000:02082a87:0:0:0:" name="Euronews" service_name="Euronews" provider="AREF" sid="931" onid="0" tsid="5" />
+    <channel service_ref="1:0:1:0005:0001:0000:0208ac9c:0:0:0:" name="Iran One News" service_name="Iran One News" provider="WNS" sid="5" onid="0" tsid="1" />
   </bouquet>
   <bouquet name="Sports" category="tv">
     <channel service_ref="1:0:25:02bf:0003:0000:0208b05c:0:0:0:" name="Eurosport 1 HD" service_name="Eurosport 1 HD" provider="AREF" sid="703" onid="0" tsid="3" />
@@ -349,7 +350,7 @@
     <channel service_ref="1:0:1:033a:0004:0000:02082a5d:0:0:0:" name="RED MUSIC RETRO HD" service_name="RED MUSIC RETRO HD" provider="AREF" sid="826" onid="0" tsid="4" />
     <channel service_ref="1:0:1:0011:117e:117e:02080000:0:0:0:" name="Sun Music TV" service_name="Sun Music TV" provider="WNS" sid="17" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:0006:194e:194e:02080000:0:0:0:" name="TMTV" service_name="TMTV" provider="WNS" sid="6" onid="6478" tsid="6478" />
-    <channel service_ref="1:0:25:02de:0003:0000:0208b05c:0:0:0:" name="ТНТ Music HD" service_name="ТНТ Music HD" provider="AREF" sid="734" onid="0" tsid="3" />
+    <channel service_ref="1:0:25:02de:0003:0000:0208b05c:0:0:0:" name="ТНТ Music" service_name="ТНТ Music" provider="AREF" sid="734" onid="0" tsid="3" />
   </bouquet>
   <bouquet name="Documentary" category="tv">
     <channel service_ref="1:0:1:026e:0002:0000:0208b035:0:0:0:" name="Animal Planet" service_name="Animal Planet" provider="AREF" sid="622" onid="0" tsid="2" />
@@ -374,7 +375,6 @@
     <channel service_ref="1:0:1:032d:0004:0000:02082a5d:0:0:0:" name="TEST-813" service_name="TEST-813" provider="AREF" sid="813" onid="0" tsid="4" />
     <channel service_ref="1:0:1:00bb:0005:0000:02082a87:0:0:0:" name="Test-913" service_name="Test-913" provider="AREF" sid="187" onid="0" tsid="5" />
     <channel service_ref="1:0:1:00bd:0005:0000:02082a87:0:0:0:" name="Test-915" service_name="Test-915" provider="AREF" sid="189" onid="0" tsid="5" />
-    <channel service_ref="1:0:1:0005:0001:0000:0208ac9c:0:0:0:" name="WNS05" service_name="WNS05" provider="WNS" sid="5" onid="0" tsid="1" />
     <channel service_ref="1:0:1:000f:0001:0000:0208ac9c:0:0:0:" name="WNS15" service_name="WNS15" provider="WNS" sid="15" onid="0" tsid="1" />
     <channel service_ref="1:0:1:00c9:0001:0000:0208afc2:0:0:0:" name="ТВ-3 Int" service_name="ТВ-3 Int" provider="AREF" sid="201" onid="0" tsid="1" />
   </bouquet>
@@ -451,7 +451,6 @@
     <channel service_ref="1:0:1:006a:0002:0000:0208b035:0:0:0:" name="Наше Новое Кино HD" service_name="Наше Новое Кино HD" provider="AREF" sid="106" onid="0" tsid="2" />
     <channel service_ref="1:0:1:03a5:0005:0000:02082a87:0:0:0:" name="Сапфир HD" service_name="Сапфир HD" provider="AREF" sid="933" onid="0" tsid="5" />
     <channel service_ref="1:0:1:014d:0004:0000:02082a5d:0:0:0:" name="Тайны галактики HD" service_name="Тайны галактики HD" provider="AREF" sid="333" onid="0" tsid="4" />
-    <channel service_ref="1:0:25:02de:0003:0000:0208b05c:0:0:0:" name="ТНТ Music HD" service_name="ТНТ Music HD" provider="AREF" sid="734" onid="0" tsid="3" />
   </bouquet>
   <bouquet name="Resolution - SD" category="tv">
     <channel service_ref="1:0:1:003d:2506:2506:02080000:0:0:0:" name="Afghanistan Intl SD" service_name="Afghanistan Intl SD" provider="WNS" sid="61" onid="9478" tsid="9478" />

@@ -133,10 +133,10 @@
         <service id="0x10ea" sid="4330" name="TVN24 BiS HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
       </transponder>
     </satellite>
-    <satellite key="00820000:03e9:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03e9:0002" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
-        <service id="0x07d1" sid="2001" name="HVS-1 DN2 Pri" type="12" provider="MyServiceProvider" onid="2" tsid="1001" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="1001" namespace="0x00820000" />
+    <satellite key="00820000:03e9:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:03e9:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x03e9" sid="1001" name="HVS-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1001" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1001" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:03ea:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -145,10 +145,10 @@
         <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="1002" namespace="0x00820000" />
       </transponder>
     </satellite>
-    <satellite key="00820000:03eb:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03eb:0001" frequency="11526000" symbol_rate="33000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x03eb" sid="1003" name="HVS-3 Bck" type="12" provider="Telespazio" onid="1" tsid="1003" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1003" namespace="0x00820000" />
+    <satellite key="00820000:03eb:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:03eb:0002" frequency="11526000" symbol_rate="33000000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x07d3" sid="2003" name="HVS-3 DN2 Pri" type="12" provider="MyServiceProvider" onid="2" tsid="1003" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="1003" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:044c:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -517,6 +517,7 @@
       <transponder key="00820000:1770:00be" frequency="11919000" symbol_rate="29900000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x001f" sid="31" name="LA7 CINEMA" type="25" provider="" onid="190" tsid="6000" namespace="0x00820000" />
         <service id="0x004f" sid="79" name="LA7 HD" type="25" provider="" onid="190" tsid="6000" namespace="0x00820000" />
+        <service id="0x0020" sid="32" name="TELESARDEGNA" type="25" provider="" onid="190" tsid="6000" namespace="0x00820000" />
         <service id="0x005b" sid="91" name="TV2000" type="25" provider="TV2000" onid="190" tsid="6000" namespace="0x00820000" />
         <service id="0x005d" sid="93" name="inBlu" type="2" provider="TV2000" onid="190" tsid="6000" namespace="0x00820000" radio="1" />
         <service id="0x005c" sid="92" name="inBlu2000" type="2" provider="TV2000" onid="190" tsid="6000" namespace="0x00820000" radio="1" />
@@ -710,7 +711,7 @@
         <service id="0x3c9c" sid="15516" name="Euronews Greek" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
         <service id="0x3c9a" sid="15514" name="Food Network HD" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
         <service id="0x3c8f" sid="15503" name="M4_SID15503" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
-        <service id="0x3c9e" sid="15518" name="M4_SID15518" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
+        <service id="0x3c9e" sid="15518" name="Marquee TV HD" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
         <service id="0x3c8e" sid="15502" name="NovachristmasHD" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
         <service id="0x3c95" sid="15509" name="Novacinema1HD" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
         <service id="0x3c8d" sid="15501" name="Novacinema1HD Cy" type="1" provider="NOVA" onid="318" tsid="7100" namespace="0x00820000" />
@@ -730,7 +731,6 @@
         <service id="0x1c58" sid="7256" name="San Marino RTV HD" type="1" provider="Harmonic" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x1c71" sid="7281" name="Simaye Azadi SD" type="1" provider="M-Three Satcom" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x29cd" sid="10701" name="TELE CONGO" type="1" provider="GLOBECAST" onid="318" tsid="7200" namespace="0x00820000" />
-        <service id="0x1c73" sid="7283" name="TG NORBA 24" type="1" provider="Telenorba" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x1c22" sid="7202" name="Tunisie Nationale" type="1" provider="" onid="318" tsid="7200" namespace="0x00820000" />
         <service id="0x0e44" sid="3652" name="CAPITAL" type="2" provider="M-Three Satcom" onid="318" tsid="7200" namespace="0x00820000" radio="1" />
         <service id="0x0e43" sid="3651" name="DEEJAY" type="2" provider="Elemedia" onid="318" tsid="7200" namespace="0x00820000" radio="1" />

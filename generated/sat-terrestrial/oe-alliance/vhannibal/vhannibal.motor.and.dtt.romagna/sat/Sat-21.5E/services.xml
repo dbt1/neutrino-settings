@@ -6,6 +6,11 @@
         <service id="0x0001" sid="1" name="Alarabiy Alhadath" type="1" provider="du" onid="1" tsid="5" namespace="0x00d70000" />
       </transponder>
     </satellite>
+    <satellite key="00d70000:0007:0190" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
+      <transponder key="00d70000:0007:0190" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="TVSA" type="22" provider="Dasto Semtel" onid="400" tsid="7" namespace="0x00d70000" />
+      </transponder>
+    </satellite>
     <satellite key="00d70000:0041:0800" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
       <transponder key="00d70000:0041:0800" frequency="11564000" symbol_rate="3333000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0x0001" sid="1" name="MBC FEED HD" type="25" provider="" onid="2048" tsid="65" namespace="0x00d70000" />
@@ -17,6 +22,16 @@
         <service id="0x0002" sid="2" name="MBC Test2" type="1" provider="MBC" onid="2048" tsid="69" namespace="0x00d70000" />
       </transponder>
     </satellite>
+    <satellite key="00d70000:0190:0004" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
+      <transponder key="00d70000:0190:0004" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="RTV USK" type="1" provider="Dasto Semtel" onid="4" tsid="400" namespace="0x00d70000" />
+      </transponder>
+    </satellite>
+    <satellite key="00d70000:0190:0006" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
+      <transponder key="00d70000:0190:0006" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="RTV BPK" type="22" provider="Dasto Semtel" onid="6" tsid="400" namespace="0x00d70000" />
+      </transponder>
+    </satellite>
     <satellite key="00d70000:0190:07fe" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
       <transponder key="00d70000:0190:07fe" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
         <service id="0x0fa4" sid="4004" name="BN TV" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
@@ -25,6 +40,17 @@
         <service id="0x0fa1" sid="4001" name="O Kanal" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fa5" sid="4005" name="O Music" type="25" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
         <service id="0x0fa6" sid="4006" name="OBN" type="22" provider="Dasto Semtel" onid="2046" tsid="400" namespace="0x00d70000" />
+      </transponder>
+    </satellite>
+    <satellite key="00d70000:0190:0003" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
+      <transponder key="00d70000:0190:0003" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0fa9" sid="4009" name="" type="1" provider="" onid="3" tsid="400" namespace="0x00d70000" />
+      </transponder>
+    </satellite>
+    <satellite key="00d70000:0190:0005" name="Sat-21.5E" namespace="0x00d70000" position="21.5">
+      <transponder key="00d70000:0190:0005" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0fb1" sid="4017" name="NTV Arena" type="22" provider="Dasto Semtel" onid="5" tsid="400" namespace="0x00d70000" />
+        <service id="0x0fa9" sid="4009" name="RTV TK" type="22" provider="Dasto Semtel" onid="5" tsid="400" namespace="0x00d70000" />
       </transponder>
     </satellite>
     <satellite key="00d72cf3:0001:fffe" name="Sat-21.5E" namespace="0x00d72cf3" position="21.5">
@@ -90,41 +116,15 @@
         <service id="0x002b" sid="43" name="ZJTV-HD" type="1" provider="" onid="0" tsid="2" namespace="0x00d7aaa7" />
       </transponder>
     </satellite>
-    <satellite key="00d7ac88:0001:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0001:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ProTV" type="22" provider="Dasto Semtel" onid="0" tsid="1" namespace="0x00d7ac88" />
+    <satellite key="00d7ac88:0190:0001" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
+      <transponder key="00d7ac88:0190:0001" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="ProTV" type="22" provider="Dasto Semtel" onid="1" tsid="400" namespace="0x00d7ac88" />
       </transponder>
     </satellite>
-    <satellite key="00d7ac88:0003:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0003:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0fa9" sid="4009" name="" type="1" provider="" onid="0" tsid="3" namespace="0x00d7ac88" />
-      </transponder>
-    </satellite>
-    <satellite key="00d7ac88:0004:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0004:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="RTV USK" type="1" provider="Dasto Semtel" onid="0" tsid="4" namespace="0x00d7ac88" />
-      </transponder>
-    </satellite>
-    <satellite key="00d7ac88:0005:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0005:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0fa7" sid="4007" name="NTV Arena" type="22" provider="Dasto Semtel" onid="0" tsid="5" namespace="0x00d7ac88" />
-        <service id="0x0fa6" sid="4006" name="RTV TK" type="22" provider="Dasto Semtel" onid="0" tsid="5" namespace="0x00d7ac88" />
-      </transponder>
-    </satellite>
-    <satellite key="00d7ac88:0006:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0006:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="RTV BPK" type="22" provider="Dasto Semtel" onid="0" tsid="6" namespace="0x00d7ac88" />
-      </transponder>
-    </satellite>
-    <satellite key="00d7ac88:0007:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0007:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="TVSA" type="22" provider="Dasto Semtel" onid="0" tsid="7" namespace="0x00d7ac88" />
-      </transponder>
-    </satellite>
-    <satellite key="00d7ac88:0190:0000" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
-      <transponder key="00d7ac88:0190:0000" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0fa6" sid="4006" name="Herceg TV" type="25" provider="Dasto Semtel" onid="0" tsid="400" namespace="0x00d7ac88" />
-        <service id="0x0fa7" sid="4007" name="RTVIS" type="1" provider="Dasto Semtel" onid="0" tsid="400" namespace="0x00d7ac88" />
+    <satellite key="00d7ac88:0190:0002" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
+      <transponder key="00d7ac88:0190:0002" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
+        <service id="0x0fa6" sid="4006" name="Herceg TV" type="25" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
+        <service id="0x0fa7" sid="4007" name="RTVIS" type="1" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
       </transponder>
     </satellite>
     <satellite key="00d7acd3:0001:ffff" name="Sat-21.5E" namespace="0x00d7acd3" position="21.5">
