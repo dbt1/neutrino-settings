@@ -117,6 +117,12 @@
         <service id="0x00cf" sid="207" name="RVS-Accendi la Speranza" type="2" provider="M-Three Satcom Srl" onid="318" tsid="900" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
+    <satellite key="00820000:03e8:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:03e8:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x03e8" sid="1000" name="Basic-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1000" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1000" namespace="0x00820000" />
+      </transponder>
+    </satellite>
     <satellite key="00820000:03e8:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:03e8:013e" frequency="11393000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x10e5" sid="4325" name="Cartoon Network Poland HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
@@ -131,12 +137,6 @@
         <service id="0x10e3" sid="4323" name="Nove HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
         <service id="0x10de" sid="4318" name="TLC HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
         <service id="0x10ea" sid="4330" name="TVN24 BiS HD" type="25" provider="TVN WBD" onid="318" tsid="1000" namespace="0x00820000" />
-      </transponder>
-    </satellite>
-    <satellite key="00820000:03e9:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03e9:0001" frequency="11219000" symbol_rate="33000000" polarization="H" fec="7" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="HVS-1 Bck" type="12" provider="Telespazio" onid="1" tsid="1001" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1001" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:03ea:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -981,7 +981,6 @@
         <service id="0x0d5d" sid="3421" name="Primafila 3" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0d5f" sid="3423" name="Primafila 4" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x341e" sid="13342" name="Primafila 5" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x0d64" sid="3428" name="PRIMAFILA HCZ" type="130" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2b3b" sid="11067" name="SDMS Service2" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x03fc" sid="1020" name="Sky Crime" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x37a9" sid="14249" name="Sky Crime" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
@@ -1058,8 +1057,8 @@
         <service id="0x006f" sid="111" name="Balkanika" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x008b" sid="139" name="Chasse &amp; Peche" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x00e2" sid="226" name="Cinemax" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x005d" sid="93" name="CineStar TV" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
-        <service id="0x005e" sid="94" name="CineStar TV A&amp;T" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
+        <service id="0x005d" sid="93" name="CineStar 1" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
+        <service id="0x005e" sid="94" name="CineStar A&amp;T" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0034" sid="52" name="Disney" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x0035" sid="53" name="Disney Junior" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
         <service id="0x002c" sid="44" name="dizi" type="22" provider="VIVACOM" onid="213" tsid="9500" namespace="0x00820000" />
@@ -1353,7 +1352,7 @@
         <service id="0x11fc" sid="4604" name="Museum 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fd" sid="4605" name="MyZen 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fe" sid="4606" name="Simay Azadi HD" type="25" provider="M-Three Satcom" onid="318" tsid="11100" namespace="0x00820000" />
-        <service id="0x11fb" sid="4603" name="TRAVELXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
+        <service id="0x11fb" sid="4603" name="TravelXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2bc0:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1557,6 +1556,7 @@
         <service id="0x108e" sid="4238" name="SAT.TV - Hot Bird" type="25" provider="" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x0441" sid="1089" name="Super!" type="22" provider="M-Three Satcom Srl" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x421c" sid="16924" name="UATV" type="22" provider="COSMONOVA LLC" onid="318" tsid="12100" namespace="0x00820000" />
+        <service id="0x108a" sid="4234" name="Value 24" type="1" provider="M-Three Satcom" onid="318" tsid="12100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2fa8:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
