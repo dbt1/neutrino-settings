@@ -35,6 +35,7 @@
     </satellite>
     <satellite key="00eb0000:0c82:0003" name="Astra-23.5E" namespace="0x00eb0000" position="23.5">
       <transponder key="00eb0000:0c82:0003" frequency="11739000" symbol_rate="29900000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x17d0" sid="6096" name="AutoMotorSport HD" type="25" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17cf" sid="6095" name="CANAL+ Action" type="25" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17e0" sid="6112" name="CD Infokanaal" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17b1" sid="6065" name="Disney Channel" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
@@ -52,7 +53,6 @@
         <service id="0x17e8" sid="6120" name="RTL" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17ca" sid="6090" name="SBS6 HD" type="25" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x178e" sid="6030" name="Star Channel" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
-        <service id="0x17d0" sid="6096" name="TEST" type="25" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17ae" sid="6062" name="Travel XP" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17af" sid="6063" name="Travel XP BNL" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
         <service id="0x17e9" sid="6121" name="TV2" type="22" provider="M7 Group" onid="3" tsid="3202" namespace="0x00eb0000" />
@@ -225,6 +225,7 @@
         <service id="0x013b" sid="315" name="AXN CZ" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x031e" sid="798" name="Barrandov Krimi" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x030b" sid="779" name="Cartoonito" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
+        <service id="0x030d" sid="781" name="Daystar" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x013a" sid="314" name="Fishing and Hunting" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x0089" sid="137" name="Golf Channel" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x0085" sid="133" name="HBO HD" type="25" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
@@ -244,8 +245,6 @@
         <service id="0x0086" sid="134" name="Prima KRIMI SK HD" type="25" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x0088" sid="136" name="Spektrum HD" type="25" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x013e" sid="318" name="Sport 2 HD" type="25" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
-        <service id="0x030d" sid="781" name="Stingray CMusic" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
-        <service id="0x030e" sid="782" name="Stingray CMusic CZ" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x031c" sid="796" name="TV Barrandov" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
         <service id="0x013f" sid="319" name="TV2Klub" type="22" provider="M7 Group" onid="3" tsid="3220" namespace="0x00eb0000" />
       </transponder>

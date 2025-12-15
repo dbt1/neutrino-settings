@@ -63,6 +63,11 @@
         <service id="0x0001" sid="1" name="Service-1" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x00d72d00" />
       </transponder>
     </satellite>
+    <satellite key="00d72d03:0001:ffff" name="Sat-21.5E" namespace="0x00d72d03" position="21.5">
+      <transponder key="00d72d03:0001:ffff" frequency="11523000" symbol_rate="2200000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x00be" sid="190" name="ALWATAN TV" type="1" provider="Service" onid="65535" tsid="1" namespace="0x00d72d03" />
+      </transponder>
+    </satellite>
     <satellite key="00d72d39:0001:0001" name="Sat-21.5E" namespace="0x00d72d39" position="21.5">
       <transponder key="00d72d39:0001:0001" frequency="11577000" symbol_rate="512000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x03e8" sid="1000" name="Program 1000" type="2" provider="Qbit GmbH" onid="1" tsid="1" namespace="0x00d72d39" radio="1" />
@@ -123,8 +128,9 @@
     </satellite>
     <satellite key="00d7ac88:0190:0002" name="Sat-21.5E" namespace="0x00d7ac88" position="21.5">
       <transponder key="00d7ac88:0190:0002" frequency="11400000" symbol_rate="21905000" polarization="V" fec="7" system="0" modulation="0">
-        <service id="0x0fa6" sid="4006" name="Herceg TV" type="25" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
-        <service id="0x0fa7" sid="4007" name="RTVIS" type="1" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
+        <service id="0x0faf" sid="4015" name="Herceg TV" type="25" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
+        <service id="0x0faa" sid="4010" name="HIT TV" type="22" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
+        <service id="0x0fb3" sid="4019" name="RTVIS" type="1" provider="Dasto Semtel" onid="2" tsid="400" namespace="0x00d7ac88" />
       </transponder>
     </satellite>
     <satellite key="00d7acd3:0001:ffff" name="Sat-21.5E" namespace="0x00d7acd3" position="21.5">

@@ -275,26 +275,31 @@
     </satellite>
     <satellite key="00a00000:4f4c:016e" name="Eutelsat-16.0E" namespace="0x00a00000" position="16">
       <transponder key="00a00000:4f4c:016e" frequency="10762000" symbol_rate="30000000" polarization="H" fec="7" system="0" modulation="0">
+        <service id="0x038e" sid="910" name="ATV" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x019a" sid="410" name="Bang Bang" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x0256" sid="598" name="Big Brother VIP 1" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x02da" sid="730" name="CNA TV" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x139c" sid="5020" name="Dorcel TV HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x13a1" sid="5025" name="Dorcel TV HD" type="25" provider="A1" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x01a8" sid="424" name="EXP shkence" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
+        <service id="0x013c" sid="316" name="Fax News" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x05dc" sid="1500" name="Film Aksion HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x05c8" sid="1480" name="Film Hits HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x053e" sid="1342" name="Film Komedi HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x01cc" sid="460" name="Klan Music" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
+        <service id="0x0118" sid="280" name="Melody.TV" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x04d8" sid="1240" name="News 24" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x05a0" sid="1440" name="Ora News HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x03e8" sid="1000" name="RTK-1" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
+        <service id="0x00e2" sid="226" name="RTV21M" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x058c" sid="1420" name="SS-7 HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x01e8" sid="488" name="Stinet" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x01b6" sid="438" name="Syri TV" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x00f2" sid="242" name="T HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x025c" sid="604" name="Top Channel HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
-        <service id="0x05f0" sid="1520" name="Top News HD" type="25" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
+        <service id="0x05f0" sid="1520" name="Top News HD" type="25" provider="DIGITALB" onid="366" tsid="20300" namespace="0x00a00000" />
         <service id="0x04ec" sid="1260" name="X1" type="22" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" />
+        <service id="0x02d6" sid="726" name="My Music Radio" type="2" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" radio="1" />
         <service id="0x02c4" sid="708" name="Top Albania Radio" type="2" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" radio="1" />
         <service id="0x071c" sid="1820" name="Top Gold Radio" type="2" provider="DigitALB" onid="366" tsid="20300" namespace="0x00a00000" radio="1" />
       </transponder>
@@ -308,7 +313,6 @@
         <service id="0x07d0" sid="2000" name="Euronews Albania" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x085c" sid="2140" name="EXP histori" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x0162" sid="354" name="EXP natyra" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
-        <service id="0x016a" sid="362" name="Fax News" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x052c" sid="1324" name="Film Autor HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x017e" sid="382" name="Film Drame" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x088e" sid="2190" name="Film Thriller" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
@@ -316,21 +320,22 @@
         <service id="0x08ac" sid="2220" name="Klan News" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x08b6" sid="2230" name="Klan Plus" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x07da" sid="2010" name="Klan TV HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
-        <service id="0x08c0" sid="2240" name="Melody.TV" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x015e" sid="350" name="My Music" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x08a2" sid="2210" name="RTSH 1" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x0176" sid="374" name="RTSH Sport" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x07e4" sid="2020" name="SS-5 HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x07ee" sid="2030" name="SS-6 HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x04c0" sid="1216" name="Top Radio TV" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
+        <service id="0x13ba" sid="5050" name="Tring Sport 1 HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
+        <service id="0x146e" sid="5230" name="Tring Sport 2 HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
+        <service id="0x148c" sid="5260" name="Tring Sport 3 HD" type="25" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
         <service id="0x08ca" sid="2250" name="Zjarr TV" type="22" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" />
-        <service id="0x018f" sid="399" name="My Music Radio" type="2" provider="DigitALB" onid="366" tsid="20500" namespace="0x00a00000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00a00000:50dc:016e" name="Eutelsat-16.0E" namespace="0x00a00000" position="16">
       <transponder key="00a00000:50dc:016e" frequency="10845000" symbol_rate="30000000" polarization="H" fec="7" system="0" modulation="0">
         <service id="0x05e6" sid="1510" name="Arta TV" type="22" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
-        <service id="0x03eb" sid="1003" name="DigitAlb 20" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
+        <service id="0x03eb" sid="1003" name="DigitALB 20" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
         <service id="0x01c6" sid="454" name="Dukagjini" type="22" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
         <service id="0x03e9" sid="1001" name="GOLD HD" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
         <service id="0x029e" sid="670" name="In-TV" type="22" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
@@ -349,6 +354,9 @@
         <service id="0x116c" sid="4460" name="STAR Movies" type="22" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
         <service id="0x019a" sid="410" name="STAR PLUS TV" type="22" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
         <service id="0x0e74" sid="3700" name="Travel Channel HD" type="25" provider="A1" onid="366" tsid="20700" namespace="0x00a00000" />
+        <service id="0x14e6" sid="5350" name="Tring Sport 6 HD" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
+        <service id="0x05e0" sid="1504" name="Tring Sport 7 HD" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
+        <service id="0x0226" sid="550" name="Tring Sport News" type="25" provider="DigitALB" onid="366" tsid="20700" namespace="0x00a00000" />
       </transponder>
     </satellite>
     <satellite key="00a00000:51a4:016e" name="Eutelsat-16.0E" namespace="0x00a00000" position="16">
@@ -358,7 +366,6 @@
         <service id="0x026e" sid="622" name="ALBUK TV" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x111c" sid="4380" name="Alsat M" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x125c" sid="4700" name="Animal Planet HD" type="25" provider="A1" onid="366" tsid="20900" namespace="0x00a00000" />
-        <service id="0x038e" sid="910" name="ATV" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x13f6" sid="5110" name="BB VIP Kosova 1" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x024a" sid="586" name="BB VIP Kosova 2" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x03ef" sid="1007" name="Dorcel XXX HD" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
@@ -371,10 +378,12 @@
         <service id="0x0ca8" sid="3240" name="Playboy TV HD" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x00c5" sid="197" name="Report TV" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x10cc" sid="4300" name="RTSH Shqip" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
-        <service id="0x00e2" sid="226" name="RTV21M" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x03fe" sid="1022" name="STAR" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x00c0" sid="192" name="STAR Life" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x014e" sid="334" name="T7" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
+        <service id="0x14aa" sid="5290" name="Tring Sport 4 HD" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
+        <service id="0x14c8" sid="5320" name="Tring Sport 5 HD" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
+        <service id="0x051a" sid="1306" name="Vizion Plus HD" type="25" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
         <service id="0x00ca" sid="202" name="Zico TV" type="22" provider="DigitALB" onid="366" tsid="20900" namespace="0x00a00000" />
       </transponder>
     </satellite>
