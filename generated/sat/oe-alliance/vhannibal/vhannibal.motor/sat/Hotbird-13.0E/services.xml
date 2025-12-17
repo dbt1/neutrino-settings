@@ -3,9 +3,7 @@
   <satellites>
     <satellite key="00820000:0001:000b" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:0001:000b" frequency="11054000" symbol_rate="34000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="MDS 1" type="25" provider="Globecast" onid="11" tsid="1" namespace="0x00820000" />
-        <service id="0x0002" sid="2" name="MDS 2" type="25" provider="Globecast" onid="11" tsid="1" namespace="0x00820000" />
-        <service id="0x0003" sid="3" name="MDS 3" type="25" provider="Globecast" onid="11" tsid="1" namespace="0x00820000" />
+        <service id="0x0001" sid="1" name="11054H" type="1" provider="" onid="11" tsid="1" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:0072:0061" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -113,7 +111,7 @@
         <service id="0x01f9" sid="505" name="MC EU" type="1" provider="Itep Pictures" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00d7" sid="215" name="NHK WORLD-JAPAN" type="25" provider="" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x01fe" sid="510" name="Parole di Vita" type="1" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
-        <service id="0x00ce" sid="206" name="People TV" type="1" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
+        <service id="0x00ce" sid="206" name="People TV" type="1" provider="PEOPLETV-RETE7" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00cc" sid="204" name="RADIO ZETA HD" type="25" provider="M-Three satcom" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00cb" sid="203" name="RADIOFRECCIA HD" type="25" provider="M-Three Satcom" onid="318" tsid="900" namespace="0x00820000" />
         <service id="0x00c9" sid="201" name="RADIONORBA TV" type="1" provider="Telenorba" onid="318" tsid="900" namespace="0x00820000" />
@@ -472,12 +470,7 @@
     </satellite>
     <satellite key="00820000:1644:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:1644:fbff" frequency="11862000" symbol_rate="29900000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x112e" sid="4398" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
-        <service id="0x10e2" sid="4322" name="Interact" type="130" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
-        <service id="0x110c" sid="4364" name="POKERItalia24" type="1" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
-        <service id="0x10ff" sid="4351" name="Sky TG24 Active" type="130" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
-        <service id="0x10e9" sid="4329" name="TG 24 - Feed 2" type="130" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
-        <service id="0x10e7" sid="4327" name="TG 24 - Mosaico" type="130" provider="SkyItalia" onid="64511" tsid="5700" namespace="0x00820000" />
+        <service id="0x0001" sid="1" name="11862H" type="1" provider="" onid="64511" tsid="5700" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:16a8:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -578,7 +571,7 @@
     </satellite>
     <satellite key="00820000:189c:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:189c:fbff" frequency="11977000" symbol_rate="29900000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x07d6" sid="2006" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="6300" namespace="0x00820000" />
+        <service id="0x0001" sid="1" name="11977H" type="1" provider="" onid="64511" tsid="6300" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:1900:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -650,11 +643,7 @@
     </satellite>
     <satellite key="00820000:1a2c:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:1a2c:fbff" frequency="12054000" symbol_rate="29900000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x2db8" sid="11704" name="Cinema itv" type="130" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x1c4d" sid="7245" name="CNBC HD" type="25" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x2e17" sid="11799" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x2db7" sid="11703" name="Mosaico Cinema" type="130" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
-        <service id="0x2dc9" sid="11721" name="Mosaico Cinema" type="1" provider="SkyItalia" onid="64511" tsid="6700" namespace="0x00820000" />
+        <service id="0x0001" sid="1" name="12054H" type="1" provider="" onid="64511" tsid="6700" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:1a90:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -942,7 +931,7 @@
       <transponder key="00820000:2134:013e" frequency="12399000" symbol_rate="29700000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x00b9" sid="185" name="Dubai International HD" type="25" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
         <service id="0x038e" sid="910" name="ESC" type="25" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
-        <service id="0x00bc" sid="188" name="JORDAN TV" type="25" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
+        <service id="0x00bc" sid="188" name="JORDAN TV" type="1" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
         <service id="0x018b" sid="395" name="Kuwait TV1 HD" type="25" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
         <service id="0x018a" sid="394" name="Libya ALWatnieh" type="25" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
         <service id="0x018e" sid="398" name="OMAN TV HD" type="1" provider="Etisalat" onid="318" tsid="8500" namespace="0x00820000" />
@@ -962,9 +951,7 @@
     </satellite>
     <satellite key="00820000:2198:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:2198:fbff" frequency="12418000" symbol_rate="29900000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x0f5a" sid="3930" name="Calcio1Magaz" type="130" provider="SkyItalia" onid="64511" tsid="8600" namespace="0x00820000" />
-        <service id="0x0f89" sid="3977" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="8600" namespace="0x00820000" />
-        <service id="0x0f54" sid="3924" name="Onboard Mix HD" type="25" provider="SkyItalia" onid="64511" tsid="8600" namespace="0x00820000" />
+        <service id="0x0001" sid="1" name="12418V" type="1" provider="" onid="64511" tsid="8600" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2260:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1548,7 +1535,7 @@
         <service id="0x422d" sid="16941" name="Class TV Moda" type="22" provider="M-Three Satcom" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x108c" sid="4236" name="Dim TV" type="22" provider="COSMONOVA LLC" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x0440" sid="1088" name="Dla Ciebie TV" type="25" provider="1plus1 Media" onid="318" tsid="12100" namespace="0x00820000" />
-        <service id="0x106e" sid="4206" name="DORCEL TV HD" type="1" provider="iKO Media Group" onid="318" tsid="12100" namespace="0x00820000" />
+        <service id="0x106e" sid="4206" name="DORCEL TV HD" type="1" provider="IKO Media Group" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x10ab" sid="4267" name="Eutelsat Data 1" type="1" provider="Eutelsat" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x422e" sid="16942" name="Horse TV HD" type="25" provider="M-Three satcom" onid="318" tsid="12100" namespace="0x00820000" />
         <service id="0x108d" sid="4237" name="Juwelo TV" type="1" provider="SCP2100" onid="318" tsid="12100" namespace="0x00820000" />

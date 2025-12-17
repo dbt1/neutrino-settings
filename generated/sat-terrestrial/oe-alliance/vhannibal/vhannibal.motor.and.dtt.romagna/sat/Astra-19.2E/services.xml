@@ -749,7 +749,7 @@
         <service id="0x76a5" sid="30373" name="EUROSPORT 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769e" sid="30366" name="LA SEXTA" type="1" provider="Digital+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769a" sid="30362" name="LALIGA TV BAR 3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e10" sid="7696" name="M+ EN JUEGO" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e10" sid="7696" name="M+ BBC EARTH" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769d" sid="30365" name="M+ LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769b" sid="30363" name="M+DEPORTES6" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769f" sid="30367" name="M+LCAMPEON3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -1019,15 +1019,7 @@
     </satellite>
     <satellite key="00c00000:0437:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0437:0001" frequency="11954000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x6d67" sid="28007" name="3sat SD" type="1" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" />
-        <service id="0x6d68" sid="28008" name="KiKA SD" type="1" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" />
-        <service id="0x6d66" sid="28006" name="ZDF SD" type="1" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" />
-        <service id="0x6d6e" sid="28014" name="zdf_neo SD" type="1" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" />
-        <service id="0x6d6b" sid="28011" name="ZDFinfo SD" type="1" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" />
-        <service id="0x6d6d" sid="28013" name="Dlf alt" type="2" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" radio="1" />
-        <service id="0x6d6c" sid="28012" name="Dlf Kultur alt" type="2" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" radio="1" />
-        <service id="0x6d71" sid="28017" name="Dlf Nova alt" type="2" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" radio="1" />
-        <service id="0x6d6f" sid="28015" name="DRadio DokDeb alt" type="2" provider="ZDFvision" onid="1" tsid="1079" namespace="0x00c00000" radio="1" />
+        <service id="0x0001" sid="1" name="11954H" type="1" provider="" onid="1" tsid="1079" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:0438:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -1483,6 +1475,11 @@
     <satellite key="00c0b099:0000:0000" name="Astra-19.2E" namespace="0x00c0b099" position="19.2">
       <transponder key="00c0b099:0000:0000" frequency="12441000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0x0001" sid="1" name="12441V." type="1" provider="" onid="0" tsid="0" namespace="0x00c0b099" />
+      </transponder>
+    </satellite>
+    <satellite key="00c0b1b8:0000:0000" name="Astra-19.2E" namespace="0x00c0b1b8" position="19.2">
+      <transponder key="00c0b1b8:0000:0000" frequency="12728000" symbol_rate="23500000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="12728V" type="1" provider="" onid="0" tsid="0" namespace="0x00c0b1b8" />
       </transponder>
     </satellite>
   </satellites>
