@@ -438,7 +438,6 @@
         <service id="0x04ef" sid="1263" name="TV 2 / Bornholm" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ed" sid="1261" name="TV 2 / Fyn" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x125e" sid="4702" name="TV 2 / Midt-Vest" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
-        <service id="0x125d" sid="4701" name="TV 2 / Nord (old)" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ec" sid="1260" name="TV 2 / Syd" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x04ee" sid="1262" name="TV 2 / Øst" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
         <service id="0x125f" sid="4703" name="TV 2 / Østjylland" type="25" provider="Telenor" onid="70" tsid="63" namespace="0x0e080000" />
@@ -591,14 +590,14 @@
     <satellite key="0e080000:004b:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004b:0046" frequency="12399000" symbol_rate="30000000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x32d0" sid="13008" name="Test 13008" type="22" provider="Telenor" onid="70" tsid="75" namespace="0x0e080000" />
+        <service id="0x32d5" sid="13013" name="Test 13013" type="31" provider="Telenor" onid="70" tsid="75" namespace="0x0e080000" />
         <service id="0x32d6" sid="13014" name="Test 13014" type="25" provider="Telenor" onid="70" tsid="75" namespace="0x0e080000" />
       </transponder>
     </satellite>
     <satellite key="0e080000:004f:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004f:0046" frequency="12437000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0xfeb0" sid="65200" name="12437H SID 0xfeb0" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xfeb1" sid="65201" name="12437H SID 0xfeb1" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0xfeb2" sid="65202" name="12437H SID 0xfeb2" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
+        <service id="0xfeb3" sid="65203" name="12437H SID 0xfeb3" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0x32d4" sid="13012" name="Test 13012" type="22" provider="Telenor" onid="70" tsid="79" namespace="0x0e080000" />
       </transponder>
     </satellite>
@@ -629,7 +628,6 @@
     </satellite>
     <satellite key="0e080000:0055:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:0055:0046" frequency="12322000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x32d5" sid="13013" name="Test 13013" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x1c76" sid="7286" name="Test 7286" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x1d23" sid="7459" name="Test 7459" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x091c" sid="2332" name="TS Sports 11" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
