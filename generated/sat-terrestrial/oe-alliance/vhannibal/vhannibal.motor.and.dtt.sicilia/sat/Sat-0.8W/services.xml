@@ -139,7 +139,7 @@
         <service id="0x0a64" sid="2660" name="HBO HU" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0a14" sid="2580" name="ID Investigation Discovery" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x026a" sid="618" name="M1" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
-        <service id="0x0a8c" sid="2700" name="M2/Petőfi TV" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
+        <service id="0x0a8c" sid="2700" name="M2/Petofi TV" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x056e" sid="1390" name="Minimax" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0b77" sid="2935" name="Spektrum Home" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
         <service id="0x0a32" sid="2610" name="SPORT 1" type="1" provider="DIGI HU" onid="1" tsid="5" namespace="0x0e080000" />
@@ -596,8 +596,6 @@
     </satellite>
     <satellite key="0e080000:004f:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:004f:0046" frequency="12437000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0xfeb2" sid="65202" name="12437H SID 0xfeb2" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
-        <service id="0xfeb3" sid="65203" name="12437H SID 0xfeb3" type="1" provider="DVB-S2 8PSK 12437H 359.2Â°E" onid="70" tsid="79" namespace="0x0e080000" />
         <service id="0x32d4" sid="13012" name="Test 13012" type="22" provider="Telenor" onid="70" tsid="79" namespace="0x0e080000" />
       </transponder>
     </satellite>
@@ -628,6 +626,7 @@
     </satellite>
     <satellite key="0e080000:0055:0046" name="Sat-0.8W" namespace="0x0e080000" position="-0.8">
       <transponder key="0e080000:0055:0046" frequency="12322000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0xff14" sid="65300" name="12322H SID 0xff14" type="1" provider="DVB-S2 8PSK 12322H 359.2Â°E" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x1c76" sid="7286" name="Test 7286" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x1d23" sid="7459" name="Test 7459" type="22" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
         <service id="0x091c" sid="2332" name="TS Sports 11" type="25" provider="Telenor" onid="70" tsid="85" namespace="0x0e080000" />
