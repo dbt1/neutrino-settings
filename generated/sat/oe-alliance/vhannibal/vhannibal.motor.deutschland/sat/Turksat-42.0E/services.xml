@@ -18,8 +18,8 @@
       </transponder>
     </satellite>
     <satellite key="01a40000:0001:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">
-      <transponder key="01a40000:0001:042e" frequency="12111000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0002" sid="2" name="KABLO INFO HD" type="1" provider="TURKSAT" onid="1070" tsid="1" namespace="0x01a40000" />
+      <transponder key="01a40000:0001:042e" frequency="12149000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="COLORBAR H264" type="25" provider="TURKSAT" onid="1070" tsid="1" namespace="0x01a40000" />
         <service id="0x296d" sid="10605" name="TRT WORLD HD" type="25" provider="TRT" onid="1070" tsid="1" namespace="0x01a40000" />
       </transponder>
     </satellite>
@@ -81,6 +81,7 @@
     </satellite>
     <satellite key="01a40000:0003:0042" name="Turksat-42.0E" namespace="0x01a40000" position="42">
       <transponder key="01a40000:0003:0042" frequency="12034000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
+        <service id="0x00d3" sid="211" name="" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x00d5" sid="213" name="" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x00d7" sid="215" name="" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x00d9" sid="217" name="" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
@@ -108,9 +109,8 @@
         <service id="0x00ce" sid="206" name="RUMELİ TV" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x053b" sid="1339" name="RUMELİ TV" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x007f" sid="127" name="SMART İNTERAKTİF" type="130" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
-        <service id="0x00d3" sid="211" name="TELE 1" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x00d2" sid="210" name="TELE 1 HD" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
-        <service id="0x00cd" sid="205" name="TEVE2" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
+        <service id="0x00cd" sid="205" name="TV 2" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x020e" sid="526" name="TV 8 INT" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" />
         <service id="0x00e7" sid="231" name="" type="2" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" radio="1" />
         <service id="0x00ea" sid="234" name="45'lik" type="2" provider="DEMIROREN MEDYA" onid="66" tsid="3" namespace="0x01a40000" radio="1" />
@@ -168,7 +168,7 @@
         <service id="0x06b2" sid="1714" name="SPORSMART 2" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06b5" sid="1717" name="SPORTS TV" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06ae" sid="1710" name="T.A.Y TV" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
-        <service id="0x06a7" sid="1703" name="TEVE2 HD" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
+        <service id="0x06a7" sid="1703" name="TV 2" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06b7" sid="1719" name="YENİ KOCAELİ TV" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
         <service id="0x06ad" sid="1709" name="ÇOCUKSMART" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="7" namespace="0x01a40000" />
       </transponder>
@@ -225,7 +225,6 @@
         <service id="0x031c" sid="796" name="GROOVE (DISCO &amp; FUNK)" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x013e" sid="318" name="HIP HOP" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x07ab" sid="1963" name="HIT LIST" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
-        <service id="0x013c" sid="316" name="HOT COUNTRY UK" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x07a1" sid="1953" name="HOUSE" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x00bb" sid="187" name="iANIMALPLANETHDTrigger" type="130" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x030b" sid="779" name="ID" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
@@ -274,6 +273,8 @@
         <service id="0x07b9" sid="1977" name="TÜRKÇE POP" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x07ac" sid="1964" name="URBAN BEATS" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x012e" sid="302" name="VIASAT HISTORY" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
+        <service id="0x013c" sid="316" name="YILBAŞI" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
+        <service id="0x07b6" sid="1974" name="YILBAŞI" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
       </transponder>
     </satellite>
     <satellite key="01a40000:003d:002a" name="Turksat-42.0E" namespace="0x01a40000" position="42">
@@ -316,6 +317,7 @@
         <service id="0x0ead" sid="3757" name="MEZZO HD" type="17" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
         <service id="0x0eaa" sid="3754" name="MTV 00s" type="1" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
         <service id="0x0ea9" sid="3753" name="MTV Hits" type="1" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
+        <service id="0x375a" sid="14170" name="NICKELODEON HD" type="17" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
         <service id="0x0ea7" sid="3751" name="RAI 1" type="1" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
         <service id="0x0eae" sid="3758" name="TARİH TV" type="17" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
         <service id="0x0eaf" sid="3759" name="TRT SPOR HD" type="17" provider="Digital Platform" onid="42" tsid="20101" namespace="0x01a40000" />
@@ -457,8 +459,8 @@
       <transponder key="01a40000:7dc9:042e" frequency="11053000" symbol_rate="8000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x2bc1" sid="11201" name="BLOOMBERG HT" type="1" provider="BLOOMBERG HT" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc0" sid="11200" name="HABERTURK" type="1" provider="HABERTURK" onid="1070" tsid="32201" namespace="0x01a40000" />
-        <service id="0x2bc7" sid="11207" name="HT SPOR HD" type="25" provider="HT SPOR HD" onid="1070" tsid="32201" namespace="0x01a40000" />
-        <service id="0x2bc6" sid="11206" name="SHOW TURK HD" type="25" provider="SHOW TURK HD" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc7" sid="11207" name="HT SPOR HD" type="1" provider="HT SPOR HD" onid="1070" tsid="32201" namespace="0x01a40000" />
+        <service id="0x2bc6" sid="11206" name="SHOW TURK HD" type="1" provider="SHOW TURK HD" onid="1070" tsid="32201" namespace="0x01a40000" />
         <service id="0x2bc5" sid="11205" name="BLOOMBERGHT INTERCOM" type="2" provider="BLOOMBERGHT INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
         <service id="0x2bc3" sid="11203" name="BLOOMBERGHT RD" type="2" provider="BLOOMBERGHT RD" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
         <service id="0x2bc4" sid="11204" name="HABERTURK INTERCOM" type="2" provider="HABERTURK INTERCOM" onid="1070" tsid="32201" namespace="0x01a40000" radio="1" />
@@ -626,6 +628,7 @@
       <transponder key="01a40000:a1ba:042e" frequency="12219000" symbol_rate="6500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x2b5f" sid="11103" name="KANAL 1" type="1" provider="KANAL 1" onid="1070" tsid="41402" namespace="0x01a40000" />
         <service id="0x2b5c" sid="11100" name="SHOW TV" type="1" provider="SHOW TV" onid="1070" tsid="41402" namespace="0x01a40000" />
+        <service id="0x2b60" sid="11104" name="HT SPOR INTERCOM" type="2" provider="HT SPOR INTERCOM" onid="1070" tsid="41402" namespace="0x01a40000" radio="1" />
         <service id="0x2b5e" sid="11102" name="HT SPOR RADYO" type="2" provider="HT SPOR RADYO" onid="1070" tsid="41402" namespace="0x01a40000" radio="1" />
         <service id="0x2b5d" sid="11101" name="SHOW INTERCOM" type="2" provider="SHOW INTERCOM" onid="1070" tsid="41402" namespace="0x01a40000" radio="1" />
       </transponder>
@@ -640,12 +643,11 @@
     </satellite>
     <satellite key="01a40000:a21d:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">
       <transponder key="01a40000:a21d:042e" frequency="12265000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x392b" sid="14635" name="" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x0f46" sid="3910" name="AKSU TV" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x0f4d" sid="3917" name="BRTV ANADOLU" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
-        <service id="0x392b" sid="14635" name="Bí KANAL" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x391b" sid="14619" name="CAN TEMPO TV" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x0f49" sid="3913" name="CIFTCI TV" type="25" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
-        <service id="0x392e" sid="14638" name="EGE TV" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x0f4a" sid="3914" name="ER TV" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x0f48" sid="3912" name="ES TV" type="1" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
         <service id="0x390f" sid="14607" name="GRT" type="25" provider="GUC TELEKOM MEDYA" onid="1070" tsid="41501" namespace="0x01a40000" />
@@ -960,7 +962,7 @@
         <service id="0xc57a" sid="50554" name="SEMERKAND HD" type="25" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
         <service id="0xc57b" sid="50555" name="SEMERKAND WAY" type="1" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
         <service id="0xc578" sid="50552" name="TARIM ORMAN EKRANI HD" type="25" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
-        <service id="0xc588" sid="50568" name="TELENEWS" type="25" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
+        <service id="0xc588" sid="50568" name="TELENEWS" type="1" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
         <service id="0xc583" sid="50563" name="TYT TURK" type="1" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
         <service id="0xc582" sid="50562" name="WITNESS EYE" type="1" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" />
         <service id="0xc59e" sid="50590" name="SEMERKAND RADYO" type="2" provider="TURKSAT" onid="1070" tsid="50901" namespace="0x01a40000" radio="1" />
@@ -1013,10 +1015,10 @@
         <service id="0x0001" sid="1" name="Turkmeneli HD" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x01a4aee9" />
       </transponder>
     </satellite>
-    <satellite key="01a4af75:0000:0000" name="Turksat-42.0E" namespace="0x01a4af75" position="42">
-      <transponder key="01a4af75:0000:0000" frequency="12149000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="COLORBAR H264" type="25" provider="TURKSAT" onid="0" tsid="0" namespace="0x01a4af75" />
-        <service id="0x296d" sid="10605" name="TRT WORLD HD" type="25" provider="TRT" onid="0" tsid="0" namespace="0x01a4af75" />
+    <satellite key="01a4af4f:0001:042e" name="Turksat-42.0E" namespace="0x01a4af4f" position="42">
+      <transponder key="01a4af4f:0001:042e" frequency="12111000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0002" sid="2" name="KABLO INFO HD" type="1" provider="TURKSAT" onid="1070" tsid="1" namespace="0x01a4af4f" />
+        <service id="0x296d" sid="10605" name="TRT WORLD HD" type="25" provider="TRT" onid="1070" tsid="1" namespace="0x01a4af4f" />
       </transponder>
     </satellite>
   </satellites>

@@ -29,7 +29,6 @@
     </satellite>
     <satellite key="0ce40000:0026:0036" name="Sat-30W" namespace="0x0ce40000" position="-30">
       <transponder key="0ce40000:0026:0036" frequency="12360000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x17cb" sid="6091" name="12360H SID 0x17cb" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x00ac" sid="172" name="12360H SID 0x370" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x00ad" sid="173" name="12360H SID 0x371" type="1" provider="DVB-S2 8PSK 12360H 330.0Â°E" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x02bf" sid="703" name="AMC Crime" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
@@ -88,6 +87,7 @@
         <service id="0x0edb" sid="3803" name="Sport TV 6 HD" type="1" provider="Sport TV 6 HD" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x17b6" sid="6070" name="Sport TV 6 HD" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x0edf" sid="3807" name="Sport TV 7" type="1" provider="Sport TV 7" onid="54" tsid="38" namespace="0x0ce40000" />
+        <service id="0x17cb" sid="6091" name="Sport TV 7" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x014d" sid="333" name="TV Galicia" type="1" provider="TV Galicia" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x02bd" sid="701" name="TV Galicia" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x09da" sid="2522" name="TVE 24H" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
@@ -223,80 +223,6 @@
         <service id="0x008c" sid="140" name="TSF" type="2" provider="SID TSF" onid="54" tsid="47" namespace="0x0ce40000" radio="1" />
       </transponder>
     </satellite>
-    <satellite key="0ce40000:0030:0036" name="Sat-30W" namespace="0x0ce40000" position="-30">
-      <transponder key="0ce40000:0030:0036" frequency="12476000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x00eb" sid="235" name="AMC Break" type="1" provider="AMC Break" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x138c" sid="5004" name="AMC Break" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f0" sid="4848" name="Baby TV" type="1" provider="SID Baby TV" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17bd" sid="6077" name="Baby TV" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f0" sid="240" name="Biggs" type="1" provider="SID Biggs" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x056f" sid="1391" name="Biggs" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12ef" sid="4847" name="Canal de Teste" type="1" provider="SID Canal de Teste" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12ec" sid="4844" name="Canal NOS" type="1" provider="Canal NOS" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12ed" sid="4845" name="Canal NOS" type="1" provider="Canal NOS" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f4" sid="4852" name="Canção Nova" type="1" provider="SID Canção Nova" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17c8" sid="6088" name="Canção Nova" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f2" sid="242" name="CNN" type="1" provider="SID CNN" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x023b" sid="571" name="CNN" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00fa" sid="250" name="Disney Junior" type="1" provider="Disney Junior" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x139b" sid="5019" name="Disney Júnior" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f5" sid="245" name="Euronews" type="1" provider="Euronews" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x023e" sid="574" name="Euronews" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x023f" sid="575" name="France 24" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f6" sid="246" name="France 24 (I)" type="1" provider="France 24 (I)" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f9" sid="249" name="Hot" type="1" provider="Hot" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x139a" sid="5018" name="HOT" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17b4" sid="6068" name="Kuriakos TV" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00fd" sid="253" name="Kuriakos TV HD" type="1" provider="Kuriakos TV HD" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17b7" sid="6071" name="MCM TOP" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00ee" sid="238" name="Mezzo" type="1" provider="SID Mezzo" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x138f" sid="5007" name="Mezzo" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00ed" sid="237" name="MTV 00s" type="1" provider="MTV 00s" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x138e" sid="5006" name="MTV 00s" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f1" sid="4849" name="NOS Studios HD" type="1" provider="SID NOS Studios HD" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f2" sid="4850" name="NOS Studios HD" type="1" provider="SID NOS Studios HD" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f5" sid="4853" name="OneToro TV" type="1" provider="OneToro TV" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17c9" sid="6089" name="Onetoro TV" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f7" sid="4855" name="Panda Kids" type="1" provider="Panda Kids" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17bf" sid="6079" name="Panda Kids" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00e7" sid="231" name="SIC Mulher" type="1" provider="SID SIC Mulher" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x056c" sid="1388" name="SIC Mulher" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f3" sid="243" name="Sky News" type="1" provider="Sky News" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x023c" sid="572" name="SKY News" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x138d" sid="5005" name="SPORT TV +" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00ec" sid="236" name="SPORT TV+" type="1" provider="SPORT TV+" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00fb" sid="251" name="Sporting TV" type="1" provider="SID Sporting TV" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x139c" sid="5020" name="Sporting TV" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12ee" sid="4846" name="Star Comedy" type="1" provider="Star Comedy" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17be" sid="6078" name="STAR Comedy" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00e9" sid="233" name="Star Movies" type="1" provider="Star Movies" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x138a" sid="5002" name="STAR Movies" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00fc" sid="252" name="SYFY" type="1" provider="SYFY" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x177d" sid="6013" name="SyFy" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00e8" sid="232" name="TLC" type="1" provider="TLC" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x056d" sid="1389" name="TLC" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00cc" sid="204" name="TV5 Monde" type="1" provider="SID TV5 Monde" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x139d" sid="5021" name="TV5 Monde" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00f1" sid="241" name="TVE 24h" type="1" provider="SID TVE 24h" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x023a" sid="570" name="TVE 24H" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00ef" sid="239" name="TVE Internacional" type="1" provider="SID TVE Internacional" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x056e" sid="1390" name="TVEi" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x00e6" sid="230" name="TVI Reality" type="1" provider="SID - TVI Reality" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x13b2" sid="5042" name="TVI Reality" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x12f3" sid="4851" name="ZAP Viva HD" type="1" provider="" onid="54" tsid="48" namespace="0x0ce40000" />
-        <service id="0x17ac" sid="6060" name="12476H SID 0x17ac" type="2" provider="DVB-S2 8PSK 12476H 330.0Â°E" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x17af" sid="6063" name="12476H SID 0x17af" type="2" provider="DVB-S2 8PSK 12476H 330.0Â°E" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x17b0" sid="6064" name="12476H SID 0x17b0" type="2" provider="DVB-S2 8PSK 12476H 330.0Â°E" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x17b1" sid="6065" name="12476H SID 0x17b1" type="2" provider="DVB-S2 8PSK 12476H 330.0Â°E" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x052a" sid="1322" name="CMR" type="2" provider="CMR" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x00d3" sid="211" name="Marginal" type="2" provider="Marginal" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x020b" sid="523" name="Oxigénio" type="2" provider="Oxigénio" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x020e" sid="526" name="Radar" type="2" provider="Radar" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x051f" sid="1311" name="Rádio Amalia" type="2" provider="Rádio Amalia" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x052e" sid="1326" name="Rádio Regional" type="2" provider="Rádio Regional" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-        <service id="0x052d" sid="1325" name="SuperFM" type="2" provider="SuperFM" onid="54" tsid="48" namespace="0x0ce40000" radio="1" />
-      </transponder>
-    </satellite>
     <satellite key="0ce40000:0065:0053" name="Sat-30W" namespace="0x0ce40000" position="-30">
       <transponder key="0ce40000:0065:0053" frequency="12130000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x006c" sid="108" name="A Bola TV" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
@@ -399,16 +325,6 @@
         <service id="0x27b5" sid="10165" name="ARAGON RADIO HUESCA" type="2" provider="CARTV" onid="8916" tsid="1001" namespace="0x0ce40000" radio="1" />
         <service id="0x27b6" sid="10166" name="ARAGON RADIO TERUEL" type="2" provider="CARTV" onid="8916" tsid="1001" namespace="0x0ce40000" radio="1" />
         <service id="0x27b1" sid="10161" name="ARAGON RADIO ZARAGOZA" type="2" provider="CARTV" onid="8916" tsid="1001" namespace="0x0ce40000" radio="1" />
-      </transponder>
-    </satellite>
-    <satellite key="0ce40000:3138:ff01" name="Sat-30W" namespace="0x0ce40000" position="-30">
-      <transponder key="0ce40000:3138:ff01" frequency="11422000" symbol_rate="30000000" polarization="H" fec="6" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Astro Show" type="22" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0002" sid="2" name="Tarot" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0005" sid="5" name="Tarotéame" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x0004" sid="4" name="Test" type="1" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" />
-        <service id="0x000c" sid="12" name="Crak Radio" type="2" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" radio="1" />
-        <service id="0x0009" sid="9" name="Pepe Radio" type="2" provider="" onid="65281" tsid="12600" namespace="0x0ce40000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0ce40000:ea74:0001" name="Sat-30W" namespace="0x0ce40000" position="-30">
@@ -627,6 +543,7 @@
     </satellite>
     <satellite key="0ce4ad7c:0065:0000" name="Sat-30W" namespace="0x0ce4ad7c" position="-30">
       <transponder key="0ce4ad7c:0065:0000" frequency="11644000" symbol_rate="4000000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x00c8" sid="200" name="11644V SID 0xc8" type="2" provider="DVB-S QPSK 11644V 330.0Â°E" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x000a" sid="10" name="Cadena 100" type="2" provider="Cadena 100" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x0013" sid="19" name="COPE" type="2" provider="COPE" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x001e" sid="30" name="COPE SAT 2" type="2" provider="COPE SAT 2" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
