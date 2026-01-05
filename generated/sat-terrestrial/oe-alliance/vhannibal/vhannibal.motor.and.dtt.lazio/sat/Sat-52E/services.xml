@@ -23,7 +23,7 @@
       <transponder key="02080000:0258:0e26" frequency="11204000" symbol_rate="2500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x003a" sid="58" name="IFILM 2" type="1" provider="" onid="3622" tsid="600" namespace="0x02080000" />
         <service id="0x008c" sid="140" name="SAHAR AFGHANISTAN" type="1" provider="" onid="3622" tsid="600" namespace="0x02080000" />
-        <service id="0x01f1" sid="497" name="RADIO TURKMEN" type="2" provider="" onid="3622" tsid="600" namespace="0x02080000" radio="1" />
+        <service id="0x01f1" sid="497" name="RADIO TURKMEN" type="2" provider="IRIB" onid="3622" tsid="600" namespace="0x02080000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="02080000:117e:117e" name="Sat-52E" namespace="0x02080000" position="52">
@@ -61,8 +61,8 @@
         <service id="0x000f" sid="15" name="Gord Afarid TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000a" sid="10" name="Gord Afarid TV SD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0002" sid="2" name="NET TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
+        <service id="0x0007" sid="7" name="Persiana KPop" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Persiana Sports HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
-        <service id="0x0007" sid="7" name="Persiana Vibe" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x001a" sid="26" name="Radio DEJ" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
       </transponder>
     </satellite>
@@ -126,6 +126,7 @@
         <service id="0x001c" sid="28" name="ICNET2 HD" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x0004" sid="4" name="Maah TV" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x000e" sid="14" name="MBC Persia SD" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
+        <service id="0x0001" sid="1" name="Navid TV" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x0006" sid="6" name="Payam Aramesh HD" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="Radio Javan HD" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x0003" sid="3" name="Radio Javan SD" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
@@ -177,6 +178,7 @@
         <service id="0x0090" sid="144" name="SPORT 4" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x032c" sid="812" name="TEST-812" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x032d" sid="813" name="TEST-813" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
+        <service id="0x032a" sid="810" name="UDAR HD" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x032f" sid="815" name="КИНОМАН" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x014e" sid="334" name="Конный мир" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x014b" sid="331" name="Любимое кино" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
@@ -186,7 +188,6 @@
         <service id="0x0096" sid="150" name="Русский Роман" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x014d" sid="333" name="Тайны галактики HD" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
         <service id="0x014c" sid="332" name="ТВ 21" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
-        <service id="0x032a" sid="810" name="Удар" type="1" provider="AREF" onid="0" tsid="4" namespace="0x02082a5d" />
       </transponder>
     </satellite>
     <satellite key="02082a87:0005:0000" name="Sat-52E" namespace="0x02082a87" position="52">
@@ -218,7 +219,7 @@
         <service id="0x03a7" sid="935" name="Дорама HD" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
         <service id="0x03a4" sid="932" name="Кинеко HD" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
         <service id="0x039c" sid="924" name="НТВ Мир" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
-        <service id="0x039a" sid="922" name="Первый канал. Всемирная сеть" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
+        <service id="0x039a" sid="922" name="Первый канал" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
         <service id="0x03a0" sid="928" name="РБК" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
         <service id="0x039b" sid="923" name="РТР Планета" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
         <service id="0x03a5" sid="933" name="Сапфир HD" type="1" provider="AREF" onid="0" tsid="5" namespace="0x02082a87" />
@@ -228,13 +229,13 @@
     </satellite>
     <satellite key="0208ac9c:0001:0000" name="Sat-52E" namespace="0x0208ac9c" position="52">
       <transponder key="0208ac9c:0001:0000" frequency="11420000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0007" sid="7" name="Euronews Persian" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
+        <service id="0x0005" sid="5" name="Iran One News" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0004" sid="4" name="Persiana Set Mix" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
+        <service id="0x0006" sid="6" name="Persiana Sports" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0001" sid="1" name="Persiana Sports 3" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0002" sid="2" name="Persiana Sports 4" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0003" sid="3" name="Ravi" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
-        <service id="0x0005" sid="5" name="WNS05" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
-        <service id="0x0006" sid="6" name="WNS06" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
-        <service id="0x0007" sid="7" name="WNS07" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0008" sid="8" name="WNS08" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0009" sid="9" name="WNS09" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x000f" sid="15" name="WNS15" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
@@ -247,8 +248,8 @@
     </satellite>
     <satellite key="0208afc2:0001:0000" name="Sat-52E" namespace="0x0208afc2" position="52">
       <transponder key="0208afc2:0001:0000" frequency="12226000" symbol_rate="28000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x01ff" sid="511" name="FRIDAY International" type="22" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
-        <service id="0x00d5" sid="213" name="O! International" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
+        <service id="0x01ff" sid="511" name="Friday int" type="22" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
+        <service id="0x00d5" sid="213" name="O! Int" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01fe" sid="510" name="REN-TV" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x00d1" sid="209" name="viju Explore" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x020a" sid="522" name="viju History" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
@@ -262,10 +263,10 @@
         <service id="0x020c" sid="524" name="viju+ Sport" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x00d4" sid="212" name="Детский мир" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01fd" sid="509" name="Домашний I" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
-        <service id="0x00ca" sid="202" name="Золотая коллекция Мосфильма" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x00d3" sid="211" name="Известия" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01fc" sid="508" name="Карусель" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x020d" sid="525" name="Матч! Планета" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
+        <service id="0x00ca" sid="202" name="Мосфильм. Золотая коллекция" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x020e" sid="526" name="Мульт" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x020f" sid="527" name="НСТВ" type="22" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01f8" sid="504" name="НТВ Мир" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
@@ -274,7 +275,7 @@
         <service id="0x01f9" sid="505" name="Победа" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01f7" sid="503" name="Россия 24" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01f6" sid="502" name="РТР Планета" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
-        <service id="0x00d2" sid="210" name="СТС I" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
+        <service id="0x00d2" sid="210" name="СТС" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x00c9" sid="201" name="ТВ-3 Int" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01fa" sid="506" name="ТНТ" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
         <service id="0x01fb" sid="507" name="ТНТ4" type="1" provider="AREF" onid="0" tsid="1" namespace="0x0208afc2" />
@@ -356,6 +357,7 @@
         <service id="0x02d2" sid="722" name="Test-722" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02d7" sid="727" name="Test-727" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02d8" sid="728" name="Test-728" type="25" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
+        <service id="0x02de" sid="734" name="THT MUSIC" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02c2" sid="706" name="TLC" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02e5" sid="741" name="viju TV1000 новелла" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02e3" sid="739" name="viju+ Planet HD" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
@@ -368,8 +370,7 @@
         <service id="0x02cd" sid="717" name="Моя Планета" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02ca" sid="714" name="Синема" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
         <service id="0x02c7" sid="711" name="Т24" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
-        <service id="0x02de" sid="734" name="ТНТ Music HD" type="25" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
-        <service id="0x02dd" sid="733" name="Ю ТВ" type="1" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
+        <service id="0x02dd" sid="733" name="Ю ТВ" type="22" provider="AREF" onid="0" tsid="3" namespace="0x0208b05c" />
       </transponder>
     </satellite>
   </satellites>

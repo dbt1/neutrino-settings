@@ -6,7 +6,6 @@
         <service id="0x006a" sid="106" name="Al Ahly HD" type="25" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x002f" sid="47" name="Al Ahly SD" type="1" provider="Nilesat" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x006b" sid="107" name="Al Arabiya" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
-        <service id="0x004e" sid="78" name="Al Forat" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x002d" sid="45" name="Al Qahera News" type="25" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x002a" sid="42" name="Al Qahera News SD" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x006c" sid="108" name="Al-Arabiya Alhadath" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
@@ -15,6 +14,7 @@
         <service id="0x002b" sid="43" name="Sudan TV" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x0029" sid="41" name="Test" type="1" provider="Nilesat" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x002e" sid="46" name="Test" type="25" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
+        <service id="0x004e" sid="78" name="Test" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x002c" sid="44" name="Yemen" type="25" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x006f" sid="111" name="Yemen Today" type="1" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" />
         <service id="0x0034" sid="52" name="Test" type="2" provider="NILESAT" onid="2048" tsid="1" namespace="0x0dca0000" radio="1" />
@@ -26,22 +26,22 @@
     <satellite key="0dca0000:0002:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0002:0800" frequency="11881000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x00e0" sid="224" name="ANC" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
+        <service id="0x00cf" sid="207" name="Blippi and Friends" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00c9" sid="201" name="Bloomberg" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d4" sid="212" name="C I" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d8" sid="216" name="Cinema One Global TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00df" sid="223" name="CineMo" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
-        <service id="0x00cf" sid="207" name="CNBC Europe" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
-        <service id="0x00cc" sid="204" name="E! HD" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d3" sid="211" name="GMA Life TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00cb" sid="203" name="GMA News TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00ca" sid="202" name="GMA Pinoy TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00e1" sid="225" name="H2 HD" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00dc" sid="220" name="Kapatid TV5" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
+        <service id="0x00dd" sid="221" name="MCM Top" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d5" sid="213" name="MOR Global Radio" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
-        <service id="0x00de" sid="222" name="MTV 00s" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
-        <service id="0x00dd" sid="221" name="MTV Live HD" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
+        <service id="0x00cc" sid="204" name="Motorisation TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d1" sid="209" name="Myx" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d0" sid="208" name="PBA RUSH" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
+        <service id="0x00de" sid="222" name="RFM TV" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00ce" sid="206" name="Spare 206" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00e2" sid="226" name="Spare 226" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
         <service id="0x00d7" sid="215" name="TeleRadyo" type="1" provider="OSN" onid="2048" tsid="2" namespace="0x0dca0000" />
@@ -52,9 +52,9 @@
       <transponder key="0dca0000:0003:0800" frequency="11996000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0058" sid="88" name="Moonbug Kids" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x0055" sid="85" name="OSNtv Crime" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
+        <service id="0x012f" sid="303" name="OSNtv Documentary" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x012e" sid="302" name="OSNtv Movies Action" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x012d" sid="301" name="OSNtv Movies Premiere" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
-        <service id="0x012f" sid="303" name="OSNtv News" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x0053" sid="83" name="OSNtv One" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x0052" sid="82" name="OSNtv Showcase" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
         <service id="0x0054" sid="84" name="OSNtv Yahala Aflam" type="25" provider="OSN" onid="2048" tsid="3" namespace="0x0dca0000" />
@@ -152,7 +152,6 @@
         <service id="0x02bc" sid="700" name="Beity TV" type="1" provider="Nilesat" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02bd" sid="701" name="Cima" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02e2" sid="738" name="Iraq Now" type="1" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
-        <service id="0x02c9" sid="713" name="Jordan" type="1" provider="ART" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02ca" sid="714" name="Jordan Sport HD" type="25" provider="JMC" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x0095" sid="149" name="kirkuk alan" type="1" provider="" onid="2048" tsid="7" namespace="0x0dca0000" />
         <service id="0x02c8" sid="712" name="N Africa" type="25" provider="NATV" onid="2048" tsid="7" namespace="0x0dca0000" />
@@ -299,7 +298,7 @@
         <service id="0x0120" sid="288" name="AlSaeedah" type="1" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
         <service id="0x064b" sid="1611" name="I Film Arabic" type="22" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
         <service id="0x011d" sid="285" name="Mazzika" type="1" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
-        <service id="0x011b" sid="283" name="Misr Al Zera3eya" type="1" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
+        <service id="0x011b" sid="283" name="Misr Al Mostaqbal TV" type="1" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
         <service id="0x028a" sid="650" name="Nogoum FM TV" type="1" provider="Nilesat" onid="2048" tsid="16" namespace="0x0dca0000" />
         <service id="0x0121" sid="289" name="Test" type="1" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
         <service id="0x064a" sid="1610" name="Test" type="25" provider="NILESAT" onid="2048" tsid="16" namespace="0x0dca0000" />
@@ -386,14 +385,14 @@
     </satellite>
     <satellite key="0dca0000:0014:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0014:0800" frequency="11977000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x07d3" sid="2003" name="France 24 Eng" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07d2" sid="2002" name="NHK World Japan" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07dc" sid="2012" name="Shams TV" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07d5" sid="2005" name="Sky News Arabia" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07df" sid="2015" name="Sky News Arabia HD" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07d9" sid="2009" name="Spare 2009" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07dd" sid="2013" name="Spare 2013" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
-        <service id="0x07de" sid="2014" name="Spare 2014" type="25" provider="OSN" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07d5" sid="2005" name="Sky News Arabia" type="1" provider="NILESAT" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07df" sid="2015" name="Sky News Arabia HD" type="25" provider="Nilesat" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07d2" sid="2002" name="Test" type="1" provider="NILESAT" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07d3" sid="2003" name="Test" type="1" provider="NILESAT" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07d9" sid="2009" name="Test" type="25" provider="NILESAT" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07dc" sid="2012" name="Test" type="1" provider="Nilesat" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07dd" sid="2013" name="Test" type="1" provider="Nilesat" onid="2048" tsid="20" namespace="0x0dca0000" />
+        <service id="0x07de" sid="2014" name="Test" type="1" provider="Nilesat" onid="2048" tsid="20" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:0015:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -547,7 +546,6 @@
     <satellite key="0dca0000:0029:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:0029:0800" frequency="12399000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0x01a4" sid="420" name="AL HAQEQA AL DAWLIAH" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x042c" sid="1068" name="Al-Etejah TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x0192" sid="402" name="ALRAHMAN" type="1" provider="" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03f9" sid="1017" name="Alruqia Tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03ed" sid="1005" name="Altaghier HD" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
@@ -564,6 +562,7 @@
     <satellite key="0dca0000:002d:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:002d:0800" frequency="12073000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x04af" sid="1199" name="Animal Planet HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0x11a0" sid="4512" name="Bloomberg Originals HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119b" sid="4507" name="Cartoon Network HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x04ae" sid="1198" name="CNN HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119e" sid="4510" name="Fatafeat" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
@@ -700,7 +699,7 @@
         <service id="0x0291" sid="657" name="OSNtv Movies Horror" type="25" provider="OSN" onid="2048" tsid="566" namespace="0x0dca0000" />
         <service id="0x065c" sid="1628" name="OSNtv POP UP" type="25" provider="OSN" onid="2048" tsid="566" namespace="0x0dca0000" />
         <service id="0x161e" sid="5662" name="OSNtv Showcase Classics" type="25" provider="OSN" onid="2048" tsid="566" namespace="0x0dca0000" />
-        <service id="0x028e" sid="654" name="Sky News HD" type="25" provider="OSN" onid="2048" tsid="566" namespace="0x0dca0000" />
+        <service id="0x028e" sid="654" name="Spare 5664" type="25" provider="OSN" onid="2048" tsid="566" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:0320:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -1004,7 +1003,6 @@
         <service id="0x006f" sid="111" name="Music India" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x004a" sid="74" name="Prime TV Arabic" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x0030" sid="48" name="Riyad Al Salihin" type="22" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
-        <service id="0x002f" sid="47" name="TVRI" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x0029" sid="41" name="World Fashion Channel" type="25" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" />
         <service id="0x002a" sid="42" name="ARTA Radio" type="2" provider="" onid="65535" tsid="2" namespace="0x0dca2cb9" radio="1" />
       </transponder>

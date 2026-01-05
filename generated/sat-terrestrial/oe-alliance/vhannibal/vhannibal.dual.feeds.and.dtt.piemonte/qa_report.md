@@ -1,8 +1,8 @@
 # QA Report – unknown
 
 - Source ID: `unknown`
-- Services total: 2941
-- Distribution: SAT=2639, CABLE=0, TERRESTRIAL=302, RADIO=406
+- Services total: 2908
+- Distribution: SAT=2607, CABLE=0, TERRESTRIAL=301, RADIO=398
 - Bouquets: 44
 - Last seen: unknown
 - Stale: unknown
