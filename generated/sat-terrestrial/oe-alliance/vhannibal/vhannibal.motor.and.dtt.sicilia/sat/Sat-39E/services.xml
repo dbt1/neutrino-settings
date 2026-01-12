@@ -713,6 +713,11 @@
         <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01863097" />
       </transponder>
     </satellite>
+    <satellite key="0186ab12:0001:ffff" name="Sat-39E" namespace="0x0186ab12" position="39">
+      <transponder key="0186ab12:0001:ffff" frequency="11026000" symbol_rate="7200000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Hatay TV" type="25" provider="" onid="65535" tsid="1" namespace="0x0186ab12" />
+      </transponder>
+    </satellite>
     <satellite key="0186ab83:00a0:0000" name="Sat-39E" namespace="0x0186ab83" position="39">
       <transponder key="0186ab83:00a0:0000" frequency="11139000" symbol_rate="1000000" polarization="V" fec="4" system="0" modulation="0">
         <service id="0x1c14" sid="7188" name="EQUtv" type="1" provider="EPIQA" onid="0" tsid="160" namespace="0x0186ab83" />

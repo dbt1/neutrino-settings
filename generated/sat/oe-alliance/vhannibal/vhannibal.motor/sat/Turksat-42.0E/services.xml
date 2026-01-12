@@ -274,7 +274,6 @@
         <service id="0x07ac" sid="1964" name="URBAN BEATS" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x012e" sid="302" name="VIASAT HISTORY" type="25" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
         <service id="0x013c" sid="316" name="YILBAŞI" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
-        <service id="0x07b6" sid="1974" name="YILBAŞI" type="1" provider="DEMIROREN MEDYA" onid="66" tsid="9" namespace="0x01a40000" />
       </transponder>
     </satellite>
     <satellite key="01a40000:003d:002a" name="Turksat-42.0E" namespace="0x01a40000" position="42">
@@ -303,6 +302,7 @@
         <service id="0x296c" sid="10604" name="TRT BELGESEL HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
         <service id="0x0b98" sid="2968" name="TRT COCUK HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
         <service id="0x0baa" sid="2986" name="TRT DIYANET COCUK HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
+        <service id="0x0ba9" sid="2985" name="TRT GENC" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
         <service id="0x0b9a" sid="2970" name="TRT MUZIK HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
         <service id="0x296b" sid="10603" name="TRT SPOR HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
         <service id="0x0b99" sid="2969" name="TRT1 HD" type="25" provider="TRT" onid="43105" tsid="1070" namespace="0x01a40000" />
@@ -480,7 +480,7 @@
       </transponder>
     </satellite>
     <satellite key="01a40000:9ca6:042e" name="Turksat-42.0E" namespace="0x01a40000" position="42">
-      <transponder key="01a40000:9ca6:042e" frequency="11883000" symbol_rate="4800000" polarization="V" fec="4" system="0" modulation="0">
+      <transponder key="01a40000:9ca6:042e" frequency="11883000" symbol_rate="5000000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x28a1" sid="10401" name="A HABER" type="1" provider="TURKUVAZ" onid="1070" tsid="40102" namespace="0x01a40000" />
         <service id="0x28a0" sid="10400" name="ATV AVRUPA" type="1" provider="TURKUVAZ" onid="1070" tsid="40102" namespace="0x01a40000" />
       </transponder>
@@ -704,6 +704,7 @@
         <service id="0xc60f" sid="50703" name="KANAL T" type="1" provider="TURKSAT" onid="1070" tsid="41901" namespace="0x01a40000" />
         <service id="0xc63d" sid="50749" name="TKGS DATA" type="1" provider="" onid="1070" tsid="41901" namespace="0x01a40000" />
         <service id="0xc60e" sid="50702" name="TV 2020" type="1" provider="TURKSAT" onid="1070" tsid="41901" namespace="0x01a40000" />
+        <service id="0xc612" sid="50706" name="VATANIN SESI" type="1" provider="" onid="1070" tsid="41901" namespace="0x01a40000" />
         <service id="0xc634" sid="50740" name="DIYALOG FM" type="2" provider="TURKSAT" onid="1070" tsid="41901" namespace="0x01a40000" radio="1" />
       </transponder>
     </satellite>
@@ -917,7 +918,6 @@
         <service id="0x3b09" sid="15113" name="RADYO YABANCI ROCK" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
         <service id="0x3b03" sid="15107" name="RADYO YABANCI SLOW" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
         <service id="0x3b19" sid="15129" name="SİNEMA YERLİ 2" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
-        <service id="0x3b1d" sid="15133" name="TARİH TV" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
         <service id="0x3afc" sid="15100" name="TİVİBU SPOR 2 HD" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
         <service id="0x3b17" sid="15127" name="TİVİBU SPOR 2 HD TİCARİ" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />
         <service id="0x3b1b" sid="15131" name="TİVİBU SPOR 3 HD" type="25" provider="TTNET" onid="1070" tsid="43402" namespace="0x01a40000" />

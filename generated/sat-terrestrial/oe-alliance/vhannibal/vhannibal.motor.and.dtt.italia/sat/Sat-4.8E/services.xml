@@ -5,32 +5,31 @@
       <transponder key="00300000:0002:0055" frequency="12380000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x050b" sid="1291" name="BELSAT TV HD" type="1" provider="SES ASTRA" onid="85" tsid="2" namespace="0x00300000" />
         <service id="0x00fa" sid="250" name="SBN International" type="1" provider="" onid="85" tsid="2" namespace="0x00300000" />
-        <service id="0x00ea" sid="234" name="Radio Marija Latvia" type="2" provider="SES ASTRA" onid="85" tsid="2" namespace="0x00300000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00300000:0004:0001" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:0004:0001" frequency="12226000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x007f" sid="127" name="BBC EARTH" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x004b" sid="75" name="BBC HD" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006a" sid="106" name="BBC WORLD NEWS" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002c" sid="44" name="BLOOMBERG" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x0032" sid="50" name="BRIT BOX" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x007b" sid="123" name="CNNi" type="1" provider="MTTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007c" sid="124" name="FOOD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002b" sid="43" name="FOX NEWS" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0035" sid="53" name="FRANCE24" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007d" sid="125" name="HGTV" type="1" provider="MTTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0036" sid="54" name="MEDIASET ITALIA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x005c" sid="92" name="METROTV" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x002a" sid="42" name="MSNBC" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0028" sid="40" name="MTN INFO" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0029" sid="41" name="MTN SE HD" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x00c8" sid="200" name="MTN SE HD2" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x00a1" sid="161" name="NATGEO" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x004a" sid="74" name="PRIME FAVORITE" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x00a1" sid="161" name="NATGEO" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x004a" sid="74" name="PRIME FAVORITE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
+        <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x002e" sid="46" name="RTL" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006d" sid="109" name="SPORT24" type="1" provider="MTNTTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x006f" sid="111" name="SPORT24 EXTRA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x007f" sid="127" name="TEMP 1" type="1" provider="MTNNTV" onid="1" tsid="4" namespace="0x00300000" />
-        <service id="0x0032" sid="50" name="TEMP 2" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0031" sid="49" name="TFC" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x007e" sid="126" name="TRAVEL" type="1" provider="MTNTV" onid="1" tsid="4" namespace="0x00300000" />
         <service id="0x0030" sid="48" name="TVASIA" type="1" provider="" onid="1" tsid="4" namespace="0x00300000" />
@@ -134,11 +133,6 @@
         <service id="0x09cd" sid="2509" name="Viasat Nature" type="22" provider="VIASAT" onid="68" tsid="24" namespace="0x00300000" />
       </transponder>
     </satellite>
-    <satellite key="00300000:002b:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
-      <transponder key="00300000:002b:0055" frequency="11747000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x1de2" sid="7650" name="ERC" type="1" provider="" onid="85" tsid="43" namespace="0x00300000" />
-      </transponder>
-    </satellite>
     <satellite key="00300000:002e:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:002e:0055" frequency="12437000" symbol_rate="30000000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x1ee1" sid="7905" name="Channel 5 (Ukraine) HD" type="25" provider="" onid="85" tsid="46" namespace="0x00300000" />
@@ -191,7 +185,7 @@
         <service id="0x279c" sid="10140" name="LNK" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x0ad6" sid="2774" name="LTV1" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x0adb" sid="2779" name="LTV7" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
-        <service id="0x27d8" sid="10200" name="MyHits TV" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
+        <service id="0x27d8" sid="10200" name="MyHits" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27c4" sid="10180" name="National Geographic HD" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27c5" sid="10181" name="National_Geographic HD" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27ab" sid="10155" name="OTV" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
@@ -227,6 +221,7 @@
         <service id="0x196e" sid="6510" name="STB HD" type="25" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x19be" sid="6590" name="super+" type="25" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x1d92" sid="7570" name="Televsesvit" type="22" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
+        <service id="0x1d5b" sid="7515" name="Test1" type="22" provider="Harmonic" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x1d65" sid="7525" name="Test2" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x1d6f" sid="7535" name="Test3" type="22" provider="SES" onid="85" tsid="4219" namespace="0x00300000" />
         <service id="0x19b4" sid="6580" name="TVIY SERIAL" type="25" provider="SLM" onid="85" tsid="4219" namespace="0x00300000" />
