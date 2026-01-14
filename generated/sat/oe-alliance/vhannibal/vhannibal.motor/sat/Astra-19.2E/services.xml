@@ -566,7 +566,6 @@
         <service id="0x28ad" sid="10413" name="NDR Kultur" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28b6" sid="10422" name="NDR Schlager" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28b1" sid="10417" name="NDR1 Welle Nord KI" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
-        <service id="0x28a7" sid="10407" name="PULS" type="10" provider="ARD BR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c0" sid="10432" name="SR 1 Europawelle" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c2" sid="10434" name="SR 3 Saarlandwelle" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c1" sid="10433" name="SR kultur" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
@@ -641,9 +640,9 @@
         <service id="0x756c" sid="30060" name="M+VAMOSBAR2" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da4" sid="7588" name="Movistar Plus+" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da3" sid="7587" name="NEOX" type="1" provider="DIGITAL+" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x756b" sid="30059" name="PARAMOUNT" type="1" provider="PRISA TV" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1d91" sid="7569" name="TEST 2 TXP 42" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1d92" sid="7570" name="TEST TOROS" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x756b" sid="30059" name="TEST TXP 42" type="1" provider="PRISA TV" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da5" sid="7589" name="Vamos Bar HD" type="1" provider="" onid="1" tsid="1042" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -668,12 +667,12 @@
         <service id="0x1ed2" sid="7890" name="GOL" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed4" sid="7892" name="M+ LALIGA 4" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed5" sid="7893" name="M+ LALIGA 5" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
-        <service id="0x1ecd" sid="7885" name="M+ NAVIDAD" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1eca" sid="7882" name="M+LCAMPEON15" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788c" sid="30860" name="M+LCAMPEON16" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed6" sid="7894" name="M+LCAMPEON17" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ecc" sid="7884" name="M+LCAMPEON18" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788d" sid="30861" name="M+LCAMPEON19" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
+        <service id="0x1ecd" sid="7885" name="M+Tierra Media" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788f" sid="30863" name="MTV ESPAÑA" type="1" provider="DIGITAL+" onid="1" tsid="1044" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -1023,7 +1022,11 @@
     </satellite>
     <satellite key="00c00000:0437:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0437:0001" frequency="11954000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11954H" type="1" provider="" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d66" sid="28006" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d67" sid="28007" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d68" sid="28008" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d6b" sid="28011" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d6e" sid="28014" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:0438:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -1285,12 +1288,12 @@
         <service id="0x03ed" sid="1005" name="BVN" type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101c" sid="4124" name="CANAL+ Action" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101f" sid="4127" name="Canal+ Action B2B" type="31" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
+        <service id="0x03fc" sid="1020" name="CANAL+ Golf" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x040a" sid="1034" name="DAZN Pro League 1 FR" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100b" sid="4107" name="Hustler TV" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100d" sid="4109" name="Hustler TV CZ" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100a" sid="4106" name="INPLUS" type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x03f1" sid="1009" name="INPLUS." type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
-        <service id="0x03fc" sid="1020" name="Test" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101e" sid="4126" name="TVRI World" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x03f4" sid="1012" name="Nostalgie" type="2" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" radio="1" />
         <service id="0x103f" sid="4159" name="NRJ" type="2" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" radio="1" />

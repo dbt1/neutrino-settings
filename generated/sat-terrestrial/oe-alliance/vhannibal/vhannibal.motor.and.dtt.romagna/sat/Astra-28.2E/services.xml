@@ -48,6 +48,8 @@
     </satellite>
     <satellite key="011a0000:07e1:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07e1:0002" frequency="12032000" symbol_rate="29500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0xcd06" sid="52486" name="52486" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
+        <service id="0xcd08" sid="52488" name="52488" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xcd0a" sid="52490" name="52490" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xcd10" sid="52496" name="52496" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
         <service id="0xccb5" sid="52405" name="Animal Plnt+1" type="1" provider="BSkyB" onid="2" tsid="2017" namespace="0x011a0000" />
@@ -299,6 +301,7 @@
     </satellite>
     <satellite key="011a0000:07ee:0002" name="Astra-28.2E" namespace="0x011a0000" position="28.2">
       <transponder key="011a0000:07ee:0002" frequency="12285000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x05a7" sid="1447" name="5191" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x06f8" sid="1784" name="BlockbustersHD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x177e" sid="6014" name="Sky Action HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
         <service id="0x0eeb" sid="3819" name="Sky Comedy HD" type="25" provider="BSkyB" onid="2" tsid="2030" namespace="0x011a0000" />
@@ -726,7 +729,6 @@
         <service id="0xcba8" sid="52136" name="EWTN Catholic" type="1" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" />
         <service id="0xcba2" sid="52130" name="Islam Ch Urdu" type="1" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" />
         <service id="0xcb9b" sid="52123" name="Islam Channel" type="1" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" />
-        <service id="0xcb96" sid="52118" name="Racing TV" type="1" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" />
         <service id="0xcb9c" sid="52124" name="TBN UK" type="1" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" />
         <service id="0xcba9" sid="52137" name="EWTN Catholic" type="2" provider="BSkyB" onid="2" tsid="2108" namespace="0x011a0000" radio="1" />
       </transponder>
