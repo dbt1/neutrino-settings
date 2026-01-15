@@ -13,6 +13,11 @@
         <service id="0x0001" sid="1" name="Shams tv" type="1" provider="Harmonic" onid="8192" tsid="4096" namespace="0x00460000" />
       </transponder>
     </satellite>
+    <satellite key="00460000:4321:00eb" name="Sat-7E" namespace="0x00460000" position="7">
+      <transponder key="00460000:4321:00eb" frequency="11055000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="EBU 3 ENC" type="25" provider="CM5000" onid="235" tsid="17185" namespace="0x00460000" />
+      </transponder>
+    </satellite>
     <satellite key="00460000:4e20:0064" name="Sat-7E" namespace="0x00460000" position="7">
       <transponder key="00460000:4e20:0064" frequency="10721000" symbol_rate="22000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x232a" sid="9002" name="Kanal Yek HD" type="1" provider="" onid="100" tsid="20000" namespace="0x00460000" />
@@ -26,6 +31,7 @@
         <service id="0x00cf" sid="207" name="FX HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00c8" sid="200" name="Home+ HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x020c" sid="524" name="Iran International" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
+        <service id="0x020d" sid="525" name="Iran One News" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x01f4" sid="500" name="Manoto HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00cd" sid="205" name="Navahang" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
         <service id="0x00ce" sid="206" name="PBC Tapesh HD" type="1" provider="" onid="126" tsid="30300" namespace="0x00460000" />
@@ -46,17 +52,12 @@
     </satellite>
     <satellite key="00462b25:0000:0001" name="Sat-7E" namespace="0x00462b25" position="7">
       <transponder key="00462b25:0000:0001" frequency="11045000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ZZGVA1 ENC1" type="25" provider="EBU Eurovision" onid="1" tsid="0" namespace="0x00462b25" />
+        <service id="0x0001" sid="1" name="ZZGVA1 ENC2" type="25" provider="EBU Eurovision" onid="1" tsid="0" namespace="0x00462b25" />
       </transponder>
     </satellite>
     <satellite key="00462b2a:0000:0001" name="Sat-7E" namespace="0x00462b2a" position="7">
       <transponder key="00462b2a:0000:0001" frequency="11050000" symbol_rate="4938000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="ZZGVA1 ENC2" type="25" provider="EBU Eurovision" onid="1" tsid="0" namespace="0x00462b2a" />
-      </transponder>
-    </satellite>
-    <satellite key="00462b2f:0000:0000" name="Sat-7E" namespace="0x00462b2f" position="7">
-      <transponder key="00462b2f:0000:0000" frequency="11055000" symbol_rate="4937000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="ZZGVA1 ENC3" type="25" provider="EBU Eurovision" onid="0" tsid="0" namespace="0x00462b2f" />
       </transponder>
     </satellite>
     <satellite key="00462bfe:0000:0000" name="Sat-7E" namespace="0x00462bfe" position="7">

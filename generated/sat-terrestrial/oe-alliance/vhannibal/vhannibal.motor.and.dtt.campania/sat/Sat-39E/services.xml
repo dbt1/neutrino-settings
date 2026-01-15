@@ -219,7 +219,6 @@
     <satellite key="01860000:000d:001c" name="Sat-39E" namespace="0x01860000" position="39">
       <transponder key="01860000:000d:001c" frequency="12524000" symbol_rate="30000000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x005e" sid="94" name="Cartoonito" type="1" provider="" onid="28" tsid="13" namespace="0x01860000" />
-        <service id="0x00c7" sid="199" name="CBS Reality" type="1" provider="" onid="28" tsid="13" namespace="0x01860000" />
         <service id="0x01c8" sid="456" name="Cinemax" type="1" provider="" onid="28" tsid="13" namespace="0x01860000" />
         <service id="0x012e" sid="302" name="Cool TV" type="1" provider="" onid="28" tsid="13" namespace="0x01860000" />
         <service id="0x008d" sid="141" name="Diva" type="1" provider="" onid="28" tsid="13" namespace="0x01860000" />
@@ -545,6 +544,7 @@
         <service id="0x054c" sid="1356" name="Klan TV HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x125c" sid="4700" name="Mediaset Italia" type="1" provider="Mediaset" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x07a8" sid="1960" name="Muse" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
+        <service id="0x076c" sid="1900" name="Panorama TV" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0d84" sid="3460" name="Rai 1" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x048a" sid="1162" name="Rai 2" type="1" provider="Mediaset" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x04ba" sid="1210" name="RTK1" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
@@ -559,7 +559,7 @@
         <service id="0x132e" sid="4910" name="SS6-HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x134c" sid="4940" name="SS7-HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x137e" sid="4990" name="Top News" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
-        <service id="0x09ce" sid="2510" name="Tring Festa HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
+        <service id="0x09ce" sid="2510" name="Tring Family HD" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x0a64" sid="2660" name="Tring History" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x06ae" sid="1710" name="Tring Original" type="1" provider="Tring" onid="926" tsid="1020" namespace="0x01860000" />
         <service id="0x04aa" sid="1194" name="Turkish Stories" type="1" provider="Tring TV" onid="926" tsid="1020" namespace="0x01860000" />
@@ -711,6 +711,11 @@
     <satellite key="01863097:0001:ffff" name="Sat-39E" namespace="0x01863097" position="39">
       <transponder key="01863097:0001:ffff" frequency="12439000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01863097" />
+      </transponder>
+    </satellite>
+    <satellite key="0186ab12:0001:ffff" name="Sat-39E" namespace="0x0186ab12" position="39">
+      <transponder key="0186ab12:0001:ffff" frequency="11026000" symbol_rate="7200000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Hatay TV" type="25" provider="" onid="65535" tsid="1" namespace="0x0186ab12" />
       </transponder>
     </satellite>
     <satellite key="0186ab83:00a0:0000" name="Sat-39E" namespace="0x0186ab83" position="39">
