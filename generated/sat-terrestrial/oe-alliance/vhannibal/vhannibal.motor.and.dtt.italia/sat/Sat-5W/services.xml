@@ -304,33 +304,27 @@
         <service id="0x02fd" sid="765" name="LA7CINEMA TEST" type="1" provider="" onid="8572" tsid="263" namespace="0x0dde0000" />
       </transponder>
     </satellite>
-    <satellite key="0dde0000:03e8:0001" name="Sat-5W" namespace="0x0dde0000" position="-5">
-      <transponder key="0dde0000:03e8:0001" frequency="11454000" symbol_rate="543000" polarization="H" fec="1" system="0" modulation="0">
-        <service id="0x03e9" sid="1001" name="NOSTALGIE" type="2" provider="NGROUP" onid="1" tsid="1000" namespace="0x0dde0000" radio="1" />
-        <service id="0x03ea" sid="1002" name="NRJ" type="2" provider="NGROUP" onid="1" tsid="1000" namespace="0x0dde0000" radio="1" />
-      </transponder>
-    </satellite>
     <satellite key="0dde0000:2711:0090" name="Sat-5W" namespace="0x0dde0000" position="-5">
       <transponder key="0dde0000:2711:0090" frequency="11480000" symbol_rate="3167000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x042c" sid="1068" name="BFM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x05ee" sid="1518" name="FIP" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x05aa" sid="1450" name="France Culture" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x15e0" sid="5600" name="France Info" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x13ec" sid="5100" name="France Inter" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x14b4" sid="5300" name="France Musique" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x16a8" sid="5800" name="Le Mouv'" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x17d4" sid="6100" name="MFM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x1f40" sid="8000" name="Oui FM" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x0156" sid="342" name="Radio Classique" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x03ec" sid="1004" name="RMC" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x01f4" sid="500" name="Sec TDF1" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x0066" sid="102" name="Sec TDF2" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x02bc" sid="700" name="Sec TDF3" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x1bbc" sid="7100" name="Sud Radio" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x0028" sid="40" name="TDF-RDS1" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x00c8" sid="200" name="TDF-RDS2" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x012c" sid="300" name="Tiers-RDS" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
-        <service id="0x00b4" sid="180" name="TWC-SIRC" type="2" provider="FM-DVB TDF TFL" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x042c" sid="1068" name="BFM" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x05ee" sid="1518" name="FIP" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x05aa" sid="1450" name="France Culture" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x15e0" sid="5600" name="France Info" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x13ec" sid="5100" name="France Inter" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x14b4" sid="5300" name="France Musique" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x16a8" sid="5800" name="Le Mouv'" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x17d4" sid="6100" name="MFM" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x1f40" sid="8000" name="Oui FM" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0156" sid="342" name="Radio Classique" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x03ec" sid="1004" name="RMC" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x01f4" sid="500" name="Sec TDF1" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0066" sid="102" name="Sec TDF2" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x02bc" sid="700" name="Sec TDF3" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x1bbc" sid="7100" name="Sud Radio" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x0028" sid="40" name="TDF-RDS1" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x00c8" sid="200" name="TDF-RDS2" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x012c" sid="300" name="Tiers-RDS" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
+        <service id="0x00b4" sid="180" name="TWC-SIRC" type="2" provider="FM-DVB TDF RMV" onid="144" tsid="10001" namespace="0x0dde0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dde0000:32d2:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
@@ -419,7 +413,7 @@
     <satellite key="0dde0000:4e84:055f" name="Sat-5W" namespace="0x0dde0000" position="-5">
       <transponder key="0dde0000:4e84:055f" frequency="11471000" symbol_rate="29950000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0bc4" sid="3012" name="BFM TV" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
-        <service id="0x0bc8" sid="3016" name="CANAL SAV" type="22" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
+        <service id="0x0bc8" sid="3016" name="CANAL SAV" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
         <service id="0x0bc3" sid="3011" name="CNEWS" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
         <service id="0x0bc6" sid="3014" name="CSTAR" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
         <service id="0x0bc7" sid="3015" name="GULLI" type="25" provider="EUTELSAT" onid="1375" tsid="20100" namespace="0x0dde0000" />
@@ -643,8 +637,8 @@
         <service id="0x001a" sid="26" name="MPX-EUROPE2" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
         <service id="0x0019" sid="25" name="MPX-RFM" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
         <service id="0x0015" sid="21" name="MPX-RTL" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
-        <service id="0x000a" sid="10" name="NOSTALGIE IDF" type="2" provider="towerCast_B" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
-        <service id="0x000f" sid="15" name="NRJ IDF" type="2" provider="towerCast_B" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
+        <service id="0x000a" sid="10" name="NOSTALGIE IDF" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
+        <service id="0x000f" sid="15" name="NRJ IDF" type="2" provider="towerCast_A" onid="0" tsid="0" namespace="0x0dde2cc0" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dde2cc5:0000:0000" name="Sat-5W" namespace="0x0dde2cc5" position="-5">

@@ -43,6 +43,13 @@
         <service id="0x0001" sid="1" name="AL Manar" type="1" provider="AL Manar" onid="65535" tsid="1" namespace="0x0212b158" />
       </transponder>
     </satellite>
+    <satellite key="0212b15d:1000:2000" name="Sat-53E" namespace="0x0212b15d" position="53">
+      <transponder key="0212b15d:1000:2000" frequency="12637000" symbol_rate="1836000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Yemen TV HD" type="25" provider="" onid="8192" tsid="4096" namespace="0x0212b15d" />
+        <service id="0x0003" sid="3" name="Radio Sawt El Shaa" type="2" provider="" onid="8192" tsid="4096" namespace="0x0212b15d" radio="1" />
+        <service id="0x0002" sid="2" name="Yemen Radio" type="2" provider="" onid="8192" tsid="4096" namespace="0x0212b15d" radio="1" />
+      </transponder>
+    </satellite>
     <satellite key="0212b160:1000:ffff" name="Sat-53E" namespace="0x0212b160" position="53">
       <transponder key="0212b160:1000:ffff" frequency="12640000" symbol_rate="2200000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Almasirah" type="1" provider="Almasirah" onid="65535" tsid="4096" namespace="0x0212b160" />

@@ -46,7 +46,6 @@
         <service id="0x014c" sid="332" name="CNBC" type="1" provider="CNBC" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x02bc" sid="700" name="CNBC Europe" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x005c" sid="92" name="E! Entertainment" type="1" provider="E! Entertainment" onid="54" tsid="38" namespace="0x0ce40000" />
-        <service id="0x178c" sid="6028" name="E! Entertainment" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x008d" sid="141" name="Eurosport 2" type="1" provider="Eurosport 2" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x06fb" sid="1787" name="Eurosport 2" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
         <service id="0x178d" sid="6029" name="Fashion TV" type="1" provider="" onid="54" tsid="38" namespace="0x0ce40000" />
@@ -205,7 +204,6 @@
         <service id="0x125f" sid="4703" name="Star Channel HD" type="1" provider="Star Channel HD" onid="54" tsid="47" namespace="0x0ce40000" />
         <service id="0x17c6" sid="6086" name="STAR Channel HD" type="1" provider="" onid="54" tsid="47" namespace="0x0ce40000" />
         <service id="0x0093" sid="147" name="Trace Toca" type="1" provider="Trace Toca" onid="54" tsid="47" namespace="0x0ce40000" />
-        <service id="0x17a3" sid="6051" name="Trace Toca" type="1" provider="" onid="54" tsid="47" namespace="0x0ce40000" />
         <service id="0x179e" sid="6046" name="TV Cine Action" type="1" provider="" onid="54" tsid="47" namespace="0x0ce40000" />
         <service id="0x179d" sid="6045" name="TV Cine Top" type="1" provider="" onid="54" tsid="47" namespace="0x0ce40000" />
         <service id="0x0090" sid="144" name="TVCine ACTION HD" type="1" provider="TVCine ACTION HD" onid="54" tsid="47" namespace="0x0ce40000" />
@@ -225,6 +223,7 @@
     </satellite>
     <satellite key="0ce40000:0065:0053" name="Sat-30W" namespace="0x0ce40000" position="-30">
       <transponder key="0ce40000:0065:0053" frequency="12130000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x01df" sid="479" name="12130H SID 0x479" type="1" provider="DVB-S2 8PSK 12130H 330.0Â°E" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x006c" sid="108" name="A Bola TV" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00a0" sid="160" name="A Bola TV" type="1" provider="A Bola TV" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x004e" sid="78" name="ARTV" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
@@ -241,16 +240,14 @@
         <service id="0x01db" sid="475" name="CNN" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x0037" sid="55" name="CNN Portugal" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x009c" sid="156" name="CNN Portugal" type="1" provider="CNN Portugal" onid="83" tsid="101" namespace="0x0ce40000" />
+        <service id="0x002c" sid="44" name="Cubavision" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00c2" sid="194" name="Euronews" type="1" provider="Euronews" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x01de" sid="478" name="Euronews" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x008a" sid="138" name="Globo" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x009e" sid="158" name="Globo" type="1" provider="Globo" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x002e" sid="46" name="História" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x006d" sid="109" name="Lolly Kids" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
-        <service id="0x002c" sid="44" name="MEO" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00c3" sid="195" name="MTV 00s" type="1" provider="MTV 00s" onid="83" tsid="101" namespace="0x0ce40000" />
-        <service id="0x01df" sid="479" name="MTV 00s" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
-        <service id="0x0032" sid="50" name="MTV Portugal" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00a4" sid="164" name="MTV Portugal" type="1" provider="MTV Portugal" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x009f" sid="159" name="Porto Canal" type="1" provider="Porto Canal" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x01c7" sid="455" name="Porto Canal" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
@@ -266,7 +263,7 @@
         <service id="0x00a8" sid="168" name="RTP Madeira" type="1" provider="RTP Madeira" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00a3" sid="163" name="RTP Memória" type="1" provider="RTP Memória" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x01cb" sid="459" name="RTP Memória" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
-        <service id="0x002d" sid="45" name="RTP Notícias" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
+        <service id="0x002d" sid="45" name="RTP Notícias_" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x00a6" sid="166" name="RTP África" type="1" provider="RTP África" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x045c" sid="1116" name="RTP África" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
         <service id="0x0029" sid="41" name="RTP1" type="1" provider="" onid="83" tsid="101" namespace="0x0ce40000" />
@@ -543,7 +540,6 @@
     </satellite>
     <satellite key="0ce4ad7c:0065:0000" name="Sat-30W" namespace="0x0ce4ad7c" position="-30">
       <transponder key="0ce4ad7c:0065:0000" frequency="11644000" symbol_rate="4000000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x00c8" sid="200" name="11644V SID 0xc8" type="2" provider="DVB-S QPSK 11644V 330.0Â°E" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x000a" sid="10" name="Cadena 100" type="2" provider="Cadena 100" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x0013" sid="19" name="COPE" type="2" provider="COPE" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />
         <service id="0x001e" sid="30" name="COPE SAT 2" type="2" provider="COPE SAT 2" onid="0" tsid="101" namespace="0x0ce4ad7c" radio="1" />

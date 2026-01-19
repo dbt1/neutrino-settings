@@ -45,7 +45,7 @@
       </transponder>
     </satellite>
     <satellite key="01040000:000b:000a" name="Sat-26E" namespace="0x01040000" position="26">
-      <transponder key="01040000:000b:000a" frequency="11015000" symbol_rate="460000" polarization="H" fec="7" system="0" modulation="0">
+      <transponder key="01040000:000b:000a" frequency="11015000" symbol_rate="700000" polarization="H" fec="7" system="0" modulation="0">
         <service id="0x03e8" sid="1000" name="URadio Maroc" type="2" provider="" onid="10" tsid="11" namespace="0x01040000" radio="1" />
         <service id="0x056c" sid="1388" name="URadio Maroc" type="2" provider="" onid="10" tsid="11" namespace="0x01040000" radio="1" />
         <service id="0x0bb8" sid="3000" name="URadio Maroc" type="2" provider="" onid="10" tsid="11" namespace="0x01040000" radio="1" />
@@ -152,24 +152,12 @@
         <service id="0x0adb" sid="2779" name="Test5" type="25" provider="Test5" onid="1918" tsid="101" namespace="0x01040000" />
         <service id="0x277a" sid="10106" name="Test6" type="25" provider="test6" onid="1918" tsid="101" namespace="0x01040000" />
         <service id="0x277b" sid="10107" name="Test7" type="25" provider="test8" onid="1918" tsid="101" namespace="0x01040000" />
-        <service id="0x277c" sid="10108" name="Test8" type="25" provider="test9" onid="1918" tsid="101" namespace="0x01040000" />
-      </transponder>
-    </satellite>
-    <satellite key="01040000:0066:077e" name="Sat-26E" namespace="0x01040000" position="26">
-      <transponder key="01040000:0066:077e" frequency="10930000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x27de" sid="10206" name="beIN SPORTS" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
-        <service id="0x27da" sid="10202" name="beIN SPORTS 4" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
-        <service id="0x27d9" sid="10201" name="beIN SPORTS 6" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
-        <service id="0x27dd" sid="10205" name="beIN SPORTS 7" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
-        <service id="0x27db" sid="10203" name="beIN SPORTS 8" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
-        <service id="0x27dc" sid="10204" name="beIN SPORTS XTRA 3" type="25" provider="beIN" onid="1918" tsid="102" namespace="0x01040000" />
       </transponder>
     </satellite>
     <satellite key="01040000:012d:02be" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:012d:02be" frequency="11747000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x00c1" sid="193" name="AlKawthar HD" type="1" provider="JMC" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x073c" sid="1852" name="IFilm Arabic" type="1" provider="" onid="702" tsid="301" namespace="0x01040000" />
-        <service id="0x006b" sid="107" name="MDLBEAST Radio" type="1" provider="" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x06a7" sid="1703" name="RT Arabic HD" type="1" provider="" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x073b" sid="1851" name="SSBC" type="1" provider="" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x0001" sid="1" name="Test" type="1" provider="JMC" onid="702" tsid="301" namespace="0x01040000" />
@@ -180,6 +168,7 @@
         <service id="0x06a8" sid="1704" name="Test" type="1" provider="JMC" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x01c7" sid="455" name="Test 2" type="1" provider="JMC" onid="702" tsid="301" namespace="0x01040000" />
         <service id="0x01ba" sid="442" name="Test 3" type="1" provider="JMC" onid="702" tsid="301" namespace="0x01040000" />
+        <service id="0x006b" sid="107" name="MDLBEAST Radio" type="2" provider="" onid="702" tsid="301" namespace="0x01040000" radio="1" />
         <service id="0x0003" sid="3" name="Test" type="10" provider="JMC" onid="702" tsid="301" namespace="0x01040000" radio="1" />
       </transponder>
     </satellite>
@@ -434,15 +423,6 @@
         <service id="0x2a98" sid="10904" name="Almamlaka TV" type="1" provider="EshailSat" onid="224" tsid="1090" namespace="0x01040000" />
       </transponder>
     </satellite>
-    <satellite key="01040000:077e:0067" name="Sat-26E" namespace="0x01040000" position="26">
-      <transponder key="01040000:077e:0067" frequency="10930000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x283d" sid="10301" name="beIN 4K" type="25" provider="beIN" onid="103" tsid="1918" namespace="0x01040000" />
-        <service id="0x0b18" sid="2840" name="beIN SPORTS NBA" type="25" provider="beIN" onid="103" tsid="1918" namespace="0x01040000" />
-        <service id="0x283e" sid="10302" name="beIN SPORTS XTRA 8" type="25" provider="beIN" onid="103" tsid="1918" namespace="0x01040000" />
-        <service id="0x283f" sid="10303" name="beIN SPORTS XTRA 9" type="25" provider="beIN" onid="103" tsid="1918" namespace="0x01040000" />
-        <service id="0x0b19" sid="2841" name="Test 5" type="25" provider="Test" onid="103" tsid="1918" namespace="0x01040000" />
-      </transponder>
-    </satellite>
     <satellite key="01040000:07f8:00e0" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:07f8:00e0" frequency="10850000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x4fc8" sid="20424" name="Alkass eleven HD" type="25" provider="beIN" onid="224" tsid="2040" namespace="0x01040000" />
@@ -470,8 +450,8 @@
         <service id="0x139a" sid="5018" name="AL ARABY 2HD" type="25" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x0575" sid="1397" name="AL ARABY TV HD" type="25" provider="EshailSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x139b" sid="5019" name="Al Rahma TV" type="22" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
+        <service id="0x502d" sid="20525" name="Al Taghier" type="25" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x502c" sid="20524" name="ALIKHBARIYA.SY" type="25" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
-        <service id="0x502d" sid="20525" name="Altaghier TV" type="25" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x0004" sid="4" name="ANEWS" type="25" provider="EshailSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x501d" sid="20509" name="Majan TV HD" type="25" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
         <service id="0x501a" sid="20506" name="Salam TV" type="1" provider="EshialSat" onid="224" tsid="2050" namespace="0x01040000" />
@@ -633,13 +613,14 @@
         <service id="0x001e" sid="30" name="Anidaso TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001b" sid="27" name="AP TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001a" sid="26" name="Chairman TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x002e" sid="46" name="Champion TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="ED TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="G-Eye TV" type="1" provider="HenMax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002b" sid="43" name="Manso TV" type="1" provider="HenMax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000c" sid="12" name="Newday TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001d" sid="29" name="North East TV" type="1" provider="IPVideoTrans" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x000f" sid="15" name="OFF TV" type="1" provider="Quickstream" onid="702" tsid="5231" namespace="0x01040000" />
+        <service id="0x000f" sid="15" name="OFF TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x0011" sid="17" name="Passion TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000d" sid="13" name="PEMSAN TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001c" sid="28" name="Rahma TV" type="1" provider="Custom" onid="702" tsid="5231" namespace="0x01040000" />
@@ -743,6 +724,7 @@
         <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02de" sid="734" name="Islamic Library TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02cb" sid="715" name="LION 1 TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f3" sid="755" name="Metro TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e3" sid="739" name="NEESIM TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e2" sid="738" name="NHYIRA BAPTIST TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
@@ -898,13 +880,13 @@
       </transponder>
     </satellite>
     <satellite key="0104ad8d:1000:2000" name="Sat-26E" namespace="0x0104ad8d" position="26">
-      <transponder key="0104ad8d:1000:2000" frequency="11661000" symbol_rate="3330000" polarization="V" fec="3" system="0" modulation="0">
+      <transponder key="0104ad8d:1000:2000" frequency="11661000" symbol_rate="3330000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Al Aoula Laayoune" type="1" provider="" onid="8192" tsid="4096" namespace="0x0104ad8d" />
         <service id="0x0002" sid="2" name="Radio Laâyoune" type="2" provider="" onid="8192" tsid="4096" namespace="0x0104ad8d" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0104ad9a:0000:0000" name="Sat-26E" namespace="0x0104ad9a" position="26">
-      <transponder key="0104ad9a:0000:0000" frequency="11674000" symbol_rate="4833000" polarization="V" fec="3" system="0" modulation="0">
+      <transponder key="0104ad9a:0000:0000" frequency="11674000" symbol_rate="4833000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x0004" sid="4" name="Syria News HD" type="25" provider="" onid="0" tsid="0" namespace="0x0104ad9a" />
         <service id="0x03e8" sid="1000" name="Damascus-Radio" type="2" provider="" onid="0" tsid="0" namespace="0x0104ad9a" radio="1" />
         <service id="0x07d0" sid="2000" name="Radio Althora" type="2" provider="" onid="0" tsid="0" namespace="0x0104ad9a" radio="1" />
@@ -913,7 +895,7 @@
     </satellite>
     <satellite key="0104b048:0002:02be" name="Sat-26E" namespace="0x0104b048" position="26">
       <transponder key="0104b048:0002:02be" frequency="12360000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x00ce" sid="206" name="Libya Alrasmia" type="1" provider="" onid="702" tsid="2" namespace="0x0104b048" />
+        <service id="0x00ce" sid="206" name="Libya Al Rasmia" type="1" provider="" onid="702" tsid="2" namespace="0x0104b048" />
         <service id="0x020c" sid="524" name="Libya Alwataniya" type="1" provider="" onid="702" tsid="2" namespace="0x0104b048" />
         <service id="0x08ff" sid="2303" name="Libya Education" type="1" provider="" onid="702" tsid="2" namespace="0x0104b048" />
         <service id="0x020d" sid="525" name="LIBYA SPORT 1 HD" type="1" provider="" onid="702" tsid="2" namespace="0x0104b048" />

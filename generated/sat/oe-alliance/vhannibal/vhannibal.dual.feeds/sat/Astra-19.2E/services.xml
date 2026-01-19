@@ -345,6 +345,7 @@
         <service id="0x126e" sid="4718" name=".1." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x126f" sid="4719" name=".2." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x04f6" sid="1270" name=".3." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
+        <service id="0x04f7" sid="1271" name=".4." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x04ec" sid="1260" name="3+" type="25" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x125c" sid="4700" name="SES 01" type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x125d" sid="4701" name="SES 02" type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
@@ -566,7 +567,6 @@
         <service id="0x28ad" sid="10413" name="NDR Kultur" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28b6" sid="10422" name="NDR Schlager" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28b1" sid="10417" name="NDR1 Welle Nord KI" type="10" provider="ARD NDR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
-        <service id="0x28a7" sid="10407" name="PULS" type="10" provider="ARD BR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c0" sid="10432" name="SR 1 Europawelle" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c2" sid="10434" name="SR 3 Saarlandwelle" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
         <service id="0x28c1" sid="10433" name="SR kultur" type="10" provider="ARD SR" onid="1" tsid="1039" namespace="0x00c00000" radio="1" />
@@ -641,9 +641,9 @@
         <service id="0x756c" sid="30060" name="M+VAMOSBAR2" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da4" sid="7588" name="Movistar Plus+" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da3" sid="7587" name="NEOX" type="1" provider="DIGITAL+" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x756b" sid="30059" name="PARAMOUNT" type="1" provider="PRISA TV" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1d91" sid="7569" name="TEST 2 TXP 42" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1d92" sid="7570" name="TEST TOROS" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x756b" sid="30059" name="TEST TXP 42" type="1" provider="PRISA TV" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da5" sid="7589" name="Vamos Bar HD" type="1" provider="" onid="1" tsid="1042" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -668,12 +668,12 @@
         <service id="0x1ed2" sid="7890" name="GOL" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed4" sid="7892" name="M+ LALIGA 4" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed5" sid="7893" name="M+ LALIGA 5" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
-        <service id="0x1ecd" sid="7885" name="M+ NAVIDAD" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1eca" sid="7882" name="M+LCAMPEON15" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788c" sid="30860" name="M+LCAMPEON16" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed6" sid="7894" name="M+LCAMPEON17" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ecc" sid="7884" name="M+LCAMPEON18" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788d" sid="30861" name="M+LCAMPEON19" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
+        <service id="0x1ecd" sid="7885" name="M+Tierra Media" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788f" sid="30863" name="MTV ESPAÑA" type="1" provider="DIGITAL+" onid="1" tsid="1044" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -1009,8 +1009,6 @@
         <service id="0x1b58" sid="7000" name="Comedy Central HD." type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x1b5e" sid="7006" name="MTV" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fff" sid="28671" name="MTV" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
-        <service id="0x6ff0" sid="28656" name="MTV 00s" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
-        <service id="0x6ff1" sid="28657" name="MTV 80s" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fee" sid="28654" name="MTV HD" type="25" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fef" sid="28655" name="MTV HD AT" type="25" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6ff5" sid="28661" name="Nick Jr" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
@@ -1023,7 +1021,11 @@
     </satellite>
     <satellite key="00c00000:0437:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0437:0001" frequency="11954000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11954H" type="1" provider="" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d66" sid="28006" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d67" sid="28007" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d68" sid="28008" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d6b" sid="28011" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
+        <service id="0x6d6e" sid="28014" name="Astra Demo" type="1" provider="SES" onid="1" tsid="1079" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:0438:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -1285,12 +1287,12 @@
         <service id="0x03ed" sid="1005" name="BVN" type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101c" sid="4124" name="CANAL+ Action" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101f" sid="4127" name="Canal+ Action B2B" type="31" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
+        <service id="0x03fc" sid="1020" name="CANAL+ Golf" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x040a" sid="1034" name="DAZN Pro League 1 FR" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100b" sid="4107" name="Hustler TV" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100d" sid="4109" name="Hustler TV CZ" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100a" sid="4106" name="INPLUS" type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x03f1" sid="1009" name="INPLUS." type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
-        <service id="0x03fc" sid="1020" name="Test" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101e" sid="4126" name="TVRI World" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x03f4" sid="1012" name="Nostalgie" type="2" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" radio="1" />
         <service id="0x103f" sid="4159" name="NRJ" type="2" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" radio="1" />
@@ -1370,6 +1372,27 @@
         <service id="0x0b78" sid="2936" name="ALT_Xplore" type="1" provider="SES" onid="1" tsid="1112" namespace="0x00c00000" />
       </transponder>
     </satellite>
+    <satellite key="00c00000:0459:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
+      <transponder key="00c00000:0459:0001" frequency="12633000" symbol_rate="22000000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x315b" sid="12635" name="Babestation24" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x315f" sid="12639" name="EROTIKA TV - NEU!" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x314f" sid="12623" name="Heisse Dates TV" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c4e" sid="3150" name="Hot Babes TV" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c4f" sid="3151" name="Mobile Sex" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x313e" sid="12606" name="More Than Sports TV" type="1" provider="SES" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c50" sid="3152" name="Sex-Kontakte" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x314e" sid="12622" name="Sexy Girls TV" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c58" sid="3160" name="Sexy Treff TV" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c4c" sid="3148" name="Shop LC" type="22" provider="Net Insight AB" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x313c" sid="12604" name="TELEGOLD SD" type="22" provider="" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x0c59" sid="3161" name="TeleSex TV" type="1" provider="phabvision" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x313f" sid="12607" name="wedo movies" type="1" provider="SES" onid="1" tsid="1113" namespace="0x00c00000" />
+        <service id="0x316e" sid="12654" name="ffn" type="2" provider="MB Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
+        <service id="0x0c62" sid="3170" name="Radio HBR" type="2" provider="MB-Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
+        <service id="0x0c63" sid="3171" name="Radio HCJB" type="2" provider="MB-Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
+        <service id="0x316f" sid="12655" name="Radio Paloma" type="2" provider="MB Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
+      </transponder>
+    </satellite>
     <satellite key="00c00000:045a:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:045a:0001" frequency="12640000" symbol_rate="23500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x296b" sid="10603" name="Deluxe Dance by Kontor HD" type="25" provider="SES" onid="1" tsid="1114" namespace="0x00c00000" />
@@ -1426,35 +1449,6 @@
     <satellite key="00c02b85:0000:0000" name="Astra-19.2E" namespace="0x00c02b85" position="19.2">
       <transponder key="00c02b85:0000:0000" frequency="11141000" symbol_rate="23500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="11141H" type="1" provider="" onid="0" tsid="0" namespace="0x00c02b85" />
-      </transponder>
-    </satellite>
-    <satellite key="00c03159:0459:0000" name="Astra-19.2E" namespace="0x00c03159" position="19.2">
-      <transponder key="00c03159:0459:0000" frequency="12633000" symbol_rate="22000000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x315b" sid="12635" name="Babestation24" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x314a" sid="12618" name="Dreamgirls24 TV temp" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x314b" sid="12619" name="Eroticsat24 TV temp" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x315f" sid="12639" name="EROTIKA TV - NEU!" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c48" sid="3144" name="GayBoys LIVE" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c54" sid="3156" name="Heiss und Sexy TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x314f" sid="12623" name="Heisse Dates TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c4e" sid="3150" name="Hot Babes TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c42" sid="3138" name="MBS - Test2" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c57" sid="3159" name="MBS - Test3" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c4f" sid="3151" name="Mobile Sex" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x313e" sid="12606" name="More Than Sports TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c50" sid="3152" name="SEX-Kontakte" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x314e" sid="12622" name="Sexy Girls TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c58" sid="3160" name="Sexy Treff TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c4c" sid="3148" name="Shop LC" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x313c" sid="12604" name="TELEGOLD SD" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c59" sid="3161" name="TeleSex TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c5a" sid="3162" name="Time of Change.TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x0c53" sid="3155" name="Traumfrauen TV" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x313f" sid="12607" name="wedo movies" type="1" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" />
-        <service id="0x316e" sid="12654" name="ffn" type="2" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" radio="1" />
-        <service id="0x0c62" sid="3170" name="Radio HBR" type="2" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" radio="1" />
-        <service id="0x0c63" sid="3171" name="Radio HCJB" type="2" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" radio="1" />
-        <service id="0x316f" sid="12655" name="Radio Paloma" type="2" provider="MB Satellite" onid="0" tsid="1113" namespace="0x00c03159" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00c0adae:0001:0001" name="Astra-19.2E" namespace="0x00c0adae" position="19.2">

@@ -438,7 +438,7 @@
         <service id="0x03f0" sid="1008" name="Telecity Piemonte" type="1" provider="In Aria!" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x040c" sid="1036" name="Telecity Piemonte" type="1" provider="In Aria!" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x03ec" sid="1004" name="TELECUPOLE" type="25" provider="TELECUPOLE-TLT" onid="8572" tsid="4321" namespace="0x005a0000" />
-        <service id="0x03e9" sid="1001" name="TopCalcio24 HD" type="25" provider="BK" onid="8572" tsid="4321" namespace="0x005a0000" />
+        <service id="0x03e9" sid="1001" name="TopCalcio24 HD" type="25" provider="" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x03f1" sid="1009" name="VALENZA TV" type="22" provider="VALENZA TV" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x040d" sid="1037" name="VALENZA TV" type="22" provider="VALENZA TV" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x00c6" sid="198" name="VCO AZZURRA TV" type="1" provider="VCO AZZURRA TV" onid="8572" tsid="4321" namespace="0x005a0000" />
@@ -602,7 +602,7 @@
         <service id="0x07de" sid="2014" name="SEILATV Bergamo HD" type="1" provider="COELMEDIA" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07da" sid="2010" name="SUPERTV" type="1" provider="SUPERTV" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d3" sid="2003" name="Telecity Lombardia" type="1" provider="In Aria!" onid="8572" tsid="8417" namespace="0x005a0000" />
-        <service id="0x07dc" sid="2012" name="TELECOLOR HD" type="25" provider="Telecolor" onid="8572" tsid="8417" namespace="0x005a0000" />
+        <service id="0x07dc" sid="2012" name="TELECOLOR HD." type="25" provider="Telecolor" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d9" sid="2009" name="TI RICORDI TV" type="22" provider="TOTOPARTNER" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d8" sid="2008" name="TSN" type="1" provider="TSN" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d7" sid="2007" name="TT-TELETUTTO" type="25" provider="EI-TOWERS" onid="8572" tsid="8417" namespace="0x005a0000" />
@@ -792,7 +792,6 @@
         <service id="0x0025" sid="37" name="LA 4 ITALIA" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x0001" sid="1" name="NOVE" type="25" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x000e" sid="14" name="NOVE" type="25" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
-        <service id="0x007d" sid="125" name="PAROLE DI VITA" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x005d" sid="93" name="PROMO FOOD" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x005e" sid="94" name="PROMO HOME" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x0028" sid="40" name="PROMO KIDS" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
@@ -840,7 +839,7 @@
         <service id="0x1f6d" sid="8045" name="RADIO MARTE TV" type="1" provider="RADIO MARTE TV" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f5f" sid="8031" name="STILETV" type="25" provider="STILETV" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f63" sid="8035" name="TDS" type="1" provider="TDS" onid="8572" tsid="32995" namespace="0x005a0000" />
-        <service id="0x1f70" sid="8048" name="Tele Dehon" type="25" provider="Tele Dehon" onid="8572" tsid="32995" namespace="0x005a0000" />
+        <service id="0x1f70" sid="8048" name="Tele Dehon" type="25" provider="Tele Dehon bkp" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f64" sid="8036" name="TELECAPRI SPORT" type="25" provider="In Aria!" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f6a" sid="8042" name="TELENOSTRA" type="1" provider="TELENOSTRA" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f65" sid="8037" name="VIDEONOLA" type="1" provider="VIDEONOLA" onid="8572" tsid="32995" namespace="0x005a0000" />
@@ -849,12 +848,13 @@
     </satellite>
     <satellite key="005a0000:98e1:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
       <transponder key="005a0000:98e1:217c" frequency="12380000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x264c" sid="9804" name="Calabria TV HD" type="1" provider="Calabria TV HD" onid="8572" tsid="39137" namespace="0x005a0000" />
+        <service id="0x264c" sid="9804" name="Calabria TV HD" type="25" provider="Calabria TV" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5c" sid="2652" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a6a" sid="2666" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x265d" sid="9821" name="DIGITAL TV" type="1" provider="ADN" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a63" sid="2659" name="Eccellenza Calabria" type="1" provider="Eccellenza Calabria" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x264e" sid="9806" name="ESPERIA TV" type="1" provider="ESPERIA TV" onid="8572" tsid="39137" namespace="0x005a0000" />
+        <service id="0x265c" sid="9820" name="GS CHANNEL" type="25" provider="" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a62" sid="2658" name="JONICA RADIO TV" type="1" provider="JONICA RADIO TV" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5d" sid="2653" name="L'altro corriere" type="1" provider="L'altro corriere" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5a" sid="2650" name="LaC OnAir" type="1" provider="LA C" onid="8572" tsid="39137" namespace="0x005a0000" />
@@ -864,7 +864,7 @@
         <service id="0x0a60" sid="2656" name="RTC TELECALABRIA" type="22" provider="GLOBAL" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x264d" sid="9805" name="RTI" type="1" provider="Global" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5b" sid="2651" name="Tele A1" type="1" provider="Global" onid="8572" tsid="39137" namespace="0x005a0000" />
-        <service id="0x265a" sid="9818" name="Tele Dehon" type="25" provider="Tele Dehon" onid="8572" tsid="39137" namespace="0x005a0000" />
+        <service id="0x265a" sid="9818" name="Tele Dehon" type="25" provider="Tele Dehon bkp" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5e" sid="2654" name="TELEMIA" type="1" provider="LA TV CROSSMEDIALE" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a61" sid="2657" name="Telemormanno" type="1" provider="Telemormanno" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x264f" sid="9807" name="Telespazio TV HD" type="1" provider="Intecgroup" onid="8572" tsid="39137" namespace="0x005a0000" />

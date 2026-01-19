@@ -196,11 +196,15 @@
     <satellite key="0dca0000:000a:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:000a:0800" frequency="11804000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x03e9" sid="1001" name="Test" type="25" provider="Nilesat" onid="2048" tsid="10" namespace="0x0dca0000" />
-        <service id="0x03ea" sid="1002" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
-        <service id="0x03eb" sid="1003" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
-        <service id="0x03ec" sid="1004" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ea" sid="1002" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03eb" sid="1003" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ec" sid="1004" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ed" sid="1005" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ee" sid="1006" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03ef" sid="1007" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03f0" sid="1008" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03f1" sid="1009" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
+        <service id="0x03f2" sid="1010" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:000b:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -361,6 +365,7 @@
         <service id="0x1f44" sid="8004" name="Elkholasa mosalsalat" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f61" sid="8033" name="ELMOLED" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f6d" sid="8045" name="LIBYA ALMASAR TV" type="22" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
+        <service id="0x1f4f" sid="8015" name="Madh Elnabi" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f55" sid="8021" name="Nawader TV" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f5f" sid="8031" name="Palestine Today" type="25" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
         <service id="0x1f46" sid="8006" name="TRT KURDI" type="1" provider="" onid="110" tsid="18" namespace="0x0dca0000" />
@@ -549,7 +554,6 @@
         <service id="0x01a4" sid="420" name="AL HAQEQA AL DAWLIAH" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x0192" sid="402" name="ALRAHMAN" type="1" provider="" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x03f9" sid="1017" name="Alruqia Tv" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
-        <service id="0x03ed" sid="1005" name="Altaghier HD" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x01a1" sid="417" name="Ennahar rokia" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0xa0ec" sid="41196" name="Hadramout TV" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
         <service id="0x104b" sid="4171" name="Jordan Amen" type="1" provider="JMC" onid="2048" tsid="41" namespace="0x0dca0000" />
@@ -563,10 +567,13 @@
     <satellite key="0dca0000:002d:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:002d:0800" frequency="12073000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x04af" sid="1199" name="Animal Planet HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
-        <service id="0x11a0" sid="4512" name="Bloomberg Originals HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0x11a0" sid="4512" name="Bloomberg Originals" type="1" provider="" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119b" sid="4507" name="Cartoon Network HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x04ae" sid="1198" name="CNN HD" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119e" sid="4510" name="Fatafeat" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0xfffb" sid="65531" name="Humax PVR - Live OTA" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0xfff9" sid="65529" name="Humax Retail OTA" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0xfff7" sid="65527" name="Humax WIFI HEVC PVR - Live OTA" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119f" sid="4511" name="OSN" type="1" provider="Harmonic" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119c" sid="4508" name="OSNtv Comedy" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119a" sid="4506" name="OSNtv Kids" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
@@ -574,6 +581,8 @@
         <service id="0x04ad" sid="1197" name="OSNtv Movies Hollywood" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x04ac" sid="1196" name="OSNtv Now" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
         <service id="0x119d" sid="4509" name="OSNtv Yahala" type="25" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0xfffa" sid="65530" name="PDL Lite- Kaon Box OTA" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
+        <service id="0xfff6" sid="65526" name="Skyworth OTA" type="1" provider="OSN" onid="2048" tsid="45" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:0031:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -792,11 +801,6 @@
       <transponder key="0dca0000:4ee8:077e" frequency="10992000" symbol_rate="5000000" polarization="V" fec="9" system="0" modulation="0">
         <service id="0x006d" sid="109" name="AL ANIS TV" type="1" provider="" onid="1918" tsid="20200" namespace="0x0dca0000" />
         <service id="0x006e" sid="110" name="Chinguit TV" type="1" provider="" onid="1918" tsid="20200" namespace="0x0dca0000" />
-      </transponder>
-    </satellite>
-    <satellite key="0dca0000:7800:073a" name="Sat-7W" namespace="0x0dca0000" position="-7">
-      <transponder key="0dca0000:7800:073a" frequency="11034000" symbol_rate="5000000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Innovatech" type="1" provider="" onid="1850" tsid="30720" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:9c54:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
