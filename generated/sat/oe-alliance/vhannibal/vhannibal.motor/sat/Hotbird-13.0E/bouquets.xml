@@ -15,8 +15,6 @@
     <channel service_ref="1:0:25:0001:0016:ffff:0082abb9:0:0:0:" name="11193V" service_name="11193V" provider="" sid="1" onid="65535" tsid="22" />
     <channel service_ref="1:0:25:0001:0000:0000:0082abc0:0:0:0:" name="11200V" service_name="11200V" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:25:0001:00c8:013e:00820000:0:0:0:" name="11240V" service_name="11240V" provider="" sid="1" onid="318" tsid="200" />
-    <channel service_ref="1:0:1:32c9:0190:013e:00820000:0:0:0:" name="11278V SID 0x32c9" service_name="11278V SID 0x32c9" provider="DVB-S2 8PSK 11278V 13.0Â°E" sid="13001" onid="318" tsid="400" />
-    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="11278V SID 0x32fb" service_name="11278V SID 0x32fb" provider="DVB-S2 8PSK 11278V 13.0Â°E" sid="13051" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0001:0259:013e:00820000:0:0:0:" name="11317V" service_name="11317V" provider="" sid="1" onid="318" tsid="601" />
     <channel service_ref="1:0:25:0001:0000:0000:00822d46:0:0:0:" name="11590H" service_name="11590H" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:25:0001:0000:0000:00822d54:0:0:0:" name="11604H" service_name="11604H" provider="" sid="1" onid="0" tsid="0" />
@@ -33,6 +31,7 @@
     <channel service_ref="1:0:1:0001:2198:fbff:00820000:0:0:0:" name="12418V" service_name="12418V" provider="" sid="1" onid="64511" tsid="8600" />
     <channel service_ref="1:0:1:0001:0072:0061:00820000:0:0:0:" name="12437H." service_name="12437H." provider="" sid="1" onid="97" tsid="114" />
     <channel service_ref="1:0:25:0001:0000:0000:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="0" tsid="0" />
+    <channel service_ref="1:0:25:0001:0000:0000:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:25:0001:0000:0000:0082b140:0:0:0:" name="12608V" service_name="12608V" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:13b5:2710:00d5:00820000:0:0:0:" name="12713V SID 0x13b5" service_name="12713V SID 0x13b5" provider="DVB-S2 8PSK 12713V 13.0Â°E" sid="5045" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
@@ -141,6 +140,7 @@
     <channel service_ref="1:0:25:07db:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2011" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:07e5:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2021" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:0d02:1388:013e:00820000:0:0:0:" name="BBC News Europe" service_name="BBC News Europe" provider="Globecast" sid="3330" onid="318" tsid="5000" />
+    <channel service_ref="1:0:25:07e7:22c4:013e:00820000:0:0:0:" name="BBC PERSIAN" service_name="BBC PERSIAN" provider="BBC World Service" sid="2023" onid="318" tsid="8900" />
     <channel service_ref="1:0:25:332f:1388:013e:00820000:0:0:0:" name="BBC Persian HD" service_name="BBC Persian HD" provider="Globecast" sid="13103" onid="318" tsid="5000" />
     <channel service_ref="1:0:22:138c:2710:00d5:00820000:0:0:0:" name="BeIN Movies Turk" service_name="BeIN Movies Turk" provider="VIVACOM" sid="5004" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:108b:2f44:013e:00820000:0:0:0:" name="BeJoy.kids" service_name="BeJoy.kids" provider="M-Three Satcom" sid="4235" onid="318" tsid="12100" />
@@ -191,11 +191,15 @@
     <channel service_ref="1:0:1:13ef:05dc:013e:00820000:0:0:0:" name="CANAL+ DOMO HD" service_name="CANAL+ DOMO HD" provider="CANAL+" sid="5103" onid="318" tsid="1500" />
     <channel service_ref="1:0:1:0cf1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="3313" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13025" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331d:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13085" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec7:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="3783" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37b5:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14261" onid="318" tsid="1100" />
+    <channel service_ref="1:0:1:37bf:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14271" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:0cf3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="3315" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13027" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331f:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13087" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0cf4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3316" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:0cf8:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3320" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="13028" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec3:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="3779" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37ab:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="14251" onid="318" tsid="1100" />
@@ -408,7 +412,6 @@
     <channel service_ref="1:0:1:10ab:2f44:013e:00820000:0:0:0:" name="Eutelsat Data 1" service_name="Eutelsat Data 1" provider="Eutelsat" sid="4267" onid="318" tsid="12100" />
     <channel service_ref="1:0:1:29d1:1c20:013e:00820000:0:0:0:" name="EWTN ENGLISH" service_name="EWTN ENGLISH" provider="GLOBECAST" sid="10705" onid="318" tsid="7200" />
     <channel service_ref="1:0:1:290a:1edc:0071:00820000:0:0:0:" name="Extreme Sports HD" service_name="Extreme Sports HD" provider="Cyfrowy Polsat S.A." sid="10506" onid="113" tsid="7900" />
-    <channel service_ref="1:0:25:0001:0000:0000:0082b13b:0:0:0:" name="F-509/ TROPHEE JULES VERNE DIRTY" service_name="F-509/ TROPHEE JULES VERNE DIRTY" provider="F509" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:22:00cd:25e4:00d5:00820000:0:0:0:" name="Fantazzy" service_name="Fantazzy" provider="VIVACOM" sid="205" onid="213" tsid="9700" />
     <channel service_ref="1:0:22:00d6:25e4:00d5:00820000:0:0:0:" name="Fashion TV" service_name="Fashion TV" provider="VIVACOM" sid="214" onid="213" tsid="9700" />
     <channel service_ref="1:0:22:00f5:25e4:00d5:00820000:0:0:0:" name="Fen TV" service_name="Fen TV" provider="VIVACOM" sid="245" onid="213" tsid="9700" />
@@ -599,6 +602,8 @@
     <channel service_ref="1:0:25:0037:3264:013e:00820000:0:0:0:" name="Kabelio ZDF" service_name="Kabelio ZDF" provider="KABELIO.CH" sid="55" onid="318" tsid="12900" />
     <channel service_ref="1:0:22:13ae:2710:00d5:00820000:0:0:0:" name="KANAL 7 Avrupa" service_name="KANAL 7 Avrupa" provider="VIVACOM" sid="5038" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:3abf:0514:013e:00820000:0:0:0:" name="KANAL TESTOWY" service_name="KANAL TESTOWY" provider="CANAL+" sid="15039" onid="318" tsid="1300" />
+    <channel service_ref="1:0:1:32c9:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="" sid="13001" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="CANAL+" sid="13051" onid="318" tsid="400" />
     <channel service_ref="1:0:1:06bd:3138:013e:00820000:0:0:0:" name="KaravanTV" service_name="KaravanTV" provider="GLOBECAST" sid="1725" onid="318" tsid="12600" />
     <channel service_ref="1:0:1:052d:33f4:013e:00820000:0:0:0:" name="KBS WORLD" service_name="KBS WORLD" provider="Telespazio" sid="1325" onid="318" tsid="13300" />
     <channel service_ref="1:0:1:232f:2328:013e:00820000:0:0:0:" name="KENTRON TV" service_name="KENTRON TV" provider="STN" sid="9007" onid="318" tsid="9000" />
@@ -784,7 +789,7 @@
     <channel service_ref="1:0:1:108e:3db8:013e:00820000:0:0:0:" name="Padre Pio Tv" service_name="Padre Pio Tv" provider="Telespazio" sid="4238" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:000f:1964:013e:00820000:0:0:0:" name="Paramount Network Polska" service_name="Paramount Network Polska" provider="Cyfrowy Polsat S.A." sid="15" onid="318" tsid="6500" />
     <channel service_ref="1:0:1:01fe:0384:013e:00820000:0:0:0:" name="Parole di Vita" service_name="Parole di Vita" provider="M-Three Satcom" sid="510" onid="318" tsid="900" />
-    <channel service_ref="1:0:1:00ce:0384:013e:00820000:0:0:0:" name="People TV" service_name="People TV" provider="PEOPLETV-RETE7" sid="206" onid="318" tsid="900" />
+    <channel service_ref="1:0:1:00ce:0384:013e:00820000:0:0:0:" name="People TV" service_name="People TV" provider="M-Three Satcom" sid="206" onid="318" tsid="900" />
     <channel service_ref="1:0:22:008e:251c:00d5:00820000:0:0:0:" name="Perets Int." service_name="Perets Int." provider="VIVACOM" sid="142" onid="213" tsid="9500" />
     <channel service_ref="1:0:22:00e1:25e4:00d5:00820000:0:0:0:" name="Pickbox TV" service_name="Pickbox TV" provider="VIVACOM" sid="225" onid="213" tsid="9700" />
     <channel service_ref="1:0:25:377e:044c:013e:00820000:0:0:0:" name="Planete+ HD" service_name="Planete+ HD" provider="CANAL+" sid="14206" onid="318" tsid="1100" />
@@ -881,7 +886,7 @@
     <channel service_ref="1:0:1:00c9:0384:013e:00820000:0:0:0:" name="RADIONORBA TV" service_name="RADIONORBA TV" provider="Telenorba" sid="201" onid="318" tsid="900" />
     <channel service_ref="1:0:25:0d49:1450:013e:00820000:0:0:0:" name="Rai 1 HD" service_name="Rai 1 HD" provider="Rai" sid="3401" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:0d4a:1450:013e:00820000:0:0:0:" name="Rai 2 HD" service_name="Rai 2 HD" provider="Rai" sid="3402" onid="318" tsid="5200" />
-    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="" sid="3403" onid="318" tsid="5200" />
+    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="Rai" sid="3403" onid="318" tsid="5200" />
     <channel service_ref="1:0:22:11c8:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Abruzzo" service_name="Rai 3 TGR Abruzzo" provider="Rai" sid="4552" onid="318" tsid="12500" />
     <channel service_ref="1:0:22:11c0:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Basilicata" service_name="Rai 3 TGR Basilicata" provider="Rai" sid="4544" onid="318" tsid="12500" />
     <channel service_ref="1:0:22:11c1:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Calabria" service_name="Rai 3 TGR Calabria" provider="Rai" sid="4545" onid="318" tsid="12500" />
@@ -1836,6 +1841,7 @@
     <channel service_ref="1:0:22:3b64:012c:013e:00820000:0:0:0:" name="K2" service_name="K2" provider="Warner Bros. Discovery" sid="15204" onid="318" tsid="300" />
     <channel service_ref="1:0:25:0037:3264:013e:00820000:0:0:0:" name="Kabelio ZDF" service_name="Kabelio ZDF" provider="KABELIO.CH" sid="55" onid="318" tsid="12900" />
     <channel service_ref="1:0:1:01fe:0384:013e:00820000:0:0:0:" name="Parole di Vita" service_name="Parole di Vita" provider="M-Three Satcom" sid="510" onid="318" tsid="900" />
+    <channel service_ref="1:0:1:00ce:0384:013e:00820000:0:0:0:" name="People TV" service_name="People TV" provider="M-Three Satcom" sid="206" onid="318" tsid="900" />
     <channel service_ref="1:0:25:00cc:0384:013e:00820000:0:0:0:" name="RADIO ZETA HD" service_name="RADIO ZETA HD" provider="M-Three satcom" sid="204" onid="318" tsid="900" />
     <channel service_ref="1:0:25:00cb:0384:013e:00820000:0:0:0:" name="RADIOFRECCIA HD" service_name="RADIOFRECCIA HD" provider="M-Three Satcom" sid="203" onid="318" tsid="900" />
     <channel service_ref="1:0:22:11c8:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Abruzzo" service_name="Rai 3 TGR Abruzzo" provider="Rai" sid="4552" onid="318" tsid="12500" />
@@ -1873,6 +1879,8 @@
     <channel service_ref="1:0:1:049f:2af8:013e:00820000:0:0:0:" name="BBC FIRST" service_name="BBC FIRST" provider="CANAL+" sid="1183" onid="318" tsid="11000" />
     <channel service_ref="1:0:25:07db:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2011" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:07e5:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2021" onid="318" tsid="8900" />
+    <channel service_ref="1:0:25:07e7:22c4:013e:00820000:0:0:0:" name="BBC PERSIAN" service_name="BBC PERSIAN" provider="BBC World Service" sid="2023" onid="318" tsid="8900" />
+    <channel service_ref="1:0:25:07e7:22c4:013e:00820000:0:0:0:" name="BBC PERSIAN" service_name="BBC PERSIAN" provider="BBC World Service" sid="2023" onid="318" tsid="8900" />
     <channel service_ref="1:0:25:332f:1388:013e:00820000:0:0:0:" name="BBC Persian HD" service_name="BBC Persian HD" provider="Globecast" sid="13103" onid="318" tsid="5000" />
     <channel service_ref="1:0:25:00dd:2c24:013e:00820000:0:0:0:" name="Kabelio BBC One Lon" service_name="Kabelio BBC One Lon" provider="KABELIO.CH" sid="221" onid="318" tsid="11300" />
     <channel service_ref="1:0:25:00de:2c24:013e:00820000:0:0:0:" name="Kabelio BBC Two" service_name="Kabelio BBC Two" provider="KABELIO.CH" sid="222" onid="318" tsid="11300" />
@@ -1895,7 +1903,8 @@
     <channel service_ref="1:0:25:0d49:1450:013e:00820000:0:0:0:" name="Rai 1 HD" service_name="Rai 1 HD" provider="Rai" sid="3401" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:0d4a:1450:013e:00820000:0:0:0:" name="Rai 2 HD" service_name="Rai 2 HD" provider="Rai" sid="3402" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:0d4a:1450:013e:00820000:0:0:0:" name="Rai 2 HD" service_name="Rai 2 HD" provider="Rai" sid="3402" onid="318" tsid="5200" />
-    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="" sid="3403" onid="318" tsid="5200" />
+    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="Rai" sid="3403" onid="318" tsid="5200" />
+    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="Rai" sid="3403" onid="318" tsid="5200" />
     <channel service_ref="1:0:22:11c8:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Abruzzo" service_name="Rai 3 TGR Abruzzo" provider="Rai" sid="4552" onid="318" tsid="12500" />
     <channel service_ref="1:0:22:11c0:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Basilicata" service_name="Rai 3 TGR Basilicata" provider="Rai" sid="4544" onid="318" tsid="12500" />
     <channel service_ref="1:0:22:11c0:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Basilicata" service_name="Rai 3 TGR Basilicata" provider="Rai" sid="4544" onid="318" tsid="12500" />
@@ -2020,15 +2029,22 @@
     <channel service_ref="1:0:1:0cf1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="3313" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13025" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13025" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331d:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13085" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331d:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13085" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec7:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="3783" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:0ec7:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="3783" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37b5:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14261" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37b5:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14261" onid="318" tsid="1100" />
+    <channel service_ref="1:0:1:37bf:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14271" onid="318" tsid="1100" />
+    <channel service_ref="1:0:1:37bf:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14271" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:0cf3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="3315" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0cf3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="3315" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13027" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13027" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331f:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13087" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331f:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13087" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0cf4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3316" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:0cf8:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3320" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="13028" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec3:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="3779" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37ab:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="14251" onid="318" tsid="1100" />
@@ -2141,6 +2157,8 @@
     <channel service_ref="1:0:25:00f1:2c24:013e:00820000:0:0:0:" name="Kabelio TF1 CH" service_name="Kabelio TF1 CH" provider="KABELIO.CH" sid="241" onid="318" tsid="11300" />
     <channel service_ref="1:0:1:3abf:0514:013e:00820000:0:0:0:" name="KANAL TESTOWY" service_name="KANAL TESTOWY" provider="CANAL+" sid="15039" onid="318" tsid="1300" />
     <channel service_ref="1:0:1:3abf:0514:013e:00820000:0:0:0:" name="KANAL TESTOWY" service_name="KANAL TESTOWY" provider="CANAL+" sid="15039" onid="318" tsid="1300" />
+    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="CANAL+" sid="13051" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="CANAL+" sid="13051" onid="318" tsid="400" />
     <channel service_ref="1:0:1:3d64:2c88:013e:00820000:0:0:0:" name="KINO POLSKA HD" service_name="KINO POLSKA HD" provider="CANAL+" sid="15716" onid="318" tsid="11400" />
     <channel service_ref="1:0:1:3d64:2c88:013e:00820000:0:0:0:" name="KINO POLSKA HD" service_name="KINO POLSKA HD" provider="CANAL+" sid="15716" onid="318" tsid="11400" />
     <channel service_ref="1:0:1:3d96:2c88:013e:00820000:0:0:0:" name="KINO POLSKA HD" service_name="KINO POLSKA HD" provider="CANAL+" sid="15766" onid="318" tsid="11400" />
@@ -2269,8 +2287,6 @@
     <channel service_ref="1:0:1:0001:2db4:013e:00820000:0:0:0:" name="10853H" service_name="10853H" provider="" sid="1" onid="318" tsid="11700" />
     <channel service_ref="1:0:1:0001:0001:000b:00820000:0:0:0:" name="11054H" service_name="11054H" provider="" sid="1" onid="11" tsid="1" />
     <channel service_ref="1:0:25:0001:0016:ffff:0082abb9:0:0:0:" name="11193V" service_name="11193V" provider="" sid="1" onid="65535" tsid="22" />
-    <channel service_ref="1:0:1:32c9:0190:013e:00820000:0:0:0:" name="11278V SID 0x32c9" service_name="11278V SID 0x32c9" provider="DVB-S2 8PSK 11278V 13.0Â°E" sid="13001" onid="318" tsid="400" />
-    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="11278V SID 0x32fb" service_name="11278V SID 0x32fb" provider="DVB-S2 8PSK 11278V 13.0Â°E" sid="13051" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0001:0259:013e:00820000:0:0:0:" name="11317V" service_name="11317V" provider="" sid="1" onid="318" tsid="601" />
     <channel service_ref="1:0:25:0001:0000:0000:00822d46:0:0:0:" name="11590H" service_name="11590H" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:0001:0000:0000:0082ad67:0:0:0:" name="11623V" service_name="11623V" provider="" sid="1" onid="0" tsid="0" />
@@ -2280,6 +2296,7 @@
     <channel service_ref="1:0:1:0001:206c:013e:00820000:0:0:0:" name="12360H" service_name="12360H" provider="" sid="1" onid="318" tsid="8300" />
     <channel service_ref="1:0:1:0001:0072:0061:00820000:0:0:0:" name="12437H." service_name="12437H." provider="" sid="1" onid="97" tsid="114" />
     <channel service_ref="1:0:25:0001:0000:0000:0082b133:0:0:0:" name="12595V" service_name="12595V" provider="" sid="1" onid="0" tsid="0" />
+    <channel service_ref="1:0:25:0001:0000:0000:0082b13b:0:0:0:" name="12603V" service_name="12603V" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:13b5:2710:00d5:00820000:0:0:0:" name="12713V SID 0x13b5" service_name="12713V SID 0x13b5" provider="DVB-S2 8PSK 12713V 13.0Â°E" sid="5045" onid="213" tsid="10000" />
     <channel service_ref="1:0:1:3e26:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15910" onid="318" tsid="12000" />
     <channel service_ref="1:0:1:3e44:2ee0:013e:00820000:0:0:0:" name="13 Ulica HD" service_name="13 Ulica HD" provider="Cyfrowy Polsat S.A." sid="15940" onid="318" tsid="12000" />
@@ -2291,7 +2308,6 @@
     <channel service_ref="1:0:1:00b7:1c84:013e:00820000:0:0:0:" name="EPT3 HD" service_name="EPT3 HD" provider="NOVA" sid="183" onid="318" tsid="7300" />
     <channel service_ref="1:0:1:0445:3db8:013e:00820000:0:0:0:" name="EQUtv" service_name="EQUtv" provider="Telespazio" sid="1093" onid="318" tsid="15800" />
     <channel service_ref="1:0:25:0001:4321:00eb:00820000:0:0:0:" name="ES test 22HD" service_name="ES test 22HD" provider="CM5000" sid="1" onid="235" tsid="17185" />
-    <channel service_ref="1:0:25:0001:0000:0000:0082b13b:0:0:0:" name="F-509/ TROPHEE JULES VERNE DIRTY" service_name="F-509/ TROPHEE JULES VERNE DIRTY" provider="F509" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:134b:33f4:013e:00820000:0:0:0:" name="HADI TV 3" service_name="HADI TV 3" provider="Telespazio" sid="4939" onid="318" tsid="13300" />
     <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Pri" service_name="HVS-3 DN2 Pri" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:25:0028:3264:013e:00820000:0:0:0:" name="Kabelio 3+" service_name="Kabelio 3+" provider="KABELIO.CH" sid="40" onid="318" tsid="12900" />
@@ -2999,7 +3015,7 @@
     <channel service_ref="1:0:25:00cb:0384:013e:00820000:0:0:0:" name="RADIOFRECCIA HD" service_name="RADIOFRECCIA HD" provider="M-Three Satcom" sid="203" onid="318" tsid="900" />
     <channel service_ref="1:0:25:0d49:1450:013e:00820000:0:0:0:" name="Rai 1 HD" service_name="Rai 1 HD" provider="Rai" sid="3401" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:0d4a:1450:013e:00820000:0:0:0:" name="Rai 2 HD" service_name="Rai 2 HD" provider="Rai" sid="3402" onid="318" tsid="5200" />
-    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="" sid="3403" onid="318" tsid="5200" />
+    <channel service_ref="1:0:25:0d4b:1450:013e:00820000:0:0:0:" name="Rai 3 HD" service_name="Rai 3 HD" provider="Rai" sid="3403" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:454f:30d4:013e:00820000:0:0:0:" name="Rai 3 TGR Südtirol HD" service_name="Rai 3 TGR Südtirol HD" provider="Rai" sid="17743" onid="318" tsid="12500" />
     <channel service_ref="1:0:25:0d4d:1450:013e:00820000:0:0:0:" name="Rai 4 HD" service_name="Rai 4 HD" provider="" sid="3405" onid="318" tsid="5200" />
     <channel service_ref="1:0:25:11b6:30d4:013e:00820000:0:0:0:" name="Rai 5 HD" service_name="Rai 5 HD" provider="Rai" sid="4534" onid="318" tsid="12500" />
@@ -3356,6 +3372,7 @@
     <channel service_ref="1:0:25:00cd:2c24:013e:00820000:0:0:0:" name="Kabelio TV SuedOst" service_name="Kabelio TV SuedOst" provider="KABELIO.CH" sid="205" onid="318" tsid="11300" />
     <channel service_ref="1:0:25:002b:3264:013e:00820000:0:0:0:" name="Kabelio TV24" service_name="Kabelio TV24" provider="KABELIO.CH" sid="43" onid="318" tsid="12900" />
     <channel service_ref="1:0:25:00cc:2c24:013e:00820000:0:0:0:" name="Kabelio TVO" service_name="Kabelio TVO" provider="KABELIO.CH" sid="204" onid="318" tsid="11300" />
+    <channel service_ref="1:0:1:32c9:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="" sid="13001" onid="318" tsid="400" />
     <channel service_ref="1:0:1:232f:2328:013e:00820000:0:0:0:" name="KENTRON TV" service_name="KENTRON TV" provider="STN" sid="9007" onid="318" tsid="9000" />
     <channel service_ref="1:0:22:08a1:01f4:00fc:00820000:0:0:0:" name="KTV" service_name="KTV" provider="iKOMG" sid="2209" onid="252" tsid="500" />
     <channel service_ref="1:0:1:01fc:0384:013e:00820000:0:0:0:" name="Kurdistan 24 HD" service_name="Kurdistan 24 HD" provider="" sid="508" onid="318" tsid="900" />
@@ -3383,7 +3400,6 @@
     <channel service_ref="1:0:1:232d:2328:013e:00820000:0:0:0:" name="ORLER TV" service_name="ORLER TV" provider="STN" sid="9005" onid="318" tsid="9000" />
     <channel service_ref="1:0:22:006f:2fa8:013e:00820000:0:0:0:" name="OST/WEST 24" service_name="OST/WEST 24" provider="Svoboda Satellite" sid="111" onid="318" tsid="12200" />
     <channel service_ref="1:0:1:02be:14b4:013e:00820000:0:0:0:" name="Outdoor Channel" service_name="Outdoor Channel" provider="MuxIP" sid="702" onid="318" tsid="5300" />
-    <channel service_ref="1:0:1:00ce:0384:013e:00820000:0:0:0:" name="People TV" service_name="People TV" provider="PEOPLETV-RETE7" sid="206" onid="318" tsid="900" />
     <channel service_ref="1:0:1:039f:2328:013e:00820000:0:0:0:" name="redpath" service_name="redpath" provider="STN" sid="927" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:005a:3e1c:013f:00820000:0:0:0:" name="RMC DECOUVERTE" service_name="RMC DECOUVERTE" provider="Eutelsat" sid="90" onid="319" tsid="15900" />
     <channel service_ref="1:0:1:052c:2e7c:013f:00820000:0:0:0:" name="RMC DECOUVERTE" service_name="RMC DECOUVERTE" provider="Eutelsat" sid="1324" onid="319" tsid="11900" />
@@ -3528,11 +3544,15 @@
     <channel service_ref="1:0:1:13ef:05dc:013e:00820000:0:0:0:" name="CANAL+ DOMO HD" service_name="CANAL+ DOMO HD" provider="CANAL+" sid="5103" onid="318" tsid="1500" />
     <channel service_ref="1:0:1:0cf1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="3313" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e1:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13025" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331d:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 1" service_name="CANAL+ EXTRA 1" provider="CANAL+" sid="13085" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec7:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="3783" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37b5:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14261" onid="318" tsid="1100" />
+    <channel service_ref="1:0:1:37bf:044c:013e:00820000:0:0:0:" name="CANAL+ EXTRA 2" service_name="CANAL+ EXTRA 2" provider="CANAL+" sid="14271" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:0cf3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="3315" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e3:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13027" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:331f:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 3" service_name="CANAL+ EXTRA 3" provider="CANAL+" sid="13087" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0cf4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3316" onid="318" tsid="400" />
+    <channel service_ref="1:0:1:0cf8:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="3320" onid="318" tsid="400" />
     <channel service_ref="1:0:1:32e4:0190:013e:00820000:0:0:0:" name="CANAL+ EXTRA 4" service_name="CANAL+ EXTRA 4" provider="" sid="13028" onid="318" tsid="400" />
     <channel service_ref="1:0:1:0ec3:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="3779" onid="318" tsid="1100" />
     <channel service_ref="1:0:1:37ab:044c:013e:00820000:0:0:0:" name="CANAL+ FILM HD" service_name="CANAL+ FILM HD" provider="CANAL+" sid="14251" onid="318" tsid="1100" />
@@ -3603,6 +3623,7 @@
     <channel service_ref="1:0:25:047c:2af8:013e:00820000:0:0:0:" name="Hustler HD Nova" service_name="Hustler HD Nova" provider="CANAL+" sid="1148" onid="318" tsid="11000" />
     <channel service_ref="1:0:25:047b:2af8:013e:00820000:0:0:0:" name="Hustler HD SBB" service_name="Hustler HD SBB" provider="CANAL+" sid="1147" onid="318" tsid="11000" />
     <channel service_ref="1:0:1:3abf:0514:013e:00820000:0:0:0:" name="KANAL TESTOWY" service_name="KANAL TESTOWY" provider="CANAL+" sid="15039" onid="318" tsid="1300" />
+    <channel service_ref="1:0:1:32fb:0190:013e:00820000:0:0:0:" name="Kanal ZERO TV" service_name="Kanal ZERO TV" provider="CANAL+" sid="13051" onid="318" tsid="400" />
     <channel service_ref="1:0:1:3d64:2c88:013e:00820000:0:0:0:" name="KINO POLSKA HD" service_name="KINO POLSKA HD" provider="CANAL+" sid="15716" onid="318" tsid="11400" />
     <channel service_ref="1:0:1:3d96:2c88:013e:00820000:0:0:0:" name="KINO POLSKA HD" service_name="KINO POLSKA HD" provider="CANAL+" sid="15766" onid="318" tsid="11400" />
     <channel service_ref="1:0:1:3d60:2c88:013e:00820000:0:0:0:" name="Kino Polska Muzyka" service_name="Kino Polska Muzyka" provider="CANAL+" sid="15712" onid="318" tsid="11400" />
