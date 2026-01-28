@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit api="4">
   <satellites>
+    <satellite key="0d7a0000:0009:0001" name="Sat-15W" namespace="0x0d7a0000" position="-15">
+      <transponder key="0d7a0000:0009:0001" frequency="12580000" symbol_rate="11000000" polarization="H" fec="1" system="0" modulation="0">
+        <service id="0x004b" sid="75" name="BBC HD" type="1" provider="" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x006a" sid="106" name="BBC WORLD NEWS" type="1" provider="" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x002c" sid="44" name="BLOOMBERG" type="1" provider="MTNTV" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x002b" sid="43" name="FOX NEWS" type="1" provider="MTNTV" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x002a" sid="42" name="MSNBC" type="1" provider="MTNTV" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x0028" sid="40" name="MTN INFO" type="1" provider="MTNTV" onid="1" tsid="9" namespace="0x0d7a0000" />
+        <service id="0x006e" sid="110" name="PRIME ONE" type="1" provider="MTNTV" onid="1" tsid="9" namespace="0x0d7a0000" />
+      </transponder>
+    </satellite>
     <satellite key="0d7aac4d:0032:0000" name="Sat-15W" namespace="0x0d7aac4d" position="-15">
       <transponder key="0d7aac4d:0032:0000" frequency="11341000" symbol_rate="20165000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="11341V SID 0x01" type="1" provider="DVB-S2 QPSK 11341V 345.0Â°E" onid="0" tsid="50" namespace="0x0d7aac4d" />

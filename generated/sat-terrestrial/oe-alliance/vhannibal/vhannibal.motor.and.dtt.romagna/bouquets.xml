@@ -78,6 +78,7 @@
     <channel service_ref="1:0:1:75f2:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="Digital+" sid="30194" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75f3:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="Contactanos" sid="30195" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75f5:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="DIGITAL +" sid="30197" onid="1" tsid="1058" />
+    <channel service_ref="1:0:1:c60e:a3ad:042e:01a40000:0:0:0:" name="" service_name="" provider="TURKSAT" sid="50702" onid="1070" tsid="41901" />
     <channel service_ref="1:0:1:0136:0009:0042:01a40000:0:0:0:" name="'60'lar" service_name="'60'lar" provider="DEMIROREN MEDYA" sid="310" onid="66" tsid="9" />
     <channel service_ref="1:0:1:030e:0009:0042:01a40000:0:0:0:" name="'80'ler" service_name="'80'ler" provider="DEMIROREN MEDYA" sid="782" onid="66" tsid="9" />
     <channel service_ref="1:0:1:030d:0009:0042:01a40000:0:0:0:" name="'90'lar" service_name="'90'lar" provider="DEMIROREN MEDYA" sid="781" onid="66" tsid="9" />
@@ -183,7 +184,6 @@
     <channel service_ref="1:0:1:179b:002f:0036:0ce40000:0:0:0:" name="11" service_name="11" provider="" sid="6043" onid="54" tsid="47" />
     <channel service_ref="1:0:22:1f4f:0001:0010:00640000:0:0:0:" name="11" service_name="11" provider="BFBS" sid="8015" onid="16" tsid="1" />
     <channel service_ref="1:0:1:044c:0001:0001:00a0318a:0:0:0:" name="1100 Lodz SuperNova" service_name="1100 Lodz SuperNova" provider="" sid="1100" onid="1" tsid="1" />
-    <channel service_ref="1:0:1:0001:0001:000b:00820000:0:0:0:" name="11054H" service_name="11054H" provider="" sid="1" onid="11" tsid="1" />
     <channel service_ref="1:0:1:1d8a:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7562" service_name="11097V SID 0x7562" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7562" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d8b:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7563" service_name="11097V SID 0x7563" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7563" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d8d:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7565" service_name="11097V SID 0x7565" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7565" onid="1" tsid="1042" />
@@ -784,7 +784,7 @@
     <channel service_ref="1:0:25:0001:0424:00e0:01040000:0:0:0:" name="Al Maghribia HD" service_name="Al Maghribia HD" provider="SNRT" sid="1" onid="224" tsid="1060" />
     <channel service_ref="1:0:1:003c:9d6c:077e:0dca0000:0:0:0:" name="Al Maghribia HD" service_name="Al Maghribia HD" provider="SNRT" sid="60" onid="1918" tsid="40300" />
     <channel service_ref="1:0:1:233a:2328:013e:00820000:0:0:0:" name="AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات" service_name="AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات" provider="STN" sid="9018" onid="318" tsid="9000" />
-    <channel service_ref="1:0:1:06b8:01f4:5000:0dc00000:0:0:0:" name="AL MALAKOOT SATÃTHE KINGDOM SAT" service_name="AL MALAKOOT SATÃTHE KINGDOM SAT" provider="Gulfsat" sid="1720" onid="20480" tsid="500" />
+    <channel service_ref="1:0:1:06b8:01f4:5000:0dc00000:0:0:0:" name="AL MALAKOOT SATÃTHE KINGDOM SAT" service_name="AL MALAKOOT SATÃTHE KINGDOM SAT" provider="Gulfsat" sid="1720" onid="20480" tsid="500" />
     <channel service_ref="1:0:1:0001:0001:ffff:0212b158:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:0d842ade:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:0001:0d842cc0:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="1" tsid="1" />
@@ -827,7 +827,7 @@
     <channel service_ref="1:0:25:0001:9c7c:077e:0dca0000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="DU" sid="1" onid="1918" tsid="40060" />
     <channel service_ref="1:0:25:02cc:0012:0800:0dca0000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="Nilesat" sid="716" onid="2048" tsid="18" />
     <channel service_ref="1:0:25:09de:13ef:013e:00820000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="DU" sid="2526" onid="318" tsid="5103" />
-    <channel service_ref="1:0:1:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
+    <channel service_ref="1:0:25:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
     <channel service_ref="1:0:1:00df:0c21:006e:0dca0000:0:0:0:" name="AL SIRAT TV" service_name="AL SIRAT TV" provider="" sid="223" onid="110" tsid="3105" />
     <channel service_ref="1:0:25:0005:9c7c:077e:0dca0000:0:0:0:" name="AL SUMARIA HD" service_name="AL SUMARIA HD" provider="DU" sid="5" onid="1918" tsid="40060" />
     <channel service_ref="1:0:25:c57e:c6d5:042e:01a40000:0:0:0:" name="AL SUNNAH AL NABAWIYAH" service_name="AL SUNNAH AL NABAWIYAH" provider="TURKSAT" sid="50558" onid="1070" tsid="50901" />
@@ -1508,7 +1508,6 @@
     <channel service_ref="1:0:22:031e:0c94:0003:00eb0000:0:0:0:" name="Barrandov Krimi" service_name="Barrandov Krimi" provider="M7 Group" sid="798" onid="3" tsid="3220" />
     <channel service_ref="1:0:1:0fae:0af4:00bb:0e080000:0:0:0:" name="Barrandov Krimi" service_name="Barrandov Krimi" provider="Slovak Telekom" sid="4014" onid="187" tsid="2804" />
     <channel service_ref="1:0:25:00c0:0065:0012:005a0000:0:0:0:" name="Bars &amp; Tone" service_name="Bars &amp; Tone" provider="" sid="192" onid="18" tsid="101" />
-    <channel service_ref="1:0:1:01cc:0010:006e:0dca0000:0:0:0:" name="Basma Radio" service_name="Basma Radio" provider="BasmaRadio" sid="460" onid="110" tsid="16" />
     <channel service_ref="1:0:1:01fe:9e34:077e:0dca0000:0:0:0:" name="Baywatch" service_name="Baywatch" provider="" sid="510" onid="1918" tsid="40500" />
     <channel service_ref="1:0:25:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="" sid="503" onid="318" tsid="900" />
     <channel service_ref="1:0:1:136a:03fc:039e:01860000:0:0:0:" name="BB VIP ALBANIA 1" service_name="BB VIP ALBANIA 1" provider="Tring TV" sid="4970" onid="926" tsid="1020" />
@@ -1556,6 +1555,7 @@
     <channel service_ref="1:0:25:287d:0800:0002:011a0000:0:0:0:" name="BBC Four HD" service_name="BBC Four HD" provider="BSkyB" sid="10365" onid="2" tsid="2048" />
     <channel service_ref="1:0:25:289a:0800:0002:011a0000:0:0:0:" name="BBC Four HD" service_name="BBC Four HD" provider="BSkyB" sid="10394" onid="2" tsid="2048" />
     <channel service_ref="1:0:1:004b:0004:0001:00300000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:004b:0009:0001:0d7a0000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="9" />
     <channel service_ref="1:0:1:1e33:0416:0001:00c00000:0:0:0:" name="BBC HISTORY" service_name="BBC HISTORY" provider="Movistar+" sid="7731" onid="1" tsid="1046" />
     <channel service_ref="1:0:1:76c3:040e:0001:00c00000:0:0:0:" name="BBC LIFESTYLE" service_name="BBC LIFESTYLE" provider="MOVISTAR+" sid="30403" onid="1" tsid="1038" />
     <channel service_ref="1:0:25:07db:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2011" onid="318" tsid="8900" />
@@ -1606,6 +1606,7 @@
     <channel service_ref="1:0:1:0006:0001:212c:01860000:0:0:0:" name="BBC World" service_name="BBC World" provider="ERT" sid="6" onid="8492" tsid="1" />
     <channel service_ref="1:0:1:289b:0000:0000:00302eb6:0:0:0:" name="BBC World" service_name="BBC World" provider="TV3 Group" sid="10395" onid="0" tsid="0" />
     <channel service_ref="1:0:1:006a:0004:0001:00300000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="" sid="106" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:006a:0009:0001:0d7a0000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="" sid="106" onid="1" tsid="9" />
     <channel service_ref="1:0:25:0130:0009:0042:01a40000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="DEMIROREN MEDYA" sid="304" onid="66" tsid="9" />
     <channel service_ref="1:0:17:426b:78b5:002a:01a40000:0:0:0:" name="BBC WORLD NEWS HD" service_name="BBC WORLD NEWS HD" provider="Digital Platform" sid="17003" onid="42" tsid="30901" />
     <channel service_ref="1:0:25:285f:07fe:0002:011a0000:0:0:0:" name="BBCScotlandHD" service_name="BBCScotlandHD" provider="BSkyB" sid="10335" onid="2" tsid="2046" />
@@ -1794,6 +1795,7 @@
     <channel service_ref="1:0:1:4ec4:0c8b:0003:00eb0000:0:0:0:" name="Blic TV HD" service_name="Blic TV HD" provider="Telekom Srbija" sid="20164" onid="3" tsid="3211" />
     <channel service_ref="1:0:1:00cf:0002:0800:0dca0000:0:0:0:" name="Blippi and Friends" service_name="Blippi and Friends" provider="OSN" sid="207" onid="2048" tsid="2" />
     <channel service_ref="1:0:1:002c:0004:0001:00300000:0:0:0:" name="BLOOMBERG" service_name="BLOOMBERG" provider="MTNTV" sid="44" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:002c:0009:0001:0d7a0000:0:0:0:" name="BLOOMBERG" service_name="BLOOMBERG" provider="MTNTV" sid="44" onid="1" tsid="9" />
     <channel service_ref="1:0:1:00c9:0002:0800:0dca0000:0:0:0:" name="Bloomberg" service_name="Bloomberg" provider="OSN" sid="201" onid="2048" tsid="2" />
     <channel service_ref="1:0:1:014b:0026:0036:0ce40000:0:0:0:" name="Bloomberg" service_name="Bloomberg" provider="Bloomberg" sid="331" onid="54" tsid="38" />
     <channel service_ref="1:0:31:01cd:0b11:039e:01860000:0:0:0:" name="Bloomberg" service_name="Bloomberg" provider="A1 BG" sid="461" onid="926" tsid="2833" />
@@ -3750,6 +3752,7 @@
     <channel service_ref="1:0:25:4fb1:07f8:00e0:01040000:0:0:0:" name="FOX Life HD" service_name="FOX Life HD" provider="beIN" sid="20401" onid="224" tsid="2040" />
     <channel service_ref="1:0:1:03ec:0037:0001:01680000:0:0:0:" name="FOX Life HD CIS" service_name="FOX Life HD CIS" provider="" sid="1004" onid="1" tsid="55" />
     <channel service_ref="1:0:1:002b:0004:0001:00300000:0:0:0:" name="FOX NEWS" service_name="FOX NEWS" provider="MTNTV" sid="43" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:002b:0009:0001:0d7a0000:0:0:0:" name="FOX NEWS" service_name="FOX NEWS" provider="MTNTV" sid="43" onid="1" tsid="9" />
     <channel service_ref="1:0:1:05f5:4e84:016e:00a00000:0:0:0:" name="Fox News" service_name="Fox News" provider="Telekom Srbija" sid="1525" onid="366" tsid="20100" />
     <channel service_ref="1:0:1:4ecb:0ca5:0003:00eb0000:0:0:0:" name="FOX News" service_name="FOX News" provider="Telekom Srbija" sid="20171" onid="3" tsid="3237" />
     <channel service_ref="1:0:25:02c9:9efc:077e:0dca0000:0:0:0:" name="FR HD" service_name="FR HD" provider="SABA World" sid="713" onid="1918" tsid="40700" />
@@ -3894,7 +3897,6 @@
     <channel service_ref="1:0:1:00dc:0018:0003:00130000:0:0:0:" name="Gametoon HD" service_name="Gametoon HD" provider="neosat" sid="220" onid="3" tsid="24" />
     <channel service_ref="1:0:25:0a91:9dd0:016e:00a00000:0:0:0:" name="Gametoon HD" service_name="Gametoon HD" provider="Digitalb" sid="2705" onid="366" tsid="40400" />
     <channel service_ref="1:0:25:0aa9:9dd0:016e:00a00000:0:0:0:" name="Gametoon HD" service_name="Gametoon HD" provider="A1 Broadcasting" sid="2729" onid="366" tsid="40400" />
-    <channel service_ref="1:0:1:02d6:2025:02be:01040000:0:0:0:" name="GANOR TV GH" service_name="GANOR TV GH" provider="Quickstream" sid="726" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:cb27:a02d:042e:01a40000:0:0:0:" name="GAZA PROJECT" service_name="GAZA PROJECT" provider="TURKSAT" sid="52007" onid="1070" tsid="41005" />
     <channel service_ref="1:0:25:006e:0002:ffff:0dca2cb9:0:0:0:" name="GB News" service_name="GB News" provider="" sid="110" onid="65535" tsid="2" />
     <channel service_ref="1:0:25:c441:0837:0002:011a0000:0:0:0:" name="GB News HD" service_name="GB News HD" provider="BSkyB" sid="50241" onid="2" tsid="2103" />
@@ -4243,7 +4245,7 @@
     <channel service_ref="1:0:22:100d:0451:0035:00c00000:0:0:0:" name="Hustler TV CZ" service_name="Hustler TV CZ" provider="M7 Group" sid="4109" onid="53" tsid="1105" />
     <channel service_ref="1:0:1:019b:0005:00aa:005a0000:0:0:0:" name="Hustler TV HD" service_name="Hustler TV HD" provider="OTE" sid="411" onid="170" tsid="5" />
     <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
-    <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
+    <channel service_ref="1:0:12:03ea:03ea:0001:00820000:0:0:0:" name="HVS-2 Bck" service_name="HVS-2 Bck" provider="Telespazio" sid="1002" onid="1" tsid="1002" />
     <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Pri" service_name="HVS-3 DN2 Pri" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:02c8:0012:0800:0dca0000:0:0:0:" name="HYA" service_name="HYA" provider="Nilesat" sid="712" onid="2048" tsid="18" />
     <channel service_ref="1:0:1:05ed:4e84:016e:00a00000:0:0:0:" name="Hype 2 TV" service_name="Hype 2 TV" provider="Telekom Srbija" sid="1517" onid="366" tsid="20100" />
@@ -4333,6 +4335,7 @@
     <channel service_ref="1:0:1:0092:0001:0e26:02ad0000:0:0:0:" name="iFILM ENG" service_name="iFILM ENG" provider="IRIB" sid="146" onid="3622" tsid="1" />
     <channel service_ref="1:0:130:00ad:0009:0042:01a40000:0:0:0:" name="iFOODNETWORKTrigger" service_name="iFOODNETWORKTrigger" provider="DEMIROREN MEDYA" sid="173" onid="66" tsid="9" />
     <channel service_ref="1:0:25:0001:0000:0000:0168ad24:0:0:0:" name="IHA ANA YAYIN" service_name="IHA ANA YAYIN" provider="" sid="1" onid="0" tsid="0" />
+    <channel service_ref="1:0:1:0001:0001:ffff:0082b129:0:0:0:" name="IHF - MAL - SUI vs ISL" service_name="IHF - MAL - SUI vs ISL" provider="Service Provider" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:130:00b0:0007:0042:01a40000:0:0:0:" name="iKANALDHDTrigger" service_name="iKANALDHDTrigger" provider="DEMIROREN MEDYA" sid="176" onid="66" tsid="7" />
     <channel service_ref="1:0:130:0b01:0001:0042:01a40000:0:0:0:" name="iKANALDTrigger" service_name="iKANALDTrigger" provider="DEMIROREN MEDYA" sid="2817" onid="66" tsid="1" />
     <channel service_ref="1:0:22:004e:7918:217c:005a0000:0:0:0:" name="iL61" service_name="iL61" provider="Persidera" sid="78" onid="8572" tsid="31000" />
@@ -5059,12 +5062,12 @@
     <channel service_ref="1:0:1:00e2:0002:0049:02ad0000:0:0:0:" name="Liberation TV" service_name="Liberation TV" provider="Sentech" sid="226" onid="73" tsid="2" />
     <channel service_ref="1:0:25:000b:0001:ffff:0dca2a3f:0:0:0:" name="Libya al Ahrar HD" service_name="Libya al Ahrar HD" provider="ViewMedia" sid="11" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:08ff:0017:0800:0dca0000:0:0:0:" name="Libya Al Hedaya TV" service_name="Libya Al Hedaya TV" provider="Nilesat" sid="2303" onid="2048" tsid="23" />
-    <channel service_ref="1:0:1:05c6:0320:5000:0dc00000:0:0:0:" name="Libya Al Naga TV" service_name="Libya Al Naga TV" provider="MY TV" sid="1478" onid="20480" tsid="800" />
+    <channel service_ref="1:0:25:05c6:0320:5000:0dc00000:0:0:0:" name="Libya Al Nagaa TV" service_name="Libya Al Nagaa TV" provider="MY TV" sid="1478" onid="20480" tsid="800" />
     <channel service_ref="1:0:1:00ce:0002:02be:0104b048:0:0:0:" name="Libya Al Rasmia" service_name="Libya Al Rasmia" provider="" sid="206" onid="702" tsid="2" />
-    <channel service_ref="1:0:1:12de:01f4:5000:0dc00000:0:0:0:" name="Libya Al-Youm" service_name="Libya Al-Youm" provider="Gulfsat" sid="4830" onid="20480" tsid="500" />
+    <channel service_ref="1:0:25:12de:01f4:5000:0dc00000:0:0:0:" name="Libya Al-Youm" service_name="Libya Al-Youm" provider="Gulfsat" sid="4830" onid="20480" tsid="500" />
     <channel service_ref="1:0:25:0b05:001c:0800:0dca0000:0:0:0:" name="LIBYA ALHADATH HD" service_name="LIBYA ALHADATH HD" provider="" sid="2821" onid="2048" tsid="28" />
     <channel service_ref="1:0:1:013d:00c9:0800:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="317" onid="2048" tsid="201" />
-    <channel service_ref="1:0:22:1f6d:0012:006e:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="8045" onid="110" tsid="18" />
+    <channel service_ref="1:0:25:1f6d:0012:006e:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="8045" onid="110" tsid="18" />
     <channel service_ref="1:0:25:1c88:0049:0800:0dc00000:0:0:0:" name="LIBYA ALMOKHTAR" service_name="LIBYA ALMOKHTAR" provider="Nilesat" sid="7304" onid="2048" tsid="73" />
     <channel service_ref="1:0:25:1c87:0049:0800:0dc00000:0:0:0:" name="Libya Almustaqbal" service_name="Libya Almustaqbal" provider="Nilesat" sid="7303" onid="2048" tsid="73" />
     <channel service_ref="1:0:1:00ce:000d:0800:0dca0000:0:0:0:" name="Libya Alrasmia" service_name="Libya Alrasmia" provider="NILESAT" sid="206" onid="2048" tsid="13" />
@@ -5424,6 +5427,9 @@
     <channel service_ref="1:0:25:0b37:0425:0001:00c00000:0:0:0:" name="MDR S-Anhalt HD" service_name="MDR S-Anhalt HD" provider="ARD" sid="2871" onid="1" tsid="1061" />
     <channel service_ref="1:0:25:0b36:0425:0001:00c00000:0:0:0:" name="MDR Sachsen HD" service_name="MDR Sachsen HD" provider="ARD" sid="2870" onid="1" tsid="1061" />
     <channel service_ref="1:0:25:0b38:0425:0001:00c00000:0:0:0:" name="MDR Thüringen HD" service_name="MDR Thüringen HD" provider="ARD" sid="2872" onid="1" tsid="1061" />
+    <channel service_ref="1:0:25:0001:0001:000b:00820000:0:0:0:" name="MDS 1" service_name="MDS 1" provider="Globecast" sid="1" onid="11" tsid="1" />
+    <channel service_ref="1:0:25:0002:0001:000b:00820000:0:0:0:" name="MDS 2" service_name="MDS 2" provider="Globecast" sid="2" onid="11" tsid="1" />
+    <channel service_ref="1:0:25:0003:0001:000b:00820000:0:0:0:" name="MDS 3" service_name="MDS 3" provider="Globecast" sid="3" onid="11" tsid="1" />
     <channel service_ref="1:0:1:232c:2328:013e:00820000:0:0:0:" name="Med Music" service_name="Med Music" provider="STN" sid="9004" onid="318" tsid="9000" />
     <channel service_ref="1:0:1:425e:3db8:013e:00820000:0:0:0:" name="Med TV" service_name="Med TV" provider="Telespazio" sid="16990" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:000b:0001:0001:0104abac:0:0:0:" name="Medi1 TV" service_name="Medi1 TV" provider="SNRT" sid="11" onid="1" tsid="1" />
@@ -5593,6 +5599,7 @@
     <channel service_ref="1:0:1:054e:75fb:016e:00a00000:0:0:0:" name="MRT Sobraniski" service_name="MRT Sobraniski" provider="Total TV" sid="1358" onid="366" tsid="30203" />
     <channel service_ref="1:0:1:05f4:4e84:016e:00a00000:0:0:0:" name="mSAT Info" service_name="mSAT Info" provider="Telekom Srbija" sid="1524" onid="366" tsid="20100" />
     <channel service_ref="1:0:1:4e20:0c8b:0003:00eb0000:0:0:0:" name="mSAT Info" service_name="mSAT Info" provider="Telekom Srbija" sid="20000" onid="3" tsid="3211" />
+    <channel service_ref="1:0:1:002a:0009:0001:0d7a0000:0:0:0:" name="MSNBC" service_name="MSNBC" provider="MTNTV" sid="42" onid="1" tsid="9" />
     <channel service_ref="1:0:25:c532:0813:0002:011a0000:0:0:0:" name="MstHveIdeasHD" service_name="MstHveIdeasHD" provider="BSkyB" sid="50482" onid="2" tsid="2067" />
     <channel service_ref="1:0:1:013a:1b58:013e:00820000:0:0:0:" name="mta-muslim tv" service_name="mta-muslim tv" provider="Telespazio" sid="314" onid="318" tsid="7000" />
     <channel service_ref="1:0:25:cf9f:083a:0002:011a0000:0:0:0:" name="MTA1 World HD" service_name="MTA1 World HD" provider="BSkyB" sid="53151" onid="2" tsid="2106" />
@@ -5600,6 +5607,7 @@
     <channel service_ref="1:0:1:1b62:0017:006e:0dca0000:0:0:0:" name="MTA3" service_name="MTA3" provider="iKO Media Group" sid="7010" onid="110" tsid="23" />
     <channel service_ref="1:0:1:013b:1b58:013e:00820000:0:0:0:" name="MTA3 - Al Arabia" service_name="MTA3 - Al Arabia" provider="Telespazio" sid="315" onid="318" tsid="7000" />
     <channel service_ref="1:0:1:0028:0004:0001:00300000:0:0:0:" name="MTN INFO" service_name="MTN INFO" provider="MTNTV" sid="40" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:0028:0009:0001:0d7a0000:0:0:0:" name="MTN INFO" service_name="MTN INFO" provider="MTNTV" sid="40" onid="1" tsid="9" />
     <channel service_ref="1:0:1:0029:0004:0001:00300000:0:0:0:" name="MTN SE HD" service_name="MTN SE HD" provider="MTNTV" sid="41" onid="1" tsid="4" />
     <channel service_ref="1:0:1:00c8:0004:0001:00300000:0:0:0:" name="MTN SE HD2" service_name="MTN SE HD2" provider="MTNTV" sid="200" onid="1" tsid="4" />
     <channel service_ref="1:0:1:00c4:1518:013e:00820000:0:0:0:" name="MTV" service_name="MTV" provider="NOVA" sid="196" onid="318" tsid="5400" />
@@ -5709,6 +5717,7 @@
     <channel service_ref="1:0:1:4ecf:0ca6:0003:00eb0000:0:0:0:" name="Narodna TV" service_name="Narodna TV" provider="Telekom Srbija" sid="20175" onid="3" tsid="3238" />
     <channel service_ref="1:0:25:006b:cb2c:016e:00a00000:0:0:0:" name="Narodna TV HD" service_name="Narodna TV HD" provider="pink" sid="107" onid="366" tsid="52012" />
     <channel service_ref="1:0:1:007e:9f60:016e:00a00000:0:0:0:" name="Nasa TV" service_name="Nasa TV" provider="Telekom Srbija" sid="126" onid="366" tsid="40800" />
+    <channel service_ref="1:0:1:02d6:2025:02be:01040000:0:0:0:" name="NASARA TV" service_name="NASARA TV" provider="Quickstream" sid="726" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:4f2c:0ca6:0003:00eb0000:0:0:0:" name="Nasha TV" service_name="Nasha TV" provider="" sid="20268" onid="3" tsid="3238" />
     <channel service_ref="1:0:31:006c:00b1:039e:01860000:0:0:0:" name="Nashe Kino" service_name="Nashe Kino" provider="A1 GB" sid="108" onid="926" tsid="177" />
     <channel service_ref="1:0:22:034d:0002:ff00:02032c1a:0:0:0:" name="Nashe Novoe Kino" service_name="Nashe Novoe Kino" provider="Belintersat" sid="845" onid="65280" tsid="2" />
@@ -6017,7 +6026,7 @@
     <channel service_ref="1:0:1:028a:0010:0800:0dca0000:0:0:0:" name="Nogoum FM TV" service_name="Nogoum FM TV" provider="Nilesat" sid="650" onid="2048" tsid="16" />
     <channel service_ref="1:0:25:138b:50e1:217c:005a0000:0:0:0:" name="NOItv" service_name="NOItv" provider="NOITV" sid="5003" onid="8572" tsid="20705" />
     <channel service_ref="1:0:1:c4dc:0811:0002:011a0000:0:0:0:" name="Noor TV" service_name="Noor TV" provider="BSkyB" sid="50396" onid="2" tsid="2065" />
-    <channel service_ref="1:0:1:001d:146f:02be:01040000:0:0:0:" name="North East TV" service_name="North East TV" provider="FFmpeg" sid="29" onid="702" tsid="5231" />
+    <channel service_ref="1:0:1:001d:146f:02be:01040000:0:0:0:" name="North East TV" service_name="North East TV" provider="Henmax" sid="29" onid="702" tsid="5231" />
     <channel service_ref="1:0:1:04ed:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="1261" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17c1:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="6081" onid="54" tsid="47" />
     <channel service_ref="1:0:22:00dc:25e4:00d5:00820000:0:0:0:" name="Nostalgia" service_name="Nostalgia" provider="VIVACOM" sid="220" onid="213" tsid="9700" />
@@ -6759,6 +6768,7 @@
     <channel service_ref="1:0:1:78c0:02c5:0600:0e080000:0:0:0:" name="Prime" service_name="Prime" provider="M7" sid="30912" onid="1536" tsid="709" />
     <channel service_ref="1:0:1:004a:0004:0001:00300000:0:0:0:" name="PRIME FAVORITE" service_name="PRIME FAVORITE" provider="MTNTV" sid="74" onid="1" tsid="4" />
     <channel service_ref="1:0:1:006e:0004:0001:00300000:0:0:0:" name="PRIME ONE" service_name="PRIME ONE" provider="MTNTV" sid="110" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:006e:0009:0001:0d7a0000:0:0:0:" name="PRIME ONE" service_name="PRIME ONE" provider="MTNTV" sid="110" onid="1" tsid="9" />
     <channel service_ref="1:0:25:009b:0004:0085:00c00000:0:0:0:" name="Prime Sportsbar" service_name="Prime Sportsbar" provider="SKY" sid="155" onid="133" tsid="4" />
     <channel service_ref="1:0:25:004a:0002:ffff:0dca2cb9:0:0:0:" name="Prime TV" service_name="Prime TV" provider="" sid="74" onid="65535" tsid="2" />
     <channel service_ref="1:0:25:03f8:15e0:fbff:00820000:0:0:0:" name="Prime Video Sportsbar" service_name="Prime Video Sportsbar" provider="SkyItalia" sid="1016" onid="64511" tsid="5600" />
@@ -6928,7 +6938,7 @@
     <channel service_ref="1:0:1:0036:001a:0088:01040000:0:0:0:" name="Radio Jeunesse" service_name="Radio Jeunesse" provider="" sid="54" onid="136" tsid="26" />
     <channel service_ref="1:0:25:006e:0200:001d:005a0000:0:0:0:" name="RADIO KISS KISS TV" service_name="RADIO KISS KISS TV" provider="Persidera" sid="110" onid="29" tsid="512" />
     <channel service_ref="1:0:25:006e:0200:001d:eeee0000:0:0:0:" name="RADIO KISS KISS TV" service_name="RADIO KISS KISS TV" provider="Persidera" sid="110" onid="29" tsid="512" />
-    <channel service_ref="1:0:1:109a:3db8:013e:00820000:0:0:0:" name="Radio Kiss Kiss Tv" service_name="Radio Kiss Kiss Tv" provider="Telespazio" sid="4250" onid="318" tsid="15800" />
+    <channel service_ref="1:0:1:109a:3db8:013e:00820000:0:0:0:" name="Radio Kiss Kiss TV" service_name="Radio Kiss Kiss TV" provider="Telespazio" sid="4250" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:1c20:0384:0110:005a0000:0:0:0:" name="Radio Margherita Piu'" service_name="Radio Margherita Piu'" provider="" sid="7200" onid="272" tsid="900" />
     <channel service_ref="1:0:1:1c20:0384:0110:eeee0000:0:0:0:" name="Radio Margherita Piu'" service_name="Radio Margherita Piu'" provider="" sid="7200" onid="272" tsid="900" />
     <channel service_ref="1:0:1:1f6d:80e3:217c:005a0000:0:0:0:" name="RADIO MARTE TV" service_name="RADIO MARTE TV" provider="RADIO MARTE TV" sid="8045" onid="8572" tsid="32995" />
@@ -7287,7 +7297,7 @@
     <channel service_ref="1:0:25:005b:7918:217c:005a0000:0:0:0:" name="RDS Social TV" service_name="RDS Social TV" provider="Persidera" sid="91" onid="8572" tsid="31000" />
     <channel service_ref="1:0:25:005b:7918:217c:eeee0000:0:0:0:" name="RDS Social TV" service_name="RDS Social TV" provider="Persidera" sid="91" onid="8572" tsid="31000" />
     <channel service_ref="1:0:1:109b:3db8:013e:00820000:0:0:0:" name="RDS Social TV" service_name="RDS Social TV" provider="Telespazio" sid="4251" onid="318" tsid="15800" />
-    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K test" service_name="RDS Social TV 4K test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
+    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K Test" service_name="RDS Social TV 4K Test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
     <channel service_ref="1:0:31:2bcd:040c:0001:00c00000:0:0:0:" name="Real Madrid TV" service_name="Real Madrid TV" provider="SES" sid="11213" onid="1" tsid="1036" />
     <channel service_ref="1:0:25:002c:0204:001d:005a0000:0:0:0:" name="Real Time" service_name="Real Time" provider="Persidera" sid="44" onid="29" tsid="516" />
     <channel service_ref="1:0:25:002c:0204:001d:eeee0000:0:0:0:" name="Real Time" service_name="Real Time" provider="Persidera" sid="44" onid="29" tsid="516" />
@@ -7821,7 +7831,7 @@
     <channel service_ref="1:0:1:33b0:03eb:0001:00c00000:0:0:0:" name="Service 13232" service_name="Service 13232" provider="ORS" sid="13232" onid="1" tsid="1003" />
     <channel service_ref="1:0:1:33b1:03eb:0001:00c00000:0:0:0:" name="Service 13233" service_name="Service 13233" provider="ORS" sid="13233" onid="1" tsid="1003" />
     <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
-    <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
+    <channel service_ref="1:0:1:008c:03ea:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1002" />
     <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:008c:0001:0001:02eeae34:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:001e2d99:0:0:0:" name="Service-1" service_name="Service-1" provider="Service Provider" sid="1" onid="65535" tsid="1" />
@@ -7875,8 +7885,8 @@
     <channel service_ref="1:0:31:09f3:0018:0044:00300000:0:0:0:" name="Setanta Sport +" service_name="Setanta Sport +" provider="VIASAT" sid="2547" onid="68" tsid="24" />
     <channel service_ref="1:0:22:09ed:0018:0044:00300000:0:0:0:" name="Setanta Sports" service_name="Setanta Sports" provider="VIASAT" sid="2541" onid="68" tsid="24" />
     <channel service_ref="1:0:1:0b35:0000:0000:00302eb6:0:0:0:" name="Setanta Sports" service_name="Setanta Sports" provider="TV3 Group" sid="2869" onid="0" tsid="0" />
-    <channel service_ref="1:0:1:001b:117e:117e:02080000:0:0:0:" name="Setareh TV" service_name="Setareh TV" provider="WNS" sid="27" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:01f6:0384:013e:00820000:0:0:0:" name="Setareh TV" service_name="Setareh TV" provider="" sid="502" onid="318" tsid="900" />
+    <channel service_ref="1:0:1:001b:117e:117e:02080000:0:0:0:" name="SETAREH TV HD" service_name="SETAREH TV HD" provider="WNS" sid="27" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:00b6:020d:0073:02080000:0:0:0:" name="Sevimli TV" service_name="Sevimli TV" provider="AREF" sid="182" onid="115" tsid="525" />
     <channel service_ref="1:0:1:0c50:0459:0001:00c00000:0:0:0:" name="Sex-Kontakte" service_name="Sex-Kontakte" provider="phabvision" sid="3152" onid="1" tsid="1113" />
     <channel service_ref="1:0:1:314e:0459:0001:00c00000:0:0:0:" name="Sexy Girls TV" service_name="Sexy Girls TV" provider="phabvision" sid="12622" onid="1" tsid="1113" />
@@ -8668,10 +8678,10 @@
     <channel service_ref="1:0:25:0b06:001c:0800:0dca0000:0:0:0:" name="Syria News HD" service_name="Syria News HD" provider="Nilesat" sid="2822" onid="2048" tsid="28" />
     <channel service_ref="1:0:1:0184:0017:0800:0dca0000:0:0:0:" name="Syria News SD" service_name="Syria News SD" provider="Nilesat" sid="388" onid="2048" tsid="23" />
     <channel service_ref="1:0:25:0576:0802:00e0:01040000:0:0:0:" name="SYRIA TV" service_name="SYRIA TV" provider="EshialSat" sid="1398" onid="224" tsid="2050" />
+    <channel service_ref="1:0:1:0b08:001c:0800:0dca0000:0:0:0:" name="Syria TV" service_name="Syria TV" provider="Nilesat" sid="2824" onid="2048" tsid="28" />
     <channel service_ref="1:0:1:145a:0320:5000:0dc00000:0:0:0:" name="Syria TV" service_name="Syria TV" provider="MY TV" sid="5210" onid="20480" tsid="800" />
     <channel service_ref="1:0:1:0b0b:001c:0800:0dca0000:0:0:0:" name="Syria TV 01" service_name="Syria TV 01" provider="Nilesat" sid="2827" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:019a:0010:006e:0dca0000:0:0:0:" name="SYRIA TV HD" service_name="SYRIA TV HD" provider="" sid="410" onid="110" tsid="16" />
-    <channel service_ref="1:0:1:0b08:001c:0800:0dca0000:0:0:0:" name="Syria TV HD" service_name="Syria TV HD" provider="Nilesat" sid="2824" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:cbed:a925:042e:01a40000:0:0:0:" name="SZC" service_name="SZC" provider="TURKSAT" sid="52205" onid="1070" tsid="43301" />
     <channel service_ref="1:0:1:01e0:2af8:013e:00820000:0:0:0:" name="SZLAGIER TV" service_name="SZLAGIER TV" provider="CANAL+" sid="480" onid="318" tsid="11000" />
     <channel service_ref="1:0:25:00f2:4f4c:016e:00a00000:0:0:0:" name="T HD" service_name="T HD" provider="DigitALB" sid="242" onid="366" tsid="20300" />
@@ -8911,7 +8921,6 @@
     <channel service_ref="1:0:1:06a8:012d:02be:01040000:0:0:0:" name="Test" service_name="Test" provider="JMC" sid="1704" onid="702" tsid="301" />
     <channel service_ref="1:0:1:07d2:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2002" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07d3:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2003" onid="2048" tsid="20" />
-    <channel service_ref="1:0:25:07d9:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2009" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07dc:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2012" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07dd:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2013" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07de:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2014" onid="2048" tsid="20" />
@@ -8974,6 +8983,7 @@
     <channel service_ref="1:0:1:74a0:041c:0001:00c00000:0:0:0:" name="TEST DZ5." service_name="TEST DZ5." provider="BARNA" sid="29856" onid="1" tsid="1052" />
     <channel service_ref="1:0:1:76a7:041e:0001:00c00000:0:0:0:" name="TEST F1" service_name="TEST F1" provider="CANAL+" sid="30375" onid="1" tsid="1054" />
     <channel service_ref="1:0:1:01af:0006:00aa:005a0000:0:0:0:" name="TEST FREE" service_name="TEST FREE" provider="ΟΤΕ" sid="431" onid="170" tsid="6" />
+    <channel service_ref="1:0:25:07d9:0014:0800:0dca0000:0:0:0:" name="Test HD" service_name="Test HD" provider="NILESAT" sid="2009" onid="2048" tsid="20" />
     <channel service_ref="1:0:25:1d4e:004b:0800:0dc00000:0:0:0:" name="Test HD" service_name="Test HD" provider="Nilesat" sid="7502" onid="2048" tsid="75" />
     <channel service_ref="1:0:1:1dba:145c:0005:01860000:0:0:0:" name="TEST HD" service_name="TEST HD" provider="PROTV" sid="7610" onid="5" tsid="5212" />
     <channel service_ref="1:0:25:1d52:004b:0800:0dc00000:0:0:0:" name="Test HD 2" service_name="Test HD 2" provider="Nilesat" sid="7506" onid="2048" tsid="75" />
@@ -9378,7 +9388,7 @@
     <channel service_ref="1:0:25:000b:003d:002a:01a40000:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="11" onid="42" tsid="61" />
     <channel service_ref="1:0:1:0057:01fe:02be:01040000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="87" onid="702" tsid="510" />
     <channel service_ref="1:0:1:031f:3bc4:013e:00820000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="318" tsid="15300" />
-    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="GLOBECAST" sid="799" onid="110" tsid="16" />
+    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="110" tsid="16" />
     <channel service_ref="1:0:25:c514:0000:0000:01312cfb:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="50452" onid="0" tsid="0" />
     <channel service_ref="1:0:25:c41d:a4d9:042e:01a40000:0:0:0:" name="TRT AVAZ" service_name="TRT AVAZ" provider="TURKSAT" sid="50205" onid="1070" tsid="42201" />
     <channel service_ref="1:0:25:000f:003d:002a:01a40000:0:0:0:" name="TRT AVAZ HD" service_name="TRT AVAZ HD" provider="TRT" sid="15" onid="42" tsid="61" />
@@ -9518,7 +9528,6 @@
     <channel service_ref="1:0:25:040a:0044:0046:0e080000:0:0:0:" name="TV 2 Sport Premium HD" service_name="TV 2 Sport Premium HD" provider="Telenor" sid="1034" onid="70" tsid="68" />
     <channel service_ref="1:0:25:1ee5:0047:0046:0e080000:0:0:0:" name="TV 2 SPORT X" service_name="TV 2 SPORT X" provider="Telenor" sid="7909" onid="70" tsid="71" />
     <channel service_ref="1:0:25:1b99:0044:0046:0e080000:0:0:0:" name="TV 2 Zebra HD" service_name="TV 2 Zebra HD" provider="Telenor" sid="7065" onid="70" tsid="68" />
-    <channel service_ref="1:0:1:c60e:a3ad:042e:01a40000:0:0:0:" name="TV 2020" service_name="TV 2020" provider="TURKSAT" sid="50702" onid="1070" tsid="41901" />
     <channel service_ref="1:0:1:4f2e:0ca6:0003:00eb0000:0:0:0:" name="TV 24" service_name="TV 24" provider="" sid="20270" onid="3" tsid="3238" />
     <channel service_ref="1:0:1:02a7:9fc4:016e:00a00000:0:0:0:" name="TV 3 Medias" service_name="TV 3 Medias" provider="Total TV" sid="679" onid="366" tsid="40900" />
     <channel service_ref="1:0:1:0004:0001:0001:0d1b2f80:0:0:0:" name="TV 4" service_name="TV 4" provider="TDA" sid="4" onid="1" tsid="1" />
@@ -11221,7 +11230,7 @@
     <channel service_ref="1:0:1:c3c1:a475:042e:01a40000:0:0:0:" name="AL HADATH NEWS CHANNEL" service_name="AL HADATH NEWS CHANNEL" provider="TURKSAT" sid="50113" onid="1070" tsid="42101" />
     <channel service_ref="1:0:25:002d:0001:0800:0dca0000:0:0:0:" name="Al Qahera News" service_name="Al Qahera News" provider="NILESAT" sid="45" onid="2048" tsid="1" />
     <channel service_ref="1:0:1:002a:0001:0800:0dca0000:0:0:0:" name="Al Qahera News SD" service_name="Al Qahera News SD" provider="NILESAT" sid="42" onid="2048" tsid="1" />
-    <channel service_ref="1:0:1:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
+    <channel service_ref="1:0:25:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
     <channel service_ref="1:0:1:07f0:0011:006e:0dca0000:0:0:0:" name="AL24 News" service_name="AL24 News" provider="TDA" sid="2032" onid="110" tsid="17" />
     <channel service_ref="1:0:1:014e:0010:001c:01860000:0:0:0:" name="Aleph News" service_name="Aleph News" provider="" sid="334" onid="28" tsid="16" />
     <channel service_ref="1:0:25:0004:0802:00e0:01040000:0:0:0:" name="ANEWS" service_name="ANEWS" provider="EshailSat" sid="4" onid="224" tsid="2050" />
@@ -11243,6 +11252,7 @@
     <channel service_ref="1:0:25:22d9:080d:0002:011a0000:0:0:0:" name="BBC NEWS HD" service_name="BBC NEWS HD" provider="BSkyB" sid="8921" onid="2" tsid="2061" />
     <channel service_ref="1:0:1:020a:0005:0800:0dca0000:0:0:0:" name="BBC News TV" service_name="BBC News TV" provider="NILESAT" sid="522" onid="2048" tsid="5" />
     <channel service_ref="1:0:1:006a:0004:0001:00300000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="" sid="106" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:006a:0009:0001:0d7a0000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="" sid="106" onid="1" tsid="9" />
     <channel service_ref="1:0:25:0130:0009:0042:01a40000:0:0:0:" name="BBC WORLD NEWS" service_name="BBC WORLD NEWS" provider="DEMIROREN MEDYA" sid="304" onid="66" tsid="9" />
     <channel service_ref="1:0:17:426b:78b5:002a:01a40000:0:0:0:" name="BBC WORLD NEWS HD" service_name="BBC WORLD NEWS HD" provider="Digital Platform" sid="17003" onid="42" tsid="30901" />
     <channel service_ref="1:0:25:096b:01f4:077e:0dca0000:0:0:0:" name="beIN SPORTS NEWS" service_name="beIN SPORTS NEWS" provider="beIN" sid="2411" onid="1918" tsid="500" />
@@ -11296,6 +11306,7 @@
     <channel service_ref="1:0:1:00f6:03f2:039e:01860000:0:0:0:" name="FAX NEWS" service_name="FAX NEWS" provider="Tring TV" sid="246" onid="926" tsid="1010" />
     <channel service_ref="1:0:22:013c:4f4c:016e:00a00000:0:0:0:" name="Fax News" service_name="Fax News" provider="DigitALB" sid="316" onid="366" tsid="20300" />
     <channel service_ref="1:0:1:002b:0004:0001:00300000:0:0:0:" name="FOX NEWS" service_name="FOX NEWS" provider="MTNTV" sid="43" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:002b:0009:0001:0d7a0000:0:0:0:" name="FOX NEWS" service_name="FOX NEWS" provider="MTNTV" sid="43" onid="1" tsid="9" />
     <channel service_ref="1:0:1:05f5:4e84:016e:00a00000:0:0:0:" name="Fox News" service_name="Fox News" provider="Telekom Srbija" sid="1525" onid="366" tsid="20100" />
     <channel service_ref="1:0:1:4ecb:0ca5:0003:00eb0000:0:0:0:" name="FOX News" service_name="FOX News" provider="Telekom Srbija" sid="20171" onid="3" tsid="3237" />
     <channel service_ref="1:0:25:006e:0002:ffff:0dca2cb9:0:0:0:" name="GB News" service_name="GB News" provider="" sid="110" onid="65535" tsid="2" />
@@ -13603,6 +13614,7 @@
     <channel service_ref="1:0:1:0c8a:0001:0001:00a0318a:0:0:0:" name="3210 Radom VOX" service_name="3210 Radom VOX" provider="" sid="3210" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0f96:0001:0001:00a0318a:0:0:0:" name="3990 VOX" service_name="3990 VOX" provider="" sid="3990" onid="1" tsid="1" />
     <channel service_ref="1:0:1:002c:0004:0001:00300000:0:0:0:" name="BLOOMBERG" service_name="BLOOMBERG" provider="MTNTV" sid="44" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:002c:0009:0001:0d7a0000:0:0:0:" name="BLOOMBERG" service_name="BLOOMBERG" provider="MTNTV" sid="44" onid="1" tsid="9" />
     <channel service_ref="1:0:1:007b:0004:0001:00300000:0:0:0:" name="CNNi" service_name="CNNi" provider="MTTNTV" sid="123" onid="1" tsid="4" />
     <channel service_ref="1:0:1:0001:0001:ffff:0131b1b6:0:0:0:" name="Ericsson Service" service_name="Ericsson Service" provider="EricssonTV" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:007c:0004:0001:00300000:0:0:0:" name="FOOD" service_name="FOOD" provider="MTNTV" sid="124" onid="1" tsid="4" />
@@ -13617,7 +13629,9 @@
     <channel service_ref="1:0:1:06bd:3138:013e:00820000:0:0:0:" name="KaravanTV" service_name="KaravanTV" provider="GLOBECAST" sid="1725" onid="318" tsid="12600" />
     <channel service_ref="1:0:1:002d:0002:0000:00d7aaa7:0:0:0:" name="LNTV-HD" service_name="LNTV-HD" provider="" sid="45" onid="0" tsid="2" />
     <channel service_ref="1:0:1:017f:0021:0085:00c00000:0:0:0:" name="meinTVshop" service_name="meinTVshop" provider="BetaDigital" sid="383" onid="133" tsid="33" />
+    <channel service_ref="1:0:1:002a:0009:0001:0d7a0000:0:0:0:" name="MSNBC" service_name="MSNBC" provider="MTNTV" sid="42" onid="1" tsid="9" />
     <channel service_ref="1:0:1:0028:0004:0001:00300000:0:0:0:" name="MTN INFO" service_name="MTN INFO" provider="MTNTV" sid="40" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:0028:0009:0001:0d7a0000:0:0:0:" name="MTN INFO" service_name="MTN INFO" provider="MTNTV" sid="40" onid="1" tsid="9" />
     <channel service_ref="1:0:1:0029:0004:0001:00300000:0:0:0:" name="MTN SE HD" service_name="MTN SE HD" provider="MTNTV" sid="41" onid="1" tsid="4" />
     <channel service_ref="1:0:1:00c8:0004:0001:00300000:0:0:0:" name="MTN SE HD2" service_name="MTN SE HD2" provider="MTNTV" sid="200" onid="1" tsid="4" />
     <channel service_ref="1:0:1:2f1d:0441:0001:00c00000:0:0:0:" name="NITRO" service_name="NITRO" provider="RTL Deutschland" sid="12061" onid="1" tsid="1089" />
@@ -13656,6 +13670,7 @@
     <channel service_ref="1:0:25:0057:0003:0800:0dca0000:0:0:0:" name="OSNtv Yahala Bil Arabi" service_name="OSNtv Yahala Bil Arabi" provider="OSN" sid="87" onid="2048" tsid="3" />
     <channel service_ref="1:0:1:004a:0004:0001:00300000:0:0:0:" name="PRIME FAVORITE" service_name="PRIME FAVORITE" provider="MTNTV" sid="74" onid="1" tsid="4" />
     <channel service_ref="1:0:1:006e:0004:0001:00300000:0:0:0:" name="PRIME ONE" service_name="PRIME ONE" provider="MTNTV" sid="110" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:006e:0009:0001:0d7a0000:0:0:0:" name="PRIME ONE" service_name="PRIME ONE" provider="MTNTV" sid="110" onid="1" tsid="9" />
     <channel service_ref="1:0:1:002e:0004:0001:00300000:0:0:0:" name="RTL" service_name="RTL" provider="" sid="46" onid="1" tsid="4" />
     <channel service_ref="1:0:1:0047:000e:001c:01860000:0:0:0:" name="RTL" service_name="RTL" provider="" sid="71" onid="28" tsid="14" />
     <channel service_ref="1:0:1:022e:0018:0003:00130000:0:0:0:" name="RTL" service_name="RTL" provider="neosat" sid="558" onid="3" tsid="24" />
@@ -14288,6 +14303,7 @@
     <channel service_ref="1:0:25:3e84:a8c3:042e:01a40000:0:0:0:" name="BBC FIRST HD" service_name="BBC FIRST HD" provider="TTNET" sid="16004" onid="1070" tsid="43203" />
     <channel service_ref="1:0:1:76ce:040e:0001:00c00000:0:0:0:" name="BBC FOOD" service_name="BBC FOOD" provider="Movistar+" sid="30414" onid="1" tsid="1038" />
     <channel service_ref="1:0:1:004b:0004:0001:00300000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:004b:0009:0001:0d7a0000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="9" />
     <channel service_ref="1:0:1:76c3:040e:0001:00c00000:0:0:0:" name="BBC LIFESTYLE" service_name="BBC LIFESTYLE" provider="MOVISTAR+" sid="30403" onid="1" tsid="1038" />
     <channel service_ref="1:0:25:07db:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2011" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:07e5:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2021" onid="318" tsid="8900" />
@@ -15496,7 +15512,6 @@
     <channel service_ref="1:0:1:1e92:0428:0001:00c00000:0:0:0:" name="10936V SID 0x7826" service_name="10936V SID 0x7826" provider="DVB-S QPSK 10936V 19.2Â°E" sid="7826" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:1e94:0428:0001:00c00000:0:0:0:" name="10936V SID 0x7828" service_name="10936V SID 0x7828" provider="DVB-S QPSK 10936V 19.2Â°E" sid="7828" onid="1" tsid="1064" />
     <channel service_ref="1:0:1:00bf:0002:0000:0ce42abb:0:0:0:" name="10939H SID 0x191" service_name="10939H SID 0x191" provider="DVB-S2 8PSK 10939H 330.0Â°E" sid="191" onid="0" tsid="2" />
-    <channel service_ref="1:0:1:0001:0001:000b:00820000:0:0:0:" name="11054H" service_name="11054H" provider="" sid="1" onid="11" tsid="1" />
     <channel service_ref="1:0:1:1d8a:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7562" service_name="11097V SID 0x7562" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7562" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d8b:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7563" service_name="11097V SID 0x7563" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7563" onid="1" tsid="1042" />
     <channel service_ref="1:0:1:1d8d:0412:0001:00c00000:0:0:0:" name="11097V SID 0x7565" service_name="11097V SID 0x7565" provider="DVB-S QPSK 11097V 19.2Â°E" sid="7565" onid="1" tsid="1042" />
@@ -15935,6 +15950,7 @@
     <channel service_ref="1:0:25:45ef:000e:0046:0e080000:0:0:0:" name="Hits HD" service_name="Hits HD" provider="Telenor" sid="17903" onid="70" tsid="14" />
     <channel service_ref="1:0:22:1cfa:0042:0046:0e080000:0:0:0:" name="Horse &amp; Country" service_name="Horse &amp; Country" provider="Telenor" sid="7418" onid="70" tsid="66" />
     <channel service_ref="1:0:1:4eda:0c9c:0003:00eb0000:0:0:0:" name="Hustler TV" service_name="Hustler TV" provider="Telekom Srbija" sid="20186" onid="3" tsid="3228" />
+    <channel service_ref="1:0:12:03ea:03ea:0001:00820000:0:0:0:" name="HVS-2 Bck" service_name="HVS-2 Bck" provider="Telespazio" sid="1002" onid="1" tsid="1002" />
     <channel service_ref="1:0:12:07d3:03eb:0002:00820000:0:0:0:" name="HVS-3 DN2 Pri" service_name="HVS-3 DN2 Pri" provider="MyServiceProvider" sid="2003" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:05ed:4e84:016e:00a00000:0:0:0:" name="Hype 2 TV" service_name="Hype 2 TV" provider="Telekom Srbija" sid="1517" onid="366" tsid="20100" />
     <channel service_ref="1:0:1:4e5e:0ca8:0003:00eb0000:0:0:0:" name="Hype 2 TV" service_name="Hype 2 TV" provider="Telekom Srbija" sid="20062" onid="3" tsid="3240" />
@@ -16082,6 +16098,7 @@
     <channel service_ref="1:0:1:0003:003c:0800:0dca0000:0:0:0:" name="MBC 5" service_name="MBC 5" provider="MBC" sid="3" onid="2048" tsid="60" />
     <channel service_ref="1:0:1:0009:1bc0:02be:01040000:0:0:0:" name="MBC3" service_name="MBC3" provider="MBC" sid="9" onid="702" tsid="7104" />
     <channel service_ref="1:0:25:0057:17f8:02be:01040000:0:0:0:" name="MBC3 HD" service_name="MBC3 HD" provider="MBC" sid="87" onid="702" tsid="6136" />
+    <channel service_ref="1:0:25:0003:0001:000b:00820000:0:0:0:" name="MDS 3" service_name="MDS 3" provider="Globecast" sid="3" onid="11" tsid="1" />
     <channel service_ref="1:0:1:425e:3db8:013e:00820000:0:0:0:" name="Med TV" service_name="Med TV" provider="Telespazio" sid="16990" onid="318" tsid="15800" />
     <channel service_ref="1:0:22:1b71:0af7:00bb:0e080000:0:0:0:" name="MEN.TV" service_name="MEN.TV" provider="Slovak Telekom" sid="7025" onid="187" tsid="2807" />
     <channel service_ref="1:0:1:0f4b:a21d:042e:01a40000:0:0:0:" name="MERCAN TV" service_name="MERCAN TV" provider="GUC TELEKOM MEDYA" sid="3915" onid="1070" tsid="41501" />
@@ -16204,10 +16221,10 @@
     <channel service_ref="1:0:1:11ab:a028:016e:00a00000:0:0:0:" name="Radio Beograd 202" service_name="Radio Beograd 202" provider="Telekom Srbija" sid="4523" onid="366" tsid="41000" />
     <channel service_ref="1:0:1:11a9:a028:016e:00a00000:0:0:0:" name="Radio BG1" service_name="Radio BG1" provider="Telekom Srbija" sid="4521" onid="366" tsid="41000" />
     <channel service_ref="1:0:1:11aa:a028:016e:00a00000:0:0:0:" name="Radio BG2" service_name="Radio BG2" provider="Telekom Srbija" sid="4522" onid="366" tsid="41000" />
-    <channel service_ref="1:0:1:109a:3db8:013e:00820000:0:0:0:" name="Radio Kiss Kiss Tv" service_name="Radio Kiss Kiss Tv" provider="Telespazio" sid="4250" onid="318" tsid="15800" />
+    <channel service_ref="1:0:1:109a:3db8:013e:00820000:0:0:0:" name="Radio Kiss Kiss TV" service_name="Radio Kiss Kiss TV" provider="Telespazio" sid="4250" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:00c9:0384:013e:00820000:0:0:0:" name="RADIONORBA TV" service_name="RADIONORBA TV" provider="Telenorba" sid="201" onid="318" tsid="900" />
     <channel service_ref="1:0:1:109b:3db8:013e:00820000:0:0:0:" name="RDS Social TV" service_name="RDS Social TV" provider="Telespazio" sid="4251" onid="318" tsid="15800" />
-    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K test" service_name="RDS Social TV 4K test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
+    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K Test" service_name="RDS Social TV 4K Test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:4e2a:0ca7:0003:00eb0000:0:0:0:" name="Red TV" service_name="Red TV" provider="Telekom Srbija" sid="20010" onid="3" tsid="3239" />
     <channel service_ref="1:0:1:0438:3db8:013e:00820000:0:0:0:" name="Redlight HD" service_name="Redlight HD" provider="Telespazio" sid="1080" onid="318" tsid="15800" />
     <channel service_ref="1:0:1:287d:0000:0000:00302eb6:0:0:0:" name="ReTV" service_name="ReTV" provider="TV3 Group" sid="10365" onid="0" tsid="0" />
@@ -17387,7 +17404,7 @@
     <channel service_ref="1:0:31:0d4f:1450:013e:00820000:0:0:0:" name="Rai 4K" service_name="Rai 4K" provider="Rai" sid="3407" onid="318" tsid="5200" />
     <channel service_ref="1:0:31:01ae:0002:217c:0dde0000:0:0:0:" name="Rai 4K Test" service_name="Rai 4K Test" provider="Rai" sid="430" onid="8572" tsid="2" />
     <channel service_ref="1:0:31:01ae:0002:217c:eeee0000:0:0:0:" name="Rai 4K Test" service_name="Rai 4K Test" provider="Rai" sid="430" onid="8572" tsid="2" />
-    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K test" service_name="RDS Social TV 4K test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
+    <channel service_ref="1:0:1:424f:3db8:013e:00820000:0:0:0:" name="RDS Social TV 4K Test" service_name="RDS Social TV 4K Test" provider="Telespazio" sid="16975" onid="318" tsid="15800" />
     <channel service_ref="1:0:31:307a:03f5:0001:00c00000:0:0:0:" name="RTL UHD" service_name="RTL UHD" provider="MX1" sid="12410" onid="1" tsid="1013" />
     <channel service_ref="1:0:31:0001:040b:0001:00c00000:0:0:0:" name="SES UHD Demo Channel" service_name="SES UHD Demo Channel" provider="SES" sid="1" onid="1" tsid="1035" />
     <channel service_ref="1:0:31:0003:040b:0001:00c00000:0:0:0:" name="SES UHD Demo Channel 02" service_name="SES UHD Demo Channel 02" provider="SES" sid="3" onid="1" tsid="1035" />
@@ -17546,7 +17563,7 @@
     <channel service_ref="1:0:25:0001:9c7c:077e:0dca0000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="DU" sid="1" onid="1918" tsid="40060" />
     <channel service_ref="1:0:25:02cc:0012:0800:0dca0000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="Nilesat" sid="716" onid="2048" tsid="18" />
     <channel service_ref="1:0:25:09de:13ef:013e:00820000:0:0:0:" name="AL SHARQIYA HD" service_name="AL SHARQIYA HD" provider="DU" sid="2526" onid="318" tsid="5103" />
-    <channel service_ref="1:0:1:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
+    <channel service_ref="1:0:25:000f:0014:006e:0dca0000:0:0:0:" name="AL SHARQIYA NEWS HD" service_name="AL SHARQIYA NEWS HD" provider="" sid="15" onid="110" tsid="20" />
     <channel service_ref="1:0:25:0005:9c7c:077e:0dca0000:0:0:0:" name="AL SUMARIA HD" service_name="AL SUMARIA HD" provider="DU" sid="5" onid="1918" tsid="40060" />
     <channel service_ref="1:0:25:02cb:9efc:077e:0dca0000:0:0:0:" name="Al TALEAA HD" service_name="Al TALEAA HD" provider="" sid="715" onid="1918" tsid="40700" />
     <channel service_ref="1:0:25:002c:d28c:077e:0dca0000:0:0:0:" name="Al Thaqafiya HD" service_name="Al Thaqafiya HD" provider="MBC" sid="44" onid="1918" tsid="53900" />
@@ -17747,6 +17764,7 @@
     <channel service_ref="1:0:25:287d:0800:0002:011a0000:0:0:0:" name="BBC Four HD" service_name="BBC Four HD" provider="BSkyB" sid="10365" onid="2" tsid="2048" />
     <channel service_ref="1:0:25:289a:0800:0002:011a0000:0:0:0:" name="BBC Four HD" service_name="BBC Four HD" provider="BSkyB" sid="10394" onid="2" tsid="2048" />
     <channel service_ref="1:0:1:004b:0004:0001:00300000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="4" />
+    <channel service_ref="1:0:1:004b:0009:0001:0d7a0000:0:0:0:" name="BBC HD" service_name="BBC HD" provider="" sid="75" onid="1" tsid="9" />
     <channel service_ref="1:0:25:07db:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2011" onid="318" tsid="8900" />
     <channel service_ref="1:0:1:07e5:22c4:013e:00820000:0:0:0:" name="BBC Lifestyle HD" service_name="BBC Lifestyle HD" provider="GLOBECAST" sid="2021" onid="318" tsid="8900" />
     <channel service_ref="1:0:25:22d9:080d:0002:011a0000:0:0:0:" name="BBC NEWS HD" service_name="BBC NEWS HD" provider="BSkyB" sid="8921" onid="2" tsid="2061" />
@@ -19496,6 +19514,7 @@
     <channel service_ref="1:0:25:0a92:0001:002a:0dc00000:0:0:0:" name="Series Channel HD" service_name="Series Channel HD" provider="" sid="2706" onid="42" tsid="1" />
     <channel service_ref="1:0:1:07da:03f2:039e:01860000:0:0:0:" name="Series HD" service_name="Series HD" provider="Tring TV" sid="2010" onid="926" tsid="1010" />
     <channel service_ref="1:0:25:0215:03ef:0001:00c00000:0:0:0:" name="ServusTV HD Oesterreich" service_name="ServusTV HD Oesterreich" provider="ServusTV" sid="533" onid="1" tsid="1007" />
+    <channel service_ref="1:0:1:001b:117e:117e:02080000:0:0:0:" name="SETAREH TV HD" service_name="SETAREH TV HD" provider="WNS" sid="27" onid="4478" tsid="4478" />
     <channel service_ref="1:0:25:335b:0c93:0003:00eb0000:0:0:0:" name="Seznam.cz HD" service_name="Seznam.cz HD" provider="M7 Group" sid="13147" onid="3" tsid="3219" />
     <channel service_ref="1:0:25:0001:0208:02be:0dc00000:0:0:0:" name="Sharjah HD" service_name="Sharjah HD" provider="SBA" sid="1" onid="702" tsid="520" />
     <channel service_ref="1:0:25:000d:0208:02be:0dc00000:0:0:0:" name="Sharjah Sport 2 HD" service_name="Sharjah Sport 2 HD" provider="SBA" sid="13" onid="702" tsid="520" />
@@ -19731,7 +19750,6 @@
     <channel service_ref="1:0:25:0004:0000:0000:0104ad9a:0:0:0:" name="Syria News HD" service_name="Syria News HD" provider="" sid="4" onid="0" tsid="0" />
     <channel service_ref="1:0:25:0b06:001c:0800:0dca0000:0:0:0:" name="Syria News HD" service_name="Syria News HD" provider="Nilesat" sid="2822" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:019a:0010:006e:0dca0000:0:0:0:" name="SYRIA TV HD" service_name="SYRIA TV HD" provider="" sid="410" onid="110" tsid="16" />
-    <channel service_ref="1:0:1:0b08:001c:0800:0dca0000:0:0:0:" name="Syria TV HD" service_name="Syria TV HD" provider="Nilesat" sid="2824" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:00f2:4f4c:016e:00a00000:0:0:0:" name="T HD" service_name="T HD" provider="DigitALB" sid="242" onid="366" tsid="20300" />
     <channel service_ref="1:0:25:0212:0ca2:0003:00eb0000:0:0:0:" name="TA3 HD" service_name="TA3 HD" provider="Towercom" sid="530" onid="3" tsid="3234" />
     <channel service_ref="1:0:31:07dc:9e98:016e:00a00000:0:0:0:" name="TA3 HD" service_name="TA3 HD" provider="A1 Broadcasting" sid="2012" onid="366" tsid="40600" />
@@ -19770,6 +19788,7 @@
     <channel service_ref="1:0:1:02e6:020b:0073:02080000:0:0:0:" name="Terra HD" service_name="Terra HD" provider="AREF" sid="742" onid="115" tsid="523" />
     <channel service_ref="1:0:1:03a1:00cf:0001:03200000:0:0:0:" name="Terra HD" service_name="Terra HD" provider="Orion Express" sid="929" onid="1" tsid="207" />
     <channel service_ref="1:0:1:021d:0018:0003:00130000:0:0:0:" name="Test 42 HD" service_name="Test 42 HD" provider="neosat" sid="541" onid="3" tsid="24" />
+    <channel service_ref="1:0:25:07d9:0014:0800:0dca0000:0:0:0:" name="Test HD" service_name="Test HD" provider="NILESAT" sid="2009" onid="2048" tsid="20" />
     <channel service_ref="1:0:25:1d4e:004b:0800:0dc00000:0:0:0:" name="Test HD" service_name="Test HD" provider="Nilesat" sid="7502" onid="2048" tsid="75" />
     <channel service_ref="1:0:1:1dba:145c:0005:01860000:0:0:0:" name="TEST HD" service_name="TEST HD" provider="PROTV" sid="7610" onid="5" tsid="5212" />
     <channel service_ref="1:0:25:1d52:004b:0800:0dc00000:0:0:0:" name="Test HD 2" service_name="Test HD 2" provider="Nilesat" sid="7506" onid="2048" tsid="75" />
@@ -19879,7 +19898,7 @@
     <channel service_ref="1:0:25:000b:003d:002a:01a40000:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="11" onid="42" tsid="61" />
     <channel service_ref="1:0:1:0057:01fe:02be:01040000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="87" onid="702" tsid="510" />
     <channel service_ref="1:0:1:031f:3bc4:013e:00820000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="318" tsid="15300" />
-    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="GLOBECAST" sid="799" onid="110" tsid="16" />
+    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="110" tsid="16" />
     <channel service_ref="1:0:25:c514:0000:0000:01312cfb:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="50452" onid="0" tsid="0" />
     <channel service_ref="1:0:25:000f:003d:002a:01a40000:0:0:0:" name="TRT AVAZ HD" service_name="TRT AVAZ HD" provider="TRT" sid="15" onid="42" tsid="61" />
     <channel service_ref="1:0:25:296c:042e:a861:01a40000:0:0:0:" name="TRT BELGESEL HD" service_name="TRT BELGESEL HD" provider="TRT" sid="10604" onid="43105" tsid="1070" />
@@ -20427,6 +20446,7 @@
     <channel service_ref="1:0:1:75f1:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="Digital+" sid="30193" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75f2:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="Digital+" sid="30194" onid="1" tsid="1058" />
     <channel service_ref="1:0:1:75f5:0422:0001:00c00000:0:0:0:" name="" service_name="" provider="DIGITAL +" sid="30197" onid="1" tsid="1058" />
+    <channel service_ref="1:0:1:c60e:a3ad:042e:01a40000:0:0:0:" name="" service_name="" provider="TURKSAT" sid="50702" onid="1070" tsid="41901" />
     <channel service_ref="1:0:22:0013:000f:0085:00c00000:0:0:0:" name="." service_name="." provider="Beta Digital" sid="19" onid="133" tsid="15" />
     <channel service_ref="1:0:1:0017:0007:0085:00c00000:0:0:0:" name="." service_name="." provider="BetaDigital" sid="23" onid="133" tsid="7" />
     <channel service_ref="1:0:1:001a:000f:0085:00c00000:0:0:0:" name="." service_name="." provider="BetaDigital" sid="26" onid="133" tsid="15" />
@@ -20809,6 +20829,8 @@
     <channel service_ref="1:0:25:03ea:50dc:016e:00a00000:0:0:0:" name="MAX HD" service_name="MAX HD" provider="DigitALB" sid="1002" onid="366" tsid="20700" />
     <channel service_ref="1:0:17:426d:78b5:002a:01a40000:0:0:0:" name="MCM TOP HD" service_name="MCM TOP HD" provider="Digital Platform" sid="17005" onid="42" tsid="30901" />
     <channel service_ref="1:0:22:025c:50dc:016e:00a00000:0:0:0:" name="MCN TV" service_name="MCN TV" provider="DigitALB" sid="604" onid="366" tsid="20700" />
+    <channel service_ref="1:0:25:0001:0001:000b:00820000:0:0:0:" name="MDS 1" service_name="MDS 1" provider="Globecast" sid="1" onid="11" tsid="1" />
+    <channel service_ref="1:0:25:0002:0001:000b:00820000:0:0:0:" name="MDS 2" service_name="MDS 2" provider="Globecast" sid="2" onid="11" tsid="1" />
     <channel service_ref="1:0:25:009e:00c9:0800:0dca0000:0:0:0:" name="Medi1 TV Arabic" service_name="Medi1 TV Arabic" provider="" sid="158" onid="2048" tsid="201" />
     <channel service_ref="1:0:1:013e:157c:013e:00820000:0:0:0:" name="MEGA HD" service_name="MEGA HD" provider="NOVA" sid="318" onid="318" tsid="5500" />
     <channel service_ref="1:0:22:0118:4f4c:016e:00a00000:0:0:0:" name="Melody.TV" service_name="Melody.TV" provider="DigitALB" sid="280" onid="366" tsid="20300" />
@@ -21074,7 +21096,7 @@
     <channel service_ref="1:0:25:000b:003d:002a:01a40000:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="11" onid="42" tsid="61" />
     <channel service_ref="1:0:1:0057:01fe:02be:01040000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="87" onid="702" tsid="510" />
     <channel service_ref="1:0:1:031f:3bc4:013e:00820000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="318" tsid="15300" />
-    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="GLOBECAST" sid="799" onid="110" tsid="16" />
+    <channel service_ref="1:0:1:031f:0010:006e:0dca0000:0:0:0:" name="TRT Arabi HD" service_name="TRT Arabi HD" provider="Globecast" sid="799" onid="110" tsid="16" />
     <channel service_ref="1:0:25:c514:0000:0000:01312cfb:0:0:0:" name="TRT ARABI HD" service_name="TRT ARABI HD" provider="TRT" sid="50452" onid="0" tsid="0" />
     <channel service_ref="1:0:25:c41d:a4d9:042e:01a40000:0:0:0:" name="TRT AVAZ" service_name="TRT AVAZ" provider="TURKSAT" sid="50205" onid="1070" tsid="42201" />
     <channel service_ref="1:0:1:c866:9ca5:042e:01a40000:0:0:0:" name="TRT EBA" service_name="TRT EBA" provider="TURKSAT" sid="51302" onid="1070" tsid="40101" />
@@ -21115,7 +21137,6 @@
     <channel service_ref="1:0:1:ca5c:7b0e:042e:01a40000:0:0:0:" name="TV 1" service_name="TV 1" provider="TURKSAT" sid="51804" onid="1070" tsid="31502" />
     <channel service_ref="1:0:25:c9b0:76c1:042e:01a40000:0:0:0:" name="TV 100 HD" service_name="TV 100 HD" provider="TURKSAT" sid="51632" onid="1070" tsid="30401" />
     <channel service_ref="1:0:25:cbe8:a925:042e:01a40000:0:0:0:" name="TV 100 HD" service_name="TV 100 HD" provider="TURKSAT" sid="52200" onid="1070" tsid="43301" />
-    <channel service_ref="1:0:1:c60e:a3ad:042e:01a40000:0:0:0:" name="TV 2020" service_name="TV 2020" provider="TURKSAT" sid="50702" onid="1070" tsid="41901" />
     <channel service_ref="1:0:1:413e:a2e7:042e:01a40000:0:0:0:" name="TV 4 HD" service_name="TV 4 HD" provider="TURK MEDYA" sid="16702" onid="1070" tsid="41703" />
     <channel service_ref="1:0:22:031c:0c94:0003:00eb0000:0:0:0:" name="TV Barrandov" service_name="TV Barrandov" provider="M7 Group" sid="796" onid="3" tsid="3220" />
     <channel service_ref="1:0:1:06a5:3138:013e:00820000:0:0:0:" name="TV CORAN" service_name="TV CORAN" provider="GLOBECAST" sid="1701" onid="318" tsid="12600" />
@@ -21559,7 +21580,7 @@
     <channel service_ref="1:0:25:011c:0010:0800:0dca0000:0:0:0:" name="Al Kawthar HD" service_name="Al Kawthar HD" provider="Nilesat" sid="284" onid="2048" tsid="16" />
     <channel service_ref="1:0:1:0f0a:0384:5000:0dc00000:0:0:0:" name="AL KERAZA TV" service_name="AL KERAZA TV" provider="Gulfsat" sid="3850" onid="20480" tsid="900" />
     <channel service_ref="1:0:1:233a:2328:013e:00820000:0:0:0:" name="AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات" service_name="AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات" provider="STN" sid="9018" onid="318" tsid="9000" />
-    <channel service_ref="1:0:1:06b8:01f4:5000:0dc00000:0:0:0:" name="AL MALAKOOT SATÃTHE KINGDOM SAT" service_name="AL MALAKOOT SATÃTHE KINGDOM SAT" provider="Gulfsat" sid="1720" onid="20480" tsid="500" />
+    <channel service_ref="1:0:1:06b8:01f4:5000:0dc00000:0:0:0:" name="AL MALAKOOT SATÃTHE KINGDOM SAT" service_name="AL MALAKOOT SATÃTHE KINGDOM SAT" provider="Gulfsat" sid="1720" onid="20480" tsid="500" />
     <channel service_ref="1:0:1:0001:0001:ffff:0212b158:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:0d842ade:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:0001:0d842cc0:0:0:0:" name="AL Manar" service_name="AL Manar" provider="AL Manar" sid="1" onid="1" tsid="1" />
@@ -21967,7 +21988,6 @@
     <channel service_ref="1:0:1:245f:0440:0001:00c00000:0:0:0:" name="BARKER COLLECTIVITES SD4" service_name="BARKER COLLECTIVITES SD4" provider="CSAT" sid="9311" onid="1" tsid="1088" />
     <channel service_ref="1:0:1:07b3:0009:0042:01a40000:0:0:0:" name="BAROQUE" service_name="BAROQUE" provider="DEMIROREN MEDYA" sid="1971" onid="66" tsid="9" />
     <channel service_ref="1:0:25:00c0:0065:0012:005a0000:0:0:0:" name="Bars &amp; Tone" service_name="Bars &amp; Tone" provider="" sid="192" onid="18" tsid="101" />
-    <channel service_ref="1:0:1:01cc:0010:006e:0dca0000:0:0:0:" name="Basma Radio" service_name="Basma Radio" provider="BasmaRadio" sid="460" onid="110" tsid="16" />
     <channel service_ref="1:0:1:01fe:9e34:077e:0dca0000:0:0:0:" name="Baywatch" service_name="Baywatch" provider="" sid="510" onid="1918" tsid="40500" />
     <channel service_ref="1:0:25:01f7:0384:013e:00820000:0:0:0:" name="Bayyinat TV" service_name="Bayyinat TV" provider="" sid="503" onid="318" tsid="900" />
     <channel service_ref="1:0:1:136a:03fc:039e:01860000:0:0:0:" name="BB VIP ALBANIA 1" service_name="BB VIP ALBANIA 1" provider="Tring TV" sid="4970" onid="926" tsid="1020" />
@@ -22620,7 +22640,6 @@
     <channel service_ref="1:0:1:02d5:2025:02be:01040000:0:0:0:" name="GAME TV" service_name="GAME TV" provider="FFmpeg" sid="725" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:012e:9cd6:077e:0dca0000:0:0:0:" name="Gametoon" service_name="Gametoon" provider="ECLUTCH" sid="302" onid="1918" tsid="40150" />
     <channel service_ref="1:0:1:00dc:0018:0003:00130000:0:0:0:" name="Gametoon HD" service_name="Gametoon HD" provider="neosat" sid="220" onid="3" tsid="24" />
-    <channel service_ref="1:0:1:02d6:2025:02be:01040000:0:0:0:" name="GANOR TV GH" service_name="GANOR TV GH" provider="Quickstream" sid="726" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:0004:0000:0000:01cc2b57:0:0:0:" name="GDS TV" service_name="GDS TV" provider="Vector A.G" sid="4" onid="0" tsid="0" />
     <channel service_ref="1:0:1:11ff:2b5c:013e:00820000:0:0:0:" name="GEB TV" service_name="GEB TV" provider="" sid="4607" onid="318" tsid="11100" />
     <channel service_ref="1:0:22:1c0b:0384:0110:005a0000:0:0:0:" name="GENIUS 240" service_name="GENIUS 240" provider="" sid="7179" onid="272" tsid="900" />
@@ -22755,7 +22774,6 @@
     <channel service_ref="1:0:1:fff9:002d:0800:0dca0000:0:0:0:" name="Humax Retail OTA" service_name="Humax Retail OTA" provider="OSN" sid="65529" onid="2048" tsid="45" />
     <channel service_ref="1:0:1:fff7:002d:0800:0dca0000:0:0:0:" name="Humax WIFI HEVC PVR - Live OTA" service_name="Humax WIFI HEVC PVR - Live OTA" provider="OSN" sid="65527" onid="2048" tsid="45" />
     <channel service_ref="1:0:12:07d1:03e9:0002:00820000:0:0:0:" name="HVS-1 DN2 Pri" service_name="HVS-1 DN2 Pri" provider="MyServiceProvider" sid="2001" onid="2" tsid="1001" />
-    <channel service_ref="1:0:12:07d2:03ea:0002:00820000:0:0:0:" name="HVS-2 DN2 Pri (SGP6)" service_name="HVS-2 DN2 Pri (SGP6)" provider="MyServiceProvider" sid="2002" onid="2" tsid="1002" />
     <channel service_ref="1:0:1:02c8:0012:0800:0dca0000:0:0:0:" name="HYA" service_name="HYA" provider="Nilesat" sid="712" onid="2048" tsid="18" />
     <channel service_ref="1:0:22:00c6:0003:0040:00a00000:0:0:0:" name="Hype TV." service_name="Hype TV." provider="T-HT" sid="198" onid="64" tsid="3" />
     <channel service_ref="1:0:1:6e45:0431:0001:00c00000:0:0:0:" name="Höhenrausch" service_name="Höhenrausch" provider="SES" sid="28229" onid="1" tsid="1073" />
@@ -22795,6 +22813,7 @@
     <channel service_ref="1:0:130:00b6:0003:0042:01a40000:0:0:0:" name="iEURODTrigger" service_name="iEURODTrigger" provider="DEMIROREN MEDYA" sid="182" onid="66" tsid="3" />
     <channel service_ref="1:0:130:00ad:0009:0042:01a40000:0:0:0:" name="iFOODNETWORKTrigger" service_name="iFOODNETWORKTrigger" provider="DEMIROREN MEDYA" sid="173" onid="66" tsid="9" />
     <channel service_ref="1:0:25:0001:0000:0000:0168ad24:0:0:0:" name="IHA ANA YAYIN" service_name="IHA ANA YAYIN" provider="" sid="1" onid="0" tsid="0" />
+    <channel service_ref="1:0:1:0001:0001:ffff:0082b129:0:0:0:" name="IHF - MAL - SUI vs ISL" service_name="IHF - MAL - SUI vs ISL" provider="Service Provider" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:130:00b0:0007:0042:01a40000:0:0:0:" name="iKANALDHDTrigger" service_name="iKANALDHDTrigger" provider="DEMIROREN MEDYA" sid="176" onid="66" tsid="7" />
     <channel service_ref="1:0:130:0b01:0001:0042:01a40000:0:0:0:" name="iKANALDTrigger" service_name="iKANALDTrigger" provider="DEMIROREN MEDYA" sid="2817" onid="66" tsid="1" />
     <channel service_ref="1:0:22:004e:7918:217c:005a0000:0:0:0:" name="iL61" service_name="iL61" provider="Persidera" sid="78" onid="8572" tsid="31000" />
@@ -23083,12 +23102,12 @@
     <channel service_ref="1:0:1:006f:0065:0001:03200000:0:0:0:" name="LEOMAX24" service_name="LEOMAX24" provider="Orion Express" sid="111" onid="1" tsid="101" />
     <channel service_ref="1:0:1:00e2:0002:0049:02ad0000:0:0:0:" name="Liberation TV" service_name="Liberation TV" provider="Sentech" sid="226" onid="73" tsid="2" />
     <channel service_ref="1:0:1:08ff:0017:0800:0dca0000:0:0:0:" name="Libya Al Hedaya TV" service_name="Libya Al Hedaya TV" provider="Nilesat" sid="2303" onid="2048" tsid="23" />
-    <channel service_ref="1:0:1:05c6:0320:5000:0dc00000:0:0:0:" name="Libya Al Naga TV" service_name="Libya Al Naga TV" provider="MY TV" sid="1478" onid="20480" tsid="800" />
+    <channel service_ref="1:0:25:05c6:0320:5000:0dc00000:0:0:0:" name="Libya Al Nagaa TV" service_name="Libya Al Nagaa TV" provider="MY TV" sid="1478" onid="20480" tsid="800" />
     <channel service_ref="1:0:1:00ce:0002:02be:0104b048:0:0:0:" name="Libya Al Rasmia" service_name="Libya Al Rasmia" provider="" sid="206" onid="702" tsid="2" />
-    <channel service_ref="1:0:1:12de:01f4:5000:0dc00000:0:0:0:" name="Libya Al-Youm" service_name="Libya Al-Youm" provider="Gulfsat" sid="4830" onid="20480" tsid="500" />
+    <channel service_ref="1:0:25:12de:01f4:5000:0dc00000:0:0:0:" name="Libya Al-Youm" service_name="Libya Al-Youm" provider="Gulfsat" sid="4830" onid="20480" tsid="500" />
     <channel service_ref="1:0:25:0b05:001c:0800:0dca0000:0:0:0:" name="LIBYA ALHADATH HD" service_name="LIBYA ALHADATH HD" provider="" sid="2821" onid="2048" tsid="28" />
     <channel service_ref="1:0:1:013d:00c9:0800:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="317" onid="2048" tsid="201" />
-    <channel service_ref="1:0:22:1f6d:0012:006e:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="8045" onid="110" tsid="18" />
+    <channel service_ref="1:0:25:1f6d:0012:006e:0dca0000:0:0:0:" name="LIBYA ALMASAR TV" service_name="LIBYA ALMASAR TV" provider="" sid="8045" onid="110" tsid="18" />
     <channel service_ref="1:0:25:1c88:0049:0800:0dc00000:0:0:0:" name="LIBYA ALMOKHTAR" service_name="LIBYA ALMOKHTAR" provider="Nilesat" sid="7304" onid="2048" tsid="73" />
     <channel service_ref="1:0:25:1c87:0049:0800:0dc00000:0:0:0:" name="Libya Almustaqbal" service_name="Libya Almustaqbal" provider="Nilesat" sid="7303" onid="2048" tsid="73" />
     <channel service_ref="1:0:1:00ce:000d:0800:0dca0000:0:0:0:" name="Libya Alrasmia" service_name="Libya Alrasmia" provider="NILESAT" sid="206" onid="2048" tsid="13" />
@@ -23355,6 +23374,7 @@
     <channel service_ref="1:0:1:0008:0014:1113:03200000:0:0:0:" name="NANO" service_name="NANO" provider="Harmonic" sid="8" onid="4371" tsid="20" />
     <channel service_ref="1:0:1:1f67:80e3:217c:005a0000:0:0:0:" name="NAPOFLIX" service_name="NAPOFLIX" provider="NAPOFLIX" sid="8039" onid="8572" tsid="32995" />
     <channel service_ref="1:0:25:006b:cb2c:016e:00a00000:0:0:0:" name="Narodna TV HD" service_name="Narodna TV HD" provider="pink" sid="107" onid="366" tsid="52012" />
+    <channel service_ref="1:0:1:02d6:2025:02be:01040000:0:0:0:" name="NASARA TV" service_name="NASARA TV" provider="Quickstream" sid="726" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:4f2c:0ca6:0003:00eb0000:0:0:0:" name="Nasha TV" service_name="Nasha TV" provider="" sid="20268" onid="3" tsid="3238" />
     <channel service_ref="1:0:31:006c:00b1:039e:01860000:0:0:0:" name="Nashe Kino" service_name="Nashe Kino" provider="A1 GB" sid="108" onid="926" tsid="177" />
     <channel service_ref="1:0:22:034d:0002:ff00:02032c1a:0:0:0:" name="Nashe Novoe Kino" service_name="Nashe Novoe Kino" provider="Belintersat" sid="845" onid="65280" tsid="2" />
@@ -23450,7 +23470,7 @@
     <channel service_ref="1:0:1:02dd:2025:02be:01040000:0:0:0:" name="Nobyah TV" service_name="Nobyah TV" provider="Quickstream" sid="733" onid="702" tsid="8229" />
     <channel service_ref="1:0:1:028a:0010:0800:0dca0000:0:0:0:" name="Nogoum FM TV" service_name="Nogoum FM TV" provider="Nilesat" sid="650" onid="2048" tsid="16" />
     <channel service_ref="1:0:25:138b:50e1:217c:005a0000:0:0:0:" name="NOItv" service_name="NOItv" provider="NOITV" sid="5003" onid="8572" tsid="20705" />
-    <channel service_ref="1:0:1:001d:146f:02be:01040000:0:0:0:" name="North East TV" service_name="North East TV" provider="FFmpeg" sid="29" onid="702" tsid="5231" />
+    <channel service_ref="1:0:1:001d:146f:02be:01040000:0:0:0:" name="North East TV" service_name="North East TV" provider="Henmax" sid="29" onid="702" tsid="5231" />
     <channel service_ref="1:0:1:04ed:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="1261" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17c1:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="6081" onid="54" tsid="47" />
     <channel service_ref="1:0:22:01a7:0005:0001:01860000:0:0:0:" name="Nostalgia" service_name="Nostalgia" provider="Bulsatcom" sid="423" onid="1" tsid="5" />
@@ -24084,7 +24104,7 @@
     <channel service_ref="1:0:22:000a:0001:0000:0cb7ad05:0:0:0:" name="Service 11-12 (SD)" service_name="Service 11-12 (SD)" provider="SMTD" sid="10" onid="0" tsid="1" />
     <channel service_ref="1:0:22:0009:0001:0000:0cb7ad05:0:0:0:" name="Service 11-17" service_name="Service 11-17" provider="SMTD" sid="9" onid="0" tsid="1" />
     <channel service_ref="1:0:1:008c:03e9:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1001" />
-    <channel service_ref="1:0:1:008c:03ea:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1002" />
+    <channel service_ref="1:0:1:008c:03ea:0001:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1002" />
     <channel service_ref="1:0:1:008c:03eb:0002:00820000:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="2" tsid="1003" />
     <channel service_ref="1:0:1:008c:0001:0001:02eeae34:0:0:0:" name="SERVICE IP/MAC NOTIFICATION" service_name="SERVICE IP/MAC NOTIFICATION" provider="MyIntProvider" sid="140" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:001e2d99:0:0:0:" name="Service-1" service_name="Service-1" provider="Service Provider" sid="1" onid="65535" tsid="1" />
@@ -24114,8 +24134,8 @@
     <channel service_ref="1:0:1:1ee7:0457:0001:00c00000:0:0:0:" name="SES-LCN2" service_name="SES-LCN2" provider="SES ASTRA" sid="7911" onid="1" tsid="1111" />
     <channel service_ref="1:0:1:05af:0c98:0003:00eb0000:0:0:0:" name="SES_LCN2" service_name="SES_LCN2" provider="SES ASTRA" sid="1455" onid="3" tsid="3224" />
     <channel service_ref="1:0:22:03eb:10e1:217c:005a0000:0:0:0:" name="Sesta Rete" service_name="Sesta Rete" provider="Global" sid="1003" onid="8572" tsid="4321" />
-    <channel service_ref="1:0:1:001b:117e:117e:02080000:0:0:0:" name="Setareh TV" service_name="Setareh TV" provider="WNS" sid="27" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:01f6:0384:013e:00820000:0:0:0:" name="Setareh TV" service_name="Setareh TV" provider="" sid="502" onid="318" tsid="900" />
+    <channel service_ref="1:0:1:001b:117e:117e:02080000:0:0:0:" name="SETAREH TV HD" service_name="SETAREH TV HD" provider="WNS" sid="27" onid="4478" tsid="4478" />
     <channel service_ref="1:0:1:00b6:020d:0073:02080000:0:0:0:" name="Sevimli TV" service_name="Sevimli TV" provider="AREF" sid="182" onid="115" tsid="525" />
     <channel service_ref="1:0:1:0c50:0459:0001:00c00000:0:0:0:" name="Sex-Kontakte" service_name="Sex-Kontakte" provider="phabvision" sid="3152" onid="1" tsid="1113" />
     <channel service_ref="1:0:1:314e:0459:0001:00c00000:0:0:0:" name="Sexy Girls TV" service_name="Sexy Girls TV" provider="phabvision" sid="12622" onid="1" tsid="1113" />
@@ -24338,10 +24358,10 @@
     <channel service_ref="1:0:1:001b:0001:0001:02ad3112:0:0:0:" name="SYNAGOGUE TV" service_name="SYNAGOGUE TV" provider="ViewMedia" sid="27" onid="1" tsid="1" />
     <channel service_ref="1:0:1:067c:03f2:039e:01860000:0:0:0:" name="Syri TV" service_name="Syri TV" provider="Tring TV" sid="1660" onid="926" tsid="1010" />
     <channel service_ref="1:0:25:0576:0802:00e0:01040000:0:0:0:" name="SYRIA TV" service_name="SYRIA TV" provider="EshialSat" sid="1398" onid="224" tsid="2050" />
+    <channel service_ref="1:0:1:0b08:001c:0800:0dca0000:0:0:0:" name="Syria TV" service_name="Syria TV" provider="Nilesat" sid="2824" onid="2048" tsid="28" />
     <channel service_ref="1:0:1:145a:0320:5000:0dc00000:0:0:0:" name="Syria TV" service_name="Syria TV" provider="MY TV" sid="5210" onid="20480" tsid="800" />
     <channel service_ref="1:0:1:0b0b:001c:0800:0dca0000:0:0:0:" name="Syria TV 01" service_name="Syria TV 01" provider="Nilesat" sid="2827" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:019a:0010:006e:0dca0000:0:0:0:" name="SYRIA TV HD" service_name="SYRIA TV HD" provider="" sid="410" onid="110" tsid="16" />
-    <channel service_ref="1:0:1:0b08:001c:0800:0dca0000:0:0:0:" name="Syria TV HD" service_name="Syria TV HD" provider="Nilesat" sid="2824" onid="2048" tsid="28" />
     <channel service_ref="1:0:25:06ae:0007:0042:01a40000:0:0:0:" name="T.A.Y TV" service_name="T.A.Y TV" provider="DEMIROREN MEDYA" sid="1710" onid="66" tsid="7" />
     <channel service_ref="1:0:1:0056:3e1c:013f:00820000:0:0:0:" name="T18" service_name="T18" provider="Eutelsat" sid="86" onid="319" tsid="15900" />
     <channel service_ref="1:0:25:00cf:0002:20fa:0dde0000:0:0:0:" name="T18" service_name="T18" provider="NTN" sid="207" onid="8442" tsid="2" />
@@ -24447,7 +24467,6 @@
     <channel service_ref="1:0:1:06a8:012d:02be:01040000:0:0:0:" name="Test" service_name="Test" provider="JMC" sid="1704" onid="702" tsid="301" />
     <channel service_ref="1:0:1:07d2:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2002" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07d3:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2003" onid="2048" tsid="20" />
-    <channel service_ref="1:0:25:07d9:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="NILESAT" sid="2009" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07dc:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2012" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07dd:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2013" onid="2048" tsid="20" />
     <channel service_ref="1:0:1:07de:0014:0800:0dca0000:0:0:0:" name="Test" service_name="Test" provider="Nilesat" sid="2014" onid="2048" tsid="20" />
@@ -24489,6 +24508,7 @@
     <channel service_ref="1:0:1:01c8:0005:00aa:005a0000:0:0:0:" name="TEST 9" service_name="TEST 9" provider="OTE" sid="456" onid="170" tsid="5" />
     <channel service_ref="1:0:1:01a5:0006:00aa:005a0000:0:0:0:" name="TEST BISS" service_name="TEST BISS" provider="ΟΤΕ" sid="421" onid="170" tsid="6" />
     <channel service_ref="1:0:1:01af:0006:00aa:005a0000:0:0:0:" name="TEST FREE" service_name="TEST FREE" provider="ΟΤΕ" sid="431" onid="170" tsid="6" />
+    <channel service_ref="1:0:25:07d9:0014:0800:0dca0000:0:0:0:" name="Test HD" service_name="Test HD" provider="NILESAT" sid="2009" onid="2048" tsid="20" />
     <channel service_ref="1:0:25:1d4e:004b:0800:0dc00000:0:0:0:" name="Test HD" service_name="Test HD" provider="Nilesat" sid="7502" onid="2048" tsid="75" />
     <channel service_ref="1:0:1:1dba:145c:0005:01860000:0:0:0:" name="TEST HD" service_name="TEST HD" provider="PROTV" sid="7610" onid="5" tsid="5212" />
     <channel service_ref="1:0:25:1d52:004b:0800:0dc00000:0:0:0:" name="Test HD 2" service_name="Test HD 2" provider="Nilesat" sid="7506" onid="2048" tsid="75" />
@@ -26790,6 +26810,7 @@
     <channel service_ref="1:0:2:0e74:0005:0001:0e080000:0:0:0:" name="Bartok Radio" service_name="Bartok Radio" provider="DIGI HU" sid="3700" onid="1" tsid="5" />
     <channel service_ref="1:0:2:003f:1838:009e:005a0000:0:0:0:" name="Bartok Radio (AAC)" service_name="Bartok Radio (AAC)" provider="MTVA" sid="63" onid="158" tsid="6200" />
     <channel service_ref="1:0:2:00a3:1838:009e:005a0000:0:0:0:" name="Bartok Radio (L2)" service_name="Bartok Radio (L2)" provider="MTVA" sid="163" onid="158" tsid="6200" />
+    <channel service_ref="1:0:2:01cc:0010:006e:0dca0000:0:0:0:" name="Basma Radio" service_name="Basma Radio" provider="BasmaRadio" sid="460" onid="110" tsid="16" />
     <channel service_ref="1:0:2:003a:0065:0012:005a0000:0:0:0:" name="Bavaria Eagle" service_name="Bavaria Eagle" provider="" sid="58" onid="18" tsid="101" />
     <channel service_ref="1:0:10:28a0:040f:0001:00c00000:0:0:0:" name="Bayern 1" service_name="Bayern 1" provider="ARD BR" sid="10400" onid="1" tsid="1039" />
     <channel service_ref="1:0:10:28a1:040f:0001:00c00000:0:0:0:" name="Bayern 2" service_name="Bayern 2" provider="ARD BR" sid="10401" onid="1" tsid="1039" />
@@ -26873,7 +26894,7 @@
     <channel service_ref="1:0:2:000c:0032:0064:0dca0000:0:0:0:" name="Calssic" service_name="Calssic" provider="ADMC" sid="12" onid="100" tsid="50" />
     <channel service_ref="1:0:2:000f:0000:0000:0dde2cc5:0:0:0:" name="CANAL EVENT" service_name="CANAL EVENT" provider="towerCast_B" sid="15" onid="0" tsid="0" />
     <channel service_ref="1:0:2:02a3:0006:0800:0dca0000:0:0:0:" name="Canal Radio" service_name="Canal Radio" provider="NILESAT" sid="675" onid="2048" tsid="6" />
-    <channel service_ref="1:0:2:10a0:3db8:013e:00820000:0:0:0:" name="Canzoni Napoletane" service_name="Canzoni Napoletane" provider="Telespazio" sid="4256" onid="318" tsid="15800" />
+    <channel service_ref="1:0:10:10a0:3db8:013e:00820000:0:0:0:" name="Canzoni Napoletane" service_name="Canzoni Napoletane" provider="Telespazio" sid="4256" onid="318" tsid="15800" />
     <channel service_ref="1:0:2:09fe:082f:0002:011a0000:0:0:0:" name="Capital" service_name="Capital" provider="BSkyB" sid="2558" onid="2" tsid="2095" />
     <channel service_ref="1:0:2:0e44:1c20:013e:00820000:0:0:0:" name="CAPITAL" service_name="CAPITAL" provider="M-Three Satcom" sid="3652" onid="318" tsid="7200" />
     <channel service_ref="1:0:2:254d:082f:0002:011a0000:0:0:0:" name="Capital XTRA" service_name="Capital XTRA" provider="BSkyB" sid="9549" onid="2" tsid="2095" />
@@ -26944,9 +26965,9 @@
     <channel service_ref="1:0:10:1f83:0ca1:0003:00eb0000:0:0:0:" name="CRo VYSOCINA" service_name="CRo VYSOCINA" provider="Cesky Rozhlas" sid="8067" onid="3" tsid="3233" />
     <channel service_ref="1:0:10:1f89:0ca1:0003:00eb0000:0:0:0:" name="CRo ZLIN" service_name="CRo ZLIN" provider="Cesky Rozhlas" sid="8073" onid="3" tsid="3233" />
     <channel service_ref="1:0:2:291f:9d6d:042e:01a40000:0:0:0:" name="Cukurova Radyosu" service_name="Cukurova Radyosu" provider="TRT" sid="10527" onid="1070" tsid="40301" />
-    <channel service_ref="1:0:2:425a:3db8:013e:00820000:0:0:0:" name="Cusano Napoli" service_name="Cusano Napoli" provider="Telespazio" sid="16986" onid="318" tsid="15800" />
-    <channel service_ref="1:0:2:10a3:3db8:013e:00820000:0:0:0:" name="Cusano Palermo" service_name="Cusano Palermo" provider="Telespazio" sid="4259" onid="318" tsid="15800" />
-    <channel service_ref="1:0:2:425b:3db8:013e:00820000:0:0:0:" name="Cusano Salerno" service_name="Cusano Salerno" provider="Telespazio" sid="16987" onid="318" tsid="15800" />
+    <channel service_ref="1:0:10:425a:3db8:013e:00820000:0:0:0:" name="Cusano Napoli" service_name="Cusano Napoli" provider="Telespazio" sid="16986" onid="318" tsid="15800" />
+    <channel service_ref="1:0:10:10a3:3db8:013e:00820000:0:0:0:" name="Cusano Palermo" service_name="Cusano Palermo" provider="Telespazio" sid="4259" onid="318" tsid="15800" />
+    <channel service_ref="1:0:10:425b:3db8:013e:00820000:0:0:0:" name="Cusano Salerno" service_name="Cusano Salerno" provider="Telespazio" sid="16987" onid="318" tsid="15800" />
     <channel service_ref="1:0:2:00a8:1838:009e:005a0000:0:0:0:" name="D192ser" service_name="D192ser" provider="MTVA" sid="168" onid="158" tsid="6200" />
     <channel service_ref="1:0:2:005b:2e18:00b0:00820000:0:0:0:" name="Dakhla" service_name="Dakhla" provider="SNRT" sid="91" onid="176" tsid="11800" />
     <channel service_ref="1:0:2:006a:4e84:077e:0dca0000:0:0:0:" name="Dakhla" service_name="Dakhla" provider="SNRT" sid="106" onid="1918" tsid="20100" />
@@ -27928,7 +27949,7 @@
     <channel service_ref="1:0:2:23ea:0446:0001:00c00000:0:0:0:" name="RADIO NOTRE DAME" service_name="RADIO NOTRE DAME" provider="" sid="9194" onid="1" tsid="1094" />
     <channel service_ref="1:0:2:004b:2580:00d5:00820000:0:0:0:" name="Radio Nova K" service_name="Radio Nova K" provider="VIVACOM" sid="75" onid="213" tsid="9600" />
     <channel service_ref="1:0:2:005e:001a:0014:02ad0000:0:0:0:" name="Radio Novo Tempo" service_name="Radio Novo Tempo" provider="Hope Channel" sid="94" onid="20" tsid="26" />
-    <channel service_ref="1:0:2:109f:3db8:013e:00820000:0:0:0:" name="Radio Number One" service_name="Radio Number One" provider="Telespazio" sid="4255" onid="318" tsid="15800" />
+    <channel service_ref="1:0:10:109f:3db8:013e:00820000:0:0:0:" name="Radio Number One" service_name="Radio Number One" provider="Telespazio" sid="4255" onid="318" tsid="15800" />
     <channel service_ref="1:0:2:19d7:0010:0055:00300000:0:0:0:" name="radio nv" service_name="radio nv" provider="TRK ERA" sid="6615" onid="85" tsid="16" />
     <channel service_ref="1:0:2:1e2c:0c9e:0003:00eb0000:0:0:0:" name="radio nv" service_name="radio nv" provider="TRK ERA" sid="7724" onid="3" tsid="3230" />
     <channel service_ref="1:0:2:000f:0028:0001:02080000:0:0:0:" name="Radio O`zbekiston 24" service_name="Radio O`zbekiston 24" provider="CRRT" sid="15" onid="1" tsid="40" />
