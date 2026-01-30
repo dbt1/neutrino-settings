@@ -772,33 +772,38 @@
     </satellite>
     <satellite key="0dca0000:4e84:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:4e84:077e" frequency="11158000" symbol_rate="5000000" polarization="V" fec="9" system="0" modulation="0">
-        <service id="0x004c" sid="76" name="Casablanca" type="1" provider="" onid="1918" tsid="20100" namespace="0x0dca0000" />
-        <service id="0x00c7" sid="199" name="ColorBar" type="1" provider="Scopus Network Technologies" onid="1918" tsid="20100" namespace="0x0dca0000" />
+        <service id="0x004c" sid="76" name="Casablanca" type="1" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" />
         <service id="0x0029" sid="41" name="Hit Radio Maroc" type="1" provider="Scopus Network Technologies" onid="1918" tsid="20100" namespace="0x0dca0000" />
         <service id="0x004d" sid="77" name="RIM Maroc" type="1" provider="" onid="1918" tsid="20100" namespace="0x0dca0000" />
         <service id="0x002b" sid="43" name="Story Channel" type="1" provider="ViewMedia" onid="1918" tsid="20100" namespace="0x0dca0000" />
         <service id="0x002a" sid="42" name="Tele Maroc" type="25" provider="Telefonica Servicios Audiovisuales" onid="1918" tsid="20100" namespace="0x0dca0000" />
         <service id="0x006e" sid="110" name="Agadir" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
-        <service id="0x006f" sid="111" name="Al-Houceima" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
+        <service id="0x006f" sid="111" name="Al-Houceima" type="2" provider="SNRT-ALHOCEIMA" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
+        <service id="0x004f" sid="79" name="Chada Radio" type="2" provider="CHADARADIO" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x006a" sid="106" name="Dakhla" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x0031" sid="49" name="Fes" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x004b" sid="75" name="Laayoune" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x004a" sid="74" name="Marrakech" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
-        <service id="0x002f" sid="47" name="Meknes" type="2" provider="SNRT MEKNES" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
+        <service id="0x002f" sid="47" name="Meknes" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x002c" sid="44" name="Oujda" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x006c" sid="108" name="Radio Amazigh" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x004e" sid="78" name="Radio Azawan Maroc" type="10" provider="" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x006b" sid="107" name="Radio Inter" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x006d" sid="109" name="Radio Med VI" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x002d" sid="45" name="Radio Nationale" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
-        <service id="0x0030" sid="48" name="Tanger" type="2" provider="Snrt" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
+        <service id="0x0030" sid="48" name="Tanger" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
         <service id="0x002e" sid="46" name="Tetouan" type="2" provider="SNRT" onid="1918" tsid="20100" namespace="0x0dca0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:4ee8:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:4ee8:077e" frequency="10992000" symbol_rate="5000000" polarization="V" fec="9" system="0" modulation="0">
-        <service id="0x006d" sid="109" name="AL ANIS TV" type="1" provider="" onid="1918" tsid="20200" namespace="0x0dca0000" />
+        <service id="0x006d" sid="109" name="AL ANIS" type="1" provider="" onid="1918" tsid="20200" namespace="0x0dca0000" />
         <service id="0x006e" sid="110" name="Chinguit TV" type="1" provider="" onid="1918" tsid="20200" namespace="0x0dca0000" />
+      </transponder>
+    </satellite>
+    <satellite key="0dca0000:7800:073a" name="Sat-7W" namespace="0x0dca0000" position="-7">
+      <transponder key="0dca0000:7800:073a" frequency="11033000" symbol_rate="5000000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Innovatech" type="1" provider="" onid="1850" tsid="30720" namespace="0x0dca0000" />
       </transponder>
     </satellite>
     <satellite key="0dca0000:9c54:077e" name="Sat-7W" namespace="0x0dca0000" position="-7">
@@ -964,10 +969,10 @@
         <service id="0x0002" sid="2" name="Alatawla Cinema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000f" sid="15" name="Alatawla Hekayat" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000c" sid="12" name="Alatwla Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
+        <service id="0x000d" sid="13" name="Alawa Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0010" sid="16" name="Alhwanem Drama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001d" sid="29" name="Alkalema" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x000a" sid="10" name="Almagd TV" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
-        <service id="0x000d" sid="13" name="Almasirah HD" type="25" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0008" sid="8" name="ALMAYADEEN PLUS" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x0014" sid="20" name="Alsay3da" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />
         <service id="0x001a" sid="26" name="Beit ElDrama" type="1" provider="ViewMedia" onid="65535" tsid="1" namespace="0x0dca2a3f" />

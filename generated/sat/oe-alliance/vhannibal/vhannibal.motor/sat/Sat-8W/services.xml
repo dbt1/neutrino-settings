@@ -181,7 +181,7 @@
     </satellite>
     <satellite key="0dc00000:01f4:5000" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:01f4:5000" frequency="10727000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
-        <service id="0x06b8" sid="1720" name="AL MALAKOOT SATÃTHE KINGDOM SAT" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
+        <service id="0x06b8" sid="1720" name="AL MALAKOOT SATÃTHE KINGDOM SAT" type="1" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x078c" sid="1932" name="Al-Awhad TV" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x12c0" sid="4800" name="Alnajaf Alashraf tv" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
         <service id="0x173e" sid="5950" name="ALWAQIE TV HD" type="25" provider="Gulfsat" onid="20480" tsid="500" namespace="0x0dc00000" />
@@ -282,6 +282,8 @@
     <satellite key="0dc00000:7594:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
       <transponder key="0dc00000:7594:077e" frequency="11054000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x044e" sid="1102" name="AL-AKHBAR" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
+        <service id="0x0028" sid="40" name="Colorbars" type="1" provider="EUTELSAT" onid="1918" tsid="30100" namespace="0x0dc00000" />
+        <service id="0x0001" sid="1" name="Colorbars1" type="1" provider="EUTELSAT" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x01c3" sid="451" name="Kuwait Sport Plus" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x01c2" sid="450" name="Kuwait Sports" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
         <service id="0x044d" sid="1101" name="Kuwait TV 1" type="25" provider="MOI" onid="1918" tsid="30100" namespace="0x0dc00000" />
@@ -292,6 +294,13 @@
         <service id="0x000f" sid="15" name="Kuwait FM" type="2" provider="Kuwait Radio" onid="1918" tsid="30100" namespace="0x0dc00000" radio="1" />
         <service id="0x000b" sid="11" name="Kuwait Old Arabic" type="2" provider="Kuwait Radio" onid="1918" tsid="30100" namespace="0x0dc00000" radio="1" />
         <service id="0x000a" sid="10" name="Kuwait Super Station" type="2" provider="Kuwait Radio" onid="1918" tsid="30100" namespace="0x0dc00000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dc00000:7850:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
+      <transponder key="0dc00000:7850:077e" frequency="11095000" symbol_rate="30000000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x08fd" sid="2301" name="Thmanyah Test 1" type="25" provider="GrassValley_AMPP" onid="1918" tsid="30800" namespace="0x0dc00000" />
+        <service id="0x08fe" sid="2302" name="Thmanyah Test 2" type="25" provider="GrassValley_AMPP" onid="1918" tsid="30800" namespace="0x0dc00000" />
+        <service id="0x08ff" sid="2303" name="Thmanyah Test 3" type="25" provider="GrassValley_AMPP" onid="1918" tsid="30800" namespace="0x0dc00000" />
       </transponder>
     </satellite>
     <satellite key="0dc00000:eac4:077e" name="Sat-8W" namespace="0x0dc00000" position="-8">
@@ -327,6 +336,7 @@
     </satellite>
     <satellite key="0dc02b58:0008:ffff" name="Sat-8W" namespace="0x0dc02b58" position="-8">
       <transponder key="0dc02b58:0008:ffff" frequency="11096000" symbol_rate="27500000" polarization="H" fec="5" system="0" modulation="0">
+        <service id="0x001c" sid="28" name="Al Ons TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0004" sid="4" name="Al Sahat" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0006" sid="6" name="ALHAWYAH TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0002" sid="2" name="Alkarma ME 1" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
@@ -334,7 +344,6 @@
         <service id="0x000a" sid="10" name="Almasirah Mubashar" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000e" sid="14" name="ALMASIRAH TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0011" sid="17" name="Iraq Future" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
-        <service id="0x001c" sid="28" name="Libya WTV HD" type="25" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x000b" sid="11" name="Logos TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0001" sid="1" name="Loveworld Arabic" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x0005" sid="5" name="Mahdi has appeared TV" type="1" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
@@ -346,6 +355,11 @@
         <service id="0x0007" sid="7" name="Yemen TV HD" type="25" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" />
         <service id="0x001f" sid="31" name="Radio Sawt El Shaa" type="2" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" radio="1" />
         <service id="0x0014" sid="20" name="Yemen Radio" type="2" provider="ViewMedia" onid="65535" tsid="8" namespace="0x0dc02b58" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="0dc0316f:0001:ffff" name="Sat-8W" namespace="0x0dc0316f" position="-8">
+      <transponder key="0dc0316f:0001:ffff" frequency="12655000" symbol_rate="5000000" polarization="V" fec="4" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="EUTELSAT 8W A M6-05 CH1 RM" type="1" provider="ELETTRONICAINDUSTRIALETOWERS" onid="65535" tsid="1" namespace="0x0dc0316f" />
       </transponder>
     </satellite>
     <satellite key="0dc0b14d:0001:0001" name="Sat-8W" namespace="0x0dc0b14d" position="-8">

@@ -10,13 +10,13 @@
         <service id="0x0009" sid="9" name="Mahalla HD" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Navo" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="O`zbekiston" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
+        <service id="0x000e" sid="14" name="service_1" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000a" sid="10" name="service_3" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
+        <service id="0x000f" sid="15" name="service_4" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000b" sid="11" name="service_5" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="service_6" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0004" sid="4" name="Sport Uz" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0002" sid="2" name="Yoshlar" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
-        <service id="0x000e" sid="14" name="Radio Mahalla" type="2" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" radio="1" />
-        <service id="0x000f" sid="15" name="Radio O`zbekiston 24" type="2" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="02080000:0209:0073" name="Sat-52E" namespace="0x02080000" position="52">
@@ -225,7 +225,7 @@
         <service id="0x0006" sid="6" name="Persiana Reality" type="1" provider="Persiana Cast" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0012" sid="18" name="PMC SELECT" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0003" sid="3" name="Pro Sport" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
-        <service id="0x001b" sid="27" name="SETAREH TV HD" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
+        <service id="0x001b" sid="27" name="Setareh TV" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0011" sid="17" name="Sun Music TV" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0010" sid="16" name="Tapesh HD" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
       </transponder>
@@ -256,9 +256,9 @@
         <service id="0x0011" sid="17" name="Iran-e-Farda TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="ITN" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x001a" sid="26" name="Kanal Jadid" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
+        <service id="0x001d" sid="29" name="Khane Honarmandan" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x014c" sid="332" name="Mardom TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="Mihan TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
-        <service id="0x001d" sid="29" name="Mix Plus Two" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0005" sid="5" name="MOJ TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x014a" sid="330" name="Navahang" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x001b" sid="27" name="Orange TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
@@ -338,39 +338,24 @@
     </satellite>
     <satellite key="02082c50:0000:0000" name="Sat-52E" namespace="0x02082c50" position="52">
       <transponder key="02082c50:0000:0000" frequency="11344000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x014b" sid="331" name="AVA Family" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0094" sid="148" name="Dunya naw TV - farah" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x02c7" sid="711" name="Eslah TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x002a" sid="42" name="ICC - Film &amp; Series" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x02c1" sid="705" name="IRAN INTERNATIONAL" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0011" sid="17" name="Iran-e-Farda TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x000c" sid="12" name="ITN" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x001a" sid="26" name="Kanal Jadid" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x014c" sid="332" name="Mardom TV" type="1" provider="" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0001" sid="1" name="Mihan TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x001d" sid="29" name="Mix Plus Two" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0005" sid="5" name="MOJ TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x014a" sid="330" name="Navahang" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x001b" sid="27" name="Orange TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x008f" sid="143" name="OXIR TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x001c" sid="28" name="Pars TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x000f" sid="15" name="Payam E Doost" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x002b" sid="43" name="Premier" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0004" sid="4" name="Radio Begum" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0013" sid="19" name="Radio Jawanan" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0010" sid="16" name="Radio Yar" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x02bd" sid="701" name="Sharq Global TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0095" sid="149" name="SL two" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0006" sid="6" name="TMTV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x000d" sid="13" name="Your Time TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0003" sid="3" name="Your Time TV HD" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
-        <service id="0x0002" sid="2" name="Audio Iran International" type="2" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" radio="1" />
+        <service id="0x000e" sid="14" name="4Turk HD" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x0003" sid="3" name="Arko Movie" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x0001" sid="1" name="Avang TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x000c" sid="12" name="Cafe Trade" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x000d" sid="13" name="Eplanet TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x000b" sid="11" name="FX 2 HD" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x000f" sid="15" name="Gord Afarid TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x000a" sid="10" name="Gord Afarid TV SD" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x0002" sid="2" name="NET TV" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x0008" sid="8" name="Persiana Sports HD" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x0007" sid="7" name="Persiana Vibe" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
+        <service id="0x001a" sid="26" name="Radio DEJ" type="1" provider="WNS" onid="0" tsid="0" namespace="0x02082c50" />
       </transponder>
     </satellite>
     <satellite key="0208ac9c:0001:0000" name="Sat-52E" namespace="0x0208ac9c" position="52">
       <transponder key="0208ac9c:0001:0000" frequency="11420000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0007" sid="7" name="Euronews Persian" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
-        <service id="0x0005" sid="5" name="Iran One News" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
+        <service id="0x0005" sid="5" name="Khabarbin TV" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0004" sid="4" name="Persiana Set Mix" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0006" sid="6" name="Persiana Sports" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
         <service id="0x0001" sid="1" name="Persiana Sports 3" type="1" provider="WNS" onid="0" tsid="1" namespace="0x0208ac9c" />
