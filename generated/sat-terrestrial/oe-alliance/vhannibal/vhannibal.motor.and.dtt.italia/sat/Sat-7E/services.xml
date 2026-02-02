@@ -63,8 +63,8 @@
     <satellite key="00462bfe:0000:0000" name="Sat-7E" namespace="0x00462bfe" position="7">
       <transponder key="00462bfe:0000:0000" frequency="11262000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x016e" sid="366" name="4U TV" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
-        <service id="0x008e" sid="142" name="AVANG TV HD" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
         <service id="0x012e" sid="302" name="Erfan halgheh" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
+        <service id="0x016f" sid="367" name="Iran International" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
         <service id="0x008b" sid="139" name="T2" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
         <service id="0x008f" sid="143" name="TMTV HD" type="1" provider="" onid="0" tsid="0" namespace="0x00462bfe" />
       </transponder>
@@ -72,6 +72,11 @@
     <satellite key="004630f2:0000:0000" name="Sat-7E" namespace="0x004630f2" position="7">
       <transponder key="004630f2:0000:0000" frequency="12530000" symbol_rate="1480000" polarization="H" fec="1" system="0" modulation="0">
         <service id="0x0041" sid="65" name="satview" type="1" provider="Harmonic" onid="0" tsid="0" namespace="0x004630f2" />
+      </transponder>
+    </satellite>
+    <satellite key="00463159:0000:0000" name="Sat-7E" namespace="0x00463159" position="7">
+      <transponder key="00463159:0000:0000" frequency="12633000" symbol_rate="3750000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="" type="0" provider="" onid="0" tsid="0" namespace="0x00463159" />
       </transponder>
     </satellite>
     <satellite key="00463170:0001:ffff" name="Sat-7E" namespace="0x00463170" position="7">
@@ -103,7 +108,7 @@
       </transponder>
     </satellite>
     <satellite key="0046adb1:0001:0001" name="Sat-7E" namespace="0x0046adb1" position="7">
-      <transponder key="0046adb1:0001:0001" frequency="11697000" symbol_rate="1111000" polarization="V" fec="0" system="0" modulation="0">
+      <transponder key="0046adb1:0001:0001" frequency="11697000" symbol_rate="1111000" polarization="V" fec="5" system="0" modulation="0">
         <service id="0x0001" sid="1" name="BANG-1" type="2" provider="SIGNALTEL" onid="1" tsid="1" namespace="0x0046adb1" radio="1" />
         <service id="0x000a" sid="10" name="BANG-10" type="2" provider="SIGNALTEL" onid="1" tsid="1" namespace="0x0046adb1" radio="1" />
         <service id="0x000b" sid="11" name="BANG-11" type="2" provider="SIGNALTEL" onid="1" tsid="1" namespace="0x0046adb1" radio="1" />

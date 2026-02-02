@@ -118,6 +118,7 @@
         <service id="0x001c" sid="28" name="Cartoonito" type="22" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x006b" sid="107" name="Sky Cinema Classics" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x007c" sid="124" name="Sky Replay" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
+        <service id="0x007e" sid="126" name="Sky Sci-Fi" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x004e" sid="78" name="Sky Sport 3" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x005e" sid="94" name="Sky Sport 7" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x0045" sid="69" name="Sky Sport Austria 7" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
@@ -126,7 +127,6 @@
         <service id="0x005d" sid="93" name="Sky Sport Bundesliga 7" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x006c" sid="108" name="Sky Sport News" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
         <service id="0x008d" sid="141" name="STEST2" type="22" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
-        <service id="0x007e" sid="126" name="SYFY" type="25" provider="SKY" onid="133" tsid="12" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:000d:0085" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -345,6 +345,7 @@
         <service id="0x126e" sid="4718" name=".1." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x126f" sid="4719" name=".2." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x04f6" sid="1270" name=".3." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
+        <service id="0x04f7" sid="1271" name=".4." type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x04ec" sid="1260" name="3+" type="25" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x125c" sid="4700" name="SES 01" type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
         <service id="0x125d" sid="4701" name="SES 02" type="1" provider="BetaDigital" onid="1" tsid="1015" namespace="0x00c00000" />
@@ -605,29 +606,29 @@
     </satellite>
     <satellite key="00c00000:0412:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0412:0001" frequency="11097000" symbol_rate="22000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x1d8a" sid="7562" name="11097V SID 0x7562" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d8b" sid="7563" name="11097V SID 0x7563" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d8d" sid="7565" name="11097V SID 0x7565" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d8e" sid="7566" name="11097V SID 0x7566" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d8f" sid="7567" name="11097V SID 0x7567" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x756a" sid="30058" name="11097V SID 0x756a" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x756e" sid="30062" name="11097V SID 0x756e" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x756f" sid="30063" name="11097V SID 0x756f" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d93" sid="7571" name="11097V SID 0x7571" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d94" sid="7572" name="11097V SID 0x7572" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d95" sid="7573" name="11097V SID 0x7573" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d97" sid="7575" name="11097V SID 0x7575" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d98" sid="7576" name="11097V SID 0x7576" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d9a" sid="7578" name="11097V SID 0x7578" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x757a" sid="30074" name="11097V SID 0x757a" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x757c" sid="30076" name="11097V SID 0x757c" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x757d" sid="30077" name="11097V SID 0x757d" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x757e" sid="30078" name="11097V SID 0x757e" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d9c" sid="7580" name="11097V SID 0x7580" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d9d" sid="7581" name="11097V SID 0x7581" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1d9f" sid="7583" name="11097V SID 0x7583" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1da1" sid="7585" name="11097V SID 0x7585" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
-        <service id="0x1da2" sid="7586" name="11097V SID 0x7586" type="1" provider="DVB-S QPSK 11097V 19.2Â°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d8a" sid="7562" name="11097V SID 0x7562" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d8b" sid="7563" name="11097V SID 0x7563" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d8d" sid="7565" name="11097V SID 0x7565" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d8e" sid="7566" name="11097V SID 0x7566" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d8f" sid="7567" name="11097V SID 0x7567" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x756a" sid="30058" name="11097V SID 0x756a" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x756e" sid="30062" name="11097V SID 0x756e" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x756f" sid="30063" name="11097V SID 0x756f" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d93" sid="7571" name="11097V SID 0x7571" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d94" sid="7572" name="11097V SID 0x7572" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d95" sid="7573" name="11097V SID 0x7573" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d97" sid="7575" name="11097V SID 0x7575" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d98" sid="7576" name="11097V SID 0x7576" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d9a" sid="7578" name="11097V SID 0x7578" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x757a" sid="30074" name="11097V SID 0x757a" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x757c" sid="30076" name="11097V SID 0x757c" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x757d" sid="30077" name="11097V SID 0x757d" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x757e" sid="30078" name="11097V SID 0x757e" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d9c" sid="7580" name="11097V SID 0x7580" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d9d" sid="7581" name="11097V SID 0x7581" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1d9f" sid="7583" name="11097V SID 0x7583" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1da1" sid="7585" name="11097V SID 0x7585" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
+        <service id="0x1da2" sid="7586" name="11097V SID 0x7586" type="1" provider="DVB-S QPSK 11097V 19.2°E" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1da0" sid="7584" name="1ª FEDERACION" type="1" provider="Movistar+" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x757f" sid="30079" name="AXN MOVIES" type="1" provider="" onid="1" tsid="1042" namespace="0x00c00000" />
         <service id="0x1d99" sid="7577" name="CLASSICA" type="1" provider="CANAL+" onid="1" tsid="1042" namespace="0x00c00000" />
@@ -666,7 +667,6 @@
         <service id="0x1ed1" sid="7889" name="ENERGY" type="1" provider="DIGITAL+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed2" sid="7890" name="GOL" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed4" sid="7892" name="M+ LALIGA 4" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
-        <service id="0x1ed5" sid="7893" name="M+ LALIGA 5" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1eca" sid="7882" name="M+LCAMPEON15" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788c" sid="30860" name="M+LCAMPEON16" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ed6" sid="7894" name="M+LCAMPEON17" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
@@ -674,6 +674,7 @@
         <service id="0x788d" sid="30861" name="M+LCAMPEON19" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x1ecd" sid="7885" name="M+Tierra Media" type="1" provider="Movistar+" onid="1" tsid="1044" namespace="0x00c00000" />
         <service id="0x788f" sid="30863" name="MTV ESPAÑA" type="1" provider="DIGITAL+" onid="1" tsid="1044" namespace="0x00c00000" />
+        <service id="0x1ed5" sid="7893" name="TEST TXP 44" type="1" provider="" onid="1" tsid="1044" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:0416:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -707,11 +708,11 @@
     </satellite>
     <satellite key="00c00000:041c:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:041c:0001" frequency="10758000" symbol_rate="22000000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x749c" sid="29852" name="10758V SID 0x749c" type="1" provider="DVB-S2 8PSK 10758V 19.2Â°E" onid="1" tsid="1052" namespace="0x00c00000" />
-        <service id="0x74a1" sid="29857" name="10758V SID 0x74a1" type="1" provider="DVB-S2 8PSK 10758V 19.2Â°E" onid="1" tsid="1052" namespace="0x00c00000" />
-        <service id="0x74a4" sid="29860" name="10758V SID 0x74a4" type="1" provider="DVB-S2 8PSK 10758V 19.2Â°E" onid="1" tsid="1052" namespace="0x00c00000" />
-        <service id="0x74a6" sid="29862" name="10758V SID 0x74a6" type="1" provider="DVB-S2 8PSK 10758V 19.2Â°E" onid="1" tsid="1052" namespace="0x00c00000" />
-        <service id="0x74a7" sid="29863" name="10758V SID 0x74a7" type="1" provider="DVB-S2 8PSK 10758V 19.2Â°E" onid="1" tsid="1052" namespace="0x00c00000" />
+        <service id="0x749c" sid="29852" name="10758V SID 0x749c" type="1" provider="DVB-S2 8PSK 10758V 19.2°E" onid="1" tsid="1052" namespace="0x00c00000" />
+        <service id="0x74a1" sid="29857" name="10758V SID 0x74a1" type="1" provider="DVB-S2 8PSK 10758V 19.2°E" onid="1" tsid="1052" namespace="0x00c00000" />
+        <service id="0x74a4" sid="29860" name="10758V SID 0x74a4" type="1" provider="DVB-S2 8PSK 10758V 19.2°E" onid="1" tsid="1052" namespace="0x00c00000" />
+        <service id="0x74a6" sid="29862" name="10758V SID 0x74a6" type="1" provider="DVB-S2 8PSK 10758V 19.2°E" onid="1" tsid="1052" namespace="0x00c00000" />
+        <service id="0x74a7" sid="29863" name="10758V SID 0x74a7" type="1" provider="DVB-S2 8PSK 10758V 19.2°E" onid="1" tsid="1052" namespace="0x00c00000" />
         <service id="0x749d" sid="29853" name="DAZN LALIGA 2 HD" type="25" provider="" onid="1" tsid="1052" namespace="0x00c00000" />
         <service id="0x74a9" sid="29865" name="Descarga Cisco" type="1" provider="Movistar+" onid="1" tsid="1052" namespace="0x00c00000" />
         <service id="0x749b" sid="29851" name="LALIGA TV HYPERMOTION" type="25" provider="Movistar+" onid="1" tsid="1052" namespace="0x00c00000" />
@@ -740,11 +741,11 @@
     </satellite>
     <satellite key="00c00000:041e:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:041e:0001" frequency="10788000" symbol_rate="22000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x768f" sid="30351" name="10788V SID 0x768f" type="1" provider="DVB-S QPSK 10788V 19.2Â°E" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e0a" sid="7690" name="10788V SID 0x7690" type="1" provider="DVB-S QPSK 10788V 19.2Â°E" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e0d" sid="7693" name="10788V SID 0x7693" type="1" provider="DVB-S QPSK 10788V 19.2Â°E" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x769c" sid="30364" name="10788V SID 0x769c" type="1" provider="DVB-S QPSK 10788V 19.2Â°E" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x76a6" sid="30374" name="10788V SID 0x76a6" type="1" provider="DVB-S QPSK 10788V 19.2Â°E" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x768f" sid="30351" name="10788V SID 0x768f" type="1" provider="DVB-S QPSK 10788V 19.2°E" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e0a" sid="7690" name="10788V SID 0x7690" type="1" provider="DVB-S QPSK 10788V 19.2°E" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e0d" sid="7693" name="10788V SID 0x7693" type="1" provider="DVB-S QPSK 10788V 19.2°E" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x769c" sid="30364" name="10788V SID 0x769c" type="1" provider="DVB-S QPSK 10788V 19.2°E" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x76a6" sid="30374" name="10788V SID 0x76a6" type="1" provider="DVB-S QPSK 10788V 19.2°E" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x768e" sid="30350" name="ALQUILER 1" type="1" provider="TQ1" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x76a4" sid="30372" name="DAZN 1" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x1e0b" sid="7691" name="DAZN LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -752,8 +753,8 @@
         <service id="0x76a5" sid="30373" name="EUROSPORT 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769e" sid="30366" name="LA SEXTA" type="1" provider="Digital+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769a" sid="30362" name="LALIGA TV BAR 3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e10" sid="7696" name="M+ BBC EARTH" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769d" sid="30365" name="M+ LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e10" sid="7696" name="M+Cine Bélico" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769b" sid="30363" name="M+DEPORTES6" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769f" sid="30367" name="M+LCAMPEON3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x1e13" sid="7699" name="MEZZO" type="1" provider="MEZZO" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -813,7 +814,7 @@
         <service id="0x75f2" sid="30194" name="" type="1" provider="Digital+" onid="1" tsid="1058" namespace="0x00c00000" />
         <service id="0x75f3" sid="30195" name="" type="1" provider="Contactanos" onid="1" tsid="1058" namespace="0x00c00000" />
         <service id="0x75f5" sid="30197" name="" type="1" provider="DIGITAL +" onid="1" tsid="1058" namespace="0x00c00000" />
-        <service id="0x75f4" sid="30196" name="10847V SID 0x75f4" type="1" provider="DVB-S QPSK 10847V 19.2Â°E" onid="1" tsid="1058" namespace="0x00c00000" />
+        <service id="0x75f4" sid="30196" name="10847V SID 0x75f4" type="1" provider="DVB-S QPSK 10847V 19.2°E" onid="1" tsid="1058" namespace="0x00c00000" />
         <service id="0x75b2" sid="30130" name="ALQUILER" type="1" provider="DIGITAL+" onid="1" tsid="1058" namespace="0x00c00000" />
         <service id="0x75b0" sid="30128" name="Antig. ALQUILER G1" type="1" provider="Movistar+" onid="1" tsid="1058" namespace="0x00c00000" />
         <service id="0x759e" sid="30110" name="BAJO DEMANDA" type="1" provider="Movistar+" onid="1" tsid="1058" namespace="0x00c00000" />
@@ -895,9 +896,9 @@
     </satellite>
     <satellite key="00c00000:0428:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0428:0001" frequency="10936000" symbol_rate="22000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x1e8f" sid="7823" name="10936V SID 0x7823" type="1" provider="DVB-S QPSK 10936V 19.2Â°E" onid="1" tsid="1064" namespace="0x00c00000" />
-        <service id="0x1e92" sid="7826" name="10936V SID 0x7826" type="1" provider="DVB-S QPSK 10936V 19.2Â°E" onid="1" tsid="1064" namespace="0x00c00000" />
-        <service id="0x1e94" sid="7828" name="10936V SID 0x7828" type="1" provider="DVB-S QPSK 10936V 19.2Â°E" onid="1" tsid="1064" namespace="0x00c00000" />
+        <service id="0x1e8f" sid="7823" name="10936V SID 0x7823" type="1" provider="DVB-S QPSK 10936V 19.2°E" onid="1" tsid="1064" namespace="0x00c00000" />
+        <service id="0x1e92" sid="7826" name="10936V SID 0x7826" type="1" provider="DVB-S QPSK 10936V 19.2°E" onid="1" tsid="1064" namespace="0x00c00000" />
+        <service id="0x1e94" sid="7828" name="10936V SID 0x7828" type="1" provider="DVB-S QPSK 10936V 19.2°E" onid="1" tsid="1064" namespace="0x00c00000" />
         <service id="0x1e98" sid="7832" name="BAR4HD" type="1" provider="" onid="1" tsid="1064" namespace="0x00c00000" />
         <service id="0x1e93" sid="7827" name="DAZNBaloncesto" type="1" provider="Movistar+" onid="1" tsid="1064" namespace="0x00c00000" />
         <service id="0x1e96" sid="7830" name="LALIGA TV BAR 4" type="1" provider="Movistar+" onid="1" tsid="1064" namespace="0x00c00000" />
@@ -957,7 +958,6 @@
     </satellite>
     <satellite key="00c00000:0432:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:0432:0001" frequency="11895000" symbol_rate="29700000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x081e" sid="2078" name="." type="25" provider="CSAT" onid="1" tsid="1074" namespace="0x00c00000" />
         <service id="0x0335" sid="821" name="ARTE" type="25" provider="CSAT" onid="1" tsid="1074" namespace="0x00c00000" />
         <service id="0x206d" sid="8301" name="BFM TV" type="25" provider="CSAT" onid="1" tsid="1074" namespace="0x00c00000" />
         <service id="0x207d" sid="8317" name="CANAL+BOX OFFICE UHD" type="31" provider="CSAT" onid="1" tsid="1074" namespace="0x00c00000" />
@@ -985,16 +985,16 @@
         <service id="0x22cf" sid="8911" name="F3 CHAMP ARDENNE" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22e1" sid="8929" name="F3 COTE D'AZUR" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22d9" sid="8921" name="F3 FRANCHE COMTE" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
-        <service id="0x22d0" sid="8912" name="F3 HNORMANDIE" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22dc" sid="8924" name="F3 LIMOUSIN" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22dd" sid="8925" name="F3 LORRAINE" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22d2" sid="8914" name="F3 MIDI PYRENEES" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22df" sid="8927" name="F3 NOA" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22d0" sid="8912" name="F3 NORMANDIE H" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22ca" sid="8906" name="F3 PARIS IDF" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22c9" sid="8905" name="F3 PICARDIE" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
-        <service id="0x22cc" sid="8908" name="F3 POITOUCHAR" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
+        <service id="0x22cc" sid="8908" name="F3 POITOU CHARENT" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22d6" sid="8918" name="MEZZO" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22c5" sid="8901" name="MTV" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
-        <service id="0x22df" sid="8927" name="NOA" type="1" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22de" sid="8926" name="NOVO19" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22d8" sid="8920" name="PANNEAU ARRET G5" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
         <service id="0x22c6" sid="8902" name="TV5 MONDE" type="25" provider="CSAT" onid="1" tsid="1076" namespace="0x00c00000" />
@@ -1008,8 +1008,6 @@
         <service id="0x1b58" sid="7000" name="Comedy Central HD." type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x1b5e" sid="7006" name="MTV" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fff" sid="28671" name="MTV" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
-        <service id="0x6ff0" sid="28656" name="MTV 00s" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
-        <service id="0x6ff1" sid="28657" name="MTV 80s" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fee" sid="28654" name="MTV HD" type="25" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6fef" sid="28655" name="MTV HD AT" type="25" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
         <service id="0x6ff5" sid="28661" name="Nick Jr" type="1" provider="MTV Networks Europe" onid="1" tsid="1078" namespace="0x00c00000" />
@@ -1063,7 +1061,7 @@
         <service id="0x24ce" sid="9422" name="DORCEL XXX" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24be" sid="9406" name="EUROSPORT 2" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24c9" sid="9417" name="F3 AUVERGNE" type="1" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
-        <service id="0x24bd" sid="9405" name="F3 PROV ALPES" type="1" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
+        <service id="0x24bd" sid="9405" name="F3 PROVENCE ALPES" type="1" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24cc" sid="9420" name="MELODY" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24cd" sid="9421" name="NICKELODEON" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
         <service id="0x24d2" sid="9426" name="PIWI+" type="25" provider="CSAT" onid="1" tsid="1084" namespace="0x00c00000" />
@@ -1079,8 +1077,8 @@
         <service id="0x245f" sid="9311" name="BARKER COLLECTIVITES SD4" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x099e" sid="2462" name="BEIN SPORTS 1" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x099d" sid="2461" name="EUROSPORT 1" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
-        <service id="0x09a0" sid="2464" name="F3 LANGUEDOCROU" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
-        <service id="0x246a" sid="9322" name="F3 NORD PDC" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
+        <service id="0x09a0" sid="2464" name="F3 LANGUEDOCROUS" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
+        <service id="0x246a" sid="9322" name="F3 NORD" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x09a5" sid="2469" name="F3 RHONE ALPES" type="1" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x245a" sid="9306" name="FRANCE 2" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
         <service id="0x245d" sid="9309" name="FRANCE 3" type="25" provider="CSAT" onid="1" tsid="1088" namespace="0x00c00000" />
@@ -1115,7 +1113,7 @@
         <service id="0x0398" sid="920" name="CNEWS" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x091f" sid="2335" name="CSTAR" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x039b" sid="923" name="EVENEMENT SPORT UHD HDR" type="31" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
-        <service id="0x232f" sid="9007" name="F3 BNORMANDIE" type="1" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
+        <service id="0x232f" sid="9007" name="F3 NORMANDIE B" type="1" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x091d" sid="2333" name="F3 PAYS DE LA LOIRE" type="1" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x091a" sid="2330" name="FRANCE 5" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
         <service id="0x091c" sid="2332" name="INFOSPORT+" type="25" provider="CSAT" onid="1" tsid="1090" namespace="0x00c00000" />
@@ -1147,7 +1145,6 @@
         <service id="0x427c" sid="17020" name="AUTOMOTO la chaine" type="25" provider="AB SAT" onid="1" tsid="1094" namespace="0x00c00000" />
         <service id="0x428e" sid="17038" name="Canal J" type="25" provider="" onid="1" tsid="1094" namespace="0x00c00000" />
         <service id="0x428c" sid="17036" name="CHASSE ET PECHE" type="25" provider="AB SAT" onid="1" tsid="1094" namespace="0x00c00000" />
-        <service id="0x42cb" sid="17099" name="DATASYSTEM" type="1" provider="AB SAT" onid="1" tsid="1094" namespace="0x00c00000" />
         <service id="0x10c2" sid="4290" name="France Info:" type="25" provider="" onid="1" tsid="1094" namespace="0x00c00000" />
         <service id="0x428d" sid="17037" name="Histoire" type="25" provider="" onid="1" tsid="1094" namespace="0x00c00000" />
         <service id="0x428b" sid="17035" name="RTL9" type="25" provider="AB SAT" onid="1" tsid="1094" namespace="0x00c00000" />
@@ -1200,13 +1197,11 @@
         <service id="0x258b" sid="9611" name="CINE+ EMOTION" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x258a" sid="9610" name="CINE+ FAMILY" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x0a1d" sid="2589" name="CINE+ FESTIVAL" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
-        <service id="0x258f" sid="9615" name="GAME ONE" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x0a1f" sid="2591" name="LA CHAINE METEO" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x21ae" sid="8622" name="MOSAIQUE" type="201" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x21af" sid="8623" name="MOSAIQUE BEIN SPORTS" type="201" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x0a1e" sid="2590" name="NOVELAS TV" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x0a15" sid="2581" name="OLYMPIA TV" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
-        <service id="0x0a20" sid="2592" name="PARAMOUNT NETWORK" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x258c" sid="9612" name="SERIE CLUB" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x258e" sid="9614" name="UNIONTV" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
         <service id="0x258d" sid="9613" name="VIXEN" type="25" provider="CSAT" onid="1" tsid="1096" namespace="0x00c00000" />
@@ -1228,14 +1223,14 @@
     <satellite key="00c00000:044a:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:044a:0001" frequency="12363000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x239d" sid="9117" name="." type="201" provider="CSAT" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x03bd" sid="957" name="12363V SID 0x2391" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x03be" sid="958" name="12363V SID 0x2392" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x03bf" sid="959" name="12363V SID 0x2393" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x095a" sid="2394" name="12363V SID 0x2394" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x23aa" sid="9130" name="12363V SID 0x23aa" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x23bc" sid="9148" name="12363V SID 0x23bc" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x23d2" sid="9170" name="12363V SID 0x23d2" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
-        <service id="0x23ec" sid="9196" name="12363V SID 0x23ec" type="1" provider="DVB-S QPSK 12363V 19.2Â°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x03bd" sid="957" name="12363V SID 0x2391" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x03be" sid="958" name="12363V SID 0x2392" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x03bf" sid="959" name="12363V SID 0x2393" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x095a" sid="2394" name="12363V SID 0x2394" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x23aa" sid="9130" name="12363V SID 0x23aa" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x23bc" sid="9148" name="12363V SID 0x23bc" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x23d2" sid="9170" name="12363V SID 0x23d2" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
+        <service id="0x23ec" sid="9196" name="12363V SID 0x23ec" type="1" provider="DVB-S QPSK 12363V 19.2°E" onid="1" tsid="1098" namespace="0x00c00000" />
         <service id="0x23a4" sid="9124" name="ASSOCIATION MATERIEL" type="25" provider="CSAT" onid="1" tsid="1098" namespace="0x00c00000" />
         <service id="0x23ab" sid="9131" name="CANAL VOD" type="201" provider="CSAT" onid="1" tsid="1098" namespace="0x00c00000" />
         <service id="0x23ad" sid="9133" name="CANAL+SERIES" type="201" provider="CSAT" onid="1" tsid="1098" namespace="0x00c00000" />
@@ -1261,6 +1256,7 @@
         <service id="0x271d" sid="10013" name="CANAL+LIVE 2" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
         <service id="0x271c" sid="10012" name="CHAINE EVENEMENT" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
         <service id="0x0a9d" sid="2717" name="EQUIDIA" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
+        <service id="0x0aa0" sid="2720" name="EUROPE 1 TV" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
         <service id="0x271e" sid="10014" name="EUROPE 2 POP TV" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
         <service id="0x0a9f" sid="2719" name="MAN X" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
         <service id="0x0a9e" sid="2718" name="MEZZO LIVE" type="25" provider="CSAT" onid="1" tsid="1100" namespace="0x00c00000" />
@@ -1289,7 +1285,6 @@
         <service id="0x101c" sid="4124" name="CANAL+ Action" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x101f" sid="4127" name="Canal+ Action B2B" type="31" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x03fc" sid="1020" name="CANAL+ Golf" type="25" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
-        <service id="0x040a" sid="1034" name="DAZN Pro League 1 FR" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100b" sid="4107" name="Hustler TV" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100d" sid="4109" name="Hustler TV CZ" type="22" provider="M7 Group" onid="53" tsid="1105" namespace="0x00c00000" />
         <service id="0x100a" sid="4106" name="INPLUS" type="22" provider="M7" onid="53" tsid="1105" namespace="0x00c00000" />
@@ -1391,7 +1386,7 @@
         <service id="0x316e" sid="12654" name="ffn" type="2" provider="MB Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
         <service id="0x0c62" sid="3170" name="Radio HBR" type="2" provider="MB-Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
         <service id="0x0c63" sid="3171" name="Radio HCJB" type="2" provider="MB-Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
-        <service id="0x316f" sid="12655" name="Radio Paloma" type="2" provider="Radio Paloma" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
+        <service id="0x316f" sid="12655" name="Radio Paloma" type="2" provider="MB Satellite" onid="1" tsid="1113" namespace="0x00c00000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00c00000:045a:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -1415,7 +1410,7 @@
         <service id="0x0d02" sid="3330" name="LT1-OOE" type="22" provider="-" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d05" sid="3333" name="Neuer Sender" type="22" provider="MIT-xperts GmbH" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x332e" sid="13102" name="NITRO Austria" type="22" provider="RTL" onid="1" tsid="1115" namespace="0x00c00000" />
-        <service id="0x332d" sid="13101" name="Service 13101" type="22" provider="MIT-xperts GmbH" onid="1" tsid="1115" namespace="0x00c00000" />
+        <service id="0x332d" sid="13101" name="Service 13101" type="22" provider="ORF" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d09" sid="3337" name="Service 13111" type="1" provider="ServusTV" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d04" sid="3332" name="Shop LC" type="22" provider="ORS" onid="1" tsid="1115" namespace="0x00c00000" />
         <service id="0x0d1a" sid="3354" name="RADIO MARIA" type="2" provider="Radio Maria Österreich" onid="1" tsid="1115" namespace="0x00c00000" radio="1" />

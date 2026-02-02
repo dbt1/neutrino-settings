@@ -216,6 +216,11 @@
         <service id="0x005c" sid="92" name="Weisbaden Eagle" type="2" provider="" onid="18" tsid="101" namespace="0x005a0000" radio="1" />
       </transponder>
     </satellite>
+    <satellite key="005a0000:006f:0110" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
+      <transponder key="005a0000:006f:0110" frequency="12149000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x023a" sid="570" name="Servizio Test" type="1" provider="" onid="272" tsid="111" namespace="0x005a0000" />
+      </transponder>
+    </satellite>
     <satellite key="005a0000:0107:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
       <transponder key="005a0000:0107:217c" frequency="12111000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x0bba" sid="3002" name="ARTE ITALIA 124" type="1" provider="Canale Italia" onid="8572" tsid="263" namespace="0x005a0000" />
@@ -334,6 +339,7 @@
         <service id="0x1c0e" sid="7182" name="CANALE169" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1bfe" sid="7166" name="CUSANO NEWS 7" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c11" sid="7185" name="DELUXE 139" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
+        <service id="0x1c2c" sid="7212" name="ENJOY TV ITALIA" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c14" sid="7188" name="EQUtv" type="1" provider="EPIQA" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c13" sid="7187" name="FASCINO 147" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c04" sid="7172" name="FASCINO TV" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
@@ -425,7 +431,7 @@
       </transponder>
     </satellite>
     <satellite key="005a0000:10e1:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
-      <transponder key="005a0000:10e1:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="6" system="0" modulation="0">
+      <transponder key="005a0000:10e1:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x03ee" sid="1006" name="CANALE ITALIA" type="1" provider="Canale Italia" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x03ef" sid="1007" name="CANALE ITALIA Piemonte" type="1" provider="Canale Italia" onid="8572" tsid="4321" namespace="0x005a0000" />
         <service id="0x03f3" sid="1011" name="GRP TV" type="25" provider="GRP TV" onid="8572" tsid="4321" namespace="0x005a0000" />
@@ -654,7 +660,7 @@
         <service id="0x0fa7" sid="4007" name="Primocanale Primo Piano" type="1" provider="Global" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fac" sid="4012" name="RETE 7 HD" type="1" provider="RETE 7 HD" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa4" sid="4004" name="Telecity Liguria" type="1" provider="In Aria!" onid="8572" tsid="16609" namespace="0x005a0000" />
-        <service id="0x0fa8" sid="4008" name="TELECOLOR." type="25" provider="TELECOLOR" onid="8572" tsid="16609" namespace="0x005a0000" />
+        <service id="0x0fa8" sid="4008" name="TELECOLOR" type="25" provider="TELECOLOR" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa5" sid="4005" name="TELEGENOVA" type="1" provider="Media Group" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa2" sid="4002" name="TELENORD HD" type="1" provider="TELENORD HD" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa3" sid="4003" name="TELERADIOPACE 1" type="1" provider="TELERADIOPACE" onid="8572" tsid="16609" namespace="0x005a0000" />
@@ -792,7 +798,6 @@
         <service id="0x0025" sid="37" name="LA 4 ITALIA" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x0001" sid="1" name="NOVE" type="25" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x000e" sid="14" name="NOVE" type="25" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
-        <service id="0x007d" sid="125" name="PAROLE DI VITA" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x005d" sid="93" name="PROMO FOOD" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x005e" sid="94" name="PROMO HOME" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
         <service id="0x0028" sid="40" name="PROMO KIDS" type="22" provider="Persidera" onid="8572" tsid="31000" namespace="0x005a0000" />
@@ -814,7 +819,7 @@
       </transponder>
     </satellite>
     <satellite key="005a0000:80e1:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
-      <transponder key="005a0000:80e1:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="6" system="0" modulation="0">
+      <transponder key="005a0000:80e1:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x1f41" sid="8001" name="CANALE 21" type="1" provider="CANALE 21" onid="8572" tsid="32993" namespace="0x005a0000" />
         <service id="0x1f45" sid="8005" name="CANALE 8" type="1" provider="CANALE 8" onid="8572" tsid="32993" namespace="0x005a0000" />
         <service id="0x1f44" sid="8004" name="Canale 9" type="1" provider="Canale 9" onid="8572" tsid="32993" namespace="0x005a0000" />
@@ -827,11 +832,10 @@
         <service id="0x1f46" sid="8006" name="TELECAPRI" type="25" provider="In Aria!" onid="8572" tsid="32993" namespace="0x005a0000" />
         <service id="0x1f4d" sid="8013" name="TELECLUBITALIA" type="1" provider="ASSOCIAZIONE DREAMER" onid="8572" tsid="32993" namespace="0x005a0000" />
         <service id="0x1f42" sid="8002" name="TELEVOMERO" type="1" provider="TELEVOMERO" onid="8572" tsid="32993" namespace="0x005a0000" />
-        <service id="0x1f4a" sid="8010" name="TV LUNA HD" type="25" provider="In Aria!" onid="8572" tsid="32993" namespace="0x005a0000" />
       </transponder>
     </satellite>
     <satellite key="005a0000:80e3:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
-      <transponder key="005a0000:80e3:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="6" system="0" modulation="0">
+      <transponder key="005a0000:80e3:217c" frequency="12303000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x1f66" sid="8038" name="105TV" type="1" provider="105TV" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f61" sid="8033" name="CANALE 58" type="1" provider="CANALE 58" onid="8572" tsid="32995" namespace="0x005a0000" />
         <service id="0x1f60" sid="8032" name="CANALE ITALIA" type="1" provider="Canale Italia" onid="8572" tsid="32995" namespace="0x005a0000" />
@@ -849,12 +853,13 @@
     </satellite>
     <satellite key="005a0000:98e1:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
       <transponder key="005a0000:98e1:217c" frequency="12380000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x264c" sid="9804" name="Calabria TV HD" type="1" provider="Calabria TV HD" onid="8572" tsid="39137" namespace="0x005a0000" />
+        <service id="0x264c" sid="9804" name="Calabria TV HD" type="25" provider="Calabria TV" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5c" sid="2652" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a6a" sid="2666" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x265d" sid="9821" name="DIGITAL TV" type="1" provider="ADN" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a63" sid="2659" name="Eccellenza Calabria" type="1" provider="Eccellenza Calabria" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x264e" sid="9806" name="ESPERIA TV" type="1" provider="ESPERIA TV" onid="8572" tsid="39137" namespace="0x005a0000" />
+        <service id="0x265c" sid="9820" name="GS CHANNEL" type="25" provider="" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a62" sid="2658" name="JONICA RADIO TV" type="1" provider="JONICA RADIO TV" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5d" sid="2653" name="L'altro corriere" type="1" provider="L'altro corriere" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x0a5a" sid="2650" name="LaC OnAir" type="1" provider="LA C" onid="8572" tsid="39137" namespace="0x005a0000" />

@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit>
   <bouquet name="General" category="tv">
+    <channel service_ref="1:0:0:0001:0000:0000:00463159:0:0:0:" name="" service_name="" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:016e:0000:0000:00462bfe:0:0:0:" name="4U TV" service_name="4U TV" provider="" sid="366" onid="0" tsid="0" />
     <channel service_ref="1:0:1:012f:9fc4:007e:00460000:0:0:0:" name="4U TV HD" service_name="4U TV HD" provider="" sid="303" onid="126" tsid="40900" />
     <channel service_ref="1:0:1:0001:0001:ffff:00463170:0:0:0:" name="Al-Forat HD" service_name="Al-Forat HD" provider="Service Provider" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:0001:0046ada9:0:0:0:" name="AVA" service_name="AVA" provider="none" sid="1" onid="1" tsid="1" />
     <channel service_ref="1:0:1:01fe:765c:007e:00460000:0:0:0:" name="AVA Max1 HD" service_name="AVA Max1 HD" provider="" sid="510" onid="126" tsid="30300" />
-    <channel service_ref="1:0:1:008e:0000:0000:00462bfe:0:0:0:" name="AVANG TV HD" service_name="AVANG TV HD" provider="" sid="142" onid="0" tsid="0" />
     <channel service_ref="1:0:25:0001:4321:00eb:00460000:0:0:0:" name="EBU 3 ENC" service_name="EBU 3 ENC" provider="CM5000" sid="1" onid="235" tsid="17185" />
     <channel service_ref="1:0:1:012e:0000:0000:00462bfe:0:0:0:" name="Erfan halgheh" service_name="Erfan halgheh" provider="" sid="302" onid="0" tsid="0" />
     <channel service_ref="1:0:1:0006:0001:ffff:0046aa0a:0:0:0:" name="ESPN EMEA Service-6" service_name="ESPN EMEA Service-6" provider="Telstra" sid="6" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:00cf:765c:007e:00460000:0:0:0:" name="FX HD" service_name="FX HD" provider="" sid="207" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:00c8:765c:007e:00460000:0:0:0:" name="Home+ HD" service_name="Home+ HD" provider="" sid="200" onid="126" tsid="30300" />
+    <channel service_ref="1:0:1:016f:0000:0000:00462bfe:0:0:0:" name="Iran International" service_name="Iran International" provider="" sid="367" onid="0" tsid="0" />
     <channel service_ref="1:0:1:020c:765c:007e:00460000:0:0:0:" name="Iran International" service_name="Iran International" provider="" sid="524" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:020d:765c:007e:00460000:0:0:0:" name="Iran One News" service_name="Iran One News" provider="" sid="525" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:36b1:0a12:007e:00460000:0:0:0:" name="IRANEFARDA" service_name="IRANEFARDA" provider="ABS" sid="14001" onid="126" tsid="2578" />
@@ -35,6 +36,7 @@
     <channel service_ref="1:0:1:36b0:0a12:007e:00460000:0:0:0:" name="PUBLIRAD" service_name="PUBLIRAD" provider="" sid="14000" onid="126" tsid="2578" />
     <channel service_ref="1:0:1:00ca:765c:007e:00460000:0:0:0:" name="Radio Javan HD" service_name="Radio Javan HD" provider="" sid="202" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:00d0:765c:007e:00460000:0:0:0:" name="Ravi" service_name="Ravi" provider="" sid="208" onid="126" tsid="30300" />
+    <channel service_ref="1:0:1:0041:0000:0000:004630f2:0:0:0:" name="satview" service_name="satview" provider="Harmonic" sid="65" onid="0" tsid="0" />
     <channel service_ref="1:0:1:0001:1000:2000:00460000:0:0:0:" name="Shams tv" service_name="Shams tv" provider="Harmonic" sid="1" onid="8192" tsid="4096" />
     <channel service_ref="1:0:1:00cc:765c:007e:00460000:0:0:0:" name="Simaye Azadi HD" service_name="Simaye Azadi HD" provider="" sid="204" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:008b:0000:0000:00462bfe:0:0:0:" name="T2" service_name="T2" provider="" sid="139" onid="0" tsid="0" />
@@ -54,6 +56,9 @@
   <bouquet name="ARD/ZDF" category="tv">
     <channel service_ref="1:0:1:36b1:0a12:007e:00460000:0:0:0:" name="IRANEFARDA" service_name="IRANEFARDA" provider="ABS" sid="14001" onid="126" tsid="2578" />
   </bouquet>
+  <bouquet name="Austria" category="tv">
+    <channel service_ref="1:0:1:0041:0000:0000:004630f2:0:0:0:" name="satview" service_name="satview" provider="Harmonic" sid="65" onid="0" tsid="0" />
+  </bouquet>
   <bouquet name="Switzerland" category="tv">
     <channel service_ref="1:0:25:0001:4321:00eb:00460000:0:0:0:" name="EBU 3 ENC" service_name="EBU 3 ENC" provider="CM5000" sid="1" onid="235" tsid="17185" />
     <channel service_ref="1:0:1:0005:0001:ffff:0046aa0a:0:0:0:" name="NHL Service-5" service_name="NHL Service-5" provider="Telstra" sid="5" onid="65535" tsid="1" />
@@ -62,7 +67,6 @@
     <channel service_ref="1:0:1:012f:9fc4:007e:00460000:0:0:0:" name="4U TV HD" service_name="4U TV HD" provider="" sid="303" onid="126" tsid="40900" />
     <channel service_ref="1:0:1:0001:0001:ffff:00463170:0:0:0:" name="Al-Forat HD" service_name="Al-Forat HD" provider="Service Provider" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:01fe:765c:007e:00460000:0:0:0:" name="AVA Max1 HD" service_name="AVA Max1 HD" provider="" sid="510" onid="126" tsid="30300" />
-    <channel service_ref="1:0:1:008e:0000:0000:00462bfe:0:0:0:" name="AVANG TV HD" service_name="AVANG TV HD" provider="" sid="142" onid="0" tsid="0" />
     <channel service_ref="1:0:1:00cf:765c:007e:00460000:0:0:0:" name="FX HD" service_name="FX HD" provider="" sid="207" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:00c8:765c:007e:00460000:0:0:0:" name="Home+ HD" service_name="Home+ HD" provider="" sid="200" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:0134:9fc4:007e:00460000:0:0:0:" name="ITN HD" service_name="ITN HD" provider="" sid="308" onid="126" tsid="40900" />
@@ -79,15 +83,16 @@
     <channel service_ref="1:0:1:091a:4e20:0064:00460000:0:0:0:" name="Kanal Yek SD" service_name="Kanal Yek SD" provider="" sid="2330" onid="100" tsid="20000" />
   </bouquet>
   <bouquet name="Others" category="tv">
+    <channel service_ref="1:0:0:0001:0000:0000:00463159:0:0:0:" name="" service_name="" provider="" sid="1" onid="0" tsid="0" />
     <channel service_ref="1:0:1:016e:0000:0000:00462bfe:0:0:0:" name="4U TV" service_name="4U TV" provider="" sid="366" onid="0" tsid="0" />
     <channel service_ref="1:0:1:012f:9fc4:007e:00460000:0:0:0:" name="4U TV HD" service_name="4U TV HD" provider="" sid="303" onid="126" tsid="40900" />
     <channel service_ref="1:0:1:0001:0001:ffff:00463170:0:0:0:" name="Al-Forat HD" service_name="Al-Forat HD" provider="Service Provider" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:0001:0046ada9:0:0:0:" name="AVA" service_name="AVA" provider="none" sid="1" onid="1" tsid="1" />
     <channel service_ref="1:0:1:01fe:765c:007e:00460000:0:0:0:" name="AVA Max1 HD" service_name="AVA Max1 HD" provider="" sid="510" onid="126" tsid="30300" />
-    <channel service_ref="1:0:1:008e:0000:0000:00462bfe:0:0:0:" name="AVANG TV HD" service_name="AVANG TV HD" provider="" sid="142" onid="0" tsid="0" />
     <channel service_ref="1:0:1:012e:0000:0000:00462bfe:0:0:0:" name="Erfan halgheh" service_name="Erfan halgheh" provider="" sid="302" onid="0" tsid="0" />
     <channel service_ref="1:0:1:00cf:765c:007e:00460000:0:0:0:" name="FX HD" service_name="FX HD" provider="" sid="207" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:00c8:765c:007e:00460000:0:0:0:" name="Home+ HD" service_name="Home+ HD" provider="" sid="200" onid="126" tsid="30300" />
+    <channel service_ref="1:0:1:016f:0000:0000:00462bfe:0:0:0:" name="Iran International" service_name="Iran International" provider="" sid="367" onid="0" tsid="0" />
     <channel service_ref="1:0:1:020c:765c:007e:00460000:0:0:0:" name="Iran International" service_name="Iran International" provider="" sid="524" onid="126" tsid="30300" />
     <channel service_ref="1:0:1:0134:9fc4:007e:00460000:0:0:0:" name="ITN HD" service_name="ITN HD" provider="" sid="308" onid="126" tsid="40900" />
     <channel service_ref="1:0:1:0132:9fc4:007e:00460000:0:0:0:" name="Kanal Jadid HD" service_name="Kanal Jadid HD" provider="" sid="306" onid="126" tsid="40900" />

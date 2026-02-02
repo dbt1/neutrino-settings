@@ -82,11 +82,11 @@
         <service id="0x0011" sid="17" name="France 24" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x0013" sid="19" name="History Channel" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00e8" sid="232" name="MagicTV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
-        <service id="0x00ec" sid="236" name="Marquee TV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x008f" sid="143" name="Peretz Int." type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00de" sid="222" name="Pickbox TV HD" type="25" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00e5" sid="229" name="Planeta Folk" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00db" sid="219" name="Rodina" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
+        <service id="0x00ec" sid="236" name="Skat TV" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x01b2" sid="434" name="Sky Showtime 1" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x00e2" sid="226" name="The Voice" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x002f" sid="47" name="Tiankov Folk" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
@@ -182,9 +182,6 @@
         <service id="0x02c0" sid="704" name="MAX Sport 2 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c1" sid="705" name="MAX Sport 3 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c3" sid="707" name="MAX Sport 4 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x02cf" sid="719" name="MTV 00s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x02ce" sid="718" name="MTV 80s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x008e" sid="142" name="MTV 90s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x0069" sid="105" name="Nick Toons" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x01b3" sid="435" name="Sky Showtime 2" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c9" sid="713" name="Super Toons" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
@@ -248,9 +245,9 @@
         <service id="0x006a" sid="106" name="B1 TV" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x00da" sid="218" name="Disney Channel" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x006d" sid="109" name="Disney Junior" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
-        <service id="0x006f" sid="111" name="Duna TV" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x006c" sid="108" name="Favorit TV" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x0046" sid="70" name="Film+" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
+        <service id="0x006f" sid="111" name="National TV" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x01fe" sid="510" name="Nick JR" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x013a" sid="314" name="Orizont TV" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
         <service id="0x00f0" sid="240" name="Prima Sport 2" type="1" provider="" onid="28" tsid="14" namespace="0x01860000" />
@@ -710,11 +707,6 @@
     <satellite key="01863097:0001:0000" name="Sat-39E" namespace="0x01863097" position="39">
       <transponder key="01863097:0001:0000" frequency="12439000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0001" sid="1" name="12439H SID 0x01" type="1" provider="DVB-S2 8PSK 12439H 39.0Â°E" onid="0" tsid="1" namespace="0x01863097" />
-      </transponder>
-    </satellite>
-    <satellite key="0186ab12:0001:ffff" name="Sat-39E" namespace="0x0186ab12" position="39">
-      <transponder key="0186ab12:0001:ffff" frequency="11026000" symbol_rate="7200000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Hatay TV" type="25" provider="" onid="65535" tsid="1" namespace="0x0186ab12" />
       </transponder>
     </satellite>
     <satellite key="0186ab83:00a0:0000" name="Sat-39E" namespace="0x0186ab83" position="39">

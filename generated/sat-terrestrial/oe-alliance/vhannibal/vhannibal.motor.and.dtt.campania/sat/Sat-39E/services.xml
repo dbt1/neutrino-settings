@@ -94,7 +94,6 @@
         <service id="0x00dd" sid="221" name="VIVACOM Arena HD" type="25" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x0092" sid="146" name="Vivid" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x001b" sid="27" name="XY Plus" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
-        <service id="0x02e4" sid="740" name="ВТК" type="22" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" />
         <service id="0x0016" sid="22" name="BG Radio" type="2" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" radio="1" />
         <service id="0x0017" sid="23" name="Darik Radio" type="2" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" radio="1" />
         <service id="0x0015" sid="21" name="NRJ" type="2" provider="Bulsatcom" onid="1" tsid="2" namespace="0x01860000" radio="1" />
@@ -385,6 +384,7 @@
     <satellite key="01860000:00b1:039e" name="Sat-39E" namespace="0x01860000" position="39">
       <transponder key="01860000:00b1:039e" frequency="12117000" symbol_rate="30000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x0039" sid="57" name="Al Jazeera" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
+        <service id="0x006d" sid="109" name="Bez Bagaj" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x004b" sid="75" name="Bloomberg TV Bulgaria" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x006e" sid="110" name="BNT 1 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x0036" sid="54" name="BNT 2" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
@@ -418,7 +418,6 @@
         <service id="0x002a" sid="42" name="Max Sport 2 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x002e" sid="46" name="Max Sport 3 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x0030" sid="48" name="MAX Sport 4 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
-        <service id="0x006d" sid="109" name="MTV Hits" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x006c" sid="108" name="Nashe Kino" type="31" provider="A1 GB" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x008a" sid="138" name="Nickelodeon" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x006f" sid="111" name="Nova TV HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
@@ -467,8 +466,8 @@
         <service id="0x00e8" sid="232" name="HISTORY Bulgaria" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00ed" sid="237" name="Hit Mix" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00e0" sid="224" name="Kino Nova HD" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
+        <service id="0x00ec" sid="236" name="Love Nature" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00d1" sid="209" name="Mediaset" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
-        <service id="0x00ec" sid="236" name="MTV 00s" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00e7" sid="231" name="MyZen" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00fb" sid="251" name="Nicktoons" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
         <service id="0x00f9" sid="249" name="Nova News HD" type="31" provider="A1 BG" onid="926" tsid="178" namespace="0x01860000" />
@@ -650,9 +649,9 @@
         <service id="0x02c5" sid="709" name="Trinitas TV HD" type="25" provider="" onid="167" tsid="5228" namespace="0x01860000" />
       </transponder>
     </satellite>
-    <satellite key="01862cf6:0001:ffff" name="Sat-39E" namespace="0x01862cf6" position="39">
-      <transponder key="01862cf6:0001:ffff" frequency="11510000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01862cf6" />
+    <satellite key="01862cf6:0001:0000" name="Sat-39E" namespace="0x01862cf6" position="39">
+      <transponder key="01862cf6:0001:0000" frequency="11510000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="11510H SID 0x01" type="1" provider="DVB-S2 8PSK 11510H 39.0Â°E" onid="0" tsid="1" namespace="0x01862cf6" />
       </transponder>
     </satellite>
     <satellite key="01862cfa:0000:0001" name="Sat-39E" namespace="0x01862cfa" position="39">
@@ -708,14 +707,9 @@
         <service id="0x009d" sid="157" name="Viasat Nature" type="22" provider="Bulsatcom" onid="1" tsid="1" namespace="0x01862fef" />
       </transponder>
     </satellite>
-    <satellite key="01863097:0001:ffff" name="Sat-39E" namespace="0x01863097" position="39">
-      <transponder key="01863097:0001:ffff" frequency="12439000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="TANDBERG" type="1" provider="TANDBERG Television" onid="65535" tsid="1" namespace="0x01863097" />
-      </transponder>
-    </satellite>
-    <satellite key="0186ab12:0001:ffff" name="Sat-39E" namespace="0x0186ab12" position="39">
-      <transponder key="0186ab12:0001:ffff" frequency="11026000" symbol_rate="7200000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="Hatay TV" type="25" provider="" onid="65535" tsid="1" namespace="0x0186ab12" />
+    <satellite key="01863097:0001:0000" name="Sat-39E" namespace="0x01863097" position="39">
+      <transponder key="01863097:0001:0000" frequency="12439000" symbol_rate="4444000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="12439H SID 0x01" type="1" provider="DVB-S2 8PSK 12439H 39.0Â°E" onid="0" tsid="1" namespace="0x01863097" />
       </transponder>
     </satellite>
     <satellite key="0186ab83:00a0:0000" name="Sat-39E" namespace="0x0186ab83" position="39">
