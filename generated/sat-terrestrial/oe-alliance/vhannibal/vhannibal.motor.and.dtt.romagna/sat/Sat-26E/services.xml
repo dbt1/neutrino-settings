@@ -613,7 +613,6 @@
         <service id="0x001e" sid="30" name="Anidaso TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001b" sid="27" name="AP TV" type="1" provider="" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x001a" sid="26" name="Chairman TV" type="1" provider="FFmpeg" onid="702" tsid="5231" namespace="0x01040000" />
-        <service id="0x002e" sid="46" name="Champion TV" type="1" provider="Quickstream" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x002c" sid="44" name="Dadie TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="ED TV" type="1" provider="Henmax" onid="702" tsid="5231" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="G-Eye TV" type="1" provider="HenMax" onid="702" tsid="5231" namespace="0x01040000" />
@@ -714,6 +713,16 @@
         <service id="0x08dc" sid="2268" name="beIN SPORTS XTRA 7" type="25" provider="beIN Sports" onid="224" tsid="8080" namespace="0x01040000" />
       </transponder>
     </satellite>
+    <satellite key="01040000:1fa9:02be" name="Sat-26E" namespace="0x01040000" position="26">
+      <transponder key="01040000:1fa9:02be" frequency="11804000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Abu Dhabi TV HD" type="1" provider="ADMC" onid="702" tsid="8105" namespace="0x01040000" />
+        <service id="0x0008" sid="8" name="AD Nat Geo HD" type="1" provider="ADMC" onid="702" tsid="8105" namespace="0x01040000" />
+        <service id="0x0005" sid="5" name="AD Sport 1 HD" type="25" provider="DU" onid="702" tsid="8105" namespace="0x01040000" />
+        <service id="0x0006" sid="6" name="AD Sport 2 HD" type="1" provider="ADMC" onid="702" tsid="8105" namespace="0x01040000" />
+        <service id="0x0003" sid="3" name="Majd Kids TV HD" type="1" provider="ADMC" onid="702" tsid="8105" namespace="0x01040000" />
+        <service id="0x0007" sid="7" name="YAS Sports HD" type="25" provider="DU" onid="702" tsid="8105" namespace="0x01040000" />
+      </transponder>
+    </satellite>
     <satellite key="01040000:2025:02be" name="Sat-26E" namespace="0x01040000" position="26">
       <transponder key="01040000:2025:02be" frequency="12265000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x02e1" sid="737" name="AGBEVE TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
@@ -722,7 +731,7 @@
         <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02de" sid="734" name="Islamic Library TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02de" sid="734" name="Islamic Library TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02cb" sid="715" name="LION 1 TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02f3" sid="755" name="Metro TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d6" sid="726" name="NASARA TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />

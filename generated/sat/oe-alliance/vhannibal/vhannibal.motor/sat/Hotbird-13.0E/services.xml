@@ -163,10 +163,10 @@
         <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1002" namespace="0x00820000" />
       </transponder>
     </satellite>
-    <satellite key="00820000:03eb:0001" name="Hotbird-13.0E" namespace="0x00820000" position="13">
-      <transponder key="00820000:03eb:0001" frequency="11526000" symbol_rate="33000000" polarization="H" fec="2" system="0" modulation="0">
-        <service id="0x03eb" sid="1003" name="HVS-3 Bck" type="12" provider="Telespazio" onid="1" tsid="1003" namespace="0x00820000" />
-        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="1" tsid="1003" namespace="0x00820000" />
+    <satellite key="00820000:03eb:0002" name="Hotbird-13.0E" namespace="0x00820000" position="13">
+      <transponder key="00820000:03eb:0002" frequency="11526000" symbol_rate="33000000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x07d3" sid="2003" name="HVS-3 DN2 Pri" type="12" provider="MyServiceProvider" onid="2" tsid="1003" namespace="0x00820000" />
+        <service id="0x008c" sid="140" name="SERVICE IP/MAC NOTIFICATION" type="1" provider="MyIntProvider" onid="2" tsid="1003" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:044c:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -382,7 +382,7 @@
         <service id="0x0d4b" sid="3403" name="Rai 3 HD" type="25" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" />
         <service id="0x0d4d" sid="3405" name="Rai 4 HD" type="25" provider="" onid="318" tsid="5200" namespace="0x00820000" />
         <service id="0x0d4f" sid="3407" name="Rai 4K" type="31" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" />
-        <service id="0x0d4e" sid="3406" name="Rai Movie HD" type="25" provider="" onid="318" tsid="5200" namespace="0x00820000" />
+        <service id="0x0d4e" sid="3406" name="Rai Movie HD" type="25" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" />
         <service id="0x0d50" sid="3408" name="Senato" type="25" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" />
         <service id="0x0d71" sid="3441" name="Rai Radio 1" type="2" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" radio="1" />
         <service id="0x0d72" sid="3442" name="Rai Radio 2" type="2" provider="Rai" onid="318" tsid="5200" namespace="0x00820000" radio="1" />
@@ -1346,7 +1346,7 @@
         <service id="0x11fc" sid="4604" name="Museum 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fd" sid="4605" name="MyZen 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fe" sid="4606" name="Simay Azadi HD" type="25" provider="Globecast UK" onid="318" tsid="11100" namespace="0x00820000" />
-        <service id="0x11fb" sid="4603" name="TravelXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
+        <service id="0x11fb" sid="4603" name="TRAVELXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2bc0:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1845,9 +1845,9 @@
         <service id="0x109d" sid="4253" name="QVC HD" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x0448" sid="1096" name="Radio Italia Live" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x0444" sid="1092" name="Radio Italia Tv HD" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
-        <service id="0x109a" sid="4250" name="Radio Kiss Kiss TV" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
+        <service id="0x109a" sid="4250" name="Radio Kiss Kiss Tv" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x109b" sid="4251" name="RDS Social TV" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
-        <service id="0x424f" sid="16975" name="RDS Social TV 4K Test" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
+        <service id="0x424f" sid="16975" name="RDS Social TV 4K test" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x0438" sid="1080" name="Redlight HD" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x423b" sid="16955" name="TELE 5" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x421a" sid="16922" name="TRM h24" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
@@ -1856,11 +1856,11 @@
         <service id="0x10a4" sid="4260" name="VIDEOLINA" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x423e" sid="16958" name="Water Planet" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
         <service id="0x423d" sid="16957" name="Water Planet V1" type="1" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" />
-        <service id="0x10a0" sid="4256" name="Canzoni Napoletane" type="10" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
-        <service id="0x425a" sid="16986" name="Cusano Napoli" type="10" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
-        <service id="0x10a3" sid="4259" name="Cusano Palermo" type="10" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
-        <service id="0x425b" sid="16987" name="Cusano Salerno" type="10" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
-        <service id="0x109f" sid="4255" name="Radio Number One" type="10" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
+        <service id="0x10a0" sid="4256" name="Canzoni Napoletane" type="2" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
+        <service id="0x425a" sid="16986" name="Cusano Napoli" type="2" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
+        <service id="0x10a3" sid="4259" name="Cusano Palermo" type="2" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
+        <service id="0x425b" sid="16987" name="Cusano Salerno" type="2" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
+        <service id="0x109f" sid="4255" name="Radio Number One" type="2" provider="Telespazio" onid="318" tsid="15800" namespace="0x00820000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="00820000:3e1c:013f" name="Hotbird-13.0E" namespace="0x00820000" position="13">

@@ -195,11 +195,11 @@
     </satellite>
     <satellite key="0dca0000:000a:0800" name="Sat-7W" namespace="0x0dca0000" position="-7">
       <transponder key="0dca0000:000a:0800" frequency="11804000" symbol_rate="27500000" polarization="H" fec="4" system="0" modulation="0">
+        <service id="0x03ed" sid="1005" name="5 Kids" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03e9" sid="1001" name="Test" type="25" provider="Nilesat" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ea" sid="1002" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03eb" sid="1003" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ec" sid="1004" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
-        <service id="0x03ed" sid="1005" name="Test" type="25" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ee" sid="1006" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03ef" sid="1007" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
         <service id="0x03f0" sid="1008" name="Test" type="1" provider="NILESAT" onid="2048" tsid="10" namespace="0x0dca0000" />
@@ -506,7 +506,6 @@
         <service id="0x0b0a" sid="2826" name="Al Thania" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0b07" sid="2823" name="AlAraby2" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0b03" sid="2819" name="BAGHDAD TV" type="25" provider="NILESAT" onid="2048" tsid="28" namespace="0x0dca0000" />
-        <service id="0x0b09" sid="2825" name="Dimashq" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0b05" sid="2821" name="LIBYA ALHADATH HD" type="25" provider="" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0af4" sid="2804" name="LJBC" type="1" provider="NILESAT" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0afc" sid="2812" name="Mix Bel Araby" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
@@ -519,6 +518,7 @@
         <service id="0x0af5" sid="2805" name="Test" type="1" provider="NILESAT" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0af6" sid="2806" name="Test" type="1" provider="NILESAT" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0afd" sid="2813" name="Test" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
+        <service id="0x0b09" sid="2825" name="Test" type="1" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0b0c" sid="2828" name="Test" type="1" provider="nilesat" onid="2048" tsid="28" namespace="0x0dca0000" />
         <service id="0x0b16" sid="2838" name="Al QURAN-SYR" type="2" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" radio="1" />
         <service id="0x0b17" sid="2839" name="Damascus-Radio" type="2" provider="Nilesat" onid="2048" tsid="28" namespace="0x0dca0000" radio="1" />
@@ -1079,7 +1079,6 @@
         <service id="0x000c" sid="12" name="Jawhara FM-TV" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
         <service id="0x000e" sid="14" name="Nessma Ejdida" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
         <service id="0x0007" sid="7" name="Telvza TV" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
-        <service id="0x0005" sid="5" name="Tunisia Educ1" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
         <service id="0x0001" sid="1" name="Tunisia NAT 1" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
         <service id="0x0006" sid="6" name="Tunisia NAT 2" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
         <service id="0x0003" sid="3" name="TUNISNA" type="1" provider="ONT TUNISIA" onid="65535" tsid="0" namespace="0x0dcaad8a" />
