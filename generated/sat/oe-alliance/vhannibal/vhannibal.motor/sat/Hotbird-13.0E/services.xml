@@ -965,12 +965,12 @@
     </satellite>
     <satellite key="00820000:2260:fbff" name="Hotbird-13.0E" namespace="0x00820000" position="13">
       <transponder key="00820000:2260:fbff" frequency="12466000" symbol_rate="29900000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x106c" sid="4204" name="Anni 80 Collection" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x10fe" sid="4350" name="Caccia e PESCA" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x37b2" sid="14258" name="Cartoon Network" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x0dfd" sid="3581" name="Disney Jr." type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc4" sid="12228" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2fc5" sid="12229" name="Gambero Rosso HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
-        <service id="0x106c" sid="4204" name="Heroes Collection" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x2db3" sid="11699" name="IEPG Data" type="1" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x250f" sid="9487" name="Inter TV" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
         <service id="0x1e53" sid="7763" name="MTV HD" type="25" provider="SkyItalia" onid="64511" tsid="8800" namespace="0x00820000" />
@@ -1346,7 +1346,7 @@
         <service id="0x11fc" sid="4604" name="Museum 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fd" sid="4605" name="MyZen 4K" type="1" provider="" onid="318" tsid="11100" namespace="0x00820000" />
         <service id="0x11fe" sid="4606" name="Simay Azadi HD" type="25" provider="Globecast UK" onid="318" tsid="11100" namespace="0x00820000" />
-        <service id="0x11fb" sid="4603" name="TRAVELXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
+        <service id="0x11fb" sid="4603" name="TravelXP 4K" type="31" provider="TravelXP" onid="318" tsid="11100" namespace="0x00820000" />
       </transponder>
     </satellite>
     <satellite key="00820000:2bc0:013e" name="Hotbird-13.0E" namespace="0x00820000" position="13">
@@ -1928,9 +1928,9 @@
         <service id="0x0001" sid="1" name="12585V" type="1" provider="" onid="65535" tsid="1" namespace="0x0082b129" />
       </transponder>
     </satellite>
-    <satellite key="0082b133:0000:0000" name="Hotbird-13.0E" namespace="0x0082b133" position="13">
-      <transponder key="0082b133:0000:0000" frequency="12595000" symbol_rate="7198000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="12595V" type="25" provider="" onid="0" tsid="0" namespace="0x0082b133" />
+    <satellite key="0082b133:0001:ffff" name="Hotbird-13.0E" namespace="0x0082b133" position="13">
+      <transponder key="0082b133:0001:ffff" frequency="12595000" symbol_rate="7198000" polarization="V" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="ITA MAIN" type="1" provider="Service Provider" onid="65535" tsid="1" namespace="0x0082b133" />
       </transponder>
     </satellite>
     <satellite key="0082b13b:0000:0000" name="Hotbird-13.0E" namespace="0x0082b13b" position="13">

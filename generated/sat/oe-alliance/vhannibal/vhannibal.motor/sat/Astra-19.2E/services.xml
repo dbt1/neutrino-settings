@@ -486,10 +486,6 @@
       <transponder key="00c00000:040b:0001" frequency="10994000" symbol_rate="22000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x183d" sid="6205" name="Pro7Sat.1 UHD" type="31" provider="ProSiebenSat.1" onid="1" tsid="1035" namespace="0x00c00000" />
         <service id="0x0001" sid="1" name="SES UHD Demo Channel" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
-        <service id="0x0003" sid="3" name="SES UHD Demo Channel 02" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
-        <service id="0x0004" sid="4" name="SES UHD Demo Channel 03" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
-        <service id="0x0005" sid="5" name="SES UHD Demo Channel 04" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
-        <service id="0x0006" sid="6" name="SES UHD Demo Channel 05" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
         <service id="0x0007" sid="7" name="SES UHD Demo Channel 06" type="31" provider="SES" onid="1" tsid="1035" namespace="0x00c00000" />
         <service id="0x0002" sid="2" name="UHD1 by ASTRA / HD+" type="31" provider="SES ASTRA" onid="1" tsid="1035" namespace="0x00c00000" />
       </transponder>
@@ -750,7 +746,7 @@
         <service id="0x768e" sid="30350" name="ALQUILER 1" type="1" provider="TQ1" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x76a4" sid="30372" name="DAZN 1" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x1e0b" sid="7691" name="DAZN LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e0f" sid="7695" name="DAZNBaloncesto3" type="1" provider="TXY" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e0f" sid="7695" name="DAZNBaloncesto3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x76a5" sid="30373" name="EUROSPORT 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769e" sid="30366" name="LA SEXTA" type="1" provider="Digital+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769a" sid="30362" name="LALIGA TV BAR 3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -925,7 +921,7 @@
     <satellite key="00c00000:042c:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:042c:0001" frequency="11778000" symbol_rate="29500000" polarization="V" fec="9" system="0" modulation="0">
         <service id="0x164e" sid="5710" name="CNN Int." type="1" provider="SES ASTRA" onid="1" tsid="1068" namespace="0x00c00000" />
-        <service id="0x066f" sid="1647" name="Cubavision Internacional" type="25" provider="OVERON" onid="1" tsid="1068" namespace="0x00c00000" />
+        <service id="0x066f" sid="1647" name="Cubavision Internacional" type="1" provider="Overon" onid="1" tsid="1068" namespace="0x00c00000" />
         <service id="0x066c" sid="1644" name="DW English HD" type="1" provider="Deutsche Welle" onid="1" tsid="1068" namespace="0x00c00000" />
         <service id="0x066d" sid="1645" name="TVMonaco" type="1" provider="EasyTools" onid="1" tsid="1068" namespace="0x00c00000" />
       </transponder>
@@ -1272,7 +1268,7 @@
       <transponder key="00c00000:044d:0001" frequency="11836000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x6dce" sid="28110" name="Astra Demo" type="1" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dca" sid="28106" name="DOKUSAT" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
-        <service id="0x6dd1" sid="28113" name="Genius Family" type="22" provider="WISI" onid="1" tsid="1101" namespace="0x00c00000" />
+        <service id="0x6dd1" sid="28113" name="Genius Family" type="22" provider="TV.2000plus" onid="1" tsid="1101" namespace="0x00c00000" />
         <service id="0x6dcb" sid="28107" name="volksmusik.tv" type="22" provider="" onid="1" tsid="1101" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -1455,7 +1451,7 @@
     <satellite key="00c0ae29:0000:0001" name="Astra-19.2E" namespace="0x00c0ae29" position="19.2">
       <transponder key="00c0ae29:0000:0001" frequency="11817000" symbol_rate="31428000" polarization="V" fec="8" system="0" modulation="0">
         <service id="0x0001" sid="1" name="Astra 1 Service 1" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
-        <service id="0x0002" sid="2" name="Astra 1 Service 2" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
+        <service id="0x0002" sid="2" name="Astra 1 Service 2" type="25" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
         <service id="0x0003" sid="3" name="Astra 1 Service 3" type="1" provider="SES Americom" onid="1" tsid="0" namespace="0x00c0ae29" />
       </transponder>
     </satellite>
