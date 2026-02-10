@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit>
   <bouquet name="General" category="tv">
-    <channel service_ref="1:0:25:0009:0001:0001:0de82c28:0:0:0:" name="DaVinci" service_name="DaVinci" provider="GlobeCast / AH / HDT" sid="9" onid="1" tsid="1" />
-    <channel service_ref="1:0:1:0002:0001:0001:0de82c28:0:0:0:" name="hirTV" service_name="hirTV" provider="hirTV / AH / HDT" sid="2" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:0de82bc6:0:0:0:" name="Romania TV" service_name="Romania TV" provider="Romania TV" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:25:0001:0001:0001:0de82bce:0:0:0:" name="Romania TV HD" service_name="Romania TV HD" provider="Romania TV" sid="1" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0002:0001:0001:0de82bce:0:0:0:" name="Romania TV SD" service_name="Romania TV SD" provider="Romania TV" sid="2" onid="1" tsid="1" />
@@ -13,19 +11,9 @@
   <bouquet name="Resolution - SD" category="tv">
     <channel service_ref="1:0:1:0002:0001:0001:0de82bce:0:0:0:" name="Romania TV SD" service_name="Romania TV SD" provider="Romania TV" sid="2" onid="1" tsid="1" />
   </bouquet>
-  <bouquet name="International" category="tv">
-    <channel service_ref="1:0:25:0009:0001:0001:0de82c28:0:0:0:" name="DaVinci" service_name="DaVinci" provider="GlobeCast / AH / HDT" sid="9" onid="1" tsid="1" />
-  </bouquet>
   <bouquet name="Others" category="tv">
-    <channel service_ref="1:0:1:0002:0001:0001:0de82c28:0:0:0:" name="hirTV" service_name="hirTV" provider="hirTV / AH / HDT" sid="2" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0001:0001:ffff:0de82bc6:0:0:0:" name="Romania TV" service_name="Romania TV" provider="Romania TV" sid="1" onid="65535" tsid="1" />
     <channel service_ref="1:0:25:0001:0001:0001:0de82bce:0:0:0:" name="Romania TV HD" service_name="Romania TV HD" provider="Romania TV" sid="1" onid="1" tsid="1" />
     <channel service_ref="1:0:1:0002:0001:0001:0de82bce:0:0:0:" name="Romania TV SD" service_name="Romania TV SD" provider="Romania TV" sid="2" onid="1" tsid="1" />
-  </bouquet>
-  <bouquet name="Radio" category="radio">
-    <channel service_ref="1:0:2:000a:0001:0001:0de82c28:0:0:0:" name="hirFM" service_name="hirFM" provider="hirFM / AH / HDT" sid="10" onid="1" tsid="1" />
-  </bouquet>
-  <bouquet name="Radio - Music" category="radio">
-    <channel service_ref="1:0:2:000a:0001:0001:0de82c28:0:0:0:" name="hirFM" service_name="hirFM" provider="hirFM / AH / HDT" sid="10" onid="1" tsid="1" />
   </bouquet>
 </zapit>
