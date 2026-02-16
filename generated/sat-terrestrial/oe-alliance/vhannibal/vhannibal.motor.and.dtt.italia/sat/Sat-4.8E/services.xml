@@ -170,6 +170,7 @@
     </satellite>
     <satellite key="00300000:00c9:0055" name="Sat-4.8E" namespace="0x00300000" position="4.8">
       <transponder key="00300000:00c9:0055" frequency="11785000" symbol_rate="27500000" polarization="V" fec="4" system="0" modulation="0">
+        <service id="0x27ce" sid="10190" name="" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27a1" sid="10145" name="BTV" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27ec" sid="10220" name="Duo 3" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27e2" sid="10210" name="Duo 5" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
@@ -191,7 +192,6 @@
         <service id="0x0ae4" sid="2788" name="TV6 LV" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x0aed" sid="2797" name="TV8" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27c9" sid="10185" name="Viasat Explore HD" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
-        <service id="0x27ce" sid="10190" name="Viasat History HD" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27ba" sid="10170" name="Viasat Kino" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27bf" sid="10175" name="Viasat Kino World" type="1" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
         <service id="0x27ca" sid="10186" name="Viasat_Explore HD" type="25" provider="TV3 Group" onid="85" tsid="201" namespace="0x00300000" />
@@ -300,7 +300,7 @@
         <service id="0x0b5d" sid="2909" name="LRT Televizija" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
         <service id="0x299a" sid="10650" name="RADA TV" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
         <service id="0x294f" sid="10575" name="TV3 Estonia HD" type="25" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
-        <service id="0x291d" sid="10525" name="TV3 Gold" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
+        <service id="0x291d" sid="10525" name="TV3 gold" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
         <service id="0x0b8f" sid="2959" name="TV3 Lithuania HD" type="25" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
         <service id="0x0b8a" sid="2954" name="TV3 LV HD" type="25" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />
         <service id="0x0b78" sid="2936" name="Viasat Nature" type="1" provider="TV3 Group" onid="0" tsid="0" namespace="0x0030aea2" />

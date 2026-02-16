@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit>
   <bouquet name="General" category="tv">
-    <channel service_ref="1:0:1:00bf:0002:0000:0ce42abb:0:0:0:" name="10939H SID 0x191" service_name="10939H SID 0x191" provider="DVB-S2 8PSK 10939H 330.0Â°E" sid="191" onid="0" tsid="2" />
     <channel service_ref="1:0:1:179b:002f:0036:0ce40000:0:0:0:" name="11" service_name="11" provider="" sid="6043" onid="54" tsid="47" />
     <channel service_ref="1:0:100:0bd1:ea74:0001:0ce40000:0:0:0:" name="11222H SID 0xbd1" service_name="11222H SID 0xbd1" provider="DVB-S2 8PSK 11222H 330.0Â°E" sid="3025" onid="1" tsid="60020" />
     <channel service_ref="1:0:100:0bd2:ea74:0001:0ce40000:0:0:0:" name="11222H SID 0xbd2" service_name="11222H SID 0xbd2" provider="DVB-S2 8PSK 11222H 330.0Â°E" sid="3026" onid="1" tsid="60020" />
@@ -201,6 +200,7 @@
     <channel service_ref="1:0:1:17ca:002f:0036:0ce40000:0:0:0:" name="Nick Jr." service_name="Nick Jr." provider="" sid="6090" onid="54" tsid="47" />
     <channel service_ref="1:0:1:0094:002f:0036:0ce40000:0:0:0:" name="Nickelodeon" service_name="Nickelodeon" provider="SID Nickelodeon" sid="148" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17a1:002f:0036:0ce40000:0:0:0:" name="Nickelodeon" service_name="Nickelodeon" provider="" sid="6049" onid="54" tsid="47" />
+    <channel service_ref="1:0:1:0001:0002:0000:0ce42abb:0:0:0:" name="NorteVisión" service_name="NorteVisión" provider="" sid="1" onid="0" tsid="2" />
     <channel service_ref="1:0:1:04ed:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="1261" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17c1:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="6081" onid="54" tsid="47" />
     <channel service_ref="1:0:1:013e:0026:0036:0ce40000:0:0:0:" name="Odisseia" service_name="Odisseia" provider="SID Odisseia" sid="318" onid="54" tsid="38" />
@@ -233,6 +233,7 @@
     <channel service_ref="1:0:1:0029:0065:0053:0ce40000:0:0:0:" name="RTP1" service_name="RTP1" provider="" sid="41" onid="83" tsid="101" />
     <channel service_ref="1:0:1:002a:0065:0053:0ce40000:0:0:0:" name="RTP2" service_name="RTP2" provider="" sid="42" onid="83" tsid="101" />
     <channel service_ref="1:0:22:0af0:0006:0006:0ce40000:0:0:0:" name="RTPi 3" service_name="RTPi 3" provider="TSA" sid="2800" onid="6" tsid="6" />
+    <channel service_ref="1:0:1:00bf:0002:0000:0ce42abb:0:0:0:" name="RTVi Europe" service_name="RTVi Europe" provider="" sid="191" onid="0" tsid="2" />
     <channel service_ref="1:0:1:046c:0065:0053:0ce40000:0:0:0:" name="S+" service_name="S+" provider="" sid="1132" onid="83" tsid="101" />
     <channel service_ref="1:0:1:03c0:0006:0006:0ce40000:0:0:0:" name="SBN International" service_name="SBN International" provider="SES" sid="960" onid="6" tsid="6" />
     <channel service_ref="1:0:1:044f:0065:0053:0ce40000:0:0:0:" name="SIC" service_name="SIC" provider="" sid="1103" onid="83" tsid="101" />
@@ -430,7 +431,6 @@
     <channel service_ref="1:0:1:01c7:0065:0053:0ce40000:0:0:0:" name="Porto Canal" service_name="Porto Canal" provider="" sid="455" onid="83" tsid="101" />
   </bouquet>
   <bouquet name="Switzerland" category="tv">
-    <channel service_ref="1:0:1:00bf:0002:0000:0ce42abb:0:0:0:" name="10939H SID 0x191" service_name="10939H SID 0x191" provider="DVB-S2 8PSK 10939H 330.0Â°E" sid="191" onid="0" tsid="2" />
     <channel service_ref="1:0:100:0bd1:ea74:0001:0ce40000:0:0:0:" name="11222H SID 0xbd1" service_name="11222H SID 0xbd1" provider="DVB-S2 8PSK 11222H 330.0Â°E" sid="3025" onid="1" tsid="60020" />
     <channel service_ref="1:0:100:0bd2:ea74:0001:0ce40000:0:0:0:" name="11222H SID 0xbd2" service_name="11222H SID 0xbd2" provider="DVB-S2 8PSK 11222H 330.0Â°E" sid="3026" onid="1" tsid="60020" />
     <channel service_ref="1:0:100:0bd3:ea74:0001:0ce40000:0:0:0:" name="11222H SID 0xbd3" service_name="11222H SID 0xbd3" provider="DVB-S2 8PSK 11222H 330.0Â°E" sid="3027" onid="1" tsid="60020" />
@@ -656,6 +656,7 @@
     <channel service_ref="1:0:1:051a:002f:0036:0ce40000:0:0:0:" name="Motorvision" service_name="Motorvision" provider="SID Motorvision" sid="1306" onid="54" tsid="47" />
     <channel service_ref="1:0:1:014a:002f:0036:0ce40000:0:0:0:" name="Nick Jr." service_name="Nick Jr." provider="SID Nick Jr." sid="330" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17ca:002f:0036:0ce40000:0:0:0:" name="Nick Jr." service_name="Nick Jr." provider="" sid="6090" onid="54" tsid="47" />
+    <channel service_ref="1:0:1:0001:0002:0000:0ce42abb:0:0:0:" name="NorteVisión" service_name="NorteVisión" provider="" sid="1" onid="0" tsid="2" />
     <channel service_ref="1:0:1:04ed:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="1261" onid="54" tsid="47" />
     <channel service_ref="1:0:1:17c1:002f:0036:0ce40000:0:0:0:" name="NOS Studios HD" service_name="NOS Studios HD" provider="NOS Studios HD" sid="6081" onid="54" tsid="47" />
     <channel service_ref="1:0:1:013e:0026:0036:0ce40000:0:0:0:" name="Odisseia" service_name="Odisseia" provider="SID Odisseia" sid="318" onid="54" tsid="38" />
@@ -678,6 +679,7 @@
     <channel service_ref="1:0:1:045c:0065:0053:0ce40000:0:0:0:" name="RTP África" service_name="RTP África" provider="" sid="1116" onid="83" tsid="101" />
     <channel service_ref="1:0:1:0029:0065:0053:0ce40000:0:0:0:" name="RTP1" service_name="RTP1" provider="" sid="41" onid="83" tsid="101" />
     <channel service_ref="1:0:1:002a:0065:0053:0ce40000:0:0:0:" name="RTP2" service_name="RTP2" provider="" sid="42" onid="83" tsid="101" />
+    <channel service_ref="1:0:1:00bf:0002:0000:0ce42abb:0:0:0:" name="RTVi Europe" service_name="RTVi Europe" provider="" sid="191" onid="0" tsid="2" />
     <channel service_ref="1:0:1:046c:0065:0053:0ce40000:0:0:0:" name="S+" service_name="S+" provider="" sid="1132" onid="83" tsid="101" />
     <channel service_ref="1:0:1:03c0:0006:0006:0ce40000:0:0:0:" name="SBN International" service_name="SBN International" provider="SES" sid="960" onid="6" tsid="6" />
     <channel service_ref="1:0:1:044f:0065:0053:0ce40000:0:0:0:" name="SIC" service_name="SIC" provider="" sid="1103" onid="83" tsid="101" />
@@ -794,9 +796,9 @@
     <channel service_ref="1:0:2:006a:ea79:0001:0ce40000:0:0:0:" name="R1_ALMERI_PRADO" service_name="R1_ALMERI_PRADO" provider="RNE" sid="106" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:008c:ea79:0001:0ce40000:0:0:0:" name="R1_ANDALU_PRADO" service_name="R1_ANDALU_PRADO" provider="RNE" sid="140" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:01fe:ea79:0001:0ce40000:0:0:0:" name="R1_ARAGON_PRADO" service_name="R1_ARAGON_PRADO" provider="RNE" sid="510" onid="1" tsid="60025" />
-    <channel service_ref="1:0:2:019a:ea76:0001:0ce40000:0:0:0:" name="R1_ASTURI_PRADO" service_name="R1_ASTURI_PRADO" provider="RNE" sid="410" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:015c:ea76:0001:0ce40000:0:0:0:" name="R1_AVILA__PRADO" service_name="R1_AVILA__PRADO" provider="RNE" sid="348" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:00e6:ea79:0001:0ce40000:0:0:0:" name="R1_BALEAR_PRADO" service_name="R1_BALEAR_PRADO" provider="RNE" sid="230" onid="1" tsid="60025" />
+    <channel service_ref="1:0:2:01cc:ea76:0001:0ce40000:0:0:0:" name="R1_BILBAO_PRADO" service_name="R1_BILBAO_PRADO" provider="RNE" sid="460" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:00a0:ea76:0001:0ce40000:0:0:0:" name="R1_BURGOS_PRADO" service_name="R1_BURGOS_PRADO" provider="RNE" sid="160" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:032a:ea79:0001:0ce40000:0:0:0:" name="R1_C_REAL_PRADO" service_name="R1_C_REAL_PRADO" provider="RNE" sid="810" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:026c:ea79:0001:0ce40000:0:0:0:" name="R1_CADIZ__PRADO" service_name="R1_CADIZ__PRADO" provider="RNE" sid="620" onid="1" tsid="60025" />
@@ -821,6 +823,7 @@
     <channel service_ref="1:0:2:021c:ea76:0001:0ce40000:0:0:0:" name="R1_LARIOJ_PRADO" service_name="R1_LARIOJ_PRADO" provider="RNE" sid="540" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:035c:ea76:0001:0ce40000:0:0:0:" name="R1_LEON___PRADO" service_name="R1_LEON___PRADO" provider="RNE" sid="860" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:03f2:ea79:0001:0ce40000:0:0:0:" name="R1_LLEIDA_PRADO" service_name="R1_LLEIDA_PRADO" provider="RNE" sid="1010" onid="1" tsid="60025" />
+    <channel service_ref="1:0:2:019a:ea76:0001:0ce40000:0:0:0:" name="R1_LUGO___PRADO" service_name="R1_LUGO___PRADO" provider="RNE" sid="410" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:0072:ea79:0001:0ce40000:0:0:0:" name="R1_MALAGA_PRADO" service_name="R1_MALAGA_PRADO" provider="RNE" sid="114" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:02d0:ea79:0001:0ce40000:0:0:0:" name="R1_MELILL_PRADO" service_name="R1_MELILL_PRADO" provider="RNE" sid="720" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:03fc:ea76:0001:0ce40000:0:0:0:" name="R1_MERIDA_PRADO" service_name="R1_MERIDA_PRADO" provider="RNE" sid="1020" onid="1" tsid="60022" />
@@ -904,7 +907,6 @@
     <channel service_ref="1:0:2:00d2:ea79:0001:0ce40000:0:0:0:" name="R5_TERUEL_PRADO" service_name="R5_TERUEL_PRADO" provider="RNE" sid="210" onid="1" tsid="60025" />
     <channel service_ref="1:0:2:01d6:ea74:0001:0ce40000:0:0:0:" name="R5_VALENC_PRADO" service_name="R5_VALENC_PRADO" provider="RNE" sid="470" onid="1" tsid="60020" />
     <channel service_ref="1:0:2:028e:ea76:0001:0ce40000:0:0:0:" name="R5_VIGO___PRADO" service_name="R5_VIGO___PRADO" provider="RNE" sid="654" onid="1" tsid="60022" />
-    <channel service_ref="1:0:2:01cc:ea76:0001:0ce40000:0:0:0:" name="R5_VITORI_PRADO" service_name="R5_VITORI_PRADO" provider="RNE" sid="460" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:05e6:ea76:0001:0ce40000:0:0:0:" name="R5_ZAMORA_PRADO" service_name="R5_ZAMORA_PRADO" provider="RNE" sid="1510" onid="1" tsid="60022" />
     <channel service_ref="1:0:2:126c:002f:0036:0ce40000:0:0:0:" name="Radar" service_name="Radar" provider="Radar" sid="4716" onid="54" tsid="47" />
     <channel service_ref="1:0:2:0008:0065:0000:0ce4ad7c:0:0:0:" name="RADIO MARIA" service_name="RADIO MARIA" provider="RADIO MARIA" sid="8" onid="0" tsid="101" />
