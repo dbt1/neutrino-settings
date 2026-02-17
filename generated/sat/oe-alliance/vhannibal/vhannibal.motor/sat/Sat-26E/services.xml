@@ -35,6 +35,7 @@
       <transponder key="01040000:0003:0001" frequency="12169000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
         <service id="0x0002" sid="2" name="Qatar 2" type="1" provider="QMC" onid="1" tsid="3" namespace="0x01040000" />
         <service id="0x0004" sid="4" name="Qatar TV HD" type="1" provider="QMC" onid="1" tsid="3" namespace="0x01040000" />
+        <service id="0x0003" sid="3" name="Qatar TV Quran" type="1" provider="QMC" onid="1" tsid="3" namespace="0x01040000" />
         <service id="0x001b" sid="27" name="Hola Qatar" type="2" provider="QMC" onid="1" tsid="3" namespace="0x01040000" radio="1" />
         <service id="0x000b" sid="11" name="Qatar Oryx Radio" type="2" provider="QMC" onid="1" tsid="3" namespace="0x01040000" radio="1" />
         <service id="0x000c" sid="12" name="Qatar QBS Radio" type="2" provider="QMC" onid="1" tsid="3" namespace="0x01040000" radio="1" />
@@ -57,6 +58,7 @@
         <service id="0x0006" sid="6" name="Arriadia" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0005" sid="5" name="Athagaviya" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000c" sid="12" name="El Mahadra" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
+        <service id="0x000f" sid="15" name="El Medina" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0002" sid="2" name="El Mouritania" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0003" sid="3" name="El Mouritania 2" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0001" sid="1" name="El Mouritania HD" type="25" provider="" onid="136" tsid="26" namespace="0x01040000" />
@@ -71,7 +73,6 @@
         <service id="0x001e" sid="30" name="Test TV 15" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0009" sid="9" name="Test TV 2" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000e" sid="14" name="Test TV 5" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
-        <service id="0x000f" sid="15" name="Test TV 6" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x000a" sid="10" name="Test TV 7" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0004" sid="4" name="Test TV 9" type="22" provider="" onid="136" tsid="26" namespace="0x01040000" />
         <service id="0x0035" sid="53" name="Radio Coran" type="2" provider="" onid="136" tsid="26" namespace="0x01040000" radio="1" />
@@ -737,7 +738,9 @@
         <service id="0x02e1" sid="737" name="AGBEVE TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d3" sid="723" name="ALTAR TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02c1" sid="705" name="Call TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
-        <service id="0x02cd" sid="717" name="Cape TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02cd" sid="717" name="Cape TV" type="1" provider="" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02d0" sid="720" name="Daily TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
+        <service id="0x02d2" sid="722" name="Dinpa TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02d5" sid="725" name="GAME TV" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02e5" sid="741" name="Hero-Tv" type="1" provider="FFmpeg" onid="702" tsid="8229" namespace="0x01040000" />
         <service id="0x02ec" sid="748" name="Homebase TV" type="1" provider="Quickstream" onid="702" tsid="8229" namespace="0x01040000" />

@@ -10,13 +10,13 @@
         <service id="0x0009" sid="9" name="Mahalla HD" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Navo" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="O`zbekiston" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
-        <service id="0x000e" sid="14" name="service_1" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000a" sid="10" name="service_3" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
-        <service id="0x000f" sid="15" name="service_4" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000b" sid="11" name="service_5" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="service_6" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0004" sid="4" name="Sport Uz" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
         <service id="0x0002" sid="2" name="Yoshlar" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
+        <service id="0x000e" sid="14" name="Radio Mahalla" type="2" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" radio="1" />
+        <service id="0x000f" sid="15" name="Radio O`zbekiston 24" type="2" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="02080000:0209:0073" name="Sat-52E" namespace="0x02080000" position="52">
@@ -170,7 +170,7 @@
         <service id="0x03a9" sid="937" name="Kinoliving HD" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00b5" sid="181" name="Milliy TV" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x017f" sid="383" name="MY5" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
-        <service id="0x03a6" sid="934" name="QSport KG" type="25" provider="QSport" onid="115" tsid="525" namespace="0x02080000" />
+        <service id="0x03a6" sid="934" name="QSport HD" type="25" provider="QSport" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00b8" sid="184" name="Renessans TV" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x03a8" sid="936" name="SAGA TV HD" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00ba" sid="186" name="Service-912" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
@@ -236,6 +236,7 @@
         <service id="0x0003" sid="3" name="Arko Movie" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="Avang TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="Cafe Trade" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
+        <service id="0x001a" sid="26" name="DEJ TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000d" sid="13" name="Eplanet TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000b" sid="11" name="FX 2 HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000f" sid="15" name="Gord Afarid TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
@@ -243,7 +244,6 @@
         <service id="0x0002" sid="2" name="NET TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Persiana Sports HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0007" sid="7" name="Persiana Vibe" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
-        <service id="0x001a" sid="26" name="Radio DEJ" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
       </transponder>
     </satellite>
     <satellite key="02080000:194e:194e" name="Sat-52E" namespace="0x02080000" position="52">

@@ -145,6 +145,7 @@
         <service id="0x01d0" sid="464" name="Action 24" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x01d5" sid="469" name="Al Arabiya" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x01d3" sid="467" name="BBC Earth HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
+        <service id="0x041c" sid="1052" name="COSMOTECinemaOscarsHD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x01c7" sid="455" name="COSMOTESport5HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x01d2" sid="466" name="COSMOTESport9HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x046e" sid="1134" name="Crime + Investigation" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
@@ -152,7 +153,6 @@
         <service id="0x040e" sid="1038" name="FX" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x01ce" sid="462" name="Novasports Prime HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x03fc" sid="1020" name="Novasportsextra4HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
-        <service id="0x041c" sid="1052" name="POP UP TEST HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x03fb" sid="1019" name="Promo HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x046b" sid="1131" name="TEST 6" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
         <service id="0x046d" sid="1133" name="Viasat Explore HD" type="1" provider="OTE" onid="170" tsid="8" namespace="0x005a0000" />
@@ -214,11 +214,6 @@
         <service id="0x004f" sid="79" name="The Voice" type="2" provider="" onid="18" tsid="101" namespace="0x005a0000" radio="1" />
         <service id="0x005b" sid="91" name="Vicenza Eagle" type="2" provider="" onid="18" tsid="101" namespace="0x005a0000" radio="1" />
         <service id="0x005c" sid="92" name="Weisbaden Eagle" type="2" provider="" onid="18" tsid="101" namespace="0x005a0000" radio="1" />
-      </transponder>
-    </satellite>
-    <satellite key="005a0000:006f:0110" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
-      <transponder key="005a0000:006f:0110" frequency="12149000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x023a" sid="570" name="Servizio Test" type="1" provider="" onid="272" tsid="111" namespace="0x005a0000" />
       </transponder>
     </satellite>
     <satellite key="005a0000:0107:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
@@ -326,6 +321,7 @@
         <service id="0x1c0c" sid="7180" name="269ITALIA" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c25" sid="7205" name="2Settanta Tv" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c1b" sid="7195" name="ADNPLAY" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
+        <service id="0x1c2e" sid="7214" name="Amici Network" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c1f" sid="7199" name="AP CHANNEL" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c12" sid="7186" name="ArteIN" type="1" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c0a" sid="7178" name="ARTEORA TV" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
@@ -345,6 +341,7 @@
         <service id="0x1c04" sid="7172" name="FASCINO TV" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c0b" sid="7179" name="GENIUS 240" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c28" sid="7208" name="IT CHANNEL" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
+        <service id="0x1c2d" sid="7213" name="Italia Sera" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c10" sid="7184" name="Lineagem" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c08" sid="7176" name="Maria Vision" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
         <service id="0x1c21" sid="7201" name="MOMENTO TV" type="22" provider="" onid="272" tsid="900" namespace="0x005a0000" />
@@ -516,6 +513,7 @@
         <service id="0x003d" sid="61" name="Kossuth Radio (AAC)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
         <service id="0x00a1" sid="161" name="Kossuth Radio (L2)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
         <service id="0x009a" sid="154" name="Nemzetisegi Radio (AAC)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
+        <service id="0x009d" sid="157" name="NSR (AAC)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
         <service id="0x009b" sid="155" name="Parlamenti Radio (AAC)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
         <service id="0x003e" sid="62" name="Petofi Radio (AAC)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
         <service id="0x00a2" sid="162" name="Petofi Radio (L2)" type="2" provider="MTVA" onid="158" tsid="6200" namespace="0x005a0000" radio="1" />
@@ -561,13 +559,13 @@
     </satellite>
     <satellite key="005a0000:19c8:009e" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
       <transponder key="005a0000:19c8:009e" frequency="12034000" symbol_rate="27500000" polarization="V" fec="3" system="0" modulation="0">
-        <service id="0x00cc" sid="204" name="6ter Suisse" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
-        <service id="0x00ca" sid="202" name="M6 Suisse" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
+        <service id="0x00cc" sid="204" name="6TER" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
+        <service id="0x00ca" sid="202" name="M6" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
         <service id="0x00a2" sid="162" name="ORTM" type="22" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
         <service id="0x00a1" sid="161" name="PHOENIX INFO NEWS" type="1" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
         <service id="0x00a3" sid="163" name="TV SAHEL" type="22" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
-        <service id="0x00cd" sid="205" name="W9 Suisse" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
-        <service id="0x00a4" sid="164" name="La Voix Du Sahel" type="2" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" radio="1" />
+        <service id="0x00cd" sid="205" name="W9" type="25" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" />
+        <service id="0x00a4" sid="164" name="LA VOIX DU SAHEL" type="2" provider="GLOBECAST" onid="158" tsid="6600" namespace="0x005a0000" radio="1" />
       </transponder>
     </satellite>
     <satellite key="005a0000:1af4:009e" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
@@ -608,7 +606,7 @@
         <service id="0x07de" sid="2014" name="SEILATV Bergamo HD" type="1" provider="COELMEDIA" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07da" sid="2010" name="SUPERTV" type="1" provider="SUPERTV" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d3" sid="2003" name="Telecity Lombardia" type="1" provider="In Aria!" onid="8572" tsid="8417" namespace="0x005a0000" />
-        <service id="0x07dc" sid="2012" name="TELECOLOR HD" type="25" provider="Telecolor" onid="8572" tsid="8417" namespace="0x005a0000" />
+        <service id="0x07dc" sid="2012" name="TELECOLOR HD." type="25" provider="Telecolor" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d9" sid="2009" name="TI RICORDI TV" type="22" provider="TOTOPARTNER" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d8" sid="2008" name="TSN" type="1" provider="TSN" onid="8572" tsid="8417" namespace="0x005a0000" />
         <service id="0x07d7" sid="2007" name="TT-TELETUTTO" type="25" provider="EI-TOWERS" onid="8572" tsid="8417" namespace="0x005a0000" />
@@ -640,7 +638,7 @@
         <service id="0x0b0f" sid="2831" name="CANALE ITALIA" type="1" provider="Canale Italia" onid="8572" tsid="10465" namespace="0x005a0000" />
         <service id="0x0afd" sid="2813" name="ORF SPORT PAT" type="25" provider="ORF" onid="8572" tsid="10465" namespace="0x005a0000" />
         <service id="0x0afc" sid="2812" name="ORF1 PAT" type="25" provider="ORF" onid="8572" tsid="10465" namespace="0x005a0000" />
-        <service id="0x0af2" sid="2802" name="RTTR" type="25" provider="RTTR OPIM TRENTO" onid="8572" tsid="10465" namespace="0x005a0000" />
+        <service id="0x0af2" sid="2802" name="RTTR" type="25" provider="OPIM-BK" onid="8572" tsid="10465" namespace="0x005a0000" />
         <service id="0x0af8" sid="2808" name="TELECHIARA" type="25" provider="VIDEOMEDIA-TN" onid="8572" tsid="10465" namespace="0x005a0000" />
         <service id="0x0af5" sid="2805" name="TELENUOVO" type="25" provider="Telenuovo-VR" onid="8572" tsid="10465" namespace="0x005a0000" />
         <service id="0x0af3" sid="2803" name="Telepace Trento" type="25" provider="Telepace_Trento" onid="8572" tsid="10465" namespace="0x005a0000" />
@@ -660,7 +658,7 @@
         <service id="0x0fa7" sid="4007" name="Primocanale Primo Piano" type="1" provider="Global" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fac" sid="4012" name="RETE 7 HD" type="1" provider="RETE 7 HD" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa4" sid="4004" name="Telecity Liguria" type="1" provider="In Aria!" onid="8572" tsid="16609" namespace="0x005a0000" />
-        <service id="0x0fa8" sid="4008" name="TELECOLOR" type="25" provider="TELECOLOR" onid="8572" tsid="16609" namespace="0x005a0000" />
+        <service id="0x0fa8" sid="4008" name="TELECOLOR." type="25" provider="TELECOLOR" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa5" sid="4005" name="TELEGENOVA" type="1" provider="Media Group" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa2" sid="4002" name="TELENORD HD" type="1" provider="TELENORD HD" onid="8572" tsid="16609" namespace="0x005a0000" />
         <service id="0x0fa3" sid="4003" name="TELERADIOPACE 1" type="1" provider="TELERADIOPACE" onid="8572" tsid="16609" namespace="0x005a0000" />
@@ -708,7 +706,6 @@
         <service id="0x023d" sid="573" name="TSD HD" type="1" provider="TSD" onid="8572" tsid="20705" namespace="0x005a0000" />
         <service id="0x138c" sid="5004" name="TV9" type="1" provider="Global" onid="8572" tsid="20705" namespace="0x005a0000" />
         <service id="0x138d" sid="5005" name="TVL" type="25" provider="TVL" onid="8572" tsid="20705" namespace="0x005a0000" />
-        <service id="0x023b" sid="571" name="TVP" type="25" provider="TVP" onid="8572" tsid="20705" namespace="0x005a0000" />
         <service id="0x056e" sid="1390" name="TVR Teleitalia 7Gold" type="1" provider="TVR Teleitalia 7Gold" onid="8572" tsid="20705" namespace="0x005a0000" />
       </transponder>
     </satellite>
@@ -717,10 +714,10 @@
         <service id="0x06f0" sid="1776" name="7 GOLD MARCHE" type="1" provider="7 GOLD" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x06ef" sid="1775" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x06fd" sid="1789" name="CANALE ITALIA extra" type="1" provider="Canale Italia" onid="8572" tsid="24801" namespace="0x005a0000" />
-        <service id="0x06ed" sid="1773" name="E' TV MARCHE ." type="25" provider="In Aria!" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x177e" sid="6014" name="e'TV +" type="1" provider="e'TV +" onid="8572" tsid="24801" namespace="0x005a0000" />
+        <service id="0x06ed" sid="1773" name="e'TV MARCHE" type="1" provider="e'TV MARCHE" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x06f1" sid="1777" name="FANO TV" type="1" provider="FANO TV" onid="8572" tsid="24801" namespace="0x005a0000" />
-        <service id="0x06f2" sid="1778" name="INFO 2000" type="1" provider="" onid="8572" tsid="24801" namespace="0x005a0000" />
+        <service id="0x06f2" sid="1778" name="INFO 2000" type="1" provider="GLOBAL" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x06f3" sid="1779" name="ROSSINI TV" type="25" provider="ROSSINI" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x177d" sid="6013" name="RTM" type="22" provider="GLOBAL" onid="8572" tsid="24801" namespace="0x005a0000" />
         <service id="0x06eb" sid="1771" name="TV CENTRO MARCHE" type="25" provider="" onid="8572" tsid="24801" namespace="0x005a0000" />
@@ -741,7 +738,7 @@
         <service id="0x1a96" sid="6806" name="Radio Roma TV" type="1" provider="Radio Roma Tv" onid="8572" tsid="26849" namespace="0x005a0000" />
         <service id="0x1a98" sid="6808" name="T9" type="1" provider="GOLD TV" onid="8572" tsid="26849" namespace="0x005a0000" />
         <service id="0x1a9d" sid="6813" name="Tele In" type="1" provider="Tele In" onid="8572" tsid="26849" namespace="0x005a0000" />
-        <service id="0x1aa3" sid="6819" name="TELEITALIA 41" type="22" provider="In Aria!" onid="8572" tsid="26849" namespace="0x005a0000" />
+        <service id="0x1aa3" sid="6819" name="Teleitalia 41" type="22" provider="In Aria!" onid="8572" tsid="26849" namespace="0x005a0000" />
         <service id="0x1aa0" sid="6816" name="TELEREGIONE" type="1" provider="GOLDTV" onid="8572" tsid="26849" namespace="0x005a0000" />
         <service id="0x1a97" sid="6807" name="TeleRoma 56" type="1" provider="TeleRoma" onid="8572" tsid="26849" namespace="0x005a0000" />
         <service id="0x1a99" sid="6809" name="TeleRoma 56 Sport" type="1" provider="TeleRoma" onid="8572" tsid="26849" namespace="0x005a0000" />
@@ -877,6 +874,13 @@
         <service id="0x0a59" sid="2649" name="Video Calabria HD" type="1" provider="Video Calabria" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x265b" sid="9819" name="VideoTouring" type="1" provider="Auranex" onid="8572" tsid="39137" namespace="0x005a0000" />
         <service id="0x265e" sid="9822" name="ROMANTICA RADIO" type="2" provider="ROMANTICA RADIO" onid="8572" tsid="39137" namespace="0x005a0000" radio="1" />
+      </transponder>
+    </satellite>
+    <satellite key="005a0000:a802:217c" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
+      <transponder key="005a0000:a802:217c" frequency="12149000" symbol_rate="31400000" polarization="V" fec="2" system="0" modulation="0">
+        <service id="0x0bcc" sid="3020" name="20Mediaset HD" type="25" provider="EIT" onid="8572" tsid="43010" namespace="0x005a0000" />
+        <service id="0x0bbe" sid="3006" name="Italia1 HD" type="25" provider="EIT" onid="8572" tsid="43010" namespace="0x005a0000" />
+        <service id="0x0bbc" sid="3004" name="Rete4 HD" type="25" provider="EIT" onid="8572" tsid="43010" namespace="0x005a0000" />
       </transponder>
     </satellite>
     <satellite key="005a0000:c35a:009e" name="Eutelsat-9.0E" namespace="0x005a0000" position="9">
