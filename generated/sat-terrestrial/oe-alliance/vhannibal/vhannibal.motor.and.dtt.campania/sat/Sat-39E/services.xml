@@ -155,6 +155,11 @@
         <service id="0x00fb" sid="251" name="Ловно-рибарски клуб" type="25" provider="Bulsatcom" onid="1" tsid="5" namespace="0x01860000" />
       </transponder>
     </satellite>
+    <satellite key="01860000:0006:0001" name="Sat-39E" namespace="0x01860000" position="39">
+      <transponder key="01860000:0006:0001" frequency="11778000" symbol_rate="15154000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="ERT World HD" type="1" provider="" onid="1" tsid="6" namespace="0x01860000" />
+      </transponder>
+    </satellite>
     <satellite key="01860000:0006:0539" name="Sat-39E" namespace="0x01860000" position="39">
       <transponder key="01860000:0006:0539" frequency="12724000" symbol_rate="6250000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x0001" sid="1" name="KANAL D HD" type="25" provider="Dogan Media International" onid="1337" tsid="6" namespace="0x01860000" />
@@ -182,9 +187,6 @@
         <service id="0x02c0" sid="704" name="MAX Sport 2 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c1" sid="705" name="MAX Sport 3 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c3" sid="707" name="MAX Sport 4 HD" type="25" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x02cf" sid="719" name="MTV 00s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x02ce" sid="718" name="MTV 80s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
-        <service id="0x008e" sid="142" name="MTV 90s" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x0069" sid="105" name="Nick Toons" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x01b3" sid="435" name="Sky Showtime 2" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
         <service id="0x02c9" sid="713" name="Super Toons" type="22" provider="Bulsatcom" onid="1" tsid="7" namespace="0x01860000" />
@@ -399,7 +401,6 @@
         <service id="0x005e" sid="94" name="CNBC" type="31" provider="A1BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x006b" sid="107" name="Code Fashion" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x002b" sid="43" name="CTC" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
-        <service id="0x002c" sid="44" name="CTC Kids" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x006a" sid="106" name="Detskii Mir/Teleclub" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x002f" sid="47" name="Diema HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x007b" sid="123" name="Discovery Channel" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
@@ -414,6 +415,7 @@
         <service id="0x005d" sid="93" name="FREEDOM" type="31" provider="A1BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x0032" sid="50" name="ID Xtra" type="31" provider="A1BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x005a" sid="90" name="Kanal 3" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
+        <service id="0x002c" sid="44" name="Mate Kitchen" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x0029" sid="41" name="Max Sport 1 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x002a" sid="42" name="Max Sport 2 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
         <service id="0x002e" sid="46" name="Max Sport 3 HD" type="31" provider="A1 BG" onid="926" tsid="177" namespace="0x01860000" />
@@ -659,9 +661,9 @@
         <service id="0x0001" sid="1" name="Alsumaria TV" type="25" provider="Alsumaria TV" onid="1" tsid="0" namespace="0x01862cfa" />
       </transponder>
     </satellite>
-    <satellite key="01862cfc:0000:0000" name="Sat-39E" namespace="0x01862cfc" position="39">
-      <transponder key="01862cfc:0000:0000" frequency="11516000" symbol_rate="2000000" polarization="H" fec="4" system="0" modulation="0">
-        <service id="0x0001" sid="1" name="11516H SID 0x01" type="1" provider="DVB-S2 8PSK 11516H 39.0Â°E" onid="0" tsid="0" namespace="0x01862cfc" />
+    <satellite key="01862df1:0000:0000" name="Sat-39E" namespace="0x01862df1" position="39">
+      <transponder key="01862df1:0000:0000" frequency="11761000" symbol_rate="15154000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x03f4" sid="1012" name="4E" type="1" provider="" onid="0" tsid="0" namespace="0x01862df1" />
       </transponder>
     </satellite>
     <satellite key="01862fef:0001:0001" name="Sat-39E" namespace="0x01862fef" position="39">

@@ -25,7 +25,6 @@
         <service id="0x00e2" sid="226" name="Liberation TV" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
         <service id="0x006d" sid="109" name="Mercy TV Plus" type="1" provider="SENTECH" onid="73" tsid="2" namespace="0x02ad0000" />
         <service id="0x004c" sid="76" name="MERIBA TV" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
-        <service id="0x002d" sid="45" name="Prophetic" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
         <service id="0x010e" sid="270" name="RHEMA TV" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
         <service id="0x0035" sid="53" name="RTM TV" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
         <service id="0x00f4" sid="244" name="Temple TV" type="1" provider="Sentech" onid="73" tsid="2" namespace="0x02ad0000" />
@@ -70,9 +69,11 @@
     </satellite>
     <satellite key="02ad0000:0022:0014" name="Sat-68.5E" namespace="0x02ad0000" position="68.5">
       <transponder key="02ad0000:0022:0014" frequency="12682000" symbol_rate="30000000" polarization="H" fec="3" system="0" modulation="0">
+        <service id="0x0006" sid="6" name="Dominion TV" type="1" provider="ViewMedia" onid="20" tsid="34" namespace="0x02ad0000" />
         <service id="0x0004" sid="4" name="GFN Soccer" type="1" provider="ViewMedia" onid="20" tsid="34" namespace="0x02ad0000" />
         <service id="0x0028" sid="40" name="Intelsat FUS Test" type="1" provider="Intelsat" onid="20" tsid="34" namespace="0x02ad0000" />
         <service id="0x00c8" sid="200" name="Intelsat FUS Test" type="1" provider="Intelsat" onid="20" tsid="34" namespace="0x02ad0000" />
+        <service id="0x0005" sid="5" name="Saira Movies TV" type="1" provider="ViewMedia" onid="20" tsid="34" namespace="0x02ad0000" />
         <service id="0x0001" sid="1" name="SMTV" type="1" provider="" onid="20" tsid="34" namespace="0x02ad0000" />
         <service id="0x0002" sid="2" name="Sunnah TV" type="1" provider="ViewMedia" onid="20" tsid="34" namespace="0x02ad0000" />
       </transponder>
@@ -80,7 +81,6 @@
     <satellite key="02ad3112:0001:0001" name="Sat-68.5E" namespace="0x02ad3112" position="68.5">
       <transponder key="02ad3112:0001:0001" frequency="12562000" symbol_rate="30000000" polarization="H" fec="4" system="0" modulation="0">
         <service id="0x001e" sid="30" name="ACNN TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
-        <service id="0x000f" sid="15" name="Bible Explorations TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x000a" sid="10" name="Chosen TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x0006" sid="6" name="COZA TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x001c" sid="28" name="CVV TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
@@ -98,9 +98,9 @@
         <service id="0x001f" sid="31" name="ROV TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x0009" sid="9" name="Salvation TV" type="25" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x0007" sid="7" name="Samuel Mutendi TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
+        <service id="0x000f" sid="15" name="Shepherds Vine TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x0002" sid="2" name="Sonlife" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
         <service id="0x001b" sid="27" name="SYNAGOGUE TV" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
-        <service id="0x0008" sid="8" name="WRM Television" type="1" provider="ViewMedia" onid="1" tsid="1" namespace="0x02ad3112" />
       </transponder>
     </satellite>
     <satellite key="02adb15a:0001:0001" name="Sat-68.5E" namespace="0x02adb15a" position="68.5">
