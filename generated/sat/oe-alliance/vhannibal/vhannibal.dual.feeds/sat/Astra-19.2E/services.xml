@@ -197,9 +197,9 @@
         <service id="0x33a6" sid="13222" name="LILO.TV" type="1" provider="" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33ad" sid="13229" name="RTLup Austria" type="22" provider="RTL" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33aa" sid="13226" name="Service 13226" type="1" provider="-" onid="1" tsid="1003" namespace="0x00c00000" />
-        <service id="0x33af" sid="13231" name="Service 13231" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
-        <service id="0x33b0" sid="13232" name="Service 13232" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
         <service id="0x33b1" sid="13233" name="Service 13233" type="1" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
+        <service id="0x33af" sid="13231" name="Test42" type="22" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
+        <service id="0x33b0" sid="13232" name="Test43" type="22" provider="ORS" onid="1" tsid="1003" namespace="0x00c00000" />
       </transponder>
     </satellite>
     <satellite key="00c00000:03ec:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
@@ -208,9 +208,9 @@
         <service id="0x78bf" sid="30911" name="M+ CLÁSICOS HD" type="25" provider="Movistar+" onid="1" tsid="1004" namespace="0x00c00000" />
         <service id="0x78b7" sid="30903" name="M+ GOLF HD" type="25" provider="Movistar+" onid="1" tsid="1004" namespace="0x00c00000" />
         <service id="0x78b6" sid="30902" name="M+ HITS HD" type="25" provider="Movistar+" onid="1" tsid="1004" namespace="0x00c00000" />
+        <service id="0x78b5" sid="30901" name="M+ VAMOS 3 HD" type="25" provider="PRISA TV" onid="1" tsid="1004" namespace="0x00c00000" />
         <service id="0x78c0" sid="30912" name="M+DEPORTESHD" type="25" provider="Movistar+" onid="1" tsid="1004" namespace="0x00c00000" />
         <service id="0x78be" sid="30910" name="M+Documentales HD" type="25" provider="PRISAT TV" onid="1" tsid="1004" namespace="0x00c00000" />
-        <service id="0x78b5" sid="30901" name="M+ELLAS V HD" type="25" provider="PRISA TV" onid="1" tsid="1004" namespace="0x00c00000" />
         <service id="0x78b4" sid="30900" name="M+LCAMPEONES" type="25" provider="Movistar+" onid="1" tsid="1004" namespace="0x00c00000" />
       </transponder>
     </satellite>
@@ -278,8 +278,8 @@
         <service id="0x746d" sid="29805" name="M+ COMEDIA" type="1" provider="Movistar+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x1d2f" sid="7471" name="M+ Documentales" type="1" provider="DIGITAL+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x746e" sid="29806" name="M+ DRAMA" type="1" provider="Movistar+" onid="1" tsid="1008" namespace="0x00c00000" />
-        <service id="0x1d2c" sid="7468" name="M+ Ellas V" type="1" provider="DIGITAL+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x1d36" sid="7478" name="M+ Originales" type="1" provider="Movistar+" onid="1" tsid="1008" namespace="0x00c00000" />
+        <service id="0x1d2c" sid="7468" name="M+ VAMOS 3" type="1" provider="DIGITAL+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x1d30" sid="7472" name="NAT GEO WILD" type="1" provider="DIGITAL+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x1d2d" sid="7469" name="NOVA" type="1" provider="DIGITAL+" onid="1" tsid="1008" namespace="0x00c00000" />
         <service id="0x746f" sid="29807" name="STAR Channel" type="1" provider="FOXGE" onid="1" tsid="1008" namespace="0x00c00000" />
@@ -719,7 +719,7 @@
         <service id="0x769e" sid="30366" name="LA SEXTA" type="1" provider="Digital+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769a" sid="30362" name="LALIGA TV BAR 3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769d" sid="30365" name="M+ LALIGA 2" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
-        <service id="0x1e10" sid="7696" name="M+Cine Bélico" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
+        <service id="0x1e10" sid="7696" name="M+ OSCARS" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769b" sid="30363" name="M+DEPORTES6" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x769f" sid="30367" name="M+LCAMPEON3" type="1" provider="Movistar+" onid="1" tsid="1054" namespace="0x00c00000" />
         <service id="0x1e13" sid="7699" name="MEZZO" type="1" provider="MEZZO" onid="1" tsid="1054" namespace="0x00c00000" />
@@ -887,7 +887,7 @@
     <satellite key="00c00000:042c:0001" name="Astra-19.2E" namespace="0x00c00000" position="19.2">
       <transponder key="00c00000:042c:0001" frequency="11778000" symbol_rate="29500000" polarization="V" fec="9" system="0" modulation="0">
         <service id="0x164e" sid="5710" name="CNN Int." type="1" provider="SES ASTRA" onid="1" tsid="1068" namespace="0x00c00000" />
-        <service id="0x066f" sid="1647" name="Cubavision Internacional" type="1" provider="Overon" onid="1" tsid="1068" namespace="0x00c00000" />
+        <service id="0x066f" sid="1647" name="Cubavision Internacional" type="25" provider="OVERON" onid="1" tsid="1068" namespace="0x00c00000" />
         <service id="0x066c" sid="1644" name="DW English HD" type="1" provider="Deutsche Welle" onid="1" tsid="1068" namespace="0x00c00000" />
         <service id="0x066d" sid="1645" name="TVMonaco" type="1" provider="EasyTools" onid="1" tsid="1068" namespace="0x00c00000" />
       </transponder>
