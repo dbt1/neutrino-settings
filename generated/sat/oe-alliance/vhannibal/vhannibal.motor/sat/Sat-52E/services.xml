@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapit api="4">
   <satellites>
+    <satellite key="02080000:0000:194e" name="Sat-52E" namespace="0x02080000" position="52">
+      <transponder key="02080000:0000:194e" frequency="11344000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
+        <service id="0x0001" sid="1" name="Iran International HD" type="1" provider="WNS" onid="6478" tsid="0" namespace="0x02080000" />
+      </transponder>
+    </satellite>
     <satellite key="02080000:0028:0001" name="Sat-52E" namespace="0x02080000" position="52">
       <transponder key="02080000:0028:0001" frequency="10926000" symbol_rate="27500000" polarization="H" fec="3" system="0" modulation="0">
         <service id="0x0007" sid="7" name="Bolajon" type="1" provider="CRRT" onid="1" tsid="40" namespace="0x02080000" />
@@ -56,7 +61,7 @@
     </satellite>
     <satellite key="02080000:020a:0073" name="Sat-52E" namespace="0x02080000" position="52">
       <transponder key="02080000:020a:0073" frequency="12341000" symbol_rate="28000000" polarization="V" fec="4" system="0" modulation="0">
-        <service id="0x010c" sid="268" name=".Black" type="22" provider="AREF" onid="115" tsid="522" namespace="0x02080000" />
+        <service id="0x010c" sid="268" name=".Black" type="1" provider="AREF" onid="115" tsid="522" namespace="0x02080000" />
         <service id="0x010b" sid="267" name=".Red HD" type="1" provider="AREF" onid="115" tsid="522" namespace="0x02080000" />
         <service id="0x010d" sid="269" name=".Sci-Fi" type="1" provider="AREF" onid="115" tsid="522" namespace="0x02080000" />
         <service id="0x027a" sid="634" name="365 дней ТВ" type="1" provider="AREF" onid="115" tsid="522" namespace="0x02080000" />
@@ -123,7 +128,7 @@
         <service id="0x02cd" sid="717" name="Моя Планета" type="1" provider="AREF" onid="115" tsid="523" namespace="0x02080000" />
         <service id="0x02ca" sid="714" name="Синема" type="1" provider="AREF" onid="115" tsid="523" namespace="0x02080000" />
         <service id="0x02c7" sid="711" name="Т24" type="1" provider="AREF" onid="115" tsid="523" namespace="0x02080000" />
-        <service id="0x02dd" sid="733" name="Ю ТВ" type="22" provider="AREF" onid="115" tsid="523" namespace="0x02080000" />
+        <service id="0x02dd" sid="733" name="Ю ТВ" type="1" provider="AREF" onid="115" tsid="523" namespace="0x02080000" />
       </transponder>
     </satellite>
     <satellite key="02080000:020c:0073" name="Sat-52E" namespace="0x02080000" position="52">
@@ -170,7 +175,7 @@
         <service id="0x03a9" sid="937" name="Kinoliving HD" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00b5" sid="181" name="Milliy TV" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x017f" sid="383" name="MY5" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
-        <service id="0x03a6" sid="934" name="QSport HD" type="25" provider="QSport" onid="115" tsid="525" namespace="0x02080000" />
+        <service id="0x03a6" sid="934" name="QSport HD" type="25" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00b8" sid="184" name="Renessans TV" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x03a8" sid="936" name="SAGA TV HD" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
         <service id="0x00ba" sid="186" name="Service-912" type="1" provider="AREF" onid="115" tsid="525" namespace="0x02080000" />
@@ -220,7 +225,6 @@
         <service id="0x0007" sid="7" name="Meta Film HD" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="Nahade Azadi" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="Omide Javdan" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
-        <service id="0x0005" sid="5" name="Persiana Latino" type="1" provider="Persiana Cast" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x001a" sid="26" name="Persiana Medical" type="1" provider="Persiana Cast" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0006" sid="6" name="Persiana Reality" type="1" provider="Persiana Cast" onid="4478" tsid="4478" namespace="0x02080000" />
         <service id="0x0012" sid="18" name="PMC SELECT" type="1" provider="WNS" onid="4478" tsid="4478" namespace="0x02080000" />
@@ -233,17 +237,17 @@
     <satellite key="02080000:1566:1566" name="Sat-52E" namespace="0x02080000" position="52">
       <transponder key="02080000:1566:1566" frequency="10762000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
         <service id="0x000e" sid="14" name="4Turk HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
-        <service id="0x0003" sid="3" name="Arko Movie" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0001" sid="1" name="Avang TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="Cafe Trade" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x001a" sid="26" name="DEJ TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
+        <service id="0x000d" sid="13" name="Eplanet TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000b" sid="11" name="FX 2 HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000f" sid="15" name="Gord Afarid TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x000a" sid="10" name="Gord Afarid TV SD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0002" sid="2" name="NET TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Persiana Sports HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
         <service id="0x0007" sid="7" name="Persiana Vibe" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
-        <service id="0x000d" sid="13" name="Rahe Nejat HD" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
+        <service id="0x0005" sid="5" name="PULSE TV" type="1" provider="WNS" onid="5478" tsid="5478" namespace="0x02080000" />
       </transponder>
     </satellite>
     <satellite key="02080000:194e:194e" name="Sat-52E" namespace="0x02080000" position="52">
@@ -258,17 +262,13 @@
         <service id="0x001a" sid="26" name="Kanal Jadid" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x001d" sid="29" name="Khane Honarmandan" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x014c" sid="332" name="Mardom TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
-        <service id="0x0001" sid="1" name="Mihan TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0005" sid="5" name="MOJ TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x014a" sid="330" name="Navahang" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
-        <service id="0x001b" sid="27" name="Orange TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x008f" sid="143" name="OXIR TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x001c" sid="28" name="Pars TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x000f" sid="15" name="Payam E Doost" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
-        <service id="0x002b" sid="43" name="Premier" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0004" sid="4" name="Radio Begum" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0013" sid="19" name="Radio Jawanan" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
-        <service id="0x0010" sid="16" name="Radio Yar" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x02bd" sid="701" name="Sharq Global TV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0095" sid="149" name="SL two" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
         <service id="0x0006" sid="6" name="TMTV" type="1" provider="WNS" onid="6478" tsid="6478" namespace="0x02080000" />
@@ -280,7 +280,6 @@
     <satellite key="02080000:1d36:1d36" name="Sat-52E" namespace="0x02080000" position="52">
       <transponder key="02080000:1d36:1d36" frequency="10804000" symbol_rate="27500000" polarization="H" fec="2" system="0" modulation="0">
         <service id="0x002f" sid="47" name="4Kurd" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
-        <service id="0x000e" sid="14" name="4Music HD" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x001f" sid="31" name="Classic TV" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x000a" sid="10" name="Home+ HD" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x0003" sid="3" name="Persiana Cinema" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
@@ -291,6 +290,7 @@
         <service id="0x0004" sid="4" name="Persiana Junior" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x000c" sid="12" name="Persiana Korea" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x000d" sid="13" name="Persiana Music" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
+        <service id="0x000e" sid="14" name="Persiana Nostalgia" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x0008" sid="8" name="Persiana Series" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x002d" sid="45" name="Persiana Sports" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
         <service id="0x0002" sid="2" name="TBN Nejat" type="1" provider="Persiana Cast" onid="7478" tsid="7478" namespace="0x02080000" />
@@ -298,7 +298,6 @@
     </satellite>
     <satellite key="02080000:211e:211e" name="Sat-52E" namespace="0x02080000" position="52">
       <transponder key="02080000:211e:211e" frequency="10887000" symbol_rate="27500000" polarization="V" fec="2" system="0" modulation="0">
-        <service id="0x0017" sid="23" name="4 Afghanistan" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x000d" sid="13" name="ARAX TV" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x0009" sid="9" name="ARKO TV" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
         <service id="0x001b" sid="27" name="Audio Iran International" type="1" provider="WNS" onid="8478" tsid="8478" namespace="0x02080000" />
